@@ -127,6 +127,11 @@
             "category": "awards",
             "description": "Badges, prix et certifications",
             "variants": 3
+        },
+        {
+            "category": "classic",
+            "description": "Blocs classiques de base (titres, texte, boutons, layout)",
+            "variants": 15
         }
     ],
     "entries": [
@@ -134,749 +139,854 @@
             "category": "pageheader",
             "id": "simple",
             "label": "Simple",
-            "file": "blocks/pageheader--simple.json",
+            "file": "blocks/[pre-fait]-pageheader--simple.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "pageheader",
             "id": "centre-gradient",
             "label": "Centre Gradient",
-            "file": "blocks/pageheader--centre-gradient.json",
+            "file": "blocks/[pre-fait]-pageheader--centre-gradient.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "pageheader",
             "id": "split-breadcrumb",
             "label": "Split breadcrumb",
-            "file": "blocks/pageheader--split-breadcrumb.json",
+            "file": "blocks/[pre-fait]-pageheader--split-breadcrumb.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "navbar",
             "id": "simple",
             "label": "Simple",
-            "file": "blocks/navbar--simple.json",
+            "file": "blocks/[pre-fait]-navbar--simple.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "navbar",
             "id": "glass",
             "label": "Glass",
-            "file": "blocks/navbar--glass.json",
+            "file": "blocks/[pre-fait]-navbar--glass.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "navbar",
             "id": "pill",
             "label": "Pill",
-            "file": "blocks/navbar--pill.json",
+            "file": "blocks/[pre-fait]-navbar--pill.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "navbar",
             "id": "underline",
             "label": "Underline",
-            "file": "blocks/navbar--underline.json",
+            "file": "blocks/[pre-fait]-navbar--underline.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "navbar",
             "id": "gradient",
             "label": "Gradient",
-            "file": "blocks/navbar--gradient.json",
+            "file": "blocks/[pre-fait]-navbar--gradient.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "navbar",
             "id": "minimal",
             "label": "Minimal",
-            "file": "blocks/navbar--minimal.json",
+            "file": "blocks/[pre-fait]-navbar--minimal.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "navbar",
             "id": "double-rangee",
             "label": "Double rangee",
-            "file": "blocks/navbar--double-rangee.json",
+            "file": "blocks/[pre-fait]-navbar--double-rangee.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "hero",
             "id": "centre",
             "label": "Centre",
-            "file": "blocks/hero--centre.json",
+            "file": "blocks/[pre-fait]-hero--centre.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "hero",
             "id": "split",
             "label": "Split",
-            "file": "blocks/hero--split.json",
+            "file": "blocks/[pre-fait]-hero--split.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "hero",
             "id": "glow",
             "label": "Glow",
-            "file": "blocks/hero--glow.json",
+            "file": "blocks/[pre-fait]-hero--glow.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "hero",
             "id": "dark-bold",
             "label": "Dark Bold",
-            "file": "blocks/hero--dark-bold.json",
+            "file": "blocks/[pre-fait]-hero--dark-bold.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "hero",
             "id": "stats-hero",
             "label": "Stats Hero",
-            "file": "blocks/hero--stats-hero.json",
+            "file": "blocks/[pre-fait]-hero--stats-hero.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "hero",
             "id": "launch",
             "label": "Launch",
-            "file": "blocks/hero--launch.json",
+            "file": "blocks/[pre-fait]-hero--launch.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "hero",
             "id": "asymetrique",
             "label": "Asymetrique",
-            "file": "blocks/hero--asymetrique.json",
+            "file": "blocks/[pre-fait]-hero--asymetrique.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "hero",
             "id": "minimal-line",
             "label": "Minimal Line",
-            "file": "blocks/hero--minimal-line.json",
+            "file": "blocks/[pre-fait]-hero--minimal-line.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "features",
             "id": "grid-3-colonnes",
             "label": "Grid 3 colonnes",
-            "file": "blocks/features--grid-3-colonnes.json",
+            "file": "blocks/[pre-fait]-features--grid-3-colonnes.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "features",
             "id": "bento-grid",
             "label": "Bento Grid",
-            "file": "blocks/features--bento-grid.json",
+            "file": "blocks/[pre-fait]-features--bento-grid.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "features",
             "id": "icon-gauche",
             "label": "Icon Gauche",
-            "file": "blocks/features--icon-gauche.json",
+            "file": "blocks/[pre-fait]-features--icon-gauche.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "features",
             "id": "numerotees",
             "label": "Numerotees",
-            "file": "blocks/features--numerotees.json",
+            "file": "blocks/[pre-fait]-features--numerotees.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "features",
             "id": "gradient-cards",
             "label": "Gradient Cards",
-            "file": "blocks/features--gradient-cards.json",
+            "file": "blocks/[pre-fait]-features--gradient-cards.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "features",
             "id": "checklist-split",
             "label": "Checklist Split",
-            "file": "blocks/features--checklist-split.json",
+            "file": "blocks/[pre-fait]-features--checklist-split.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "features",
             "id": "steps-horizontal",
             "label": "Steps Horizontal",
-            "file": "blocks/features--steps-horizontal.json",
+            "file": "blocks/[pre-fait]-features--steps-horizontal.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "features",
             "id": "alternating",
             "label": "Alternating",
-            "file": "blocks/features--alternating.json",
+            "file": "blocks/[pre-fait]-features--alternating.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "cards",
             "id": "grid-standard",
             "label": "Grid Standard",
-            "file": "blocks/cards--grid-standard.json",
+            "file": "blocks/[pre-fait]-cards--grid-standard.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "cards",
             "id": "bento-asymetrique",
             "label": "Bento Asymetrique",
-            "file": "blocks/cards--bento-asymetrique.json",
+            "file": "blocks/[pre-fait]-cards--bento-asymetrique.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "cards",
             "id": "dark-gradient",
             "label": "Dark Gradient",
-            "file": "blocks/cards--dark-gradient.json",
+            "file": "blocks/[pre-fait]-cards--dark-gradient.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "cards",
             "id": "minimal-border",
             "label": "Minimal Border",
-            "file": "blocks/cards--minimal-border.json",
+            "file": "blocks/[pre-fait]-cards--minimal-border.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "cards",
             "id": "featured-card",
             "label": "Featured Card",
-            "file": "blocks/cards--featured-card.json",
+            "file": "blocks/[pre-fait]-cards--featured-card.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "cards",
             "id": "hover-border",
             "label": "Hover Border",
-            "file": "blocks/cards--hover-border.json",
+            "file": "blocks/[pre-fait]-cards--hover-border.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "cards",
             "id": "horizontal-scroll",
             "label": "Horizontal Scroll",
-            "file": "blocks/cards--horizontal-scroll.json",
+            "file": "blocks/[pre-fait]-cards--horizontal-scroll.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "productGrid",
             "id": "grid-produits",
             "label": "Grid Produits",
-            "file": "blocks/productGrid--grid-produits.json",
+            "file": "blocks/[pre-fait]-productGrid--grid-produits.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "productGrid",
             "id": "produits-dark",
             "label": "Produits Dark",
-            "file": "blocks/productGrid--produits-dark.json",
+            "file": "blocks/[pre-fait]-productGrid--produits-dark.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "productGrid",
             "id": "produits-liste",
             "label": "Produits Liste",
-            "file": "blocks/productGrid--produits-liste.json",
+            "file": "blocks/[pre-fait]-productGrid--produits-liste.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "pricing",
             "id": "3-colonnes",
             "label": "3 Colonnes",
-            "file": "blocks/pricing--3-colonnes.json",
+            "file": "blocks/[pre-fait]-pricing--3-colonnes.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "pricing",
             "id": "highlighted-center",
             "label": "Highlighted Center",
-            "file": "blocks/pricing--highlighted-center.json",
+            "file": "blocks/[pre-fait]-pricing--highlighted-center.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "pricing",
             "id": "cards-minimal",
             "label": "Cards Minimal",
-            "file": "blocks/pricing--cards-minimal.json",
+            "file": "blocks/[pre-fait]-pricing--cards-minimal.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "pricing",
             "id": "dark-luxury",
             "label": "Dark Luxury",
-            "file": "blocks/pricing--dark-luxury.json",
+            "file": "blocks/[pre-fait]-pricing--dark-luxury.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "pricing",
             "id": "side-by-side",
             "label": "Side by Side",
-            "file": "blocks/pricing--side-by-side.json",
+            "file": "blocks/[pre-fait]-pricing--side-by-side.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "testimonials",
             "id": "grid-etoiles",
             "label": "Grid Etoiles",
-            "file": "blocks/testimonials--grid-etoiles.json",
+            "file": "blocks/[pre-fait]-testimonials--grid-etoiles.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "testimonials",
             "id": "citation-large",
             "label": "Citation Large",
-            "file": "blocks/testimonials--citation-large.json",
+            "file": "blocks/[pre-fait]-testimonials--citation-large.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "testimonials",
             "id": "dark-cards",
             "label": "Dark Cards",
-            "file": "blocks/testimonials--dark-cards.json",
+            "file": "blocks/[pre-fait]-testimonials--dark-cards.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "testimonials",
             "id": "stars-prominent",
             "label": "Stars Prominent",
-            "file": "blocks/testimonials--stars-prominent.json",
+            "file": "blocks/[pre-fait]-testimonials--stars-prominent.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "testimonials",
             "id": "carousel-style",
             "label": "Carousel Style",
-            "file": "blocks/testimonials--carousel-style.json",
+            "file": "blocks/[pre-fait]-testimonials--carousel-style.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "stats",
             "id": "grid-chiffres",
             "label": "Grid Chiffres",
-            "file": "blocks/stats--grid-chiffres.json",
+            "file": "blocks/[pre-fait]-stats--grid-chiffres.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "stats",
             "id": "horizontal-band",
             "label": "Horizontal Band",
-            "file": "blocks/stats--horizontal-band.json",
+            "file": "blocks/[pre-fait]-stats--horizontal-band.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "stats",
             "id": "grand-fond",
             "label": "Grand Fond",
-            "file": "blocks/stats--grand-fond.json",
+            "file": "blocks/[pre-fait]-stats--grand-fond.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "stats",
             "id": "avec-icones",
             "label": "Avec Icones",
-            "file": "blocks/stats--avec-icones.json",
+            "file": "blocks/[pre-fait]-stats--avec-icones.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "stats",
             "id": "minimal-texte",
             "label": "Minimal Texte",
-            "file": "blocks/stats--minimal-texte.json",
+            "file": "blocks/[pre-fait]-stats--minimal-texte.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "stats",
             "id": "card-glow",
             "label": "Card Glow",
-            "file": "blocks/stats--card-glow.json",
+            "file": "blocks/[pre-fait]-stats--card-glow.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "faq",
             "id": "accordion",
             "label": "Accordion",
-            "file": "blocks/faq--accordion.json",
+            "file": "blocks/[pre-fait]-faq--accordion.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "faq",
             "id": "2-colonnes",
             "label": "2 Colonnes",
-            "file": "blocks/faq--2-colonnes.json",
+            "file": "blocks/[pre-fait]-faq--2-colonnes.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "faq",
             "id": "numerotee",
             "label": "Numerotee",
-            "file": "blocks/faq--numerotee.json",
+            "file": "blocks/[pre-fait]-faq--numerotee.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "faq",
             "id": "dark-minimal",
             "label": "Dark Minimal",
-            "file": "blocks/faq--dark-minimal.json",
+            "file": "blocks/[pre-fait]-faq--dark-minimal.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "faq",
             "id": "cards-faq",
             "label": "Cards FAQ",
-            "file": "blocks/faq--cards-faq.json",
+            "file": "blocks/[pre-fait]-faq--cards-faq.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "faq",
             "id": "avec-icones-faq",
             "label": "Avec Icones FAQ",
-            "file": "blocks/faq--avec-icones-faq.json",
+            "file": "blocks/[pre-fait]-faq--avec-icones-faq.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "contact",
             "id": "formulaire-split",
             "label": "Formulaire Split",
-            "file": "blocks/contact--formulaire-split.json",
+            "file": "blocks/[pre-fait]-contact--formulaire-split.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "contact",
             "id": "centre-minimal",
             "label": "Centre Minimal",
-            "file": "blocks/contact--centre-minimal.json",
+            "file": "blocks/[pre-fait]-contact--centre-minimal.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "contact",
             "id": "coordonnees",
             "label": "Coordonnees",
-            "file": "blocks/contact--coordonnees.json",
+            "file": "blocks/[pre-fait]-contact--coordonnees.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "footer",
             "id": "4-colonnes",
             "label": "4 Colonnes",
-            "file": "blocks/footer--4-colonnes.json",
+            "file": "blocks/[pre-fait]-footer--4-colonnes.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "footer",
             "id": "centre",
             "label": "Centre",
-            "file": "blocks/footer--centre.json",
+            "file": "blocks/[pre-fait]-footer--centre.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "footer",
             "id": "minimal",
             "label": "Minimal",
-            "file": "blocks/footer--minimal.json",
+            "file": "blocks/[pre-fait]-footer--minimal.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "footer",
             "id": "dark-luxury",
             "label": "Dark Luxury",
-            "file": "blocks/footer--dark-luxury.json",
+            "file": "blocks/[pre-fait]-footer--dark-luxury.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "footer",
             "id": "grande",
             "label": "Grande",
-            "file": "blocks/footer--grande.json",
+            "file": "blocks/[pre-fait]-footer--grande.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "cta",
             "id": "centre-glow",
             "label": "Centre Glow",
-            "file": "blocks/cta--centre-glow.json",
+            "file": "blocks/[pre-fait]-cta--centre-glow.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "cta",
             "id": "gradient-bg",
             "label": "Gradient BG",
-            "file": "blocks/cta--gradient-bg.json",
+            "file": "blocks/[pre-fait]-cta--gradient-bg.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "cta",
             "id": "split-cta",
             "label": "Split CTA",
-            "file": "blocks/cta--split-cta.json",
+            "file": "blocks/[pre-fait]-cta--split-cta.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "cta",
             "id": "dark-glow",
             "label": "Dark Glow",
-            "file": "blocks/cta--dark-glow.json",
+            "file": "blocks/[pre-fait]-cta--dark-glow.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "cta",
             "id": "avec-formulaire",
             "label": "Avec Formulaire",
-            "file": "blocks/cta--avec-formulaire.json",
+            "file": "blocks/[pre-fait]-cta--avec-formulaire.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "cta",
             "id": "minimal-cta",
             "label": "Minimal CTA",
-            "file": "blocks/cta--minimal-cta.json",
+            "file": "blocks/[pre-fait]-cta--minimal-cta.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "logos",
             "id": "bandeau-simple",
             "label": "Bandeau Simple",
-            "file": "blocks/logos--bandeau-simple.json",
+            "file": "blocks/[pre-fait]-logos--bandeau-simple.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "logos",
             "id": "avec-separation",
             "label": "Avec Separation",
-            "file": "blocks/logos--avec-separation.json",
+            "file": "blocks/[pre-fait]-logos--avec-separation.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "logos",
             "id": "grille-logos",
             "label": "Grille Logos",
-            "file": "blocks/logos--grille-logos.json",
+            "file": "blocks/[pre-fait]-logos--grille-logos.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "banner",
             "id": "info",
             "label": "Info",
-            "file": "blocks/banner--info.json",
+            "file": "blocks/[pre-fait]-banner--info.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "banner",
             "id": "alerte",
             "label": "Alerte",
-            "file": "blocks/banner--alerte.json",
+            "file": "blocks/[pre-fait]-banner--alerte.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "banner",
             "id": "promo",
             "label": "Promo",
-            "file": "blocks/banner--promo.json",
+            "file": "blocks/[pre-fait]-banner--promo.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "team",
             "id": "grid-equipe",
             "label": "Grid Equipe",
-            "file": "blocks/team--grid-equipe.json",
+            "file": "blocks/[pre-fait]-team--grid-equipe.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "team",
             "id": "horizontal-cards",
             "label": "Horizontal Cards",
-            "file": "blocks/team--horizontal-cards.json",
+            "file": "blocks/[pre-fait]-team--horizontal-cards.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "team",
             "id": "bento-team",
             "label": "Bento Team",
-            "file": "blocks/team--bento-team.json",
+            "file": "blocks/[pre-fait]-team--bento-team.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "gallery",
             "id": "grille-photos",
             "label": "Grille Photos",
-            "file": "blocks/gallery--grille-photos.json",
+            "file": "blocks/[pre-fait]-gallery--grille-photos.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "gallery",
             "id": "masonry",
             "label": "Masonry",
-            "file": "blocks/gallery--masonry.json",
+            "file": "blocks/[pre-fait]-gallery--masonry.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "gallery",
             "id": "featured-gallery",
             "label": "Featured Gallery",
-            "file": "blocks/gallery--featured-gallery.json",
+            "file": "blocks/[pre-fait]-gallery--featured-gallery.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "imagetext",
             "id": "image-gauche",
             "label": "Image Gauche",
-            "file": "blocks/imagetext--image-gauche.json",
+            "file": "blocks/[pre-fait]-imagetext--image-gauche.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "imagetext",
             "id": "image-droite",
             "label": "Image Droite",
-            "file": "blocks/imagetext--image-droite.json",
+            "file": "blocks/[pre-fait]-imagetext--image-droite.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "imagetext",
             "id": "alternating-sections",
             "label": "Alternating Sections",
-            "file": "blocks/imagetext--alternating-sections.json",
+            "file": "blocks/[pre-fait]-imagetext--alternating-sections.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "timeline",
             "id": "verticale",
             "label": "Verticale",
-            "file": "blocks/timeline--verticale.json",
+            "file": "blocks/[pre-fait]-timeline--verticale.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "timeline",
             "id": "horizontale",
             "label": "Horizontale",
-            "file": "blocks/timeline--horizontale.json",
+            "file": "blocks/[pre-fait]-timeline--horizontale.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "timeline",
             "id": "milestones",
             "label": "Milestones",
-            "file": "blocks/timeline--milestones.json",
+            "file": "blocks/[pre-fait]-timeline--milestones.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "blog",
             "id": "grid-articles",
             "label": "Grid Articles",
-            "file": "blocks/blog--grid-articles.json",
+            "file": "blocks/[pre-fait]-blog--grid-articles.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "blog",
             "id": "featured-article",
             "label": "Featured Article",
-            "file": "blocks/blog--featured-article.json",
+            "file": "blocks/[pre-fait]-blog--featured-article.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "blog",
             "id": "blog-liste",
             "label": "Blog Liste",
-            "file": "blocks/blog--blog-liste.json",
+            "file": "blocks/[pre-fait]-blog--blog-liste.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "richtext",
             "id": "article",
             "label": "Article",
-            "file": "blocks/richtext--article.json",
+            "file": "blocks/[pre-fait]-richtext--article.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "richtext",
             "id": "edito",
             "label": "Edito",
-            "file": "blocks/richtext--edito.json",
+            "file": "blocks/[pre-fait]-richtext--edito.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "richtext",
             "id": "faq-richtext",
             "label": "FAQ Richtext",
-            "file": "blocks/richtext--faq-richtext.json",
+            "file": "blocks/[pre-fait]-richtext--faq-richtext.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "newsletter",
             "id": "inline-form",
             "label": "Inline Form",
-            "file": "blocks/newsletter--inline-form.json",
+            "file": "blocks/[pre-fait]-newsletter--inline-form.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "newsletter",
             "id": "dark-newsletter",
             "label": "Dark Newsletter",
-            "file": "blocks/newsletter--dark-newsletter.json",
+            "file": "blocks/[pre-fait]-newsletter--dark-newsletter.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "newsletter",
             "id": "split-newsletter",
             "label": "Split Newsletter",
-            "file": "blocks/newsletter--split-newsletter.json",
+            "file": "blocks/[pre-fait]-newsletter--split-newsletter.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "video",
             "id": "player-centre",
             "label": "Player Centre",
-            "file": "blocks/video--player-centre.json",
+            "file": "blocks/[pre-fait]-video--player-centre.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "video",
             "id": "video-split",
             "label": "Video Split",
-            "file": "blocks/video--video-split.json",
+            "file": "blocks/[pre-fait]-video--video-split.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "video",
             "id": "video-background",
             "label": "Video Background",
-            "file": "blocks/video--video-background.json",
+            "file": "blocks/[pre-fait]-video--video-background.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "map",
             "id": "carte-info",
             "label": "Carte + Info",
-            "file": "blocks/map--carte-info.json",
+            "file": "blocks/[pre-fait]-map--carte-info.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "map",
             "id": "map-full-width",
             "label": "Map Full Width",
-            "file": "blocks/map--map-full-width.json",
+            "file": "blocks/[pre-fait]-map--map-full-width.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "awards",
             "id": "badges-grid",
             "label": "Badges Grid",
-            "file": "blocks/awards--badges-grid.json",
+            "file": "blocks/[pre-fait]-awards--badges-grid.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "awards",
             "id": "awards-horizontal",
             "label": "Awards Horizontal",
-            "file": "blocks/awards--awards-horizontal.json",
+            "file": "blocks/[pre-fait]-awards--awards-horizontal.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         },
         {
             "category": "awards",
             "id": "certifications",
             "label": "Certifications",
-            "file": "blocks/awards--certifications.json",
+            "file": "blocks/[pre-fait]-awards--certifications.json",
+            "updated_at": "2026-03-05T08:37:36+00:00"
+        },
+        {
+            "category": "classic",
+            "id": "h1",
+            "label": "Titre H1",
+            "file": "blocks/[classique]-classic--h1.json",
+            "updated_at": "2026-03-05T08:37:36+00:00"
+        },
+        {
+            "category": "classic",
+            "id": "h2",
+            "label": "Titre H2",
+            "file": "blocks/[classique]-classic--h2.json",
+            "updated_at": "2026-03-05T08:37:36+00:00"
+        },
+        {
+            "category": "classic",
+            "id": "h3",
+            "label": "Sous-titre",
+            "file": "blocks/[classique]-classic--h3.json",
+            "updated_at": "2026-03-05T08:37:36+00:00"
+        },
+        {
+            "category": "classic",
+            "id": "texte",
+            "label": "Texte",
+            "file": "blocks/[classique]-classic--texte.json",
+            "updated_at": "2026-03-05T08:37:36+00:00"
+        },
+        {
+            "category": "classic",
+            "id": "bouton",
+            "label": "Bouton",
+            "file": "blocks/[classique]-classic--bouton.json",
+            "updated_at": "2026-03-05T08:37:36+00:00"
+        },
+        {
+            "category": "classic",
+            "id": "btn-vide",
+            "label": "Btn vide",
+            "file": "blocks/[classique]-classic--btn-vide.json",
+            "updated_at": "2026-03-05T08:37:36+00:00"
+        },
+        {
+            "category": "classic",
+            "id": "lien",
+            "label": "Lien",
+            "file": "blocks/[classique]-classic--lien.json",
+            "updated_at": "2026-03-05T08:37:36+00:00"
+        },
+        {
+            "category": "classic",
+            "id": "image",
+            "label": "Image",
+            "file": "blocks/[classique]-classic--image.json",
+            "updated_at": "2026-03-05T08:37:36+00:00"
+        },
+        {
+            "category": "classic",
+            "id": "diviseur",
+            "label": "Diviseur",
+            "file": "blocks/[classique]-classic--diviseur.json",
+            "updated_at": "2026-03-05T08:37:36+00:00"
+        },
+        {
+            "category": "classic",
+            "id": "card",
+            "label": "Card",
+            "file": "blocks/[classique]-classic--card.json",
+            "updated_at": "2026-03-05T08:37:36+00:00"
+        },
+        {
+            "category": "classic",
+            "id": "2-colonnes",
+            "label": "2 colonnes",
+            "file": "blocks/[classique]-classic--2-colonnes.json",
+            "updated_at": "2026-03-05T08:37:36+00:00"
+        },
+        {
+            "category": "classic",
+            "id": "3-colonnes",
+            "label": "3 colonnes",
+            "file": "blocks/[classique]-classic--3-colonnes.json",
+            "updated_at": "2026-03-05T08:37:36+00:00"
+        },
+        {
+            "category": "classic",
+            "id": "bandeau",
+            "label": "Bandeau",
+            "file": "blocks/[classique]-classic--bandeau.json",
+            "updated_at": "2026-03-05T08:37:36+00:00"
+        },
+        {
+            "category": "classic",
+            "id": "citation",
+            "label": "Citation",
+            "file": "blocks/[classique]-classic--citation.json",
+            "updated_at": "2026-03-05T08:37:36+00:00"
+        },
+        {
+            "category": "classic",
+            "id": "badge",
+            "label": "Badge",
+            "file": "blocks/[classique]-classic--badge.json",
             "updated_at": "2026-03-05T08:37:36+00:00"
         }
     ]
