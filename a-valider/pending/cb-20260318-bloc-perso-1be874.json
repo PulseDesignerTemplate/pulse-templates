@@ -1,0 +1,7 @@
+{
+    "id": "cb-20260318-bloc-perso-1be874",
+    "name": "Bloc perso",
+    "html": "<section class=\"section\" style=\"padding:88px 0;background:linear-gradient(90deg,rgba(0,0,0,.55),transparent)\" draggable=\"true\"><div class=\"container\"><div class=\"muted\" style=\"letter-spacing:.2em;font-size:12px\"></div><h1 style=\"margin:12px 0;font-size:54px;line-height:1.05\" draggable=\"true\">Location de véhicules simple et rapide</h1><p class=\"muted\" style=\"max-width:720px\"></p><a class=\"btn\" href=\"/api/preview.php?slug=test&amp;path=contact.html\" draggable=\"true\">Contact</a></div></section>",
+    "submitted_by": "admin",
+    "submitted_at": "2026-03-18T16:39:26+00:00"
+}
