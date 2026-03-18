@@ -1,0 +1,7 @@
+{
+    "id": "cb-20260318-nav-f581ab",
+    "name": "Nav",
+    "html": "<header class=\"nav\" draggable=\"true\"><div class=\"container nav-inner\"><a class=\"logo\" href=\"/api/preview.php?slug=test&amp;path=index.html\" draggable=\"true\">Location Auto Express</a><nav draggable=\"true\"><a style=\"text-decoration:none;margin-left:14px;color:var(--brand)\" href=\"/api/preview.php?slug=test&amp;path=index.html\">Accueil</a><a style=\"text-decoration:none;margin-left:14px\" class=\"muted\" href=\"/api/preview.php?slug=test&amp;path=services.html\">Nos services</a><a style=\"text-decoration:none;margin-left:14px\" class=\"muted\" href=\"/api/preview.php?slug=test&amp;path=tarifs.html\">Tarifs</a><a style=\"text-decoration:none;margin-left:14px\" class=\"muted\" href=\"/api/preview.php?slug=test&amp;path=contact.html\">Contact</a></nav></div></header>",
+    "submitted_by": "admin",
+    "submitted_at": "2026-03-18T16:39:25+00:00"
+}
