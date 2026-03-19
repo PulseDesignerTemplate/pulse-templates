@@ -1,0 +1,7 @@
+{
+    "id": "cb-20260319-bg-var-surface-599480",
+    "name": "Bg [var( surface)]",
+    "html": "<section class=\"bg-[var(--surface)] py-12 px-8\"> <div class=\"max-w-7xl mx-auto flex flex-wrap md:flex-nowrap justify-between items-center\"> <div class=\"text-lg font-bold text-[var(--text)]\">NomDuBusiness</div> <nav class=\"flex space-x-6\"> <a href=\"#\" class=\"text-[var(--muted)] hover:text-[var(--brand)]\">Accueil</a> <a href=\"#\" class=\"text-[var(--muted)] hover:text-[var(--brand)]\">Contact</a> <a href=\"#\" class=\"text-[var(--muted)] hover:text-[var(--brand)]\">Services</a> </nav> <div class=\"text-[var(--muted)] text-sm\">© 2023 NomDuBusiness. Tous droits réservés.</div> </div> </section>",
+    "submitted_by": "admin",
+    "submitted_at": "2026-03-19T09:32:21+00:00"
+}
