@@ -1,0 +1,7 @@
+{
+    "id": "cb-20260319-faq-2d6a6d",
+    "name": "FAQ",
+    "html": "<section class=\"bg-[var(--bg)] py-20 px-6\"><div class=\"max-w-4xl mx-auto text-center\"><form class=\"grid grid-cols-1 gap-4\"><input type=\"text\" placeholder=\"Votre nom\" class=\"p-4 border border-[var(--line)] rounded-lg text-[var(--text)] focus:border-[var(--brand)]\"><input type=\"email\" placeholder=\"Votre email\" class=\"p-4 border border-[var(--line)] rounded-lg text-[var(--text)] focus:border-[var(--brand)]\"><textarea placeholder=\"Votre message\" class=\"p-4 border border-[var(--line)] rounded-lg text-[var(--text)] focus:border-[var(--brand)]\"></textarea><button type=\"submit\" class=\"bg-[var(--brand)] text-white px-8 py-3 rounded-lg font-bold text-sm shadow-lg hover:opacity-90 transition\">Envoyer</button></form></div></section>",
+    "submitted_by": "admin",
+    "submitted_at": "2026-03-19T09:28:14+00:00"
+}
