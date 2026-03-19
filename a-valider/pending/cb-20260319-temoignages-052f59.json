@@ -1,0 +1,7 @@
+{
+    "id": "cb-20260319-temoignages-052f59",
+    "name": "Temoignages",
+    "html": "<section class=\"bg-[var(--bg)] py-20 px-6\"> <div class=\"max-w-5xl mx-auto\"> <p class=\"text-[var(--brand)] text-xs tracking-widest uppercase font-bold mb-3\">NOS SERVICES</p> <h2 class=\"text-3xl font-bold text-[var(--text)] mb-2\">Des solutions pour chaque problème</h2> <p class=\"text-[var(--muted)] mb-10 max-w-xl\">Découvrez notre gamme complète de services adaptés à vos besoins.</p> <div class=\"grid md:grid-cols-3 gap-6\"> <div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-xl p-6\"> <h3 class=\"font-semibold text-[var(--text)] mb-2\">Réparation de téléphone</h3> <p class=\"text-sm text-[var(--muted)] leading-relaxed\">Des réparations rapides et fiables pour tous types de smartphones.</p> </div> <div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-xl p-6\"> <h3 class=\"font-semibold text-[var(--text)] mb-2\">Changement d'écran</h3> <p class=\"text-sm text-[var(--muted)] leading-relaxed\">Écrans neufs pour tous les modèles à des prix imbattables.</p> </div> <div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-xl p-6\"> <h3 class=\"font-semibold text-[var(--text)] mb-2\">Changement batterie</h3> <p class=\"text-sm text-[var(--muted)] leading-relaxed\">Remplacement de batteries pour prolonger la durée de vie de votre appareil.</p> </div> </div> </div> </section>",
+    "submitted_by": "admin",
+    "submitted_at": "2026-03-19T09:32:19+00:00"
+}
