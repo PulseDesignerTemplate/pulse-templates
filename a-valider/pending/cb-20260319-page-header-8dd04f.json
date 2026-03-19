@@ -1,0 +1,7 @@
+{
+    "id": "cb-20260319-page-header-8dd04f",
+    "name": "Page Header",
+    "html": "<section class=\"bg-[var(--bg)] py-4 px-6 shadow-lg\" draggable=\"true\"><div class=\"max-w-7xl mx-auto flex justify-between items-center\"><div class=\"text-[var(--brand)] font-bold text-xl\" draggable=\"true\">Réparation Téléphone</div><nav class=\"flex gap-4\" draggable=\"true\"><a href=\"#\" class=\"text-[var(--text)] hover:text-[var(--muted)]\">Accueil</a><a href=\"#contact\" class=\"text-[var(--text)] hover:text-[var(--muted)]\">Contact</a></nav></div></section>",
+    "submitted_by": "admin",
+    "submitted_at": "2026-03-19T09:28:58+00:00"
+}
