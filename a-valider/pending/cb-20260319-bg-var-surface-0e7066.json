@@ -1,0 +1,7 @@
+{
+    "id": "cb-20260319-bg-var-surface-0e7066",
+    "name": "Bg [var( surface)]",
+    "html": "<section class=\"bg-[var(--surface)] py-10 px-6\" draggable=\"true\"><div class=\"max-w-7xl mx-auto flex flex-col md:flex-row gap-8 justify-between items-center\"><div class=\"text-[var(--muted)] text-sm\" draggable=\"true\">© 2023 Réparation Téléphone. Tous droits réservés.</div><nav class=\"flex gap-4\" draggable=\"true\"><a href=\"#\" class=\"text-[var(--text)] hover:text-[var(--muted)]\">Accueil</a><a href=\"#contact\" class=\"text-[var(--text)] hover:text-[var(--muted)]\">Contact</a></nav></div></section>",
+    "submitted_by": "admin",
+    "submitted_at": "2026-03-19T09:29:03+00:00"
+}
