@@ -1,0 +1,7 @@
+{
+    "id": "cb-20260319-carte-fb9bc2",
+    "name": "Carte",
+    "html": "<section class=\"bg-[var(--bg)] py-20 px-6\" draggable=\"true\"><div class=\"max-w-4xl mx-auto\"><h2 class=\"text-3xl font-bold text-[var(--text)] mb-6\" draggable=\"true\">Questions Fréquentes</h2><div class=\"space-y-4\" draggable=\"true\"><details class=\"p-4 border border-[var(--line)] rounded-lg text-[var(--text)]\"><summary class=\"font-semibold\">Combien de temps dure une réparation d'écran?</summary><p class=\"text-[var(--muted)] mt-2\">La plupart des réparations d'écran sont terminées en moins d'une heure.</p></details><details class=\"p-4 border border-[var(--line)] rounded-lg text-[var(--text)]\"><summary class=\"font-semibold\">Est-ce que vous utilisez des pièces d'origine?</summary><p class=\"text-[var(--muted)] mt-2\">Oui, nous utilisons uniquement des pièces de haute qualité pour toutes nos réparations.</p></details></div></div></section>",
+    "submitted_by": "admin",
+    "submitted_at": "2026-03-19T09:29:01+00:00"
+}
