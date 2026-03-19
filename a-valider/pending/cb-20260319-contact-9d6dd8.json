@@ -1,0 +1,7 @@
+{
+    "id": "cb-20260319-contact-9d6dd8",
+    "name": "Contact",
+    "html": "<section class=\"bg-[var(--bg)] py-20 px-6\"><div class=\"max-w-4xl mx-auto text-center\"><p class=\"text-[var(--brand)] text-xs tracking-widest uppercase font-bold mb-3\">TÉMOIGNAGES</p><h2 class=\"text-3xl font-bold text-[var(--text)] mb-7\">Ce que disent nos clients</h2><div class=\"space-y-8\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-xl p-6\"><p class=\"text-[var(--muted)] mb-4\">“Excellent service! Mon téléphone fonctionne comme neuf après la réparation de l'écran.”</p><h3 class=\"font-semibold text-[var(--text)]\">Jean Dupont</h3></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-xl p-6\"><p class=\"text-[var(--muted)] mb-4\">“Service rapide et efficace pour le changement de la batterie de mon téléphone.”</p><h3 class=\"font-semibold text-[var(--text)]\">Marie Petit</h3></div></div></div></section>",
+    "submitted_by": "admin",
+    "submitted_at": "2026-03-19T09:26:20+00:00"
+}
