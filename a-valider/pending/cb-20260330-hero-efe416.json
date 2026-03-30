@@ -1,0 +1,7 @@
+{
+    "id": "cb-20260330-hero-efe416",
+    "name": "Hero",
+    "html": "<section class=\"bg-[var(--surface)] py-4 px-8 shadow-md\" draggable=\"true\"> <div class=\"max-w-7xl mx-auto flex justify-between items-center\"> <div class=\"text-lg font-bold text-[var(--brand)]\" draggable=\"true\">NomDuBusiness</div> <nav class=\"hidden md:flex space-x-6\" draggable=\"true\"> <a href=\"#\" class=\"text-[var(--text)] hover:text-[var(--brand)]\">Accueil</a> <a href=\"#\" class=\"text-[var(--text)] hover:text-[var(--brand)]\">Contact</a> <a href=\"#\" class=\"text-[var(--text)] hover:text-[var(--brand)]\">Services</a> </nav> <div class=\"md:hidden\" draggable=\"true\"> <button id=\"menu-btn\" class=\"text-[var(--text)] focus:outline-none\">☰</button> </div> </div> </section>",
+    "submitted_by": "admin",
+    "submitted_at": "2026-03-30T08:43:09+00:00"
+}
