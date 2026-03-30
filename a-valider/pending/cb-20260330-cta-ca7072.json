@@ -1,0 +1,7 @@
+{
+    "id": "cb-20260330-cta-ca7072",
+    "name": "CTA",
+    "html": "<section class=\"bg-[var(--bg)] py-20 px-6\" draggable=\"true\"> <div class=\"max-w-5xl mx-auto\"> <p class=\"text-[var(--brand)] text-xs tracking-widest uppercase font-bold mb-3\" draggable=\"true\">TÉMOIGNAGES</p><p></p> <h2 class=\"text-3xl font-bold text-[var(--text)] mb-2\" draggable=\"true\">Ce que disent nos clients</h2> <p class=\"text-[var(--muted)] mb-10 max-w-xl\" draggable=\"true\">Nos clients sont notre meilleure publicité. Découvrez ce qu'ils pensent de nous.</p><p></p> <div class=\"grid md:grid-cols-2 gap-6\" draggable=\"true\"> <div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-xl p-6\"> <p class=\"text-sm text-[var(--muted)] leading-relaxed mb-4\">“Un service impeccable et rapide. Mon téléphone est comme neuf!”</p> <p class=\"font-semibold text-[var(--text)]\">Jean Dupont</p> <p class=\"text-xs text-[var(--muted)]\">Client Satisfait</p> </div> <div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-xl p-6\"> <p class=\"text-sm text-[var(--muted)] leading-relaxed mb-4\">“Des techniciens professionnels et très disponibles pour répondre à mes questions.”</p> <p class=\"font-semibold text-[var(--text)]\">Marie Curie</p> <p class=\"text-xs text-[var(--muted)]\">Client Satisfait</p> </div> </div> </div> </section>",
+    "submitted_by": "admin",
+    "submitted_at": "2026-03-30T08:43:12+00:00"
+}
