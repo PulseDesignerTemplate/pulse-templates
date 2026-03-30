@@ -1,0 +1,7 @@
+{
+    "id": "cb-20260330-features-ad78a2",
+    "name": "Features",
+    "html": "<section class=\"flex flex-col items-center gap-5 bg-[var(--bg)] py-24 px-12 text-center relative overflow-hidden\" draggable=\"true\"> <div class=\"absolute inset-0 [background:radial-gradient(ellipse_90%_55%_at_50%_-5%,color-mix(in_srgb,var(--brand)_20%,transparent),transparent)] pointer-events-none\"></div> <span class=\"inline-flex items-center gap-2 bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] border border-[color-mix(in_srgb,var(--brand)_30%,transparent)] text-[var(--brand)] text-xs tracking-widest uppercase font-bold px-4 py-1.5 rounded-full relative\">BIENVENUE</span> <h1 class=\"text-4xl md:text-6xl font-black leading-tight text-[var(--text)] max-w-3xl tracking-tight relative\">Bienvenue chez NomDuBusiness</h1> <p class=\"text-[var(--muted)] max-w-xl text-base leading-relaxed relative\">Votre partenaire de confiance pour tous vos besoins de réparation et transformation de smartphones.</p> <a class=\"bg-[var(--brand)] text-white px-8 py-3 rounded-lg font-bold text-sm inline-flex items-center gap-2 shadow-lg hover:opacity-90 transition\" href=\"#\">En savoir plus →</a> </section>",
+    "submitted_by": "admin",
+    "submitted_at": "2026-03-30T08:43:10+00:00"
+}
