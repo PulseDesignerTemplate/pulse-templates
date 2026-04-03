@@ -1,1 +1,1 @@
-{"type":"classique","category":"classic","id":"diviseur","label":"Diviseur","icon":"─","html":"<section class=\"p-[24px_40px] bg-[var(--bg)]\"><hr class=\"m-[0] [border:none] [border-top:1px_solid_var(--line)]\"></section>"}
+{"type": "classique", "category": "classic", "id": "diviseur", "label": "Diviseur", "icon": "─", "html": "<section class=\"p-[24px_40px] bg-[var(--bg)]\"><hr class=\"m-[0] [border:none] [border-top:1px_solid_var(--line)]\"></section>", "subcategory": "mise-en-page"}

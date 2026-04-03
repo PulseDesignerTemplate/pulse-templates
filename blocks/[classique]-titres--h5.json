@@ -1,0 +1,1 @@
+{"type":"classique","category":"classic","subcategory":"titres","id":"h5","label":"Titre H5","icon":"H5","html":"<section class=\"p-[40px] bg-[var(--bg)]\"><h5 class=\"text-[1.05rem] font-bold text-[var(--text)] leading-[1.4] uppercase tracking-[.04em]\">Titre de niveau 5</h5></section>"}

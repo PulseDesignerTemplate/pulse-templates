@@ -1,1 +1,1 @@
-{"type":"classique","category":"classic","id":"h1","label":"Titre H1","icon":"H1","html":"<section class=\"p-[48px_40px] bg-[var(--bg)]\"><h1 class=\"text-[2.8rem] font-black text-[var(--text)] leading-[1.1] tracking-[-.03em]\">Votre titre principal</h1></section>"}
+{"type": "classique", "category": "classic", "id": "h1", "label": "Titre H1", "icon": "H1", "html": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><h1 class=\"text-[2.8rem] font-black text-[var(--text)] leading-[1.1] tracking-[-.03em]\">Votre titre principal</h1></section>", "subcategory": "titres"}

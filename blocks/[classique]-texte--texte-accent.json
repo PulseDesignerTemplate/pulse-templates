@@ -1,0 +1,1 @@
+{"type":"classique","category":"classic","subcategory":"texte","id":"texte-accent","label":"Texte accentué","icon":"A","html":"<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[1.15rem] font-medium text-[var(--text)] leading-[1.7] max-w-[640px]\">Un texte mis en avant avec un style plus imposant pour attirer l'attention sur un message clé.</p></section>"}

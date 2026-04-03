@@ -1,0 +1,1 @@
+{"type":"classique","category":"classic","subcategory":"titres","id":"h6","label":"Titre H6","icon":"H6","html":"<section class=\"p-[40px] bg-[var(--bg)]\"><h6 class=\"text-[0.875rem] font-semibold text-[var(--muted)] leading-[1.4] uppercase tracking-[.08em]\">Titre de niveau 6</h6></section>"}
