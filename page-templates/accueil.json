@@ -1,0 +1,63 @@
+{
+  "id": "accueil",
+  "label": "Accueil",
+  "description": "Page d'accueil complète avec hero, avantages, témoignages et CTA",
+  "icon": "fa-house",
+  "sections": [
+    {
+      "type": "section",
+      "content": {
+        "wrapperTag": "section",
+        "wrapperAttrs": "",
+        "children": [],
+        "sourceLabel": "Hero",
+        "category": "hero",
+        "rawHtml": "<section class=\"flex flex-col items-center gap-[22px] bg-[var(--bg)] p-[88px_48px] text-center relative overflow-hidden\"><div class=\"absolute [inset:0] [background:radial-gradient(ellipse_90%_55%_at_50%_-5%,color-mix(in_srgb,var(--brand)_20%,transparent),transparent)] [pointer-events:none]\"></div><div class=\"absolute bottom-[0] left-[0] right-[0] h-[120px] [background:linear-gradient(0deg,var(--bg),transparent)] [pointer-events:none]\"></div><span class=\"inline-flex items-center gap-[8px] bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] border border-[color-mix(in_srgb,var(--brand)_30%,transparent)] text-[var(--brand)] text-[11px] tracking-[.14em] uppercase font-bold p-[6px_18px] rounded-[999px] relative\"><span class=\"w-[6px] h-[6px] rounded-[999px] bg-[var(--brand)] shadow-[0_0_6px_var(--brand)] [flex-shrink:0]\"></span>{{kicker}} </span><h1 class=\"text-[2.2rem] max-[480px]:text-[1.8rem] text-[3.6rem] font-black leading-[1.03] text-[var(--text)] max-w-[760px] tracking-[-.035em] relative\" data-d=\"1\">{{title}}</h1><p class=\"text-[var(--muted)] max-w-[540px] text-[16px] leading-[1.78] relative\" data-d=\"2\">{{subtitle}}</p><div class=\"flex gap-[12px] flex-wrap max-[768px]:flex-col max-[768px]:items-stretch justify-center mt-[4px] relative\" data-d=\"3\"><a class=\"bg-[var(--brand)] text-[#fff] p-[13px_32px] rounded-[10px] font-bold text-[14px] inline-flex items-center gap-[8px] transition-[opacity,transform] duration-[200ms] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_28%,transparent)] hover:opacity-[.88] hover:translate-y-[-1px]\" href=\"#\">{{cta.label}} &#8594;</a><a class=\"border-[1.5px] border-[var(--line)] text-[var(--text)] p-[13px_32px] rounded-[10px] font-semibold text-[14px] inline-flex items-center gap-[8px] transition-colors duration-[200ms] hover:bg-[rgba(128,128,128,.08)]\" href=\"#\">Voir la d&#233;mo</a></div><p class=\"text-[12px] text-[var(--muted)] opacity-[.55] relative\" data-d=\"4\">&#10003; Sans CB &nbsp;&bull;&nbsp; &#10003; 14 jours gratuits &nbsp;&bull;&nbsp; &#10003; Annulable</p></section>"
+      }
+    },
+    {
+      "type": "section",
+      "content": {
+        "wrapperTag": "section",
+        "wrapperAttrs": "",
+        "children": [],
+        "sourceLabel": "Avantages",
+        "category": "features",
+        "rawHtml": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"inline-flex items-center gap-[8px] text-[11px] font-bold text-[var(--brand)] tracking-[.14em] uppercase bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] p-[4px_14px] rounded-[999px] mb-[14px]\">{{kicker}}</span><h2 class=\"text-[2.4rem] font-black text-[var(--text)] tracking-[-.025em] mb-[12px] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14.5px] max-w-[500px] m-[0_auto] leading-[1.7]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[20px]\"> {{#items}}<div class=\"transition-[transform,border-color] duration-[220ms] ease-[cubic-bezier(.4,0,.2,1)] hover:translate-y-[-3px] hover:border-[var(--brand)] bg-[var(--surface)] border border-[var(--line)] rounded-[20px] p-[32px] relative overflow-hidden\" data-d=\"1\"><div class=\"absolute top-[0] left-[0] right-[0] h-[2px] [background:linear-gradient(90deg,var(--brand),color-mix(in_srgb,var(--brand)_20%,transparent))]\"></div><div class=\"absolute top-[-40px] right-[-40px] w-[120px] h-[120px] rounded-[999px] bg-[var(--brand)] opacity-[.04] filter-[blur(30px)]\"></div><div class=\"flex items-center justify-center w-[52px] h-[52px] rounded-[16px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] border border-[color-mix(in_srgb,var(--brand)_22%,transparent)] text-[24px] mb-[20px]\">{{icon}}</div><h3 class=\"text-[15px] font-bold text-[var(--text)] mb-[10px] tracking-[-.01em]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.7]\">{{desc}}</p></div>{{/items}} </div></section>"
+      }
+    },
+    {
+      "type": "section",
+      "content": {
+        "wrapperTag": "section",
+        "wrapperAttrs": "",
+        "children": [],
+        "sourceLabel": "Chiffres clés",
+        "category": "stats",
+        "rawHtml": "<section class=\"bg-[var(--bg)] p-[64px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[16px]\"> {{#stats}}<div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[28px] text-center\" data-d=\"1\"><div class=\"text-[3rem] font-black text-[var(--brand)] tracking-[-.03em] leading-[1] mb-[8px]\">{{number}}</div><div class=\"text-[13px] text-[var(--text)] font-semibold mb-[4px]\">{{label}}</div><div class=\"text-[11px] text-[var(--brand)] font-bold bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] inline-block p-[2px_10px] rounded-[999px]\">&#8593; +12%</div></div>{{/stats}} </div></section>"
+      }
+    },
+    {
+      "type": "section",
+      "content": {
+        "wrapperTag": "section",
+        "wrapperAttrs": "",
+        "children": [],
+        "sourceLabel": "Témoignages",
+        "category": "testimonials",
+        "rawHtml": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"inline-flex items-center gap-[8px] text-[11px] font-bold text-[var(--brand)] tracking-[.14em] uppercase bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] p-[4px_14px] rounded-[999px] mb-[14px]\">{{kicker}}</span><h2 class=\"text-[2.2rem] font-black text-[var(--text)] tracking-[-.025em] mb-[12px] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[480px] m-[0_auto] leading-[1.7]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[20px]\"> {{#testimonials}}<div class=\"transition-[transform,border-color] duration-[220ms] ease-[cubic-bezier(.4,0,.2,1)] hover:translate-y-[-3px] hover:border-[var(--brand)] flex flex-col gap-[16px] bg-[var(--surface)] border border-[var(--line)] rounded-[20px] p-[28px] relative overflow-hidden\"><div class=\"absolute top-[-30px] right-[-30px] w-[100px] h-[100px] rounded-[999px] bg-[var(--brand)] opacity-[.04] filter-[blur(24px)]\"></div><div class=\"text-[14px] text-[#f59e0b] tracking-[2px]\">{{stars}}</div><p class=\"text-[var(--text)] text-[13.5px] leading-[1.72] [font-style:italic] [flex:1]\">&#8220;{{text}}&#8221;</p><div class=\"flex items-center gap-[12px] pt-[14px] [border-top:1px_solid_var(--line)]\"><div class=\"flex items-center justify-center w-[40px] h-[40px] rounded-[12px] bg-[color-mix(in_srgb,var(--brand)_15%,var(--surface))] text-[13px] font-extrabold text-[var(--brand)] [flex-shrink:0]\">{{avatar}}</div><div><div class=\"text-[13px] font-bold text-[var(--text)]\">{{name}}</div><div class=\"text-[11px] text-[var(--muted)]\">{{role}}</div></div></div></div>{{/testimonials}} </div></section>"
+      }
+    },
+    {
+      "type": "section",
+      "content": {
+        "wrapperTag": "section",
+        "wrapperAttrs": "",
+        "children": [],
+        "sourceLabel": "CTA",
+        "category": "cta",
+        "rawHtml": "<section class=\"flex flex-col items-center gap-[18px] bg-[var(--bg)] p-[80px_40px] text-center relative overflow-hidden\"><div class=\"absolute [inset:0] [background:radial-gradient(ellipse_70%_60%_at_50%_50%,color-mix(in_srgb,var(--brand)_10%,transparent),transparent)] [pointer-events:none]\"></div><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold\">{{kicker}}</span><h2 class=\"text-[2.4rem] font-black text-[var(--text)] max-w-[580px] tracking-[-.025em] leading-[1.1]\" data-d=\"1\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14.5px] max-w-[460px] leading-[1.7]\" data-d=\"2\">{{subtitle}}</p><div class=\"flex gap-[12px] flex-wrap justify-center mt-[8px]\" data-d=\"3\"><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[14px_36px] rounded-[10px] font-bold text-[14px] shadow-[0_4px_24px_color-mix(in_srgb,var(--brand)_35%,transparent)]\">{{cta.label}} &#8594;</a><a class=\"inline-flex items-center gap-[8px] border-[1.5px] border-[var(--line)] text-[var(--text)] p-[14px_32px] rounded-[10px] font-semibold text-[14px]\">En savoir plus</a></div></section>"
+      }
+    }
+  ]
+}

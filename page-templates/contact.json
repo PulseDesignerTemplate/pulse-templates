@@ -1,0 +1,30 @@
+{
+  "id": "contact",
+  "label": "Contact",
+  "description": "Formulaire de contact et coordonnées",
+  "icon": "fa-envelope",
+  "sections": [
+    {
+      "type": "section",
+      "content": {
+        "wrapperTag": "section",
+        "wrapperAttrs": "",
+        "children": [],
+        "sourceLabel": "En-tête",
+        "category": "pageheader",
+        "rawHtml": "<section class=\"bg-[var(--surface)] p-[48px_40px] [border-bottom:1px_solid_var(--line)]\"><div><div class=\"text-[11px] text-[var(--brand)] font-bold tracking-[.12em] uppercase mb-[10px]\">{{kicker}}</div><h1 class=\"text-[2.4rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[10px]\">{{title}}</h1><p class=\"text-[var(--muted)] text-[14px] leading-[1.7] max-w-[560px]\">{{subtitle}}</p></div></section>"
+      }
+    },
+    {
+      "type": "section",
+      "content": {
+        "wrapperTag": "section",
+        "wrapperAttrs": "",
+        "children": [],
+        "sourceLabel": "Contact",
+        "category": "contact",
+        "rawHtml": "<section class=\"bg-[var(--surface)] p-[72px_40px] text-center\"><div class=\"max-w-[560px] m-[0_auto]\"><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] mb-[12px] tracking-[-.02em]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.7] mb-[32px]\">{{subtitle}}</p><div class=\"flex flex-col gap-[12px]\"><input class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[13px_16px] text-[13px] text-[var(--text)]\" placeholder=\"Nom complet\" type=\"text\"><input class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[13px_16px] text-[13px] text-[var(--text)]\" placeholder=\"Email\" type=\"email\"><textarea class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[13px_16px] text-[13px] text-[var(--text)] h-[90px] [resize:none]\" placeholder=\"Message\"></textarea><a class=\"bg-[var(--brand)] text-[#fff] p-[13px] rounded-[10px] font-bold text-[14px] text-center block\">{{cta.label}}</a></div></div></section>"
+      }
+    }
+  ]
+}
