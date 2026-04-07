@@ -1,52 +1,20 @@
 {
   "id": "a-propos",
   "label": "À propos",
-  "description": "Présentez votre mission, vos valeurs et votre équipe",
   "icon": "fa-building",
+  "description": "Mission, valeurs, équipe",
   "sections": [
     {
-      "type": "section",
-      "content": {
-        "wrapperTag": "section",
-        "wrapperAttrs": "",
-        "children": [],
-        "sourceLabel": "En-tête",
-        "category": "pageheader",
-        "rawHtml": "<section class=\"bg-[var(--surface)] p-[48px_40px] [border-bottom:1px_solid_var(--line)]\"><div><div class=\"text-[11px] text-[var(--brand)] font-bold tracking-[.12em] uppercase mb-[10px]\">{{kicker}}</div><h1 class=\"text-[2.4rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[10px]\">{{title}}</h1><p class=\"text-[var(--muted)] text-[14px] leading-[1.7] max-w-[560px]\">{{subtitle}}</p></div></section>"
-      }
+      "label": "En-tête",
+      "html": "<section class=\"bg-[var(--surface)] p-[48px_40px] [border-bottom:1px_solid_var(--line)]\"><div><div class=\"text-[11px] text-[var(--brand)] font-bold tracking-[.12em] uppercase mb-[10px]\">{{kicker}}</div><h1 class=\"text-[2.4rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[10px]\">{{title}}</h1><p class=\"text-[var(--muted)] text-[14px] leading-[1.7] max-w-[560px]\">{{subtitle}}</p></div></section>"
     },
     {
-      "type": "section",
-      "content": {
-        "wrapperTag": "section",
-        "wrapperAttrs": "",
-        "children": [],
-        "sourceLabel": "Notre mission",
-        "category": "about",
-        "rawHtml": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"grid grid-cols-2 gap-[48px] items-center max-w-[960px] mx-auto\"><div><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[14px]\">A propos</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[16px]\">Notre mission</h2><p class=\"text-[14px] text-[var(--muted)] leading-[1.75] mb-[20px]\">Nous croyons que chaque entreprise merite des outils puissants et accessibles. Notre equipe travaille chaque jour pour simplifier votre quotidien.</p><div class=\"flex gap-[24px]\"><div><div class=\"text-[1.8rem] font-black text-[var(--brand)]\">50+</div><div class=\"text-[12px] text-[var(--muted)] font-medium\">Experts</div></div><div><div class=\"text-[1.8rem] font-black text-[var(--brand)]\">12</div><div class=\"text-[12px] text-[var(--muted)] font-medium\">Pays</div></div><div><div class=\"text-[1.8rem] font-black text-[var(--brand)]\">2019</div><div class=\"text-[12px] text-[var(--muted)] font-medium\">Fondee</div></div></div></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[20px] h-[320px] flex items-center justify-center text-[var(--muted)] text-[14px]\">Photo equipe</div></div></section>"
-      }
+      "label": "Notre mission",
+      "html": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"grid grid-cols-2 gap-[48px] items-center max-w-[960px] mx-auto\"><div><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[14px]\">A propos</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[16px]\">Notre mission</h2><p class=\"text-[14px] text-[var(--muted)] leading-[1.75] mb-[20px]\">Nous croyons que chaque entreprise merite des outils puissants et accessibles. Notre equipe travaille chaque jour pour simplifier votre quotidien.</p><div class=\"flex gap-[24px]\"><div><div class=\"text-[1.8rem] font-black text-[var(--brand)]\">50+</div><div class=\"text-[12px] text-[var(--muted)] font-medium\">Experts</div></div><div><div class=\"text-[1.8rem] font-black text-[var(--brand)]\">12</div><div class=\"text-[12px] text-[var(--muted)] font-medium\">Pays</div></div><div><div class=\"text-[1.8rem] font-black text-[var(--brand)]\">2019</div><div class=\"text-[12px] text-[var(--muted)] font-medium\">Fondee</div></div></div></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[20px] h-[320px] flex items-center justify-center text-[var(--muted)] text-[14px]\">Photo equipe</div></div></section>"
     },
     {
-      "type": "section",
-      "content": {
-        "wrapperTag": "section",
-        "wrapperAttrs": "",
-        "children": [],
-        "sourceLabel": "Nos valeurs",
-        "category": "about",
-        "rawHtml": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">Nos valeurs</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1]\">Ce qui nous guide</h2></div><div class=\"grid grid-cols-4 gap-[20px]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">01</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">Innovation</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">Toujours a la pointe pour vous offrir le meilleur.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">02</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">Transparence</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">Communication claire et honnete en toutes circonstances.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">03</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">Excellence</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">La qualite au coeur de chaque decision.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">04</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">Proximite</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">Un accompagnement humain et personnalise.</p></div></div></section>"
-      }
-    },
-    {
-      "type": "section",
-      "content": {
-        "wrapperTag": "section",
-        "wrapperAttrs": "",
-        "children": [],
-        "sourceLabel": "Chiffres",
-        "category": "stats",
-        "rawHtml": "<section class=\"bg-[var(--bg)] p-[64px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[16px]\"> {{#stats}}<div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[28px] text-center\" data-d=\"1\"><div class=\"text-[3rem] font-black text-[var(--brand)] tracking-[-.03em] leading-[1] mb-[8px]\">{{number}}</div><div class=\"text-[13px] text-[var(--text)] font-semibold mb-[4px]\">{{label}}</div><div class=\"text-[11px] text-[var(--brand)] font-bold bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] inline-block p-[2px_10px] rounded-[999px]\">&#8593; +12%</div></div>{{/stats}} </div></section>"
-      }
+      "label": "Nos valeurs",
+      "html": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">Nos valeurs</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1]\">Ce qui nous guide</h2></div><div class=\"grid grid-cols-4 gap-[20px]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">01</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">Innovation</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">Toujours a la pointe pour vous offrir le meilleur.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">02</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">Transparence</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">Communication claire et honnete en toutes circonstances.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">03</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">Excellence</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">La qualite au coeur de chaque decision.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">04</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">Proximite</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">Un accompagnement humain et personnalise.</p></div></div></section>"
     }
   ]
 }
