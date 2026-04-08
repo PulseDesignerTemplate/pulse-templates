@@ -8,15 +8,45 @@
   "subcategory": "media",
   "icon": "fa-images",
   "schema": {
-    "html": {
+    "image": {
       "type": "string",
-      "label": "HTML",
-      "multiline": true,
-      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"grid grid-cols-3 gap-[12px]\"><img class=\"w-full aspect-square object-cover rounded-[12px] border border-[var(--line)]\" src=\"https://picsum.photos/300/300?random=30\" alt=\"Photo 1\"><img class=\"w-full aspect-square object-cover rounded-[12px] border border-[var(--line)]\" src=\"https://picsum.photos/300/300?random=31\" alt=\"Photo 2\"><img class=\"w-full aspect-square object-cover rounded-[12px] border border-[var(--line)]\" src=\"https://picsum.photos/300/300?random=32\" alt=\"Photo 3\"></div></section>"
+      "label": "Image — URL",
+      "default": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop"
+    },
+    "image_alt": {
+      "type": "string",
+      "label": "Image — texte alt",
+      "default": "Illustration"
+    },
+    "image_2": {
+      "type": "string",
+      "label": "Image — URL",
+      "default": "image_2"
+    },
+    "image_alt_2": {
+      "type": "string",
+      "label": "Image — texte alt",
+      "default": "image_alt_2"
+    },
+    "image_3": {
+      "type": "string",
+      "label": "Image — URL",
+      "default": "image_3"
+    },
+    "image_alt_3": {
+      "type": "string",
+      "label": "Image — texte alt",
+      "default": "image_alt_3"
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"grid grid-cols-3 gap-[12px]\"><img class=\"w-full aspect-square object-cover rounded-[12px] border border-[var(--line)]\" src=\"https://picsum.photos/300/300?random=30\" alt=\"Photo 1\"><img class=\"w-full aspect-square object-cover rounded-[12px] border border-[var(--line)]\" src=\"https://picsum.photos/300/300?random=31\" alt=\"Photo 2\"><img class=\"w-full aspect-square object-cover rounded-[12px] border border-[var(--line)]\" src=\"https://picsum.photos/300/300?random=32\" alt=\"Photo 3\"></div></section>"
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
+    "image_alt": "Illustration",
+    "image_2": "image_2",
+    "image_alt_2": "image_alt_2",
+    "image_3": "image_3",
+    "image_alt_3": "image_alt_3",
+    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"grid grid-cols-3 gap-[12px]\"><img class=\"w-full aspect-square object-cover rounded-[12px] border border-[var(--line)]\" src=\"{{image}}\" alt=\"{{image_alt}}\"><img class=\"w-full aspect-square object-cover rounded-[12px] border border-[var(--line)]\" src=\"{{image_2}}\" alt=\"{{image_alt_2}}\"><img class=\"w-full aspect-square object-cover rounded-[12px] border border-[var(--line)]\" src=\"{{image_3}}\" alt=\"{{image_alt_3}}\"></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

@@ -8,15 +8,51 @@
   "subcategory": "interactif",
   "icon": "fa-bars-progress",
   "schema": {
-    "html": {
+    "text": {
       "type": "string",
-      "label": "HTML",
+      "label": "Texte",
       "multiline": true,
-      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"max-w-[480px] flex flex-col gap-[16px]\"><div><div class=\"flex justify-between mb-[6px]\"><span class=\"text-[13px] font-semibold text-[var(--text)]\">Compétence 1</span><span class=\"text-[12px] text-[var(--muted)]\">85%</span></div><div class=\"h-[8px] bg-[var(--surface)] rounded-full overflow-hidden border border-[var(--line)]\"><div class=\"h-full bg-[var(--brand)] rounded-full\" style=\"width:85%\"></div></div></div><div><div class=\"flex justify-between mb-[6px]\"><span class=\"text-[13px] font-semibold text-[var(--text)]\">Compétence 2</span><span class=\"text-[12px] text-[var(--muted)]\">62%</span></div><div class=\"h-[8px] bg-[var(--surface)] rounded-full overflow-hidden border border-[var(--line)]\"><div class=\"h-full bg-[var(--brand)] rounded-full\" style=\"width:62%\"></div></div></div><div><div class=\"flex justify-between mb-[6px]\"><span class=\"text-[13px] font-semibold text-[var(--text)]\">Compétence 3</span><span class=\"text-[12px] text-[var(--muted)]\">94%</span></div><div class=\"h-[8px] bg-[var(--surface)] rounded-full overflow-hidden border border-[var(--line)]\"><div class=\"h-full bg-[var(--brand)] rounded-full\" style=\"width:94%\"></div></div></div></div></section>"
+      "default": "Votre texte ici."
+    },
+    "text_2": {
+      "type": "string",
+      "label": "Texte",
+      "multiline": true,
+      "default": "text_2"
+    },
+    "text_3": {
+      "type": "string",
+      "label": "Texte",
+      "multiline": true,
+      "default": "text_3"
+    },
+    "text_4": {
+      "type": "string",
+      "label": "Texte",
+      "multiline": true,
+      "default": "text_4"
+    },
+    "text_5": {
+      "type": "string",
+      "label": "Texte",
+      "multiline": true,
+      "default": "text_5"
+    },
+    "text_6": {
+      "type": "string",
+      "label": "Texte",
+      "multiline": true,
+      "default": "text_6"
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"max-w-[480px] flex flex-col gap-[16px]\"><div><div class=\"flex justify-between mb-[6px]\"><span class=\"text-[13px] font-semibold text-[var(--text)]\">Compétence 1</span><span class=\"text-[12px] text-[var(--muted)]\">85%</span></div><div class=\"h-[8px] bg-[var(--surface)] rounded-full overflow-hidden border border-[var(--line)]\"><div class=\"h-full bg-[var(--brand)] rounded-full\" style=\"width:85%\"></div></div></div><div><div class=\"flex justify-between mb-[6px]\"><span class=\"text-[13px] font-semibold text-[var(--text)]\">Compétence 2</span><span class=\"text-[12px] text-[var(--muted)]\">62%</span></div><div class=\"h-[8px] bg-[var(--surface)] rounded-full overflow-hidden border border-[var(--line)]\"><div class=\"h-full bg-[var(--brand)] rounded-full\" style=\"width:62%\"></div></div></div><div><div class=\"flex justify-between mb-[6px]\"><span class=\"text-[13px] font-semibold text-[var(--text)]\">Compétence 3</span><span class=\"text-[12px] text-[var(--muted)]\">94%</span></div><div class=\"h-[8px] bg-[var(--surface)] rounded-full overflow-hidden border border-[var(--line)]\"><div class=\"h-full bg-[var(--brand)] rounded-full\" style=\"width:94%\"></div></div></div></div></section>"
+    "text": "Votre texte ici.",
+    "text_2": "text_2",
+    "text_3": "text_3",
+    "text_4": "text_4",
+    "text_5": "text_5",
+    "text_6": "text_6",
+    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"max-w-[480px] flex flex-col gap-[16px]\"><div><div class=\"flex justify-between mb-[6px]\"><span class=\"text-[13px] font-semibold text-[var(--text)]\">{{text}}</span><span class=\"text-[12px] text-[var(--muted)]\">{{text_2}}</span></div><div class=\"h-[8px] bg-[var(--surface)] rounded-full overflow-hidden border border-[var(--line)]\"><div class=\"h-full bg-[var(--brand)] rounded-full\" style=\"width:85%\"></div></div></div><div><div class=\"flex justify-between mb-[6px]\"><span class=\"text-[13px] font-semibold text-[var(--text)]\">{{text_3}}</span><span class=\"text-[12px] text-[var(--muted)]\">{{text_4}}</span></div><div class=\"h-[8px] bg-[var(--surface)] rounded-full overflow-hidden border border-[var(--line)]\"><div class=\"h-full bg-[var(--brand)] rounded-full\" style=\"width:62%\"></div></div></div><div><div class=\"flex justify-between mb-[6px]\"><span class=\"text-[13px] font-semibold text-[var(--text)]\">{{text_5}}</span><span class=\"text-[12px] text-[var(--muted)]\">{{text_6}}</span></div><div class=\"h-[8px] bg-[var(--surface)] rounded-full overflow-hidden border border-[var(--line)]\"><div class=\"h-full bg-[var(--brand)] rounded-full\" style=\"width:94%\"></div></div></div></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

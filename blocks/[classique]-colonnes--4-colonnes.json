@@ -8,15 +8,65 @@
   "subcategory": "colonnes",
   "icon": "fa-table-cells",
   "schema": {
-    "html": {
+    "subtitle_2": {
       "type": "string",
-      "label": "HTML",
+      "label": "Sous-titre 2",
       "multiline": true,
-      "default": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"grid grid-cols-4 gap-[24px]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[24px] mb-[10px]\">#</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[6px]\">Colonne 1</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description courte</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[24px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[6px]\">Colonne 2</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description courte</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[24px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[6px]\">Colonne 3</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description courte</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[24px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[6px]\">Colonne 4</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description courte</p></div></div></section>"
+      "default": "Sous-titre 2"
+    },
+    "paragraph": {
+      "type": "string",
+      "label": "Paragraphe",
+      "multiline": true,
+      "default": "Texte de paragraphe."
+    },
+    "subtitle_2_2": {
+      "type": "string",
+      "label": "Sous-titre 2",
+      "multiline": true,
+      "default": "subtitle_2_2"
+    },
+    "paragraph_2": {
+      "type": "string",
+      "label": "Paragraphe 2",
+      "multiline": true,
+      "default": "paragraph_2"
+    },
+    "subtitle_2_3": {
+      "type": "string",
+      "label": "Sous-titre 2",
+      "multiline": true,
+      "default": "subtitle_2_3"
+    },
+    "paragraph_3": {
+      "type": "string",
+      "label": "Paragraphe 3",
+      "multiline": true,
+      "default": "paragraph_3"
+    },
+    "subtitle_2_4": {
+      "type": "string",
+      "label": "Sous-titre 2",
+      "multiline": true,
+      "default": "subtitle_2_4"
+    },
+    "paragraph_4": {
+      "type": "string",
+      "label": "Paragraphe",
+      "multiline": true,
+      "default": "paragraph_4"
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"grid grid-cols-4 gap-[24px]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[24px] mb-[10px]\">#</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[6px]\">Colonne 1</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description courte</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[24px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[6px]\">Colonne 2</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description courte</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[24px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[6px]\">Colonne 3</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description courte</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[24px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[6px]\">Colonne 4</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description courte</p></div></div></section>"
+    "subtitle_2": "Sous-titre 2",
+    "paragraph": "Texte de paragraphe.",
+    "subtitle_2_2": "subtitle_2_2",
+    "paragraph_2": "paragraph_2",
+    "subtitle_2_3": "subtitle_2_3",
+    "paragraph_3": "paragraph_3",
+    "subtitle_2_4": "subtitle_2_4",
+    "paragraph_4": "paragraph_4",
+    "htmlTemplate": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"grid grid-cols-4 gap-[24px]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[24px] mb-[10px]\">#</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[6px]\">{{subtitle_2}}</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">{{paragraph}}</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[24px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[6px]\">{{subtitle_2_2}}</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">{{paragraph_2}}</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[24px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[6px]\">{{subtitle_2_3}}</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">{{paragraph_3}}</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[24px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[6px]\">{{subtitle_2_4}}</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">{{paragraph_4}}</p></div></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

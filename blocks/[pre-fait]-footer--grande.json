@@ -8,15 +8,58 @@
   "icon": "fa-minus",
   "description": "Bas de page",
   "schema": {
-    "html": {
+    "subtitle": {
       "type": "string",
-      "label": "HTML",
+      "label": "Sous-titre",
       "multiline": true,
-      "default": "<section id=\"gv-footer-5\" data-gv-block=\"1\" data-gv-block-type=\"footer\" data-gv-variant=\"5\" data-gv-block-id=\"gv-footer-5\"><footer class=\"bg-[var(--surface)] p-[72px_40px_40px] [border-top:1px_solid_var(--line)]\"><div class=\"max-w-[1000px] m-[0_auto]\"><div class=\"text-center mb-[48px]\"><div class=\"text-[2rem] font-black text-[var(--text)] mb-[10px]\">{{brand.name}}</div><p class=\"text-[var(--muted)] text-[13.5px] max-w-[460px] m-[0_auto_20px] leading-[1.65]\">{{subtitle}}</p><a class=\"bg-[var(--brand)] text-[#fff] p-[12px_32px] rounded-[10px] font-bold text-[14px] inline-block\">{{cta.label}}</a></div><div class=\"flex justify-center gap-[32px] flex-wrap mb-[36px]\"> {{#navLinks}}<a class=\"text-[var(--muted)] text-[13px]\" href=\"{{href}}\">{{label}}</a>{{/navLinks}} </div><div class=\"flex justify-between items-center flex-wrap gap-[12px] pt-[28px] [border-top:1px_solid_var(--line)]\"><span class=\"text-[12px] text-[var(--muted)]\">&copy; {{year}} {{company}}</span><div class=\"flex gap-[8px]\"> {{#socials}}<a class=\"flex items-center justify-center text-[var(--muted)] text-[13px] w-[30px] h-[30px] border border-[var(--line)] rounded-[8px]\" href=\"{{href}}\">{{icon}}</a>{{/socials}} </div></div></div></footer></section>"
+      "default": "Sous-titre descriptif pour accompagner votre message."
+    },
+    "cta_label": {
+      "type": "string",
+      "label": "Bouton — texte",
+      "default": "Commencer"
+    },
+    "href": {
+      "type": "string",
+      "label": "Href",
+      "default": "href"
+    },
+    "label": {
+      "type": "string",
+      "label": "Libellé",
+      "default": "Libellé"
+    },
+    "year": {
+      "type": "string",
+      "label": "Year",
+      "default": "year"
+    },
+    "company": {
+      "type": "string",
+      "label": "Company",
+      "default": "company"
+    },
+    "icon": {
+      "type": "string",
+      "label": "Icône",
+      "default": "★"
+    },
+    "brand_name": {
+      "type": "string",
+      "label": "Brand name",
+      "default": "brand_name"
     }
   },
   "defaults": {
-    "html": "<section id=\"gv-footer-5\" data-gv-block=\"1\" data-gv-block-type=\"footer\" data-gv-variant=\"5\" data-gv-block-id=\"gv-footer-5\"><footer class=\"bg-[var(--surface)] p-[72px_40px_40px] [border-top:1px_solid_var(--line)]\"><div class=\"max-w-[1000px] m-[0_auto]\"><div class=\"text-center mb-[48px]\"><div class=\"text-[2rem] font-black text-[var(--text)] mb-[10px]\">{{brand.name}}</div><p class=\"text-[var(--muted)] text-[13.5px] max-w-[460px] m-[0_auto_20px] leading-[1.65]\">{{subtitle}}</p><a class=\"bg-[var(--brand)] text-[#fff] p-[12px_32px] rounded-[10px] font-bold text-[14px] inline-block\">{{cta.label}}</a></div><div class=\"flex justify-center gap-[32px] flex-wrap mb-[36px]\"> {{#navLinks}}<a class=\"text-[var(--muted)] text-[13px]\" href=\"{{href}}\">{{label}}</a>{{/navLinks}} </div><div class=\"flex justify-between items-center flex-wrap gap-[12px] pt-[28px] [border-top:1px_solid_var(--line)]\"><span class=\"text-[12px] text-[var(--muted)]\">&copy; {{year}} {{company}}</span><div class=\"flex gap-[8px]\"> {{#socials}}<a class=\"flex items-center justify-center text-[var(--muted)] text-[13px] w-[30px] h-[30px] border border-[var(--line)] rounded-[8px]\" href=\"{{href}}\">{{icon}}</a>{{/socials}} </div></div></div></footer></section>"
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "cta_label": "Commencer",
+    "href": "href",
+    "label": "Libellé",
+    "year": "year",
+    "company": "company",
+    "icon": "★",
+    "brand_name": "brand_name",
+    "htmlTemplate": "<section id=\"gv-footer-5\" data-gv-block=\"1\" data-gv-block-type=\"footer\" data-gv-variant=\"5\" data-gv-block-id=\"gv-footer-5\"><footer class=\"bg-[var(--surface)] p-[72px_40px_40px] [border-top:1px_solid_var(--line)]\"><div class=\"max-w-[1000px] m-[0_auto]\"><div class=\"text-center mb-[48px]\"><div class=\"text-[2rem] font-black text-[var(--text)] mb-[10px]\">{{brand_name}}</div><p class=\"text-[var(--muted)] text-[13.5px] max-w-[460px] m-[0_auto_20px] leading-[1.65]\">{{subtitle}}</p><a class=\"bg-[var(--brand)] text-[#fff] p-[12px_32px] rounded-[10px] font-bold text-[14px] inline-block\">{{cta_label}}</a></div><div class=\"flex justify-center gap-[32px] flex-wrap mb-[36px]\"> {{#navLinks}}<a class=\"text-[var(--muted)] text-[13px]\" href=\"{{href}}\">{{label}}</a>{{/navLinks}} </div><div class=\"flex justify-between items-center flex-wrap gap-[12px] pt-[28px] [border-top:1px_solid_var(--line)]\"><span class=\"text-[12px] text-[var(--muted)]\">&copy; {{year}} {{company}}</span><div class=\"flex gap-[8px]\"> {{#socials}}<a class=\"flex items-center justify-center text-[var(--muted)] text-[13px] w-[30px] h-[30px] border border-[var(--line)] rounded-[8px]\" href=\"{{href}}\">{{icon}}</a>{{/socials}} </div></div></div></footer></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

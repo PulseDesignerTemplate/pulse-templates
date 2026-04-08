@@ -8,15 +8,37 @@
   "subcategory": "mise-en-page",
   "icon": "fa-tags",
   "schema": {
-    "html": {
+    "text": {
       "type": "string",
-      "label": "HTML",
+      "label": "Texte",
       "multiline": true,
-      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"flex flex-wrap gap-[8px]\"><span class=\"bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[var(--brand)] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">Design</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">Marketing</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">Tech</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">Business</span></div></section>"
+      "default": "Votre texte ici."
+    },
+    "text_2": {
+      "type": "string",
+      "label": "Texte",
+      "multiline": true,
+      "default": "text_2"
+    },
+    "text_3": {
+      "type": "string",
+      "label": "Texte",
+      "multiline": true,
+      "default": "text_3"
+    },
+    "text_4": {
+      "type": "string",
+      "label": "Texte",
+      "multiline": true,
+      "default": "text_4"
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"flex flex-wrap gap-[8px]\"><span class=\"bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[var(--brand)] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">Design</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">Marketing</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">Tech</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">Business</span></div></section>"
+    "text": "Votre texte ici.",
+    "text_2": "text_2",
+    "text_3": "text_3",
+    "text_4": "text_4",
+    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"flex flex-wrap gap-[8px]\"><span class=\"bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[var(--brand)] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text}}</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text_2}}</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text_3}}</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text_4}}</span></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

@@ -8,15 +8,41 @@
   "icon": "fa-chart-bar",
   "description": "Chiffres clés",
   "schema": {
-    "html": {
+    "kicker": {
       "type": "string",
-      "label": "HTML",
+      "label": "Sur-titre (badge)",
+      "default": "Nouveau"
+    },
+    "title": {
+      "type": "string",
+      "label": "Titre principal",
       "multiline": true,
-      "default": "<section class=\"p-[72px_40px] relative overflow-hidden [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_8%,var(--bg)),var(--bg))]\"><div class=\"absolute top-[-60px] right-[-60px] w-[300px] h-[300px] rounded-[999px] bg-[var(--brand)] opacity-[.04] filter-[blur(60px)]\"></div><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[32px]\"> {{#stats}}<div class=\"text-center\" data-d=\"1\"><div class=\"text-[4rem] font-black text-[var(--brand)] tracking-[-.04em] leading-[1] mb-[10px]\">{{number}}</div><div class=\"text-[14px] text-[var(--text)] font-semibold mb-[6px]\">{{label}}</div><div class=\"text-[12px] text-[var(--muted)]\">&#8593; +12% ce mois</div></div>{{/stats}} </div></section>"
+      "default": "Titre principal"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "Sous-titre descriptif pour accompagner votre message."
+    },
+    "number": {
+      "type": "string",
+      "label": "Nombre / chiffre",
+      "default": "150+"
+    },
+    "label": {
+      "type": "string",
+      "label": "Libellé",
+      "default": "Libellé"
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[72px_40px] relative overflow-hidden [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_8%,var(--bg)),var(--bg))]\"><div class=\"absolute top-[-60px] right-[-60px] w-[300px] h-[300px] rounded-[999px] bg-[var(--brand)] opacity-[.04] filter-[blur(60px)]\"></div><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[32px]\"> {{#stats}}<div class=\"text-center\" data-d=\"1\"><div class=\"text-[4rem] font-black text-[var(--brand)] tracking-[-.04em] leading-[1] mb-[10px]\">{{number}}</div><div class=\"text-[14px] text-[var(--text)] font-semibold mb-[6px]\">{{label}}</div><div class=\"text-[12px] text-[var(--muted)]\">&#8593; +12% ce mois</div></div>{{/stats}} </div></section>"
+    "kicker": "Nouveau",
+    "title": "Titre principal",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "number": "150+",
+    "label": "Libellé",
+    "htmlTemplate": "<section class=\"p-[72px_40px] relative overflow-hidden [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_8%,var(--bg)),var(--bg))]\"><div class=\"absolute top-[-60px] right-[-60px] w-[300px] h-[300px] rounded-[999px] bg-[var(--brand)] opacity-[.04] filter-[blur(60px)]\"></div><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[32px]\"> {{#stats}}<div class=\"text-center\" data-d=\"1\"><div class=\"text-[4rem] font-black text-[var(--brand)] tracking-[-.04em] leading-[1] mb-[10px]\">{{number}}</div><div class=\"text-[14px] text-[var(--text)] font-semibold mb-[6px]\">{{label}}</div><div class=\"text-[12px] text-[var(--muted)]\">&#8593; +12% ce mois</div></div>{{/stats}} </div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

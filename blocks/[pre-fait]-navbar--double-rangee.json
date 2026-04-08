@@ -8,15 +8,51 @@
   "icon": "fa-bars",
   "description": "Barre de navigation",
   "schema": {
-    "html": {
+    "tagline": {
       "type": "string",
-      "label": "HTML",
-      "multiline": true,
-      "default": "<section id=\"gv-navbar-7\" data-gv-block=\"1\" data-gv-block-type=\"navbar\" data-gv-variant=\"7\" data-gv-block-id=\"gv-navbar-7\"><header class=\"bg-[var(--bg)]\"><div class=\"flex justify-between items-center bg-[var(--surface)] p-[7px_40px] [border-bottom:1px_solid_var(--line)]\"><span class=\"text-[11px] text-[var(--muted)] font-medium\">{{tagline}}</span><div class=\"flex gap-[20px] text-[11px] text-[var(--muted)]\"><span class=\"flex items-center gap-[5px]\">&#9993; {{email}}</span><span class=\"flex items-center gap-[5px]\">&#9990; {{phone}}</span></div></div><nav class=\"flex items-center justify-between gap-[12px] p-[0_40px] h-[58px] [border-bottom:1px_solid_var(--line)]\"><a class=\"flex items-center gap-[9px] [flex-shrink:0]\" href=\"#\"><div class=\"flex items-center justify-center w-[30px] h-[30px] rounded-[9px] bg-[var(--brand)] font-black text-[14px] text-[#fff]\">G</div><b class=\"text-[15px] text-[var(--text)]\">{{brand.name}}</b></a><div class=\"flex gap-[20px] text-[13px] max-[768px]:hidden\"> {{#navLinks}}<a class=\"text-[var(--muted)] text-[13px] font-medium [transition:color_.15s]\" href=\"{{href}}\">{{label}}</a>{{/navLinks}} </div><a class=\"bg-[var(--brand)] text-[#fff] p-[8px_18px] rounded-[8px] text-[13px] font-bold transition-opacity duration-[200ms] whitespace-nowrap hover:opacity-[.85]\" href=\"#\">{{cta.label}}</a></nav></header></section>"
+      "label": "Slogan",
+      "default": "Votre slogan accrocheur ici"
+    },
+    "email": {
+      "type": "string",
+      "label": "Email",
+      "default": "email"
+    },
+    "phone": {
+      "type": "string",
+      "label": "Phone",
+      "default": "phone"
+    },
+    "href": {
+      "type": "string",
+      "label": "Href",
+      "default": "href"
+    },
+    "label": {
+      "type": "string",
+      "label": "Libellé",
+      "default": "Libellé"
+    },
+    "cta_label": {
+      "type": "string",
+      "label": "Bouton — texte",
+      "default": "Commencer"
+    },
+    "brand_name": {
+      "type": "string",
+      "label": "Brand name",
+      "default": "brand_name"
     }
   },
   "defaults": {
-    "html": "<section id=\"gv-navbar-7\" data-gv-block=\"1\" data-gv-block-type=\"navbar\" data-gv-variant=\"7\" data-gv-block-id=\"gv-navbar-7\"><header class=\"bg-[var(--bg)]\"><div class=\"flex justify-between items-center bg-[var(--surface)] p-[7px_40px] [border-bottom:1px_solid_var(--line)]\"><span class=\"text-[11px] text-[var(--muted)] font-medium\">{{tagline}}</span><div class=\"flex gap-[20px] text-[11px] text-[var(--muted)]\"><span class=\"flex items-center gap-[5px]\">&#9993; {{email}}</span><span class=\"flex items-center gap-[5px]\">&#9990; {{phone}}</span></div></div><nav class=\"flex items-center justify-between gap-[12px] p-[0_40px] h-[58px] [border-bottom:1px_solid_var(--line)]\"><a class=\"flex items-center gap-[9px] [flex-shrink:0]\" href=\"#\"><div class=\"flex items-center justify-center w-[30px] h-[30px] rounded-[9px] bg-[var(--brand)] font-black text-[14px] text-[#fff]\">G</div><b class=\"text-[15px] text-[var(--text)]\">{{brand.name}}</b></a><div class=\"flex gap-[20px] text-[13px] max-[768px]:hidden\"> {{#navLinks}}<a class=\"text-[var(--muted)] text-[13px] font-medium [transition:color_.15s]\" href=\"{{href}}\">{{label}}</a>{{/navLinks}} </div><a class=\"bg-[var(--brand)] text-[#fff] p-[8px_18px] rounded-[8px] text-[13px] font-bold transition-opacity duration-[200ms] whitespace-nowrap hover:opacity-[.85]\" href=\"#\">{{cta.label}}</a></nav></header></section>"
+    "tagline": "Votre slogan accrocheur ici",
+    "email": "email",
+    "phone": "phone",
+    "href": "href",
+    "label": "Libellé",
+    "cta_label": "Commencer",
+    "brand_name": "brand_name",
+    "htmlTemplate": "<section id=\"gv-navbar-7\" data-gv-block=\"1\" data-gv-block-type=\"navbar\" data-gv-variant=\"7\" data-gv-block-id=\"gv-navbar-7\"><header class=\"bg-[var(--bg)]\"><div class=\"flex justify-between items-center bg-[var(--surface)] p-[7px_40px] [border-bottom:1px_solid_var(--line)]\"><span class=\"text-[11px] text-[var(--muted)] font-medium\">{{tagline}}</span><div class=\"flex gap-[20px] text-[11px] text-[var(--muted)]\"><span class=\"flex items-center gap-[5px]\">&#9993; {{email}}</span><span class=\"flex items-center gap-[5px]\">&#9990; {{phone}}</span></div></div><nav class=\"flex items-center justify-between gap-[12px] p-[0_40px] h-[58px] [border-bottom:1px_solid_var(--line)]\"><a class=\"flex items-center gap-[9px] [flex-shrink:0]\" href=\"#\"><div class=\"flex items-center justify-center w-[30px] h-[30px] rounded-[9px] bg-[var(--brand)] font-black text-[14px] text-[#fff]\">G</div><b class=\"text-[15px] text-[var(--text)]\">{{brand_name}}</b></a><div class=\"flex gap-[20px] text-[13px] max-[768px]:hidden\"> {{#navLinks}}<a class=\"text-[var(--muted)] text-[13px] font-medium [transition:color_.15s]\" href=\"{{href}}\">{{label}}</a>{{/navLinks}} </div><a class=\"bg-[var(--brand)] text-[#fff] p-[8px_18px] rounded-[8px] text-[13px] font-bold transition-opacity duration-[200ms] whitespace-nowrap hover:opacity-[.85]\" href=\"#\">{{cta_label}}</a></nav></header></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

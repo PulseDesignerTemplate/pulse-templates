@@ -8,15 +8,23 @@
   "subcategory": "mise-en-page",
   "icon": "fa-bell",
   "schema": {
-    "html": {
+    "text": {
       "type": "string",
-      "label": "HTML",
+      "label": "Texte",
       "multiline": true,
-      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[#dcfce7] border border-[#86efac] rounded-[12px] p-[16px_20px] max-w-[560px]\"><div class=\"flex items-center gap-[10px]\"><div class=\"w-[20px] h-[20px] rounded-full bg-[#16a34a] flex items-center justify-center flex-shrink-0\"><span class=\"text-[#fff] text-[11px] font-bold\">&#10003;</span></div><p class=\"text-[14px] text-[#166534] font-medium\">Action réussie ! Votre modification a été enregistrée.</p></div></div></section>"
+      "default": "Votre texte ici."
+    },
+    "paragraph": {
+      "type": "string",
+      "label": "Paragraphe",
+      "multiline": true,
+      "default": "Texte de paragraphe."
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[#dcfce7] border border-[#86efac] rounded-[12px] p-[16px_20px] max-w-[560px]\"><div class=\"flex items-center gap-[10px]\"><div class=\"w-[20px] h-[20px] rounded-full bg-[#16a34a] flex items-center justify-center flex-shrink-0\"><span class=\"text-[#fff] text-[11px] font-bold\">&#10003;</span></div><p class=\"text-[14px] text-[#166534] font-medium\">Action réussie ! Votre modification a été enregistrée.</p></div></div></section>"
+    "text": "Votre texte ici.",
+    "paragraph": "Texte de paragraphe.",
+    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[#dcfce7] border border-[#86efac] rounded-[12px] p-[16px_20px] max-w-[560px]\"><div class=\"flex items-center gap-[10px]\"><div class=\"w-[20px] h-[20px] rounded-full bg-[#16a34a] flex items-center justify-center flex-shrink-0\"><span class=\"text-[#fff] text-[11px] font-bold\">{{text}}</span></div><p class=\"text-[14px] text-[#166534] font-medium\">{{paragraph}}</p></div></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

@@ -8,15 +8,16 @@
   "subcategory": "conception",
   "icon": "fa-square-dashed",
   "schema": {
-    "html": {
+    "paragraph": {
       "type": "string",
-      "label": "HTML",
+      "label": "Paragraphe",
       "multiline": true,
-      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[32px] max-w-[800px]\"><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">Conteneur vide. Glissez des éléments à l'intérieur pour structurer votre page.</p></div></section>"
+      "default": "Texte de paragraphe."
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[32px] max-w-[800px]\"><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">Conteneur vide. Glissez des éléments à l'intérieur pour structurer votre page.</p></div></section>"
+    "paragraph": "Texte de paragraphe.",
+    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[32px] max-w-[800px]\"><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">{{paragraph}}</p></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

@@ -8,15 +8,29 @@
   "icon": "fa-bullhorn",
   "description": "Bloc appel à l'action standalone",
   "schema": {
-    "html": {
+    "title": {
       "type": "string",
-      "label": "HTML",
+      "label": "Titre principal",
       "multiline": true,
-      "default": "<section class=\"flex justify-between items-center flex-wrap gap-[24px] bg-[var(--surface)] p-[48px_40px] [border-top:1px_solid_var(--line)]\"><div><h2 class=\"text-[1.6rem] font-black text-[var(--text)] tracking-[-.02em] mb-[6px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px]\" data-d=\"1\">{{subtitle}}</p></div><div class=\"flex gap-[10px] flex-wrap [flex-shrink:0]\" data-d=\"2\"><a class=\"bg-[var(--brand)] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px] [white-space:nowrap]\">{{cta.label}} &#8594;</a></div></section>"
+      "default": "Titre principal"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "Sous-titre descriptif pour accompagner votre message."
+    },
+    "cta_label": {
+      "type": "string",
+      "label": "Bouton — texte",
+      "default": "Commencer"
     }
   },
   "defaults": {
-    "html": "<section class=\"flex justify-between items-center flex-wrap gap-[24px] bg-[var(--surface)] p-[48px_40px] [border-top:1px_solid_var(--line)]\"><div><h2 class=\"text-[1.6rem] font-black text-[var(--text)] tracking-[-.02em] mb-[6px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px]\" data-d=\"1\">{{subtitle}}</p></div><div class=\"flex gap-[10px] flex-wrap [flex-shrink:0]\" data-d=\"2\"><a class=\"bg-[var(--brand)] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px] [white-space:nowrap]\">{{cta.label}} &#8594;</a></div></section>"
+    "title": "Titre principal",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "cta_label": "Commencer",
+    "htmlTemplate": "<section class=\"flex justify-between items-center flex-wrap gap-[24px] bg-[var(--surface)] p-[48px_40px] [border-top:1px_solid_var(--line)]\"><div><h2 class=\"text-[1.6rem] font-black text-[var(--text)] tracking-[-.02em] mb-[6px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px]\" data-d=\"1\">{{subtitle}}</p></div><div class=\"flex gap-[10px] flex-wrap [flex-shrink:0]\" data-d=\"2\"><a class=\"bg-[var(--brand)] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px] [white-space:nowrap]\">{{cta_label}} &#8594;</a></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

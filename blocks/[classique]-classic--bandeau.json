@@ -8,15 +8,29 @@
   "subcategory": "mise-en-page",
   "icon": "fa-rectangle-ad",
   "schema": {
-    "html": {
+    "text": {
       "type": "string",
-      "label": "HTML",
+      "label": "Texte",
       "multiline": true,
-      "default": "<section class=\"p-[14px_40px] bg-[color-mix(in_srgb,var(--brand)_12%,var(--bg))] [border-top:1px_solid_color-mix(in_srgb,var(--brand)_30%,transparent)] [border-bottom:1px_solid_color-mix(in_srgb,var(--brand)_30%,transparent)]\"><div class=\"flex items-center justify-center gap-[12px] text-[14px] text-[var(--text)]\"><span class=\"bg-[var(--brand)] text-[#fff] p-[3px_10px] rounded-[999px] text-[11px] font-bold\">Nouveau</span><span>Votre annonce ici. <a class=\"text-[var(--brand)] font-bold [text-decoration:none]\" href=\"#\">En savoir plus →</a></span></div></section>"
+      "default": "Votre texte ici."
+    },
+    "text_2": {
+      "type": "string",
+      "label": "Texte",
+      "multiline": true,
+      "default": "text_2"
+    },
+    "link_label": {
+      "type": "string",
+      "label": "Lien — texte",
+      "default": "En savoir plus"
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[14px_40px] bg-[color-mix(in_srgb,var(--brand)_12%,var(--bg))] [border-top:1px_solid_color-mix(in_srgb,var(--brand)_30%,transparent)] [border-bottom:1px_solid_color-mix(in_srgb,var(--brand)_30%,transparent)]\"><div class=\"flex items-center justify-center gap-[12px] text-[14px] text-[var(--text)]\"><span class=\"bg-[var(--brand)] text-[#fff] p-[3px_10px] rounded-[999px] text-[11px] font-bold\">Nouveau</span><span>Votre annonce ici. <a class=\"text-[var(--brand)] font-bold [text-decoration:none]\" href=\"#\">En savoir plus →</a></span></div></section>"
+    "text": "Votre texte ici.",
+    "text_2": "text_2",
+    "link_label": "En savoir plus",
+    "htmlTemplate": "<section class=\"p-[14px_40px] bg-[color-mix(in_srgb,var(--brand)_12%,var(--bg))] [border-top:1px_solid_color-mix(in_srgb,var(--brand)_30%,transparent)] [border-bottom:1px_solid_color-mix(in_srgb,var(--brand)_30%,transparent)]\"><div class=\"flex items-center justify-center gap-[12px] text-[14px] text-[var(--text)]\"><span class=\"bg-[var(--brand)] text-[#fff] p-[3px_10px] rounded-[999px] text-[11px] font-bold\">{{text}}</span><span>{{text_2}}<a class=\"text-[var(--brand)] font-bold [text-decoration:none]\" href=\"#\">{{link_label}}</a></span></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

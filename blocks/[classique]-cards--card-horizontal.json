@@ -8,15 +8,35 @@
   "subcategory": "cards",
   "icon": "fa-grip-lines",
   "schema": {
-    "html": {
+    "image": {
       "type": "string",
-      "label": "HTML",
+      "label": "Image — URL",
+      "default": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop"
+    },
+    "image_alt": {
+      "type": "string",
+      "label": "Image — texte alt",
+      "default": "Illustration"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
       "multiline": true,
-      "default": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"flex bg-[var(--surface)] border border-[var(--line)] rounded-[18px] overflow-hidden max-w-[560px]\"><img class=\"w-[180px] object-cover flex-shrink-0\" src=\"https://picsum.photos/200/200?random=11\" alt=\"Illustration\"><div class=\"p-[24px] flex flex-col justify-center\"><h3 class=\"text-[16px] font-extrabold text-[var(--text)] mb-[8px]\">Titre de la card</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.65]\">Layout horizontal idéal pour les articles et les previews.</p></div></div></section>"
+      "default": "Sous-titre descriptif pour accompagner votre message."
+    },
+    "paragraph": {
+      "type": "string",
+      "label": "Paragraphe",
+      "multiline": true,
+      "default": "Texte de paragraphe."
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"flex bg-[var(--surface)] border border-[var(--line)] rounded-[18px] overflow-hidden max-w-[560px]\"><img class=\"w-[180px] object-cover flex-shrink-0\" src=\"https://picsum.photos/200/200?random=11\" alt=\"Illustration\"><div class=\"p-[24px] flex flex-col justify-center\"><h3 class=\"text-[16px] font-extrabold text-[var(--text)] mb-[8px]\">Titre de la card</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.65]\">Layout horizontal idéal pour les articles et les previews.</p></div></div></section>"
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
+    "image_alt": "Illustration",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "paragraph": "Texte de paragraphe.",
+    "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"flex bg-[var(--surface)] border border-[var(--line)] rounded-[18px] overflow-hidden max-w-[560px]\"><img class=\"w-[180px] object-cover flex-shrink-0\" src=\"{{image}}\" alt=\"{{image_alt}}\"><div class=\"p-[24px] flex flex-col justify-center\"><h3 class=\"text-[16px] font-extrabold text-[var(--text)] mb-[8px]\">{{subtitle}}</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.65]\">{{paragraph}}</p></div></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

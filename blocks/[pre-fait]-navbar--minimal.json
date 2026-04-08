@@ -8,15 +8,33 @@
   "icon": "fa-bars",
   "description": "Barre de navigation",
   "schema": {
-    "html": {
+    "brand_name": {
       "type": "string",
-      "label": "HTML",
-      "multiline": true,
-      "default": "<section id=\"gv-navbar-6\" data-gv-block=\"1\" data-gv-block-type=\"navbar\" data-gv-variant=\"6\" data-gv-block-id=\"gv-navbar-6\"><nav class=\"flex items-center justify-between gap-[16px] bg-[var(--bg)] p-[0_48px] h-[60px]\"><a class=\"text-[16px] font-black text-[var(--text)] tracking-[-.5px] [flex-shrink:0]\" href=\"#\">{{brand.name}}</a><div class=\"flex gap-[20px] text-[13px] max-[768px]:hidden\"> {{#navLinks}}<a class=\"text-[var(--muted)] text-[13px] font-medium [transition:color_.15s]\" href=\"{{href}}\">{{label}}</a>{{/navLinks}} </div><div class=\"flex items-center gap-[12px]\"><a class=\"flex items-center gap-[4px] text-[var(--brand)] text-[13px] font-bold\" href=\"#\">{{cta.label}} &#8594;</a><div class=\"hidden flex-col gap-[4px] cursor-pointer p-[6px] max-[768px]:flex\"><span></span><span></span><span></span></div></div></nav></section>"
+      "label": "Brand name",
+      "default": "brand_name"
+    },
+    "href": {
+      "type": "string",
+      "label": "Href",
+      "default": "href"
+    },
+    "label": {
+      "type": "string",
+      "label": "Libellé",
+      "default": "Libellé"
+    },
+    "cta_label": {
+      "type": "string",
+      "label": "Bouton — texte",
+      "default": "Commencer"
     }
   },
   "defaults": {
-    "html": "<section id=\"gv-navbar-6\" data-gv-block=\"1\" data-gv-block-type=\"navbar\" data-gv-variant=\"6\" data-gv-block-id=\"gv-navbar-6\"><nav class=\"flex items-center justify-between gap-[16px] bg-[var(--bg)] p-[0_48px] h-[60px]\"><a class=\"text-[16px] font-black text-[var(--text)] tracking-[-.5px] [flex-shrink:0]\" href=\"#\">{{brand.name}}</a><div class=\"flex gap-[20px] text-[13px] max-[768px]:hidden\"> {{#navLinks}}<a class=\"text-[var(--muted)] text-[13px] font-medium [transition:color_.15s]\" href=\"{{href}}\">{{label}}</a>{{/navLinks}} </div><div class=\"flex items-center gap-[12px]\"><a class=\"flex items-center gap-[4px] text-[var(--brand)] text-[13px] font-bold\" href=\"#\">{{cta.label}} &#8594;</a><div class=\"hidden flex-col gap-[4px] cursor-pointer p-[6px] max-[768px]:flex\"><span></span><span></span><span></span></div></div></nav></section>"
+    "brand_name": "brand_name",
+    "href": "href",
+    "label": "Libellé",
+    "cta_label": "Commencer",
+    "htmlTemplate": "<section id=\"gv-navbar-6\" data-gv-block=\"1\" data-gv-block-type=\"navbar\" data-gv-variant=\"6\" data-gv-block-id=\"gv-navbar-6\"><nav class=\"flex items-center justify-between gap-[16px] bg-[var(--bg)] p-[0_48px] h-[60px]\"><a class=\"text-[16px] font-black text-[var(--text)] tracking-[-.5px] [flex-shrink:0]\" href=\"#\">{{brand_name}}</a><div class=\"flex gap-[20px] text-[13px] max-[768px]:hidden\"> {{#navLinks}}<a class=\"text-[var(--muted)] text-[13px] font-medium [transition:color_.15s]\" href=\"{{href}}\">{{label}}</a>{{/navLinks}} </div><div class=\"flex items-center gap-[12px]\"><a class=\"flex items-center gap-[4px] text-[var(--brand)] text-[13px] font-bold\" href=\"#\">{{cta_label}} &#8594;</a><div class=\"hidden flex-col gap-[4px] cursor-pointer p-[6px] max-[768px]:flex\"><span></span><span></span><span></span></div></div></nav></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

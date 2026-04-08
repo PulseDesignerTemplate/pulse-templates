@@ -8,15 +8,42 @@
   "icon": "fa-bullhorn",
   "description": "Bloc appel à l'action standalone",
   "schema": {
-    "html": {
+    "title": {
       "type": "string",
-      "label": "HTML",
+      "label": "Titre principal",
       "multiline": true,
-      "default": "<section class=\"grid grid-cols-1 md:grid-cols-2 grid-cols-2 bg-[var(--surface)] p-[0] min-h-[200px] overflow-hidden\"><div class=\"flex flex-col gap-[14px] justify-center p-[56px_48px]\"><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.02em] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.7]\">{{subtitle}}</p></div><div class=\"flex flex-col gap-[14px] justify-center p-[56px_48px] [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_8%,var(--bg)),var(--bg))] [border-left:1px_solid_var(--line)]\" data-d=\"1\"><div class=\"flex gap-[10px] flex-wrap\"><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px]\">{{cta.label}} &#8594;</a><a class=\"border-[1.5px] border-[var(--line)] text-[var(--text)] p-[13px_24px] rounded-[10px] font-semibold text-[14px]\">En savoir plus</a></div><p class=\"text-[12px] text-[var(--muted)]\">&#10003; Aucune carte n&eacute;cessaire</p></div></section>"
+      "default": "Titre principal"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "Sous-titre descriptif pour accompagner votre message."
+    },
+    "cta_label": {
+      "type": "string",
+      "label": "Bouton — texte",
+      "default": "Commencer"
+    },
+    "link_label": {
+      "type": "string",
+      "label": "Lien — texte",
+      "default": "En savoir plus"
+    },
+    "paragraph": {
+      "type": "string",
+      "label": "Paragraphe",
+      "multiline": true,
+      "default": "Texte de paragraphe."
     }
   },
   "defaults": {
-    "html": "<section class=\"grid grid-cols-1 md:grid-cols-2 grid-cols-2 bg-[var(--surface)] p-[0] min-h-[200px] overflow-hidden\"><div class=\"flex flex-col gap-[14px] justify-center p-[56px_48px]\"><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.02em] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.7]\">{{subtitle}}</p></div><div class=\"flex flex-col gap-[14px] justify-center p-[56px_48px] [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_8%,var(--bg)),var(--bg))] [border-left:1px_solid_var(--line)]\" data-d=\"1\"><div class=\"flex gap-[10px] flex-wrap\"><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px]\">{{cta.label}} &#8594;</a><a class=\"border-[1.5px] border-[var(--line)] text-[var(--text)] p-[13px_24px] rounded-[10px] font-semibold text-[14px]\">En savoir plus</a></div><p class=\"text-[12px] text-[var(--muted)]\">&#10003; Aucune carte n&eacute;cessaire</p></div></section>"
+    "title": "Titre principal",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "cta_label": "Commencer",
+    "link_label": "En savoir plus",
+    "paragraph": "Texte de paragraphe.",
+    "htmlTemplate": "<section class=\"grid grid-cols-1 md:grid-cols-2 grid-cols-2 bg-[var(--surface)] p-[0] min-h-[200px] overflow-hidden\"><div class=\"flex flex-col gap-[14px] justify-center p-[56px_48px]\"><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.02em] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.7]\">{{subtitle}}</p></div><div class=\"flex flex-col gap-[14px] justify-center p-[56px_48px] [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_8%,var(--bg)),var(--bg))] [border-left:1px_solid_var(--line)]\" data-d=\"1\"><div class=\"flex gap-[10px] flex-wrap\"><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px]\">{{cta_label}} &#8594;</a><a class=\"border-[1.5px] border-[var(--line)] text-[var(--text)] p-[13px_24px] rounded-[10px] font-semibold text-[14px]\">{{link_label}}</a></div><p class=\"text-[12px] text-[var(--muted)]\">{{paragraph}}</p></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

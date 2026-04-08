@@ -8,15 +8,41 @@
   "icon": "fa-star",
   "description": "Header + slogan + CTA pleine largeur",
   "schema": {
-    "html": {
+    "title": {
       "type": "string",
-      "label": "HTML",
+      "label": "Titre principal",
       "multiline": true,
-      "default": "<section class=\"bg-[var(--surface)] p-[64px_48px] relative overflow-hidden [border-bottom:1px_solid_var(--line)]\"><div class=\"absolute top-[0] right-[0] w-[40%] h-[100%] [background:radial-gradient(ellipse_at_80%_50%,color-mix(in_srgb,var(--brand)_6%,transparent),transparent)] [pointer-events:none]\"></div><div class=\"flex items-center gap-[8px] text-[11px] text-[var(--brand)] tracking-[.15em] uppercase font-bold mb-[22px]\"><span class=\"w-[20px] h-[1px] bg-[var(--brand)]\"></span>{{kicker}}</div><h1 class=\"text-[2.2rem] max-[480px]:text-[1.8rem] text-[4.2rem] font-black leading-[1.01] text-[var(--text)] max-w-[860px] tracking-[-.04em] mb-[28px]\" data-d=\"1\">{{title}}</h1><div class=\"flex items-start gap-[56px] flex-wrap\"><p class=\"text-[var(--muted)] text-[15px] leading-[1.78] max-w-[460px] [flex:1]\" data-d=\"2\">{{subtitle}}</p><div class=\"flex gap-[12px] flex-wrap max-[768px]:flex-col max-[768px]:items-stretch [flex-shrink:0]\" data-d=\"3\"><a class=\"bg-[var(--brand)] text-[#fff] p-[13px_32px] rounded-[10px] font-bold text-[14px] inline-flex items-center gap-[8px] transition-[opacity,transform] duration-[200ms] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_28%,transparent)] hover:opacity-[.88] hover:translate-y-[-1px]\" href=\"#\">{{cta.label}}</a><a class=\"border-[1.5px] border-[var(--line)] text-[var(--text)] p-[13px_32px] rounded-[10px] font-semibold text-[14px] inline-flex items-center gap-[8px] transition-colors duration-[200ms] hover:bg-[rgba(128,128,128,.08)]\" href=\"#\">D&#233;mo</a></div></div></section>"
+      "default": "Titre principal"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "Sous-titre descriptif pour accompagner votre message."
+    },
+    "cta_label": {
+      "type": "string",
+      "label": "Bouton — texte",
+      "default": "Commencer"
+    },
+    "link_label": {
+      "type": "string",
+      "label": "Lien — texte",
+      "default": "En savoir plus"
+    },
+    "kicker": {
+      "type": "string",
+      "label": "Sur-titre (badge)",
+      "default": "Nouveau"
     }
   },
   "defaults": {
-    "html": "<section class=\"bg-[var(--surface)] p-[64px_48px] relative overflow-hidden [border-bottom:1px_solid_var(--line)]\"><div class=\"absolute top-[0] right-[0] w-[40%] h-[100%] [background:radial-gradient(ellipse_at_80%_50%,color-mix(in_srgb,var(--brand)_6%,transparent),transparent)] [pointer-events:none]\"></div><div class=\"flex items-center gap-[8px] text-[11px] text-[var(--brand)] tracking-[.15em] uppercase font-bold mb-[22px]\"><span class=\"w-[20px] h-[1px] bg-[var(--brand)]\"></span>{{kicker}}</div><h1 class=\"text-[2.2rem] max-[480px]:text-[1.8rem] text-[4.2rem] font-black leading-[1.01] text-[var(--text)] max-w-[860px] tracking-[-.04em] mb-[28px]\" data-d=\"1\">{{title}}</h1><div class=\"flex items-start gap-[56px] flex-wrap\"><p class=\"text-[var(--muted)] text-[15px] leading-[1.78] max-w-[460px] [flex:1]\" data-d=\"2\">{{subtitle}}</p><div class=\"flex gap-[12px] flex-wrap max-[768px]:flex-col max-[768px]:items-stretch [flex-shrink:0]\" data-d=\"3\"><a class=\"bg-[var(--brand)] text-[#fff] p-[13px_32px] rounded-[10px] font-bold text-[14px] inline-flex items-center gap-[8px] transition-[opacity,transform] duration-[200ms] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_28%,transparent)] hover:opacity-[.88] hover:translate-y-[-1px]\" href=\"#\">{{cta.label}}</a><a class=\"border-[1.5px] border-[var(--line)] text-[var(--text)] p-[13px_32px] rounded-[10px] font-semibold text-[14px] inline-flex items-center gap-[8px] transition-colors duration-[200ms] hover:bg-[rgba(128,128,128,.08)]\" href=\"#\">D&#233;mo</a></div></div></section>"
+    "title": "Titre principal",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "cta_label": "Commencer",
+    "link_label": "En savoir plus",
+    "kicker": "Nouveau",
+    "htmlTemplate": "<section class=\"bg-[var(--surface)] p-[64px_48px] relative overflow-hidden [border-bottom:1px_solid_var(--line)]\"><div class=\"absolute top-[0] right-[0] w-[40%] h-[100%] [background:radial-gradient(ellipse_at_80%_50%,color-mix(in_srgb,var(--brand)_6%,transparent),transparent)] [pointer-events:none]\"></div><div class=\"flex items-center gap-[8px] text-[11px] text-[var(--brand)] tracking-[.15em] uppercase font-bold mb-[22px]\"><span class=\"w-[20px] h-[1px] bg-[var(--brand)]\"></span>{{kicker}}</div><h1 class=\"text-[2.2rem] max-[480px]:text-[1.8rem] text-[4.2rem] font-black leading-[1.01] text-[var(--text)] max-w-[860px] tracking-[-.04em] mb-[28px]\" data-d=\"1\">{{title}}</h1><div class=\"flex items-start gap-[56px] flex-wrap\"><p class=\"text-[var(--muted)] text-[15px] leading-[1.78] max-w-[460px] [flex:1]\" data-d=\"2\">{{subtitle}}</p><div class=\"flex gap-[12px] flex-wrap max-[768px]:flex-col max-[768px]:items-stretch [flex-shrink:0]\" data-d=\"3\"><a class=\"bg-[var(--brand)] text-[#fff] p-[13px_32px] rounded-[10px] font-bold text-[14px] inline-flex items-center gap-[8px] transition-[opacity,transform] duration-[200ms] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_28%,transparent)] hover:opacity-[.88] hover:translate-y-[-1px]\" href=\"#\">{{cta_label}}</a><a class=\"border-[1.5px] border-[var(--line)] text-[var(--text)] p-[13px_32px] rounded-[10px] font-semibold text-[14px] inline-flex items-center gap-[8px] transition-colors duration-[200ms] hover:bg-[rgba(128,128,128,.08)]\" href=\"#\">{{link_label}}</a></div></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

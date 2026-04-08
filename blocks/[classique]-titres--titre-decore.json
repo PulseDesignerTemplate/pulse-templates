@@ -8,15 +8,23 @@
   "subcategory": "titres",
   "icon": "fa-wand-magic-sparkles",
   "schema": {
-    "html": {
+    "text": {
       "type": "string",
-      "label": "HTML",
+      "label": "Texte",
       "multiline": true,
-      "default": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"flex flex-col gap-[12px]\"><span class=\"inline-flex items-center gap-[6px] text-[var(--brand)] text-[12px] font-bold uppercase tracking-[.1em]\">* Section</span><h2 class=\"text-[2rem] font-extrabold text-[var(--text)] leading-[1.15] tracking-[-.02em]\">Titre avec label décoratif</h2><div class=\"w-[48px] h-[3px] bg-[var(--brand)] rounded-full\"></div></div></section>"
+      "default": "Votre texte ici."
+    },
+    "title_2": {
+      "type": "string",
+      "label": "Titre secondaire",
+      "multiline": true,
+      "default": "Titre secondaire"
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"flex flex-col gap-[12px]\"><span class=\"inline-flex items-center gap-[6px] text-[var(--brand)] text-[12px] font-bold uppercase tracking-[.1em]\">* Section</span><h2 class=\"text-[2rem] font-extrabold text-[var(--text)] leading-[1.15] tracking-[-.02em]\">Titre avec label décoratif</h2><div class=\"w-[48px] h-[3px] bg-[var(--brand)] rounded-full\"></div></div></section>"
+    "text": "Votre texte ici.",
+    "title_2": "Titre secondaire",
+    "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"flex flex-col gap-[12px]\"><span class=\"inline-flex items-center gap-[6px] text-[var(--brand)] text-[12px] font-bold uppercase tracking-[.1em]\">{{text}}</span><h2 class=\"text-[2rem] font-extrabold text-[var(--text)] leading-[1.15] tracking-[-.02em]\">{{title_2}}</h2><div class=\"w-[48px] h-[3px] bg-[var(--brand)] rounded-full\"></div></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

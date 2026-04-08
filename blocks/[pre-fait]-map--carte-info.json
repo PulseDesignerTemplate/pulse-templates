@@ -8,15 +8,61 @@
   "icon": "fa-map-location-dot",
   "description": "Carte / localisation",
   "schema": {
-    "html": {
+    "kicker": {
       "type": "string",
-      "label": "HTML",
+      "label": "Sur-titre (badge)",
+      "default": "Nouveau"
+    },
+    "title": {
+      "type": "string",
+      "label": "Titre principal",
       "multiline": true,
-      "default": "<section class=\"bg-[var(--bg)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-[1.2fr_1fr] gap-[24px] items-stretch\"><div class=\"flex flex-col items-center justify-center gap-[12px] bg-[var(--surface)] border border-[var(--line)] rounded-[18px] min-h-[260px] relative overflow-hidden\"><div class=\"absolute [inset:0] [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_4%,var(--surface)),var(--bg))]\"></div><div class=\"relative z-[1] text-[48px] opacity-[.25]\">&#9679;</div><div class=\"relative z-[1] text-[13px] text-[var(--muted)] font-medium\">Plan interactif</div><div class=\"flex items-center gap-[6px] absolute bottom-[16px] left-[50%] bg-[var(--brand)] text-[#fff] p-[6px_16px] rounded-[999px] text-[11px] font-bold [transform:translateX(-50%)] [white-space:nowrap]\"><span>&#9679;</span> {{address}} </div></div><div class=\"flex flex-col gap-[16px] justify-center\" data-d=\"1\"><h2 class=\"text-[1.6rem] font-black text-[var(--text)] tracking-[-.02em]\">Nous trouver</h2><div class=\"flex flex-col gap-[14px]\"><div class=\"flex items-start gap-[12px]\"><div class=\"flex items-center justify-center w-[40px] h-[40px] rounded-[11px] bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[18px] [flex-shrink:0]\">&#9679;</div><div><div class=\"text-[11px] font-bold text-[var(--brand)] uppercase tracking-[.1em] mb-[3px]\">Adresse</div><div class=\"text-[13.5px] text-[var(--text)]\">{{address}}</div></div></div><div class=\"flex items-start gap-[12px]\"><div class=\"flex items-center justify-center w-[40px] h-[40px] rounded-[11px] bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[18px] [flex-shrink:0]\">&#9990;</div><div><div class=\"text-[11px] font-bold text-[var(--brand)] uppercase tracking-[.1em] mb-[3px]\">T&eacute;l&eacute;phone</div><div class=\"text-[13.5px] text-[var(--text)]\">{{phone}}</div></div></div><div class=\"flex items-start gap-[12px]\"><div class=\"flex items-center justify-center w-[40px] h-[40px] rounded-[11px] bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[18px] [flex-shrink:0]\">&#9993;</div><div><div class=\"text-[11px] font-bold text-[var(--brand)] uppercase tracking-[.1em] mb-[3px]\">Email</div><div class=\"text-[13.5px] text-[var(--text)]\">{{email}}</div></div></div></div></div></div></section>"
+      "default": "Titre principal"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "Sous-titre descriptif pour accompagner votre message."
+    },
+    "text": {
+      "type": "string",
+      "label": "Texte",
+      "multiline": true,
+      "default": "Votre texte ici."
+    },
+    "title_2": {
+      "type": "string",
+      "label": "Titre secondaire",
+      "multiline": true,
+      "default": "Titre secondaire"
+    },
+    "address": {
+      "type": "string",
+      "label": "Address",
+      "default": "address"
+    },
+    "phone": {
+      "type": "string",
+      "label": "Phone",
+      "default": "phone"
+    },
+    "email": {
+      "type": "string",
+      "label": "Email",
+      "default": "email"
     }
   },
   "defaults": {
-    "html": "<section class=\"bg-[var(--bg)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-[1.2fr_1fr] gap-[24px] items-stretch\"><div class=\"flex flex-col items-center justify-center gap-[12px] bg-[var(--surface)] border border-[var(--line)] rounded-[18px] min-h-[260px] relative overflow-hidden\"><div class=\"absolute [inset:0] [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_4%,var(--surface)),var(--bg))]\"></div><div class=\"relative z-[1] text-[48px] opacity-[.25]\">&#9679;</div><div class=\"relative z-[1] text-[13px] text-[var(--muted)] font-medium\">Plan interactif</div><div class=\"flex items-center gap-[6px] absolute bottom-[16px] left-[50%] bg-[var(--brand)] text-[#fff] p-[6px_16px] rounded-[999px] text-[11px] font-bold [transform:translateX(-50%)] [white-space:nowrap]\"><span>&#9679;</span> {{address}} </div></div><div class=\"flex flex-col gap-[16px] justify-center\" data-d=\"1\"><h2 class=\"text-[1.6rem] font-black text-[var(--text)] tracking-[-.02em]\">Nous trouver</h2><div class=\"flex flex-col gap-[14px]\"><div class=\"flex items-start gap-[12px]\"><div class=\"flex items-center justify-center w-[40px] h-[40px] rounded-[11px] bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[18px] [flex-shrink:0]\">&#9679;</div><div><div class=\"text-[11px] font-bold text-[var(--brand)] uppercase tracking-[.1em] mb-[3px]\">Adresse</div><div class=\"text-[13.5px] text-[var(--text)]\">{{address}}</div></div></div><div class=\"flex items-start gap-[12px]\"><div class=\"flex items-center justify-center w-[40px] h-[40px] rounded-[11px] bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[18px] [flex-shrink:0]\">&#9990;</div><div><div class=\"text-[11px] font-bold text-[var(--brand)] uppercase tracking-[.1em] mb-[3px]\">T&eacute;l&eacute;phone</div><div class=\"text-[13.5px] text-[var(--text)]\">{{phone}}</div></div></div><div class=\"flex items-start gap-[12px]\"><div class=\"flex items-center justify-center w-[40px] h-[40px] rounded-[11px] bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[18px] [flex-shrink:0]\">&#9993;</div><div><div class=\"text-[11px] font-bold text-[var(--brand)] uppercase tracking-[.1em] mb-[3px]\">Email</div><div class=\"text-[13.5px] text-[var(--text)]\">{{email}}</div></div></div></div></div></div></section>"
+    "kicker": "Nouveau",
+    "title": "Titre principal",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "text": "Votre texte ici.",
+    "title_2": "Titre secondaire",
+    "address": "address",
+    "phone": "phone",
+    "email": "email",
+    "htmlTemplate": "<section class=\"bg-[var(--bg)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-[1.2fr_1fr] gap-[24px] items-stretch\"><div class=\"flex flex-col items-center justify-center gap-[12px] bg-[var(--surface)] border border-[var(--line)] rounded-[18px] min-h-[260px] relative overflow-hidden\"><div class=\"absolute [inset:0] [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_4%,var(--surface)),var(--bg))]\"></div><div class=\"relative z-[1] text-[48px] opacity-[.25]\">&#9679;</div><div class=\"relative z-[1] text-[13px] text-[var(--muted)] font-medium\">Plan interactif</div><div class=\"flex items-center gap-[6px] absolute bottom-[16px] left-[50%] bg-[var(--brand)] text-[#fff] p-[6px_16px] rounded-[999px] text-[11px] font-bold [transform:translateX(-50%)] [white-space:nowrap]\"><span>{{text}}</span> {{address}} </div></div><div class=\"flex flex-col gap-[16px] justify-center\" data-d=\"1\"><h2 class=\"text-[1.6rem] font-black text-[var(--text)] tracking-[-.02em]\">{{title_2}}</h2><div class=\"flex flex-col gap-[14px]\"><div class=\"flex items-start gap-[12px]\"><div class=\"flex items-center justify-center w-[40px] h-[40px] rounded-[11px] bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[18px] [flex-shrink:0]\">&#9679;</div><div><div class=\"text-[11px] font-bold text-[var(--brand)] uppercase tracking-[.1em] mb-[3px]\">Adresse</div><div class=\"text-[13.5px] text-[var(--text)]\">{{address}}</div></div></div><div class=\"flex items-start gap-[12px]\"><div class=\"flex items-center justify-center w-[40px] h-[40px] rounded-[11px] bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[18px] [flex-shrink:0]\">&#9990;</div><div><div class=\"text-[11px] font-bold text-[var(--brand)] uppercase tracking-[.1em] mb-[3px]\">T&eacute;l&eacute;phone</div><div class=\"text-[13.5px] text-[var(--text)]\">{{phone}}</div></div></div><div class=\"flex items-start gap-[12px]\"><div class=\"flex items-center justify-center w-[40px] h-[40px] rounded-[11px] bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[18px] [flex-shrink:0]\">&#9993;</div><div><div class=\"text-[11px] font-bold text-[var(--brand)] uppercase tracking-[.1em] mb-[3px]\">Email</div><div class=\"text-[13.5px] text-[var(--text)]\">{{email}}</div></div></div></div></div></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

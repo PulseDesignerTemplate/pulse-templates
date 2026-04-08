@@ -8,15 +8,48 @@
   "icon": "fa-list-check",
   "description": "3–6 points forts",
   "schema": {
-    "html": {
+    "kicker": {
       "type": "string",
-      "label": "HTML",
+      "label": "Sur-titre (badge)",
+      "default": "Nouveau"
+    },
+    "title": {
+      "type": "string",
+      "label": "Titre principal",
       "multiline": true,
-      "default": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"inline-flex items-center gap-[8px] text-[11px] font-bold text-[var(--brand)] tracking-[.14em] uppercase bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] p-[4px_14px] rounded-[999px] mb-[14px]\">{{kicker}}</span><h2 class=\"text-[2.4rem] font-black text-[var(--text)] tracking-[-.025em] mb-[12px] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14.5px] max-w-[500px] m-[0_auto] leading-[1.7]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[20px]\"> {{#items}}<div class=\"border border-[color-mix(in_srgb,var(--brand)_18%,var(--line))] rounded-[22px] p-[32px] relative overflow-hidden [background:linear-gradient(145deg,var(--surface),color-mix(in_srgb,var(--brand)_4%,var(--bg)))]\"><div class=\"absolute top-[-40px] right-[-40px] w-[140px] h-[140px] rounded-[999px] bg-[var(--brand)] opacity-[.06] filter-[blur(40px)]\"></div><div class=\"text-[28px] mb-[18px]\">{{icon}}</div><div class=\"text-[11px] font-bold text-[var(--brand)] uppercase tracking-[.12em] mb-[10px]\">{{badge}}</div><h3 class=\"text-[15px] font-extrabold text-[var(--text)] mb-[10px] tracking-[-.01em]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[13px] leading-[1.65]\">{{desc}}</p></div>{{/items}} </div></section>"
+      "default": "Titre principal"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "Sous-titre descriptif pour accompagner votre message."
+    },
+    "desc": {
+      "type": "string",
+      "label": "Description",
+      "multiline": true,
+      "default": "Description courte et engageante."
+    },
+    "icon": {
+      "type": "string",
+      "label": "Icône",
+      "default": "★"
+    },
+    "badge": {
+      "type": "string",
+      "label": "Badge",
+      "default": "Populaire"
     }
   },
   "defaults": {
-    "html": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"inline-flex items-center gap-[8px] text-[11px] font-bold text-[var(--brand)] tracking-[.14em] uppercase bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] p-[4px_14px] rounded-[999px] mb-[14px]\">{{kicker}}</span><h2 class=\"text-[2.4rem] font-black text-[var(--text)] tracking-[-.025em] mb-[12px] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14.5px] max-w-[500px] m-[0_auto] leading-[1.7]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[20px]\"> {{#items}}<div class=\"border border-[color-mix(in_srgb,var(--brand)_18%,var(--line))] rounded-[22px] p-[32px] relative overflow-hidden [background:linear-gradient(145deg,var(--surface),color-mix(in_srgb,var(--brand)_4%,var(--bg)))]\"><div class=\"absolute top-[-40px] right-[-40px] w-[140px] h-[140px] rounded-[999px] bg-[var(--brand)] opacity-[.06] filter-[blur(40px)]\"></div><div class=\"text-[28px] mb-[18px]\">{{icon}}</div><div class=\"text-[11px] font-bold text-[var(--brand)] uppercase tracking-[.12em] mb-[10px]\">{{badge}}</div><h3 class=\"text-[15px] font-extrabold text-[var(--text)] mb-[10px] tracking-[-.01em]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[13px] leading-[1.65]\">{{desc}}</p></div>{{/items}} </div></section>"
+    "kicker": "Nouveau",
+    "title": "Titre principal",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "desc": "Description courte et engageante.",
+    "icon": "★",
+    "badge": "Populaire",
+    "htmlTemplate": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"inline-flex items-center gap-[8px] text-[11px] font-bold text-[var(--brand)] tracking-[.14em] uppercase bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] p-[4px_14px] rounded-[999px] mb-[14px]\">{{kicker}}</span><h2 class=\"text-[2.4rem] font-black text-[var(--text)] tracking-[-.025em] mb-[12px] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14.5px] max-w-[500px] m-[0_auto] leading-[1.7]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[20px]\"> {{#items}}<div class=\"border border-[color-mix(in_srgb,var(--brand)_18%,var(--line))] rounded-[22px] p-[32px] relative overflow-hidden [background:linear-gradient(145deg,var(--surface),color-mix(in_srgb,var(--brand)_4%,var(--bg)))]\"><div class=\"absolute top-[-40px] right-[-40px] w-[140px] h-[140px] rounded-[999px] bg-[var(--brand)] opacity-[.06] filter-[blur(40px)]\"></div><div class=\"text-[28px] mb-[18px]\">{{icon}}</div><div class=\"text-[11px] font-bold text-[var(--brand)] uppercase tracking-[.12em] mb-[10px]\">{{badge}}</div><h3 class=\"text-[15px] font-extrabold text-[var(--text)] mb-[10px] tracking-[-.01em]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[13px] leading-[1.65]\">{{desc}}</p></div>{{/items}} </div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

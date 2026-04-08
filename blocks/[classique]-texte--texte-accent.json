@@ -8,15 +8,16 @@
   "subcategory": "texte",
   "icon": "fa-bold",
   "schema": {
-    "html": {
+    "paragraph": {
       "type": "string",
-      "label": "HTML",
+      "label": "Paragraphe",
       "multiline": true,
-      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[1.15rem] font-medium text-[var(--text)] leading-[1.7] max-w-[640px]\">Un texte mis en avant avec un style plus imposant pour attirer l'attention sur un message clé.</p></section>"
+      "default": "Texte de paragraphe."
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[1.15rem] font-medium text-[var(--text)] leading-[1.7] max-w-[640px]\">Un texte mis en avant avec un style plus imposant pour attirer l'attention sur un message clé.</p></section>"
+    "paragraph": "Texte de paragraphe.",
+    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[1.15rem] font-medium text-[var(--text)] leading-[1.7] max-w-[640px]\">{{paragraph}}</p></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

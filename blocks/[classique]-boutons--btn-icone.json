@@ -8,15 +8,23 @@
   "subcategory": "boutons",
   "icon": "fa-play-circle",
   "schema": {
-    "html": {
+    "text": {
       "type": "string",
-      "label": "HTML",
+      "label": "Texte",
       "multiline": true,
-      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[10px] bg-[var(--brand)] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none] shadow-[0_4px_20px_rgba(249,115,22,.28)]\" href=\"#\"><span>></span><span>Voir la démo</span></a></section>"
+      "default": "Votre texte ici."
+    },
+    "text_2": {
+      "type": "string",
+      "label": "Texte",
+      "multiline": true,
+      "default": "text_2"
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[10px] bg-[var(--brand)] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none] shadow-[0_4px_20px_rgba(249,115,22,.28)]\" href=\"#\"><span>></span><span>Voir la démo</span></a></section>"
+    "text": "Votre texte ici.",
+    "text_2": "text_2",
+    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[10px] bg-[var(--brand)] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none] shadow-[0_4px_20px_rgba(249,115,22,.28)]\" href=\"#\"><span>{{text}}</span><span>{{text_2}}</span></a></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

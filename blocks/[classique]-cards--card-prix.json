@@ -8,15 +8,54 @@
   "subcategory": "cards",
   "icon": "fa-tag",
   "schema": {
-    "html": {
+    "paragraph": {
       "type": "string",
-      "label": "HTML",
+      "label": "Paragraphe",
       "multiline": true,
-      "default": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[32px] max-w-[320px] text-center\"><p class=\"text-[12px] font-bold uppercase tracking-[.08em] text-[var(--brand)] mb-[12px]\">Pro</p><div class=\"flex items-baseline justify-center gap-[4px] mb-[20px]\"><span class=\"text-[2.5rem] font-black text-[var(--text)]\">29€</span><span class=\"text-[14px] text-[var(--muted)]\">/mois</span></div><ul class=\"flex flex-col gap-[10px] text-[14px] text-[var(--muted)] leading-[1.6] mb-[24px] list-none p-0 m-0\"><li>✓ Fonctionnalité incluse</li><li>✓ Support prioritaire</li><li>✓ Mises à jour illimitées</li></ul><a class=\"block bg-[var(--brand)] text-[#fff] p-[12px_24px] rounded-[10px] font-bold text-[14px] [text-decoration:none] text-center\" href=\"#\">Choisir ce plan</a></div></section>"
+      "default": "Texte de paragraphe."
+    },
+    "text": {
+      "type": "string",
+      "label": "Texte",
+      "multiline": true,
+      "default": "Votre texte ici."
+    },
+    "text_2": {
+      "type": "string",
+      "label": "Texte",
+      "multiline": true,
+      "default": "text_2"
+    },
+    "list_item": {
+      "type": "string",
+      "label": "List item",
+      "default": "list_item"
+    },
+    "list_item_2": {
+      "type": "string",
+      "label": "List item 2",
+      "default": "list_item_2"
+    },
+    "list_item_3": {
+      "type": "string",
+      "label": "List item 3",
+      "default": "list_item_3"
+    },
+    "link_label": {
+      "type": "string",
+      "label": "Lien — texte",
+      "default": "En savoir plus"
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[32px] max-w-[320px] text-center\"><p class=\"text-[12px] font-bold uppercase tracking-[.08em] text-[var(--brand)] mb-[12px]\">Pro</p><div class=\"flex items-baseline justify-center gap-[4px] mb-[20px]\"><span class=\"text-[2.5rem] font-black text-[var(--text)]\">29€</span><span class=\"text-[14px] text-[var(--muted)]\">/mois</span></div><ul class=\"flex flex-col gap-[10px] text-[14px] text-[var(--muted)] leading-[1.6] mb-[24px] list-none p-0 m-0\"><li>✓ Fonctionnalité incluse</li><li>✓ Support prioritaire</li><li>✓ Mises à jour illimitées</li></ul><a class=\"block bg-[var(--brand)] text-[#fff] p-[12px_24px] rounded-[10px] font-bold text-[14px] [text-decoration:none] text-center\" href=\"#\">Choisir ce plan</a></div></section>"
+    "paragraph": "Texte de paragraphe.",
+    "text": "Votre texte ici.",
+    "text_2": "text_2",
+    "list_item": "list_item",
+    "list_item_2": "list_item_2",
+    "list_item_3": "list_item_3",
+    "link_label": "En savoir plus",
+    "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[32px] max-w-[320px] text-center\"><p class=\"text-[12px] font-bold uppercase tracking-[.08em] text-[var(--brand)] mb-[12px]\">{{paragraph}}</p><div class=\"flex items-baseline justify-center gap-[4px] mb-[20px]\"><span class=\"text-[2.5rem] font-black text-[var(--text)]\">{{text}}</span><span class=\"text-[14px] text-[var(--muted)]\">{{text_2}}</span></div><ul class=\"flex flex-col gap-[10px] text-[14px] text-[var(--muted)] leading-[1.6] mb-[24px] list-none p-0 m-0\"><li>{{list_item}}</li><li>{{list_item_2}}</li><li>{{list_item_3}}</li></ul><a class=\"block bg-[var(--brand)] text-[#fff] p-[12px_24px] rounded-[10px] font-bold text-[14px] [text-decoration:none] text-center\" href=\"#\">{{link_label}}</a></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

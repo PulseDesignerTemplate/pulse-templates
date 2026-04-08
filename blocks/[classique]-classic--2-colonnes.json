@@ -8,15 +8,23 @@
   "subcategory": "colonnes",
   "icon": "fa-table-columns",
   "schema": {
-    "html": {
+    "title_2": {
       "type": "string",
-      "label": "HTML",
+      "label": "Titre secondaire",
       "multiline": true,
-      "default": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"grid grid-cols-2 gap-[32px] items-center\"><div><h2 class=\"text-[1.8rem] font-extrabold text-[var(--text)] leading-[1.2] mb-[16px]\">Titre de colonne</h2><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">Votre contenu ici. Ajoutez du texte, des images ou d’autres éléments dans cette colonne.</p></div><div class=\"flex items-center justify-center bg-[var(--surface)] border border-[var(--line)] rounded-[16px] h-[200px] text-[var(--muted)] text-[14px]\">Contenu</div></div></section>"
+      "default": "Titre secondaire"
+    },
+    "paragraph": {
+      "type": "string",
+      "label": "Paragraphe",
+      "multiline": true,
+      "default": "Texte de paragraphe."
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"grid grid-cols-2 gap-[32px] items-center\"><div><h2 class=\"text-[1.8rem] font-extrabold text-[var(--text)] leading-[1.2] mb-[16px]\">Titre de colonne</h2><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">Votre contenu ici. Ajoutez du texte, des images ou d’autres éléments dans cette colonne.</p></div><div class=\"flex items-center justify-center bg-[var(--surface)] border border-[var(--line)] rounded-[16px] h-[200px] text-[var(--muted)] text-[14px]\">Contenu</div></div></section>"
+    "title_2": "Titre secondaire",
+    "paragraph": "Texte de paragraphe.",
+    "htmlTemplate": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"grid grid-cols-2 gap-[32px] items-center\"><div><h2 class=\"text-[1.8rem] font-extrabold text-[var(--text)] leading-[1.2] mb-[16px]\">{{title_2}}</h2><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">{{paragraph}}</p></div><div class=\"flex items-center justify-center bg-[var(--surface)] border border-[var(--line)] rounded-[16px] h-[200px] text-[var(--muted)] text-[14px]\">Contenu</div></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

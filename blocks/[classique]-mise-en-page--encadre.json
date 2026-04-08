@@ -8,15 +8,30 @@
   "subcategory": "mise-en-page",
   "icon": "fa-lightbulb",
   "schema": {
-    "html": {
+    "text": {
       "type": "string",
-      "label": "HTML",
+      "label": "Texte",
       "multiline": true,
-      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[color-mix(in_srgb,var(--brand)_8%,transparent)] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] rounded-[14px] p-[24px] max-w-[600px]\"><div class=\"flex items-start gap-[12px]\"><span class=\"text-[var(--brand)] text-[18px] mt-[2px]\">*</span><div><p class=\"text-[14px] font-semibold text-[var(--text)] mb-[4px]\">Bon à savoir</p><p class=\"text-[13px] text-[var(--muted)] leading-[1.65]\">Un encadré coloré pour mettre en avant une information importante ou un conseil.</p></div></div></div></section>"
+      "default": "Votre texte ici."
+    },
+    "paragraph": {
+      "type": "string",
+      "label": "Paragraphe",
+      "multiline": true,
+      "default": "Texte de paragraphe."
+    },
+    "paragraph_2": {
+      "type": "string",
+      "label": "Paragraphe 2",
+      "multiline": true,
+      "default": "paragraph_2"
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[color-mix(in_srgb,var(--brand)_8%,transparent)] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] rounded-[14px] p-[24px] max-w-[600px]\"><div class=\"flex items-start gap-[12px]\"><span class=\"text-[var(--brand)] text-[18px] mt-[2px]\">*</span><div><p class=\"text-[14px] font-semibold text-[var(--text)] mb-[4px]\">Bon à savoir</p><p class=\"text-[13px] text-[var(--muted)] leading-[1.65]\">Un encadré coloré pour mettre en avant une information importante ou un conseil.</p></div></div></div></section>"
+    "text": "Votre texte ici.",
+    "paragraph": "Texte de paragraphe.",
+    "paragraph_2": "paragraph_2",
+    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[color-mix(in_srgb,var(--brand)_8%,transparent)] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] rounded-[14px] p-[24px] max-w-[600px]\"><div class=\"flex items-start gap-[12px]\"><span class=\"text-[var(--brand)] text-[18px] mt-[2px]\">{{text}}</span><div><p class=\"text-[14px] font-semibold text-[var(--text)] mb-[4px]\">{{paragraph}}</p><p class=\"text-[13px] text-[var(--muted)] leading-[1.65]\">{{paragraph_2}}</p></div></div></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

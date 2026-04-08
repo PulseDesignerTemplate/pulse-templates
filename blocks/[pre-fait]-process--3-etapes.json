@@ -8,15 +8,72 @@
   "icon": "fa-arrows-spin",
   "description": "Comment ça marche en 3 étapes",
   "schema": {
-    "html": {
+    "text": {
       "type": "string",
-      "label": "HTML",
+      "label": "Texte",
       "multiline": true,
-      "default": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">Comment ca marche</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">Simple comme 1, 2, 3</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">Lancez-vous en quelques minutes seulement</p></div><div class=\"grid grid-cols-3 gap-[32px]\"><div class=\"text-center relative\"><div class=\"w-[56px] h-[56px] rounded-full bg-[var(--brand)] text-[#fff] text-[22px] font-black flex items-center justify-center mx-auto mb-[20px] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_30%,transparent)]\">1</div><h3 class=\"text-[16px] font-bold text-[var(--text)] mb-[8px]\">Inscrivez-vous</h3><p class=\"text-[13px] text-[var(--muted)] leading-[1.7] max-w-[260px] mx-auto\">Creez votre compte gratuitement en moins de 2 minutes.</p></div><div class=\"text-center relative\"><div class=\"w-[56px] h-[56px] rounded-full bg-[var(--brand)] text-[#fff] text-[22px] font-black flex items-center justify-center mx-auto mb-[20px] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_30%,transparent)]\">2</div><h3 class=\"text-[16px] font-bold text-[var(--text)] mb-[8px]\">Configurez</h3><p class=\"text-[13px] text-[var(--muted)] leading-[1.7] max-w-[260px] mx-auto\">Personnalisez selon vos besoins avec notre assistant.</p></div><div class=\"text-center relative\"><div class=\"w-[56px] h-[56px] rounded-full bg-[var(--brand)] text-[#fff] text-[22px] font-black flex items-center justify-center mx-auto mb-[20px] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_30%,transparent)]\">3</div><h3 class=\"text-[16px] font-bold text-[var(--text)] mb-[8px]\">Lancez</h3><p class=\"text-[13px] text-[var(--muted)] leading-[1.7] max-w-[260px] mx-auto\">Publiez et commencez a obtenir des resultats.</p></div></div></section>"
+      "default": "Votre texte ici."
+    },
+    "title_2": {
+      "type": "string",
+      "label": "Titre secondaire",
+      "multiline": true,
+      "default": "Titre secondaire"
+    },
+    "paragraph": {
+      "type": "string",
+      "label": "Paragraphe",
+      "multiline": true,
+      "default": "Texte de paragraphe."
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "Sous-titre descriptif pour accompagner votre message."
+    },
+    "paragraph_2": {
+      "type": "string",
+      "label": "Paragraphe 2",
+      "multiline": true,
+      "default": "paragraph_2"
+    },
+    "subtitle_2": {
+      "type": "string",
+      "label": "Sous-titre 2",
+      "multiline": true,
+      "default": "Sous-titre 2"
+    },
+    "paragraph_3": {
+      "type": "string",
+      "label": "Paragraphe 3",
+      "multiline": true,
+      "default": "paragraph_3"
+    },
+    "subtitle_3": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "subtitle_3"
+    },
+    "paragraph_4": {
+      "type": "string",
+      "label": "Paragraphe",
+      "multiline": true,
+      "default": "paragraph_4"
     }
   },
   "defaults": {
-    "html": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">Comment ca marche</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">Simple comme 1, 2, 3</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">Lancez-vous en quelques minutes seulement</p></div><div class=\"grid grid-cols-3 gap-[32px]\"><div class=\"text-center relative\"><div class=\"w-[56px] h-[56px] rounded-full bg-[var(--brand)] text-[#fff] text-[22px] font-black flex items-center justify-center mx-auto mb-[20px] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_30%,transparent)]\">1</div><h3 class=\"text-[16px] font-bold text-[var(--text)] mb-[8px]\">Inscrivez-vous</h3><p class=\"text-[13px] text-[var(--muted)] leading-[1.7] max-w-[260px] mx-auto\">Creez votre compte gratuitement en moins de 2 minutes.</p></div><div class=\"text-center relative\"><div class=\"w-[56px] h-[56px] rounded-full bg-[var(--brand)] text-[#fff] text-[22px] font-black flex items-center justify-center mx-auto mb-[20px] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_30%,transparent)]\">2</div><h3 class=\"text-[16px] font-bold text-[var(--text)] mb-[8px]\">Configurez</h3><p class=\"text-[13px] text-[var(--muted)] leading-[1.7] max-w-[260px] mx-auto\">Personnalisez selon vos besoins avec notre assistant.</p></div><div class=\"text-center relative\"><div class=\"w-[56px] h-[56px] rounded-full bg-[var(--brand)] text-[#fff] text-[22px] font-black flex items-center justify-center mx-auto mb-[20px] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_30%,transparent)]\">3</div><h3 class=\"text-[16px] font-bold text-[var(--text)] mb-[8px]\">Lancez</h3><p class=\"text-[13px] text-[var(--muted)] leading-[1.7] max-w-[260px] mx-auto\">Publiez et commencez a obtenir des resultats.</p></div></div></section>"
+    "text": "Votre texte ici.",
+    "title_2": "Titre secondaire",
+    "paragraph": "Texte de paragraphe.",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "paragraph_2": "paragraph_2",
+    "subtitle_2": "Sous-titre 2",
+    "paragraph_3": "paragraph_3",
+    "subtitle_3": "subtitle_3",
+    "paragraph_4": "paragraph_4",
+    "htmlTemplate": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{text}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title_2}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{paragraph}}</p></div><div class=\"grid grid-cols-3 gap-[32px]\"><div class=\"text-center relative\"><div class=\"w-[56px] h-[56px] rounded-full bg-[var(--brand)] text-[#fff] text-[22px] font-black flex items-center justify-center mx-auto mb-[20px] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_30%,transparent)]\">1</div><h3 class=\"text-[16px] font-bold text-[var(--text)] mb-[8px]\">{{subtitle}}</h3><p class=\"text-[13px] text-[var(--muted)] leading-[1.7] max-w-[260px] mx-auto\">{{paragraph_2}}</p></div><div class=\"text-center relative\"><div class=\"w-[56px] h-[56px] rounded-full bg-[var(--brand)] text-[#fff] text-[22px] font-black flex items-center justify-center mx-auto mb-[20px] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_30%,transparent)]\">2</div><h3 class=\"text-[16px] font-bold text-[var(--text)] mb-[8px]\">{{subtitle_2}}</h3><p class=\"text-[13px] text-[var(--muted)] leading-[1.7] max-w-[260px] mx-auto\">{{paragraph_3}}</p></div><div class=\"text-center relative\"><div class=\"w-[56px] h-[56px] rounded-full bg-[var(--brand)] text-[#fff] text-[22px] font-black flex items-center justify-center mx-auto mb-[20px] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_30%,transparent)]\">3</div><h3 class=\"text-[16px] font-bold text-[var(--text)] mb-[8px]\">{{subtitle_3}}</h3><p class=\"text-[13px] text-[var(--muted)] leading-[1.7] max-w-[260px] mx-auto\">{{paragraph_4}}</p></div></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

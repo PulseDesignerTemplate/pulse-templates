@@ -8,15 +8,79 @@
   "icon": "fa-building",
   "description": "Valeurs d'entreprise en grid",
   "schema": {
-    "html": {
+    "text": {
       "type": "string",
-      "label": "HTML",
+      "label": "Texte",
       "multiline": true,
-      "default": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">Nos valeurs</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1]\">Ce qui nous guide</h2></div><div class=\"grid grid-cols-4 gap-[20px]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">01</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">Innovation</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">Toujours a la pointe pour vous offrir le meilleur.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">02</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">Transparence</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">Communication claire et honnete en toutes circonstances.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">03</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">Excellence</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">La qualite au coeur de chaque decision.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">04</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">Proximite</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">Un accompagnement humain et personnalise.</p></div></div></section>"
+      "default": "Votre texte ici."
+    },
+    "title_2": {
+      "type": "string",
+      "label": "Titre secondaire",
+      "multiline": true,
+      "default": "Titre secondaire"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "Sous-titre descriptif pour accompagner votre message."
+    },
+    "paragraph": {
+      "type": "string",
+      "label": "Paragraphe",
+      "multiline": true,
+      "default": "Texte de paragraphe."
+    },
+    "subtitle_2": {
+      "type": "string",
+      "label": "Sous-titre 2",
+      "multiline": true,
+      "default": "Sous-titre 2"
+    },
+    "paragraph_2": {
+      "type": "string",
+      "label": "Paragraphe 2",
+      "multiline": true,
+      "default": "paragraph_2"
+    },
+    "subtitle_3": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "subtitle_3"
+    },
+    "paragraph_3": {
+      "type": "string",
+      "label": "Paragraphe 3",
+      "multiline": true,
+      "default": "paragraph_3"
+    },
+    "subtitle_4": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "subtitle_4"
+    },
+    "paragraph_4": {
+      "type": "string",
+      "label": "Paragraphe",
+      "multiline": true,
+      "default": "paragraph_4"
     }
   },
   "defaults": {
-    "html": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">Nos valeurs</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1]\">Ce qui nous guide</h2></div><div class=\"grid grid-cols-4 gap-[20px]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">01</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">Innovation</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">Toujours a la pointe pour vous offrir le meilleur.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">02</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">Transparence</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">Communication claire et honnete en toutes circonstances.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">03</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">Excellence</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">La qualite au coeur de chaque decision.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">04</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">Proximite</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">Un accompagnement humain et personnalise.</p></div></div></section>"
+    "text": "Votre texte ici.",
+    "title_2": "Titre secondaire",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "paragraph": "Texte de paragraphe.",
+    "subtitle_2": "Sous-titre 2",
+    "paragraph_2": "paragraph_2",
+    "subtitle_3": "subtitle_3",
+    "paragraph_3": "paragraph_3",
+    "subtitle_4": "subtitle_4",
+    "paragraph_4": "paragraph_4",
+    "htmlTemplate": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{text}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1]\">{{title_2}}</h2></div><div class=\"grid grid-cols-4 gap-[20px]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">01</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">{{subtitle}}</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">{{paragraph}}</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">02</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">{{subtitle_2}}</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">{{paragraph_2}}</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">03</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">{{subtitle_3}}</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">{{paragraph_3}}</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] text-center\"><div class=\"w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px] text-[var(--brand)] text-[18px] font-black\">04</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[8px]\">{{subtitle_4}}</h3><p class=\"text-[12px] text-[var(--muted)] leading-[1.65]\">{{paragraph_4}}</p></div></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

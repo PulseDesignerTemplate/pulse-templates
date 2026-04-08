@@ -8,15 +8,16 @@
   "subcategory": "titres",
   "icon": "fa-font",
   "schema": {
-    "html": {
+    "paragraph": {
       "type": "string",
-      "label": "HTML",
+      "label": "Paragraphe",
       "multiline": true,
-      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[1.1rem] font-medium text-[var(--muted)] leading-[1.6] max-w-[600px]\">Un sous-titre descriptif pour accompagner vos titres principaux et guider la lecture.</p></section>"
+      "default": "Texte de paragraphe."
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[1.1rem] font-medium text-[var(--muted)] leading-[1.6] max-w-[600px]\">Un sous-titre descriptif pour accompagner vos titres principaux et guider la lecture.</p></section>"
+    "paragraph": "Texte de paragraphe.",
+    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[1.1rem] font-medium text-[var(--muted)] leading-[1.6] max-w-[600px]\">{{paragraph}}</p></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

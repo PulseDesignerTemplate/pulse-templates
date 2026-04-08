@@ -8,15 +8,35 @@
   "icon": "fa-envelope",
   "description": "Coordonnées + formulaire",
   "schema": {
-    "html": {
+    "kicker": {
       "type": "string",
-      "label": "HTML",
+      "label": "Sur-titre (badge)",
+      "default": "Nouveau"
+    },
+    "title": {
+      "type": "string",
+      "label": "Titre principal",
       "multiline": true,
-      "default": "<section class=\"bg-[var(--surface)] p-[72px_40px] text-center\"><div class=\"max-w-[560px] m-[0_auto]\"><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] mb-[12px] tracking-[-.02em]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.7] mb-[32px]\">{{subtitle}}</p><div class=\"flex flex-col gap-[12px]\"><input class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[13px_16px] text-[13px] text-[var(--text)]\" placeholder=\"Nom complet\" type=\"text\"><input class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[13px_16px] text-[13px] text-[var(--text)]\" placeholder=\"Email\" type=\"email\"><textarea class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[13px_16px] text-[13px] text-[var(--text)] h-[90px] [resize:none]\" placeholder=\"Message\"></textarea><a class=\"bg-[var(--brand)] text-[#fff] p-[13px] rounded-[10px] font-bold text-[14px] text-center block\">{{cta.label}}</a></div></div></section>"
+      "default": "Titre principal"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "Sous-titre descriptif pour accompagner votre message."
+    },
+    "cta_label": {
+      "type": "string",
+      "label": "Bouton — texte",
+      "default": "Commencer"
     }
   },
   "defaults": {
-    "html": "<section class=\"bg-[var(--surface)] p-[72px_40px] text-center\"><div class=\"max-w-[560px] m-[0_auto]\"><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] mb-[12px] tracking-[-.02em]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.7] mb-[32px]\">{{subtitle}}</p><div class=\"flex flex-col gap-[12px]\"><input class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[13px_16px] text-[13px] text-[var(--text)]\" placeholder=\"Nom complet\" type=\"text\"><input class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[13px_16px] text-[13px] text-[var(--text)]\" placeholder=\"Email\" type=\"email\"><textarea class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[13px_16px] text-[13px] text-[var(--text)] h-[90px] [resize:none]\" placeholder=\"Message\"></textarea><a class=\"bg-[var(--brand)] text-[#fff] p-[13px] rounded-[10px] font-bold text-[14px] text-center block\">{{cta.label}}</a></div></div></section>"
+    "kicker": "Nouveau",
+    "title": "Titre principal",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "cta_label": "Commencer",
+    "htmlTemplate": "<section class=\"bg-[var(--surface)] p-[72px_40px] text-center\"><div class=\"max-w-[560px] m-[0_auto]\"><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] mb-[12px] tracking-[-.02em]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.7] mb-[32px]\">{{subtitle}}</p><div class=\"flex flex-col gap-[12px]\"><input class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[13px_16px] text-[13px] text-[var(--text)]\" placeholder=\"Nom complet\" type=\"text\"><input class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[13px_16px] text-[13px] text-[var(--text)]\" placeholder=\"Email\" type=\"email\"><textarea class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[13px_16px] text-[13px] text-[var(--text)] h-[90px] [resize:none]\" placeholder=\"Message\"></textarea><a class=\"bg-[var(--brand)] text-[#fff] p-[13px] rounded-[10px] font-bold text-[14px] text-center block\">{{cta_label}}</a></div></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

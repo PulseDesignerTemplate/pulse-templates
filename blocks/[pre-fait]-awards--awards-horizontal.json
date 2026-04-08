@@ -8,15 +8,35 @@
   "icon": "fa-trophy",
   "description": "Badges, prix et certifications",
   "schema": {
-    "html": {
+    "kicker": {
       "type": "string",
-      "label": "HTML",
+      "label": "Sur-titre (badge)",
+      "default": "Nouveau"
+    },
+    "icon": {
+      "type": "string",
+      "label": "Icône",
+      "default": "★"
+    },
+    "title": {
+      "type": "string",
+      "label": "Titre principal",
       "multiline": true,
-      "default": "<section class=\"bg-[var(--surface)] p-[40px] [border-top:1px_solid_var(--line)] [border-bottom:1px_solid_var(--line)]\"><div class=\"text-center mb-[24px]\"><span class=\"text-[11px] text-[var(--muted)] font-semibold uppercase tracking-[.1em]\">{{kicker}}</span></div><div class=\"flex justify-center items-center gap-[32px] flex-wrap\"> {{#items}}<div class=\"flex items-center gap-[10px] p-[12px_20px] bg-[var(--bg)] border border-[var(--line)] rounded-[12px]\" data-d=\"1\"><span class=\"text-[22px]\">{{icon}}</span><div><div class=\"text-[12px] font-bold text-[var(--text)]\">{{title}}</div><div class=\"text-[10.5px] text-[var(--muted)]\">{{desc}}</div></div></div>{{/items}} </div></section>"
+      "default": "Titre principal"
+    },
+    "desc": {
+      "type": "string",
+      "label": "Description",
+      "multiline": true,
+      "default": "Description courte et engageante."
     }
   },
   "defaults": {
-    "html": "<section class=\"bg-[var(--surface)] p-[40px] [border-top:1px_solid_var(--line)] [border-bottom:1px_solid_var(--line)]\"><div class=\"text-center mb-[24px]\"><span class=\"text-[11px] text-[var(--muted)] font-semibold uppercase tracking-[.1em]\">{{kicker}}</span></div><div class=\"flex justify-center items-center gap-[32px] flex-wrap\"> {{#items}}<div class=\"flex items-center gap-[10px] p-[12px_20px] bg-[var(--bg)] border border-[var(--line)] rounded-[12px]\" data-d=\"1\"><span class=\"text-[22px]\">{{icon}}</span><div><div class=\"text-[12px] font-bold text-[var(--text)]\">{{title}}</div><div class=\"text-[10.5px] text-[var(--muted)]\">{{desc}}</div></div></div>{{/items}} </div></section>"
+    "kicker": "Nouveau",
+    "icon": "★",
+    "title": "Titre principal",
+    "desc": "Description courte et engageante.",
+    "htmlTemplate": "<section class=\"bg-[var(--surface)] p-[40px] [border-top:1px_solid_var(--line)] [border-bottom:1px_solid_var(--line)]\"><div class=\"text-center mb-[24px]\"><span class=\"text-[11px] text-[var(--muted)] font-semibold uppercase tracking-[.1em]\">{{kicker}}</span></div><div class=\"flex justify-center items-center gap-[32px] flex-wrap\"> {{#items}}<div class=\"flex items-center gap-[10px] p-[12px_20px] bg-[var(--bg)] border border-[var(--line)] rounded-[12px]\" data-d=\"1\"><span class=\"text-[22px]\">{{icon}}</span><div><div class=\"text-[12px] font-bold text-[var(--text)]\">{{title}}</div><div class=\"text-[10.5px] text-[var(--muted)]\">{{desc}}</div></div></div>{{/items}} </div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

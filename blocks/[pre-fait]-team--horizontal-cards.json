@@ -8,15 +8,59 @@
   "icon": "fa-users",
   "description": "Grille membres d'ÃƒÂ©quipe",
   "schema": {
-    "html": {
+    "kicker": {
       "type": "string",
-      "label": "HTML",
+      "label": "Sur-titre (badge)",
+      "default": "Nouveau"
+    },
+    "title": {
+      "type": "string",
+      "label": "Titre principal",
       "multiline": true,
-      "default": "<section class=\"bg-[var(--surface)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"flex flex-col gap-[12px]\"> {{#team}}<article class=\"grid grid-cols-[140px_1fr_auto] items-center gap-[14px] bg-[var(--bg)] border border-[var(--line)] rounded-[14px] p-[10px]\" data-d=\"1\"><img class=\"w-[100%] h-[96px] object-cover rounded-[10px] block\" src=\"https://ui-avatars.com/api/?name={{name}}&background=131722&color=ffffff&size=320\" alt=\"{{name}}\"><div><h3 class=\"text-[1rem] text-[var(--text)] font-extrabold\">{{name}}</h3><p class=\"text-[12px] text-[var(--muted)] mt-[4px]\">{{role}}</p></div><a class=\"text-[12px] text-[var(--brand)] font-bold\" href=\"{{social}}\">Profil</a></article>{{/team}} </div></section>"
+      "default": "Titre principal"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "Sous-titre descriptif pour accompagner votre message."
+    },
+    "image": {
+      "type": "string",
+      "label": "Image — URL",
+      "default": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop"
+    },
+    "name": {
+      "type": "string",
+      "label": "Nom",
+      "default": "Nom"
+    },
+    "role": {
+      "type": "string",
+      "label": "Poste / rôle",
+      "default": "Rôle"
+    },
+    "social": {
+      "type": "string",
+      "label": "Social",
+      "default": "social"
+    },
+    "link_label": {
+      "type": "string",
+      "label": "Lien — texte",
+      "default": "En savoir plus"
     }
   },
   "defaults": {
-    "html": "<section class=\"bg-[var(--surface)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"flex flex-col gap-[12px]\"> {{#team}}<article class=\"grid grid-cols-[140px_1fr_auto] items-center gap-[14px] bg-[var(--bg)] border border-[var(--line)] rounded-[14px] p-[10px]\" data-d=\"1\"><img class=\"w-[100%] h-[96px] object-cover rounded-[10px] block\" src=\"https://ui-avatars.com/api/?name={{name}}&background=131722&color=ffffff&size=320\" alt=\"{{name}}\"><div><h3 class=\"text-[1rem] text-[var(--text)] font-extrabold\">{{name}}</h3><p class=\"text-[12px] text-[var(--muted)] mt-[4px]\">{{role}}</p></div><a class=\"text-[12px] text-[var(--brand)] font-bold\" href=\"{{social}}\">Profil</a></article>{{/team}} </div></section>"
+    "kicker": "Nouveau",
+    "title": "Titre principal",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
+    "name": "Nom",
+    "role": "Rôle",
+    "social": "social",
+    "link_label": "En savoir plus",
+    "htmlTemplate": "<section class=\"bg-[var(--surface)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"flex flex-col gap-[12px]\"> {{#team}}<article class=\"grid grid-cols-[140px_1fr_auto] items-center gap-[14px] bg-[var(--bg)] border border-[var(--line)] rounded-[14px] p-[10px]\" data-d=\"1\"><img class=\"w-[100%] h-[96px] object-cover rounded-[10px] block\" src=\"{{image}}\" alt=\"{{name}}\"><div><h3 class=\"text-[1rem] text-[var(--text)] font-extrabold\">{{name}}</h3><p class=\"text-[12px] text-[var(--muted)] mt-[4px]\">{{role}}</p></div><a class=\"text-[12px] text-[var(--brand)] font-bold\" href=\"{{social}}\">{{link_label}}</a></article>{{/team}} </div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

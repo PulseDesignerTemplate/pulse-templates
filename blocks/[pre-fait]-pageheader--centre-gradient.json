@@ -8,15 +8,29 @@
   "icon": "fa-heading",
   "description": "Bannière titre pour pages intérieures",
   "schema": {
-    "html": {
+    "kicker": {
       "type": "string",
-      "label": "HTML",
+      "label": "Sur-titre (badge)",
+      "default": "Nouveau"
+    },
+    "title": {
+      "type": "string",
+      "label": "Titre principal",
       "multiline": true,
-      "default": "<section class=\"p-[64px_40px] text-center relative overflow-hidden [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_8%,var(--bg)),var(--bg))] [border-bottom:1px_solid_var(--line)]\"><div class=\"absolute top-[-60px] left-[50%] w-[400px] h-[400px] rounded-[999px] bg-[var(--brand)] opacity-[.05] filter-[blur(60px)] [transform:translateX(-50%)]\"></div><div><span class=\"text-[11px] text-[var(--brand)] font-bold tracking-[.12em] uppercase block mb-[12px]\">{{kicker}}</span><h1 class=\"text-[2.8rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.06] mb-[12px]\">{{title}}</h1><p class=\"text-[var(--muted)] text-[15px] leading-[1.7] max-w-[500px] m-[0_auto]\">{{subtitle}}</p></div></section>"
+      "default": "Titre principal"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "Sous-titre descriptif pour accompagner votre message."
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[64px_40px] text-center relative overflow-hidden [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_8%,var(--bg)),var(--bg))] [border-bottom:1px_solid_var(--line)]\"><div class=\"absolute top-[-60px] left-[50%] w-[400px] h-[400px] rounded-[999px] bg-[var(--brand)] opacity-[.05] filter-[blur(60px)] [transform:translateX(-50%)]\"></div><div><span class=\"text-[11px] text-[var(--brand)] font-bold tracking-[.12em] uppercase block mb-[12px]\">{{kicker}}</span><h1 class=\"text-[2.8rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.06] mb-[12px]\">{{title}}</h1><p class=\"text-[var(--muted)] text-[15px] leading-[1.7] max-w-[500px] m-[0_auto]\">{{subtitle}}</p></div></section>"
+    "kicker": "Nouveau",
+    "title": "Titre principal",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "htmlTemplate": "<section class=\"p-[64px_40px] text-center relative overflow-hidden [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_8%,var(--bg)),var(--bg))] [border-bottom:1px_solid_var(--line)]\"><div class=\"absolute top-[-60px] left-[50%] w-[400px] h-[400px] rounded-[999px] bg-[var(--brand)] opacity-[.05] filter-[blur(60px)] [transform:translateX(-50%)]\"></div><div><span class=\"text-[11px] text-[var(--brand)] font-bold tracking-[.12em] uppercase block mb-[12px]\">{{kicker}}</span><h1 class=\"text-[2.8rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.06] mb-[12px]\">{{title}}</h1><p class=\"text-[var(--muted)] text-[15px] leading-[1.7] max-w-[500px] m-[0_auto]\">{{subtitle}}</p></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

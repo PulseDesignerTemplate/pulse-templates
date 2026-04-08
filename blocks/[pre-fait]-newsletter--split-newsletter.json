@@ -8,15 +8,36 @@
   "icon": "fa-paper-plane",
   "description": "Capture d'email / abonnement",
   "schema": {
-    "html": {
+    "title": {
       "type": "string",
-      "label": "HTML",
+      "label": "Titre principal",
       "multiline": true,
-      "default": "<section class=\"grid grid-cols-1 md:grid-cols-2 grid-cols-2 gap-[56px] items-center bg-[var(--surface)] p-[56px_48px] [border-top:1px_solid_var(--line)]\"><div><h2 class=\"text-[1.8rem] font-black text-[var(--text)] tracking-[-.02em] leading-[1.1] mb-[10px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.65]\">{{subtitle}}</p></div><div class=\"flex flex-col gap-[12px]\" data-d=\"1\"><input class=\"bg-[var(--bg)] border-[1.5px] border-[var(--line)] rounded-[10px] p-[13px_16px] text-[13px] text-[var(--text)] w-[100%]\" placeholder=\"votre@email.fr\" type=\"email\"><a class=\"bg-[var(--brand)] text-[#fff] p-[13px] rounded-[10px] font-bold text-[14px] text-center block\">{{cta.label}}</a><p class=\"text-[11.5px] text-[var(--muted)] text-center\">&#10003; Pas de spam</p></div></section>"
+      "default": "Titre principal"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "Sous-titre descriptif pour accompagner votre message."
+    },
+    "cta_label": {
+      "type": "string",
+      "label": "Bouton — texte",
+      "default": "Commencer"
+    },
+    "paragraph": {
+      "type": "string",
+      "label": "Paragraphe",
+      "multiline": true,
+      "default": "Texte de paragraphe."
     }
   },
   "defaults": {
-    "html": "<section class=\"grid grid-cols-1 md:grid-cols-2 grid-cols-2 gap-[56px] items-center bg-[var(--surface)] p-[56px_48px] [border-top:1px_solid_var(--line)]\"><div><h2 class=\"text-[1.8rem] font-black text-[var(--text)] tracking-[-.02em] leading-[1.1] mb-[10px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.65]\">{{subtitle}}</p></div><div class=\"flex flex-col gap-[12px]\" data-d=\"1\"><input class=\"bg-[var(--bg)] border-[1.5px] border-[var(--line)] rounded-[10px] p-[13px_16px] text-[13px] text-[var(--text)] w-[100%]\" placeholder=\"votre@email.fr\" type=\"email\"><a class=\"bg-[var(--brand)] text-[#fff] p-[13px] rounded-[10px] font-bold text-[14px] text-center block\">{{cta.label}}</a><p class=\"text-[11.5px] text-[var(--muted)] text-center\">&#10003; Pas de spam</p></div></section>"
+    "title": "Titre principal",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "cta_label": "Commencer",
+    "paragraph": "Texte de paragraphe.",
+    "htmlTemplate": "<section class=\"grid grid-cols-1 md:grid-cols-2 grid-cols-2 gap-[56px] items-center bg-[var(--surface)] p-[56px_48px] [border-top:1px_solid_var(--line)]\"><div><h2 class=\"text-[1.8rem] font-black text-[var(--text)] tracking-[-.02em] leading-[1.1] mb-[10px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.65]\">{{subtitle}}</p></div><div class=\"flex flex-col gap-[12px]\" data-d=\"1\"><input class=\"bg-[var(--bg)] border-[1.5px] border-[var(--line)] rounded-[10px] p-[13px_16px] text-[13px] text-[var(--text)] w-[100%]\" placeholder=\"votre@email.fr\" type=\"email\"><a class=\"bg-[var(--brand)] text-[#fff] p-[13px] rounded-[10px] font-bold text-[14px] text-center block\">{{cta_label}}</a><p class=\"text-[11.5px] text-[var(--muted)] text-center\">{{paragraph}}</p></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

@@ -8,15 +8,23 @@
   "subcategory": "conception",
   "icon": "fa-object-group",
   "schema": {
-    "html": {
+    "title_2": {
       "type": "string",
-      "label": "HTML",
+      "label": "Titre secondaire",
       "multiline": true,
-      "default": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"max-w-[1200px] mx-auto\"><h2 class=\"text-[1.8rem] font-extrabold text-[var(--text)] leading-[1.2] mb-[12px]\">Titre de section</h2><p class=\"text-[14px] text-[var(--muted)] leading-[1.7] max-w-[600px]\">Contenu de votre section. Ajoutez des éléments à l'intérieur.</p></div></section>"
+      "default": "Titre secondaire"
+    },
+    "paragraph": {
+      "type": "string",
+      "label": "Paragraphe",
+      "multiline": true,
+      "default": "Texte de paragraphe."
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"max-w-[1200px] mx-auto\"><h2 class=\"text-[1.8rem] font-extrabold text-[var(--text)] leading-[1.2] mb-[12px]\">Titre de section</h2><p class=\"text-[14px] text-[var(--muted)] leading-[1.7] max-w-[600px]\">Contenu de votre section. Ajoutez des éléments à l'intérieur.</p></div></section>"
+    "title_2": "Titre secondaire",
+    "paragraph": "Texte de paragraphe.",
+    "htmlTemplate": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"max-w-[1200px] mx-auto\"><h2 class=\"text-[1.8rem] font-extrabold text-[var(--text)] leading-[1.2] mb-[12px]\">{{title_2}}</h2><p class=\"text-[14px] text-[var(--muted)] leading-[1.7] max-w-[600px]\">{{paragraph}}</p></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

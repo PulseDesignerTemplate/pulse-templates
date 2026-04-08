@@ -8,15 +8,16 @@
   "subcategory": "titres",
   "icon": "fa-heading",
   "schema": {
-    "html": {
+    "subtitle": {
       "type": "string",
-      "label": "HTML",
+      "label": "Sous-titre",
       "multiline": true,
-      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><h3 class=\"text-[1.3rem] font-bold text-[var(--text)] leading-[1.3]\">Sous-titre de section</h3></section>"
+      "default": "Sous-titre descriptif pour accompagner votre message."
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><h3 class=\"text-[1.3rem] font-bold text-[var(--text)] leading-[1.3]\">Sous-titre de section</h3></section>"
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><h3 class=\"text-[1.3rem] font-bold text-[var(--text)] leading-[1.3]\">{{subtitle}}</h3></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

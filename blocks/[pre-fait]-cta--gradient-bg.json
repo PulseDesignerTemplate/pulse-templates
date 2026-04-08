@@ -8,15 +8,36 @@
   "icon": "fa-bullhorn",
   "description": "Bloc appel à l'action standalone",
   "schema": {
-    "html": {
+    "title": {
       "type": "string",
-      "label": "HTML",
+      "label": "Titre principal",
       "multiline": true,
-      "default": "<section class=\"flex flex-col items-center gap-[18px] p-[72px_40px] text-center [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_15%,var(--bg)),var(--bg)_60%,color-mix(in_srgb,var(--brand)_8%,var(--surface)))]\"><h2 class=\"text-[2.4rem] font-black text-[var(--text)] max-w-[560px] tracking-[-.025em] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[440px] leading-[1.7]\" data-d=\"1\">{{subtitle}}</p><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[14px_40px] rounded-[999px] font-bold text-[14px] mt-[8px]\" data-d=\"2\">{{cta.label}} &#8594;</a><p class=\"text-[12px] text-[var(--muted)] opacity-[.7]\" data-d=\"3\">&#10003; Sans CB &nbsp; &#10003; 14 jours gratuits</p></section>"
+      "default": "Titre principal"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "Sous-titre descriptif pour accompagner votre message."
+    },
+    "cta_label": {
+      "type": "string",
+      "label": "Bouton — texte",
+      "default": "Commencer"
+    },
+    "paragraph": {
+      "type": "string",
+      "label": "Paragraphe",
+      "multiline": true,
+      "default": "Texte de paragraphe."
     }
   },
   "defaults": {
-    "html": "<section class=\"flex flex-col items-center gap-[18px] p-[72px_40px] text-center [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_15%,var(--bg)),var(--bg)_60%,color-mix(in_srgb,var(--brand)_8%,var(--surface)))]\"><h2 class=\"text-[2.4rem] font-black text-[var(--text)] max-w-[560px] tracking-[-.025em] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[440px] leading-[1.7]\" data-d=\"1\">{{subtitle}}</p><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[14px_40px] rounded-[999px] font-bold text-[14px] mt-[8px]\" data-d=\"2\">{{cta.label}} &#8594;</a><p class=\"text-[12px] text-[var(--muted)] opacity-[.7]\" data-d=\"3\">&#10003; Sans CB &nbsp; &#10003; 14 jours gratuits</p></section>"
+    "title": "Titre principal",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "cta_label": "Commencer",
+    "paragraph": "Texte de paragraphe.",
+    "htmlTemplate": "<section class=\"flex flex-col items-center gap-[18px] p-[72px_40px] text-center [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_15%,var(--bg)),var(--bg)_60%,color-mix(in_srgb,var(--brand)_8%,var(--surface)))]\"><h2 class=\"text-[2.4rem] font-black text-[var(--text)] max-w-[560px] tracking-[-.025em] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[440px] leading-[1.7]\" data-d=\"1\">{{subtitle}}</p><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[14px_40px] rounded-[999px] font-bold text-[14px] mt-[8px]\" data-d=\"2\">{{cta_label}} &#8594;</a><p class=\"text-[12px] text-[var(--muted)] opacity-[.7]\" data-d=\"3\">{{paragraph}}</p></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

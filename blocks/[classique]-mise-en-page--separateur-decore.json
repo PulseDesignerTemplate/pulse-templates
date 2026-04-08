@@ -8,15 +8,16 @@
   "subcategory": "mise-en-page",
   "icon": "fa-diamond",
   "schema": {
-    "html": {
+    "text": {
       "type": "string",
-      "label": "HTML",
+      "label": "Texte",
       "multiline": true,
-      "default": "<section class=\"p-[32px_40px] bg-[var(--bg)]\"><div class=\"flex items-center gap-[16px] max-w-[400px] mx-auto\"><div class=\"flex-1 h-[1px] bg-[var(--line)]\"></div><span class=\"text-[var(--brand)] text-[14px]\">*</span><div class=\"flex-1 h-[1px] bg-[var(--line)]\"></div></div></section>"
+      "default": "Votre texte ici."
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[32px_40px] bg-[var(--bg)]\"><div class=\"flex items-center gap-[16px] max-w-[400px] mx-auto\"><div class=\"flex-1 h-[1px] bg-[var(--line)]\"></div><span class=\"text-[var(--brand)] text-[14px]\">*</span><div class=\"flex-1 h-[1px] bg-[var(--line)]\"></div></div></section>"
+    "text": "Votre texte ici.",
+    "htmlTemplate": "<section class=\"p-[32px_40px] bg-[var(--bg)]\"><div class=\"flex items-center gap-[16px] max-w-[400px] mx-auto\"><div class=\"flex-1 h-[1px] bg-[var(--line)]\"></div><span class=\"text-[var(--brand)] text-[14px]\">{{text}}</span><div class=\"flex-1 h-[1px] bg-[var(--line)]\"></div></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

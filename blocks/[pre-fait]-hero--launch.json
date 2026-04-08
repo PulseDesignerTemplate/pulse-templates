@@ -8,15 +8,48 @@
   "icon": "fa-star",
   "description": "Header + slogan + CTA pleine largeur",
   "schema": {
-    "html": {
+    "title": {
       "type": "string",
-      "label": "HTML",
+      "label": "Titre principal",
       "multiline": true,
-      "default": "<section class=\"flex flex-col items-center gap-[22px] bg-[var(--bg)] p-[80px_48px] text-center relative overflow-hidden\"><div class=\"absolute [inset:0] [background:linear-gradient(175deg,color-mix(in_srgb,var(--brand)_10%,transparent)_0%,transparent_55%)] [pointer-events:none]\"></div><div class=\"inline-flex items-center gap-[10px] bg-[var(--surface)] border border-[color-mix(in_srgb,var(--brand)_45%,transparent)] rounded-[999px] p-[6px_20px] text-[11px] font-bold text-[var(--brand)] relative\"><span class=\"launch-dot w-[8px] h-[8px] rounded-[999px] bg-[var(--brand)]\"></span> Nouveau &bull; {{kicker}} </div><h1 class=\"text-[2.2rem] max-[480px]:text-[1.8rem] text-[3.6rem] font-black leading-[1.04] text-[var(--text)] max-w-[700px] tracking-[-.035em] relative\" data-d=\"1\">{{title}}</h1><p class=\"text-[var(--muted)] max-w-[520px] text-[16px] leading-[1.78] relative\" data-d=\"2\">{{subtitle}}</p><div class=\"flex gap-[12px] flex-wrap max-[768px]:flex-col max-[768px]:items-stretch justify-center mt-[6px] relative\" data-d=\"3\"><a class=\"bg-[var(--brand)] text-[#fff] p-[13px_32px] rounded-[10px] font-bold text-[14px] inline-flex items-center gap-[8px] transition-[opacity,transform] duration-[200ms] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_28%,transparent)] hover:opacity-[.88] hover:translate-y-[-1px]\" href=\"#\">{{cta.label}} &#8594;</a><a class=\"border-[1.5px] border-[var(--line)] text-[var(--text)] p-[13px_32px] rounded-[10px] font-semibold text-[14px] inline-flex items-center gap-[8px] transition-colors duration-[200ms] hover:bg-[rgba(128,128,128,.08)]\" href=\"#\">Voir la d&#233;mo</a></div><p class=\"text-[12px] text-[var(--muted)] opacity-[.5] relative\" data-d=\"4\">&#10003; Gratuit 14 jours &nbsp;&bull;&nbsp; &#10003; Sans carte bancaire</p></section>"
+      "default": "Titre principal"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "Sous-titre descriptif pour accompagner votre message."
+    },
+    "cta_label": {
+      "type": "string",
+      "label": "Bouton — texte",
+      "default": "Commencer"
+    },
+    "link_label": {
+      "type": "string",
+      "label": "Lien — texte",
+      "default": "En savoir plus"
+    },
+    "paragraph": {
+      "type": "string",
+      "label": "Paragraphe",
+      "multiline": true,
+      "default": "Texte de paragraphe."
+    },
+    "kicker": {
+      "type": "string",
+      "label": "Sur-titre (badge)",
+      "default": "Nouveau"
     }
   },
   "defaults": {
-    "html": "<section class=\"flex flex-col items-center gap-[22px] bg-[var(--bg)] p-[80px_48px] text-center relative overflow-hidden\"><div class=\"absolute [inset:0] [background:linear-gradient(175deg,color-mix(in_srgb,var(--brand)_10%,transparent)_0%,transparent_55%)] [pointer-events:none]\"></div><div class=\"inline-flex items-center gap-[10px] bg-[var(--surface)] border border-[color-mix(in_srgb,var(--brand)_45%,transparent)] rounded-[999px] p-[6px_20px] text-[11px] font-bold text-[var(--brand)] relative\"><span class=\"launch-dot w-[8px] h-[8px] rounded-[999px] bg-[var(--brand)]\"></span> Nouveau &bull; {{kicker}} </div><h1 class=\"text-[2.2rem] max-[480px]:text-[1.8rem] text-[3.6rem] font-black leading-[1.04] text-[var(--text)] max-w-[700px] tracking-[-.035em] relative\" data-d=\"1\">{{title}}</h1><p class=\"text-[var(--muted)] max-w-[520px] text-[16px] leading-[1.78] relative\" data-d=\"2\">{{subtitle}}</p><div class=\"flex gap-[12px] flex-wrap max-[768px]:flex-col max-[768px]:items-stretch justify-center mt-[6px] relative\" data-d=\"3\"><a class=\"bg-[var(--brand)] text-[#fff] p-[13px_32px] rounded-[10px] font-bold text-[14px] inline-flex items-center gap-[8px] transition-[opacity,transform] duration-[200ms] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_28%,transparent)] hover:opacity-[.88] hover:translate-y-[-1px]\" href=\"#\">{{cta.label}} &#8594;</a><a class=\"border-[1.5px] border-[var(--line)] text-[var(--text)] p-[13px_32px] rounded-[10px] font-semibold text-[14px] inline-flex items-center gap-[8px] transition-colors duration-[200ms] hover:bg-[rgba(128,128,128,.08)]\" href=\"#\">Voir la d&#233;mo</a></div><p class=\"text-[12px] text-[var(--muted)] opacity-[.5] relative\" data-d=\"4\">&#10003; Gratuit 14 jours &nbsp;&bull;&nbsp; &#10003; Sans carte bancaire</p></section>"
+    "title": "Titre principal",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "cta_label": "Commencer",
+    "link_label": "En savoir plus",
+    "paragraph": "Texte de paragraphe.",
+    "kicker": "Nouveau",
+    "htmlTemplate": "<section class=\"flex flex-col items-center gap-[22px] bg-[var(--bg)] p-[80px_48px] text-center relative overflow-hidden\"><div class=\"absolute [inset:0] [background:linear-gradient(175deg,color-mix(in_srgb,var(--brand)_10%,transparent)_0%,transparent_55%)] [pointer-events:none]\"></div><div class=\"inline-flex items-center gap-[10px] bg-[var(--surface)] border border-[color-mix(in_srgb,var(--brand)_45%,transparent)] rounded-[999px] p-[6px_20px] text-[11px] font-bold text-[var(--brand)] relative\"><span class=\"launch-dot w-[8px] h-[8px] rounded-[999px] bg-[var(--brand)]\"></span> Nouveau &bull; {{kicker}} </div><h1 class=\"text-[2.2rem] max-[480px]:text-[1.8rem] text-[3.6rem] font-black leading-[1.04] text-[var(--text)] max-w-[700px] tracking-[-.035em] relative\" data-d=\"1\">{{title}}</h1><p class=\"text-[var(--muted)] max-w-[520px] text-[16px] leading-[1.78] relative\" data-d=\"2\">{{subtitle}}</p><div class=\"flex gap-[12px] flex-wrap max-[768px]:flex-col max-[768px]:items-stretch justify-center mt-[6px] relative\" data-d=\"3\"><a class=\"bg-[var(--brand)] text-[#fff] p-[13px_32px] rounded-[10px] font-bold text-[14px] inline-flex items-center gap-[8px] transition-[opacity,transform] duration-[200ms] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_28%,transparent)] hover:opacity-[.88] hover:translate-y-[-1px]\" href=\"#\">{{cta_label}} &#8594;</a><a class=\"border-[1.5px] border-[var(--line)] text-[var(--text)] p-[13px_32px] rounded-[10px] font-semibold text-[14px] inline-flex items-center gap-[8px] transition-colors duration-[200ms] hover:bg-[rgba(128,128,128,.08)]\" href=\"#\">{{link_label}}</a></div><p class=\"text-[12px] text-[var(--muted)] opacity-[.5] relative\" data-d=\"4\">{{paragraph}}</p></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

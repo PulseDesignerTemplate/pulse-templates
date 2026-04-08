@@ -8,15 +8,35 @@
   "subcategory": "media",
   "icon": "fa-user-circle",
   "schema": {
-    "html": {
+    "image": {
       "type": "string",
-      "label": "HTML",
+      "label": "Image — URL",
+      "default": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop"
+    },
+    "image_alt": {
+      "type": "string",
+      "label": "Image — texte alt",
+      "default": "Illustration"
+    },
+    "paragraph": {
+      "type": "string",
+      "label": "Paragraphe",
       "multiline": true,
-      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"flex items-center gap-[14px]\"><img class=\"w-[56px] h-[56px] rounded-full object-cover border-[2px] border-[var(--brand)]\" src=\"https://picsum.photos/80/80?random=21\" alt=\"Avatar\"><div><p class=\"text-[14px] font-bold text-[var(--text)]\">Nom Prénom</p><p class=\"text-[13px] text-[var(--muted)]\">Rôle ou description</p></div></div></section>"
+      "default": "Texte de paragraphe."
+    },
+    "paragraph_2": {
+      "type": "string",
+      "label": "Paragraphe 2",
+      "multiline": true,
+      "default": "paragraph_2"
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"flex items-center gap-[14px]\"><img class=\"w-[56px] h-[56px] rounded-full object-cover border-[2px] border-[var(--brand)]\" src=\"https://picsum.photos/80/80?random=21\" alt=\"Avatar\"><div><p class=\"text-[14px] font-bold text-[var(--text)]\">Nom Prénom</p><p class=\"text-[13px] text-[var(--muted)]\">Rôle ou description</p></div></div></section>"
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
+    "image_alt": "Illustration",
+    "paragraph": "Texte de paragraphe.",
+    "paragraph_2": "paragraph_2",
+    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"flex items-center gap-[14px]\"><img class=\"w-[56px] h-[56px] rounded-full object-cover border-[2px] border-[var(--brand)]\" src=\"{{image}}\" alt=\"{{image_alt}}\"><div><p class=\"text-[14px] font-bold text-[var(--text)]\">{{paragraph}}</p><p class=\"text-[13px] text-[var(--muted)]\">{{paragraph_2}}</p></div></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

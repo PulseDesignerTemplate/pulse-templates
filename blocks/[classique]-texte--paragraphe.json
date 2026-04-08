@@ -8,15 +8,16 @@
   "subcategory": "texte",
   "icon": "fa-paragraph",
   "schema": {
-    "html": {
+    "paragraph": {
       "type": "string",
-      "label": "HTML",
+      "label": "Paragraphe",
       "multiline": true,
-      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[15px] leading-[1.8] text-[var(--muted)] max-w-[680px]\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p></section>"
+      "default": "Texte de paragraphe."
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[15px] leading-[1.8] text-[var(--muted)] max-w-[680px]\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p></section>"
+    "paragraph": "Texte de paragraphe.",
+    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[15px] leading-[1.8] text-[var(--muted)] max-w-[680px]\">{{paragraph}}</p></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

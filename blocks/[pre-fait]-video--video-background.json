@@ -8,15 +8,23 @@
   "icon": "fa-circle-play",
   "description": "Embed vidéo avec contexte",
   "schema": {
-    "html": {
+    "title": {
       "type": "string",
-      "label": "HTML",
+      "label": "Titre principal",
       "multiline": true,
-      "default": "<section class=\"bg-[var(--bg)] p-[72px_40px] text-center\"><div class=\"relative rounded-[20px] overflow-hidden max-w-[800px] m-[0_auto]\"><div class=\"flex flex-col items-center justify-center gap-[20px] h-[280px] relative [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_8%,var(--surface)),var(--surface))]\"><div class=\"absolute [inset:0] [background:radial-gradient(ellipse_70%_60%_at_50%_50%,color-mix(in_srgb,var(--brand)_10%,transparent),transparent)]\"></div><div class=\"flex items-center justify-center w-[72px] h-[72px] rounded-[999px] bg-[rgba(255,255,255,.15)] border-[2px] border-[rgba(255,255,255,.25)] cursor-pointer relative z-[1] [backdrop-filter:blur(10px)]\"><div class=\"w-[0] h-[0] ml-[4px] [border-top:12px_solid_transparent] [border-bottom:12px_solid_transparent] [border-left:20px_solid_#fff]\"></div></div><div class=\"relative z-[1]\"><h3 class=\"text-[1.4rem] font-black text-[var(--text)] mb-[8px]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[13px]\">{{subtitle}}</p></div></div></div></section>"
+      "default": "Titre principal"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "Sous-titre descriptif pour accompagner votre message."
     }
   },
   "defaults": {
-    "html": "<section class=\"bg-[var(--bg)] p-[72px_40px] text-center\"><div class=\"relative rounded-[20px] overflow-hidden max-w-[800px] m-[0_auto]\"><div class=\"flex flex-col items-center justify-center gap-[20px] h-[280px] relative [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_8%,var(--surface)),var(--surface))]\"><div class=\"absolute [inset:0] [background:radial-gradient(ellipse_70%_60%_at_50%_50%,color-mix(in_srgb,var(--brand)_10%,transparent),transparent)]\"></div><div class=\"flex items-center justify-center w-[72px] h-[72px] rounded-[999px] bg-[rgba(255,255,255,.15)] border-[2px] border-[rgba(255,255,255,.25)] cursor-pointer relative z-[1] [backdrop-filter:blur(10px)]\"><div class=\"w-[0] h-[0] ml-[4px] [border-top:12px_solid_transparent] [border-bottom:12px_solid_transparent] [border-left:20px_solid_#fff]\"></div></div><div class=\"relative z-[1]\"><h3 class=\"text-[1.4rem] font-black text-[var(--text)] mb-[8px]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[13px]\">{{subtitle}}</p></div></div></div></section>"
+    "title": "Titre principal",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "htmlTemplate": "<section class=\"bg-[var(--bg)] p-[72px_40px] text-center\"><div class=\"relative rounded-[20px] overflow-hidden max-w-[800px] m-[0_auto]\"><div class=\"flex flex-col items-center justify-center gap-[20px] h-[280px] relative [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_8%,var(--surface)),var(--surface))]\"><div class=\"absolute [inset:0] [background:radial-gradient(ellipse_70%_60%_at_50%_50%,color-mix(in_srgb,var(--brand)_10%,transparent),transparent)]\"></div><div class=\"flex items-center justify-center w-[72px] h-[72px] rounded-[999px] bg-[rgba(255,255,255,.15)] border-[2px] border-[rgba(255,255,255,.25)] cursor-pointer relative z-[1] [backdrop-filter:blur(10px)]\"><div class=\"w-[0] h-[0] ml-[4px] [border-top:12px_solid_transparent] [border-bottom:12px_solid_transparent] [border-left:20px_solid_#fff]\"></div></div><div class=\"relative z-[1]\"><h3 class=\"text-[1.4rem] font-black text-[var(--text)] mb-[8px]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[13px]\">{{subtitle}}</p></div></div></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

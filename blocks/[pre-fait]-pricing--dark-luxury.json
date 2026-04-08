@@ -8,15 +8,59 @@
   "icon": "fa-tag",
   "description": "Offres tarifaires",
   "schema": {
-    "html": {
+    "kicker": {
       "type": "string",
-      "label": "HTML",
+      "label": "Sur-titre (badge)",
+      "default": "Nouveau"
+    },
+    "title": {
+      "type": "string",
+      "label": "Titre principal",
       "multiline": true,
-      "default": "<section class=\"bg-[var(--surface)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[16px]\"> {{#plans}}<div class=\"flex flex-col gap-[16px] border border-[color-mix(in_srgb,var(--brand)_20%,var(--line))] rounded-[20px] p-[32px] [background:linear-gradient(145deg,var(--bg)_0%,color-mix(in_srgb,var(--brand)_6%,var(--bg))_100%)]\"><div class=\"text-[11px] font-bold text-[var(--brand)] uppercase tracking-[.1em]\">{{name}}</div><div class=\"flex items-baseline gap-[4px]\"><span class=\"text-[2.8rem] font-black text-[var(--text)] tracking-[-.02em]\">{{price}}&euro;</span><span class=\"text-[12px] text-[var(--muted)]\">{{period}}</span></div><div class=\"h-[1px] bg-[var(--line)] m-[4px_0]\"></div><div class=\"flex flex-col gap-[8px] [flex:1]\"><ul class=\"pf flex flex-col gap-[2px] p-[0] m-[0] [list-style:none]\">{{features_list}}</ul></div><a class=\"bg-[var(--brand)] text-[#fff] p-[12px] rounded-[10px] font-bold text-[13px] text-center shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_30%,transparent)]\">{{cta}}</a></div>{{/plans}} </div></section>"
+      "default": "Titre principal"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "Sous-titre descriptif pour accompagner votre message."
+    },
+    "price": {
+      "type": "string",
+      "label": "Prix",
+      "default": "29€"
+    },
+    "period": {
+      "type": "string",
+      "label": "Période",
+      "default": "/mois"
+    },
+    "cta": {
+      "type": "string",
+      "label": "Bouton — texte",
+      "default": "Commencer"
+    },
+    "name": {
+      "type": "string",
+      "label": "Nom",
+      "default": "Nom"
+    },
+    "features_list": {
+      "type": "string",
+      "label": "Features list",
+      "default": "features_list"
     }
   },
   "defaults": {
-    "html": "<section class=\"bg-[var(--surface)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[16px]\"> {{#plans}}<div class=\"flex flex-col gap-[16px] border border-[color-mix(in_srgb,var(--brand)_20%,var(--line))] rounded-[20px] p-[32px] [background:linear-gradient(145deg,var(--bg)_0%,color-mix(in_srgb,var(--brand)_6%,var(--bg))_100%)]\"><div class=\"text-[11px] font-bold text-[var(--brand)] uppercase tracking-[.1em]\">{{name}}</div><div class=\"flex items-baseline gap-[4px]\"><span class=\"text-[2.8rem] font-black text-[var(--text)] tracking-[-.02em]\">{{price}}&euro;</span><span class=\"text-[12px] text-[var(--muted)]\">{{period}}</span></div><div class=\"h-[1px] bg-[var(--line)] m-[4px_0]\"></div><div class=\"flex flex-col gap-[8px] [flex:1]\"><ul class=\"pf flex flex-col gap-[2px] p-[0] m-[0] [list-style:none]\">{{features_list}}</ul></div><a class=\"bg-[var(--brand)] text-[#fff] p-[12px] rounded-[10px] font-bold text-[13px] text-center shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_30%,transparent)]\">{{cta}}</a></div>{{/plans}} </div></section>"
+    "kicker": "Nouveau",
+    "title": "Titre principal",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "price": "29€",
+    "period": "/mois",
+    "cta": "Commencer",
+    "name": "Nom",
+    "features_list": "features_list",
+    "htmlTemplate": "<section class=\"bg-[var(--surface)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[16px]\"> {{#plans}}<div class=\"flex flex-col gap-[16px] border border-[color-mix(in_srgb,var(--brand)_20%,var(--line))] rounded-[20px] p-[32px] [background:linear-gradient(145deg,var(--bg)_0%,color-mix(in_srgb,var(--brand)_6%,var(--bg))_100%)]\"><div class=\"text-[11px] font-bold text-[var(--brand)] uppercase tracking-[.1em]\">{{name}}</div><div class=\"flex items-baseline gap-[4px]\"><span class=\"text-[2.8rem] font-black text-[var(--text)] tracking-[-.02em]\">{{price}}&euro;</span><span class=\"text-[12px] text-[var(--muted)]\">{{period}}</span></div><div class=\"h-[1px] bg-[var(--line)] m-[4px_0]\"></div><div class=\"flex flex-col gap-[8px] [flex:1]\"><ul class=\"pf flex flex-col gap-[2px] p-[0] m-[0] [list-style:none]\">{{features_list}}</ul></div><a class=\"bg-[var(--brand)] text-[#fff] p-[12px] rounded-[10px] font-bold text-[13px] text-center shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_30%,transparent)]\">{{cta}}</a></div>{{/plans}} </div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

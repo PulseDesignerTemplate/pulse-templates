@@ -8,15 +8,15 @@
   "subcategory": "boutons",
   "icon": "fa-hand-pointer",
   "schema": {
-    "html": {
+    "link_label": {
       "type": "string",
-      "label": "HTML",
-      "multiline": true,
-      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[13px_30px] rounded-[10px] font-bold text-[14px] shadow-[0_4px_20px_rgba(249,115,22,.28)] [text-decoration:none]\" href=\"#\">Commencer →</a></section>"
+      "label": "Lien — texte",
+      "default": "En savoir plus"
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[13px_30px] rounded-[10px] font-bold text-[14px] shadow-[0_4px_20px_rgba(249,115,22,.28)] [text-decoration:none]\" href=\"#\">Commencer →</a></section>"
+    "link_label": "En savoir plus",
+    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[13px_30px] rounded-[10px] font-bold text-[14px] shadow-[0_4px_20px_rgba(249,115,22,.28)] [text-decoration:none]\" href=\"#\">{{link_label}}</a></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

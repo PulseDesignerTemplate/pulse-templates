@@ -8,15 +8,48 @@
   "icon": "fa-store",
   "description": "Grille produits avec prix et bouton",
   "schema": {
-    "html": {
+    "kicker": {
       "type": "string",
-      "label": "HTML",
+      "label": "Sur-titre (badge)",
+      "default": "Nouveau"
+    },
+    "title": {
+      "type": "string",
+      "label": "Titre principal",
       "multiline": true,
-      "default": "<section class=\"bg-[var(--bg)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[14px]\"> {{#items}}<article class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] overflow-hidden\"><img class=\"w-[100%] object-cover block [aspect-ratio:4/3]\" src=\"{{image}}\" alt=\"{{title}}\"><div class=\"p-[12px]\"><h3 class=\"text-[1rem] text-[var(--text)] font-extrabold\">{{title}}</h3><p class=\"text-[12px] text-[var(--muted)] mt-[6px]\">{{desc}}</p><div class=\"mt-[10px] text-[14px] text-[var(--brand)] font-extrabold\">{{price}}</div></div></article>{{/items}} </div></section>"
+      "default": "Titre principal"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "Sous-titre descriptif pour accompagner votre message."
+    },
+    "image": {
+      "type": "string",
+      "label": "Image — URL",
+      "default": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop"
+    },
+    "desc": {
+      "type": "string",
+      "label": "Description",
+      "multiline": true,
+      "default": "Description courte et engageante."
+    },
+    "price": {
+      "type": "string",
+      "label": "Prix",
+      "default": "29€"
     }
   },
   "defaults": {
-    "html": "<section class=\"bg-[var(--bg)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[14px]\"> {{#items}}<article class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] overflow-hidden\"><img class=\"w-[100%] object-cover block [aspect-ratio:4/3]\" src=\"{{image}}\" alt=\"{{title}}\"><div class=\"p-[12px]\"><h3 class=\"text-[1rem] text-[var(--text)] font-extrabold\">{{title}}</h3><p class=\"text-[12px] text-[var(--muted)] mt-[6px]\">{{desc}}</p><div class=\"mt-[10px] text-[14px] text-[var(--brand)] font-extrabold\">{{price}}</div></div></article>{{/items}} </div></section>"
+    "kicker": "Nouveau",
+    "title": "Titre principal",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
+    "desc": "Description courte et engageante.",
+    "price": "29€",
+    "htmlTemplate": "<section class=\"bg-[var(--bg)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[14px]\"> {{#items}}<article class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] overflow-hidden\"><img class=\"w-[100%] object-cover block [aspect-ratio:4/3]\" src=\"{{image}}\" alt=\"{{title}}\"><div class=\"p-[12px]\"><h3 class=\"text-[1rem] text-[var(--text)] font-extrabold\">{{title}}</h3><p class=\"text-[12px] text-[var(--muted)] mt-[6px]\">{{desc}}</p><div class=\"mt-[10px] text-[14px] text-[var(--brand)] font-extrabold\">{{price}}</div></div></article>{{/items}} </div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

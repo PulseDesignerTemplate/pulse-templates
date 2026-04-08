@@ -8,15 +8,28 @@
   "subcategory": "media",
   "icon": "fa-circle-play",
   "schema": {
-    "html": {
+    "text": {
       "type": "string",
-      "label": "HTML",
+      "label": "Texte",
       "multiline": true,
-      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"relative w-full max-w-[720px] rounded-[16px] overflow-hidden border border-[var(--line)] aspect-video bg-[#000]\"><div class=\"absolute inset-0 flex items-center justify-center\"><div class=\"w-[64px] h-[64px] rounded-full bg-[var(--brand)] flex items-center justify-center shadow-[0_4px_20px_rgba(0,0,0,.3)] cursor-pointer\"><span class=\"text-[#fff] text-[20px] ml-[3px]\">></span></div></div><img class=\"w-full h-full object-cover opacity-60\" src=\"https://picsum.photos/800/450?random=20\" alt=\"Video thumbnail\"></div></section>"
+      "default": "Votre texte ici."
+    },
+    "image": {
+      "type": "string",
+      "label": "Image — URL",
+      "default": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop"
+    },
+    "image_alt": {
+      "type": "string",
+      "label": "Image — texte alt",
+      "default": "Illustration"
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"relative w-full max-w-[720px] rounded-[16px] overflow-hidden border border-[var(--line)] aspect-video bg-[#000]\"><div class=\"absolute inset-0 flex items-center justify-center\"><div class=\"w-[64px] h-[64px] rounded-full bg-[var(--brand)] flex items-center justify-center shadow-[0_4px_20px_rgba(0,0,0,.3)] cursor-pointer\"><span class=\"text-[#fff] text-[20px] ml-[3px]\">></span></div></div><img class=\"w-full h-full object-cover opacity-60\" src=\"https://picsum.photos/800/450?random=20\" alt=\"Video thumbnail\"></div></section>"
+    "text": "Votre texte ici.",
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
+    "image_alt": "Illustration",
+    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"relative w-full max-w-[720px] rounded-[16px] overflow-hidden border border-[var(--line)] aspect-video bg-[#000]\"><div class=\"absolute inset-0 flex items-center justify-center\"><div class=\"w-[64px] h-[64px] rounded-full bg-[var(--brand)] flex items-center justify-center shadow-[0_4px_20px_rgba(0,0,0,.3)] cursor-pointer\"><span class=\"text-[#fff] text-[20px] ml-[3px]\">{{text}}</span></div></div><img class=\"w-full h-full object-cover opacity-60\" src=\"{{image}}\" alt=\"{{image_alt}}\"></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

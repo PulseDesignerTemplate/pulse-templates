@@ -8,15 +8,53 @@
   "icon": "fa-tag",
   "description": "Offres tarifaires",
   "schema": {
-    "html": {
+    "kicker": {
       "type": "string",
-      "label": "HTML",
+      "label": "Sur-titre (badge)",
+      "default": "Nouveau"
+    },
+    "title": {
+      "type": "string",
+      "label": "Titre principal",
       "multiline": true,
-      "default": "<section class=\"bg-[var(--bg)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"flex flex-col gap-[12px] max-w-[600px] m-[0_auto]\"> {{#plans}}<div class=\"flex items-center justify-between gap-[20px] bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[20px_24px]\" data-d=\"1\"><div><div class=\"text-[14px] font-bold text-[var(--text)] mb-[4px]\">{{name}}</div></div><div class=\"text-right [flex-shrink:0]\"><div class=\"text-[1.8rem] font-black text-[var(--brand)]\">{{price}}&euro;<span class=\"text-[12px] font-medium text-[var(--muted)]\">{{period}}</span></div><a class=\"inline-flex items-center gap-[4px] text-[12px] font-bold text-[var(--brand)]\">{{cta}} &#8594;</a></div></div>{{/plans}} </div></section>"
+      "default": "Titre principal"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "Sous-titre descriptif pour accompagner votre message."
+    },
+    "period": {
+      "type": "string",
+      "label": "Période",
+      "default": "/mois"
+    },
+    "cta": {
+      "type": "string",
+      "label": "Bouton — texte",
+      "default": "Commencer"
+    },
+    "name": {
+      "type": "string",
+      "label": "Nom",
+      "default": "Nom"
+    },
+    "price": {
+      "type": "string",
+      "label": "Prix",
+      "default": "29€"
     }
   },
   "defaults": {
-    "html": "<section class=\"bg-[var(--bg)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"flex flex-col gap-[12px] max-w-[600px] m-[0_auto]\"> {{#plans}}<div class=\"flex items-center justify-between gap-[20px] bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[20px_24px]\" data-d=\"1\"><div><div class=\"text-[14px] font-bold text-[var(--text)] mb-[4px]\">{{name}}</div></div><div class=\"text-right [flex-shrink:0]\"><div class=\"text-[1.8rem] font-black text-[var(--brand)]\">{{price}}&euro;<span class=\"text-[12px] font-medium text-[var(--muted)]\">{{period}}</span></div><a class=\"inline-flex items-center gap-[4px] text-[12px] font-bold text-[var(--brand)]\">{{cta}} &#8594;</a></div></div>{{/plans}} </div></section>"
+    "kicker": "Nouveau",
+    "title": "Titre principal",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "period": "/mois",
+    "cta": "Commencer",
+    "name": "Nom",
+    "price": "29€",
+    "htmlTemplate": "<section class=\"bg-[var(--bg)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"flex flex-col gap-[12px] max-w-[600px] m-[0_auto]\"> {{#plans}}<div class=\"flex items-center justify-between gap-[20px] bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[20px_24px]\" data-d=\"1\"><div><div class=\"text-[14px] font-bold text-[var(--text)] mb-[4px]\">{{name}}</div></div><div class=\"text-right [flex-shrink:0]\"><div class=\"text-[1.8rem] font-black text-[var(--brand)]\">{{price}}&euro;<span class=\"text-[12px] font-medium text-[var(--muted)]\">{{period}}</span></div><a class=\"inline-flex items-center gap-[4px] text-[12px] font-bold text-[var(--brand)]\">{{cta}} &#8594;</a></div></div>{{/plans}} </div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

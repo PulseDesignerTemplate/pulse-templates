@@ -8,15 +8,15 @@
   "subcategory": "boutons",
   "icon": "fa-ghost",
   "schema": {
-    "html": {
+    "link_label": {
       "type": "string",
-      "label": "HTML",
-      "multiline": true,
-      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[8px] text-[var(--brand)] p-[12px_24px] rounded-[10px] font-bold text-[14px] [text-decoration:none] hover:bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] transition-colors\" href=\"#\">Lien discret →</a></section>"
+      "label": "Lien — texte",
+      "default": "En savoir plus"
     }
   },
   "defaults": {
-    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[8px] text-[var(--brand)] p-[12px_24px] rounded-[10px] font-bold text-[14px] [text-decoration:none] hover:bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] transition-colors\" href=\"#\">Lien discret →</a></section>"
+    "link_label": "En savoir plus",
+    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[8px] text-[var(--brand)] p-[12px_24px] rounded-[10px] font-bold text-[14px] [text-decoration:none] hover:bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] transition-colors\" href=\"#\">{{link_label}}</a></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

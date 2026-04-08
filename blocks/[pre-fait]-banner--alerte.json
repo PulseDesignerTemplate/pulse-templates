@@ -8,15 +8,28 @@
   "icon": "fa-triangle-exclamation",
   "description": "Bandeau d'annonce / alerte",
   "schema": {
-    "html": {
+    "text": {
       "type": "string",
-      "label": "HTML",
+      "label": "Texte",
       "multiline": true,
-      "default": "<section id=\"gv-banner-2\" data-gv-block=\"1\" data-gv-block-type=\"banner\" data-gv-variant=\"2\" data-gv-block-id=\"gv-banner-2\"><div class=\"flex items-center gap-[10px] flex-wrap bg-[color-mix(in_srgb,#ef4444_10%,var(--surface))] p-[10px_24px] [border-bottom:1px_solid_color-mix(in_srgb,#ef4444_25%,transparent)]\"><span class=\"text-[14px]\">&#9888;</span><span class=\"text-[13px] text-[var(--text)] font-medium [flex:1]\">{{tagline}}</span><a class=\"text-[12px] font-bold text-[#ef4444]\">En savoir plus &#8594;</a></div></section>"
+      "default": "Votre texte ici."
+    },
+    "tagline": {
+      "type": "string",
+      "label": "Slogan",
+      "default": "Votre slogan accrocheur ici"
+    },
+    "link_label": {
+      "type": "string",
+      "label": "Lien — texte",
+      "default": "En savoir plus"
     }
   },
   "defaults": {
-    "html": "<section id=\"gv-banner-2\" data-gv-block=\"1\" data-gv-block-type=\"banner\" data-gv-variant=\"2\" data-gv-block-id=\"gv-banner-2\"><div class=\"flex items-center gap-[10px] flex-wrap bg-[color-mix(in_srgb,#ef4444_10%,var(--surface))] p-[10px_24px] [border-bottom:1px_solid_color-mix(in_srgb,#ef4444_25%,transparent)]\"><span class=\"text-[14px]\">&#9888;</span><span class=\"text-[13px] text-[var(--text)] font-medium [flex:1]\">{{tagline}}</span><a class=\"text-[12px] font-bold text-[#ef4444]\">En savoir plus &#8594;</a></div></section>"
+    "text": "Votre texte ici.",
+    "tagline": "Votre slogan accrocheur ici",
+    "link_label": "En savoir plus",
+    "htmlTemplate": "<section id=\"gv-banner-2\" data-gv-block=\"1\" data-gv-block-type=\"banner\" data-gv-variant=\"2\" data-gv-block-id=\"gv-banner-2\"><div class=\"flex items-center gap-[10px] flex-wrap bg-[color-mix(in_srgb,#ef4444_10%,var(--surface))] p-[10px_24px] [border-bottom:1px_solid_color-mix(in_srgb,#ef4444_25%,transparent)]\"><span class=\"text-[14px]\">{{text}}</span><span class=\"text-[13px] text-[var(--text)] font-medium [flex:1]\">{{tagline}}</span><a class=\"text-[12px] font-bold text-[#ef4444]\">{{link_label}}</a></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {

@@ -8,15 +8,48 @@
   "icon": "fa-heading",
   "description": "Bannière titre pour pages intérieures",
   "schema": {
-    "html": {
+    "link_label": {
       "type": "string",
-      "label": "HTML",
+      "label": "Lien — texte",
+      "default": "En savoir plus"
+    },
+    "text": {
+      "type": "string",
+      "label": "Texte",
       "multiline": true,
-      "default": "<section class=\"bg-[var(--bg)] p-[40px_48px] [border-bottom:1px_solid_var(--line)]\"><div class=\"flex items-center gap-[6px] text-[12px] text-[var(--muted)] mb-[16px]\"><a class=\"text-[var(--muted)]\" href=\"#\">Accueil</a><span>/</span><span class=\"text-[var(--brand)]\">{{kicker}}</span></div><div class=\"flex justify-between items-end flex-wrap gap-[20px]\"><div><h1 class=\"text-[2.2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[8px]\">{{title}}</h1><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] leading-[1.65]\">{{subtitle}}</p></div><a class=\"bg-[var(--brand)] text-[#fff] p-[11px_24px] rounded-[10px] font-bold text-[13px] [flex-shrink:0] [white-space:nowrap]\">{{cta.label}}</a></div></section>"
+      "default": "Votre texte ici."
+    },
+    "kicker": {
+      "type": "string",
+      "label": "Sur-titre (badge)",
+      "default": "Nouveau"
+    },
+    "title": {
+      "type": "string",
+      "label": "Titre principal",
+      "multiline": true,
+      "default": "Titre principal"
+    },
+    "subtitle": {
+      "type": "string",
+      "label": "Sous-titre",
+      "multiline": true,
+      "default": "Sous-titre descriptif pour accompagner votre message."
+    },
+    "cta_label": {
+      "type": "string",
+      "label": "Bouton — texte",
+      "default": "Commencer"
     }
   },
   "defaults": {
-    "html": "<section class=\"bg-[var(--bg)] p-[40px_48px] [border-bottom:1px_solid_var(--line)]\"><div class=\"flex items-center gap-[6px] text-[12px] text-[var(--muted)] mb-[16px]\"><a class=\"text-[var(--muted)]\" href=\"#\">Accueil</a><span>/</span><span class=\"text-[var(--brand)]\">{{kicker}}</span></div><div class=\"flex justify-between items-end flex-wrap gap-[20px]\"><div><h1 class=\"text-[2.2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[8px]\">{{title}}</h1><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] leading-[1.65]\">{{subtitle}}</p></div><a class=\"bg-[var(--brand)] text-[#fff] p-[11px_24px] rounded-[10px] font-bold text-[13px] [flex-shrink:0] [white-space:nowrap]\">{{cta.label}}</a></div></section>"
+    "link_label": "En savoir plus",
+    "text": "Votre texte ici.",
+    "kicker": "Nouveau",
+    "title": "Titre principal",
+    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+    "cta_label": "Commencer",
+    "htmlTemplate": "<section class=\"bg-[var(--bg)] p-[40px_48px] [border-bottom:1px_solid_var(--line)]\"><div class=\"flex items-center gap-[6px] text-[12px] text-[var(--muted)] mb-[16px]\"><a class=\"text-[var(--muted)]\" href=\"#\">{{link_label}}</a><span>{{text}}</span><span class=\"text-[var(--brand)]\">{{kicker}}</span></div><div class=\"flex justify-between items-end flex-wrap gap-[20px]\"><div><h1 class=\"text-[2.2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[8px]\">{{title}}</h1><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] leading-[1.65]\">{{subtitle}}</p></div><a class=\"bg-[var(--brand)] text-[#fff] p-[11px_24px] rounded-[10px] font-bold text-[13px] [flex-shrink:0] [white-space:nowrap]\">{{cta_label}}</a></div></section>"
   },
   "astroTemplate": "Html.astro",
   "legacy": {
