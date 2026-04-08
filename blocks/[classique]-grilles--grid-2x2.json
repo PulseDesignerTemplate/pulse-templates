@@ -1,1 +1,26 @@
-{"type":"classique","category":"classic","subcategory":"grilles","id":"grid-2x2","label":"Grille 2×2","icon":"⊞","html":"<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"grid grid-cols-2 gap-[20px]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[28px]\"><h4 class=\"text-[15px] font-bold text-[var(--text)] mb-[6px]\">Élément 1</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description de l'élément.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[28px]\"><h4 class=\"text-[15px] font-bold text-[var(--text)] mb-[6px]\">Élément 2</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description de l'élément.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[28px]\"><h4 class=\"text-[15px] font-bold text-[var(--text)] mb-[6px]\">Élément 3</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description de l'élément.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[28px]\"><h4 class=\"text-[15px] font-bold text-[var(--text)] mb-[6px]\">Élément 4</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description de l'élément.</p></div></div></section>"}
+{
+  "type": "classique-grilles-grid-2x2",
+  "template": "html",
+  "kind": "static",
+  "id": "grid-2x2",
+  "label": "Grille 2×2",
+  "category": "classic",
+  "subcategory": "grilles",
+  "icon": "fa-border-all",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"grid grid-cols-2 gap-[20px]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[28px]\"><h4 class=\"text-[15px] font-bold text-[var(--text)] mb-[6px]\">Élément 1</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description de l'élément.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[28px]\"><h4 class=\"text-[15px] font-bold text-[var(--text)] mb-[6px]\">Élément 2</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description de l'élément.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[28px]\"><h4 class=\"text-[15px] font-bold text-[var(--text)] mb-[6px]\">Élément 3</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description de l'élément.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[28px]\"><h4 class=\"text-[15px] font-bold text-[var(--text)] mb-[6px]\">Élément 4</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description de l'élément.</p></div></div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"grid grid-cols-2 gap-[20px]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[28px]\"><h4 class=\"text-[15px] font-bold text-[var(--text)] mb-[6px]\">Élément 1</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description de l'élément.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[28px]\"><h4 class=\"text-[15px] font-bold text-[var(--text)] mb-[6px]\">Élément 2</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description de l'élément.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[28px]\"><h4 class=\"text-[15px] font-bold text-[var(--text)] mb-[6px]\">Élément 3</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description de l'élément.</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[28px]\"><h4 class=\"text-[15px] font-bold text-[var(--text)] mb-[6px]\">Élément 4</h4><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">Description de l'élément.</p></div></div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "grid-2x2"
+  }
+}

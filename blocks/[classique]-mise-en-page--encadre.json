@@ -1,1 +1,26 @@
-{"type": "classique", "category": "classic", "subcategory": "mise-en-page", "id": "encadre", "label": "Encadré coloré", "icon": "▨", "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[color-mix(in_srgb,var(--brand)_8%,transparent)] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] rounded-[14px] p-[24px] max-w-[600px]\"><div class=\"flex items-start gap-[12px]\"><span class=\"text-[var(--brand)] text-[18px] mt-[2px]\">*</span><div><p class=\"text-[14px] font-semibold text-[var(--text)] mb-[4px]\">Bon à savoir</p><p class=\"text-[13px] text-[var(--muted)] leading-[1.65]\">Un encadré coloré pour mettre en avant une information importante ou un conseil.</p></div></div></div></section>"}
+{
+  "type": "classique-mise-en-page-encadre",
+  "template": "html",
+  "kind": "static",
+  "id": "encadre",
+  "label": "Encadré coloré",
+  "category": "classic",
+  "subcategory": "mise-en-page",
+  "icon": "fa-lightbulb",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[color-mix(in_srgb,var(--brand)_8%,transparent)] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] rounded-[14px] p-[24px] max-w-[600px]\"><div class=\"flex items-start gap-[12px]\"><span class=\"text-[var(--brand)] text-[18px] mt-[2px]\">*</span><div><p class=\"text-[14px] font-semibold text-[var(--text)] mb-[4px]\">Bon à savoir</p><p class=\"text-[13px] text-[var(--muted)] leading-[1.65]\">Un encadré coloré pour mettre en avant une information importante ou un conseil.</p></div></div></div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[color-mix(in_srgb,var(--brand)_8%,transparent)] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] rounded-[14px] p-[24px] max-w-[600px]\"><div class=\"flex items-start gap-[12px]\"><span class=\"text-[var(--brand)] text-[18px] mt-[2px]\">*</span><div><p class=\"text-[14px] font-semibold text-[var(--text)] mb-[4px]\">Bon à savoir</p><p class=\"text-[13px] text-[var(--muted)] leading-[1.65]\">Un encadré coloré pour mettre en avant une information importante ou un conseil.</p></div></div></div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "encadre"
+  }
+}

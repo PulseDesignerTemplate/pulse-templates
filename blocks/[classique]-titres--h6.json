@@ -1,1 +1,26 @@
-{"type":"classique","category":"classic","subcategory":"titres","id":"h6","label":"Titre H6","icon":"H6","html":"<section class=\"p-[40px] bg-[var(--bg)]\"><h6 class=\"text-[0.875rem] font-semibold text-[var(--muted)] leading-[1.4] uppercase tracking-[.08em]\">Titre de niveau 6</h6></section>"}
+{
+  "type": "classique-titres-h6",
+  "template": "html",
+  "kind": "static",
+  "id": "h6",
+  "label": "Titre H6",
+  "category": "classic",
+  "subcategory": "titres",
+  "icon": "fa-heading",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><h6 class=\"text-[0.875rem] font-semibold text-[var(--muted)] leading-[1.4] uppercase tracking-[.08em]\">Titre de niveau 6</h6></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><h6 class=\"text-[0.875rem] font-semibold text-[var(--muted)] leading-[1.4] uppercase tracking-[.08em]\">Titre de niveau 6</h6></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "h6"
+  }
+}

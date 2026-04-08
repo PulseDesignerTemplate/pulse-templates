@@ -1,1 +1,26 @@
-{"type": "classique", "category": "classic", "id": "btn-vide", "label": "Btn vide", "icon": "◻", "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[8px] border-[1.5px] border-[var(--line)] text-[var(--text)] p-[13px_30px] rounded-[10px] font-semibold text-[14px] [text-decoration:none]\" href=\"#\">En savoir plus</a></section>", "subcategory": "boutons"}
+{
+  "type": "classique-boutons-btn-vide",
+  "template": "html",
+  "kind": "static",
+  "id": "btn-vide",
+  "label": "Btn vide",
+  "category": "classic",
+  "subcategory": "boutons",
+  "icon": "fa-circle-play",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[8px] border-[1.5px] border-[var(--line)] text-[var(--text)] p-[13px_30px] rounded-[10px] font-semibold text-[14px] [text-decoration:none]\" href=\"#\">En savoir plus</a></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[8px] border-[1.5px] border-[var(--line)] text-[var(--text)] p-[13px_30px] rounded-[10px] font-semibold text-[14px] [text-decoration:none]\" href=\"#\">En savoir plus</a></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "btn-vide"
+  }
+}

@@ -1,1 +1,30 @@
-{"type": "pre-fait", "category": "content", "id": "quote-highlight", "label": "Citation Highlight", "description": "Grande citation mise en avant", "schema_version": 1, "name": "content / Citation Highlight", "slug": "content--quote-highlight", "height": 220, "created_at": "2026-04-03T10:00:00+00:00", "updated_at": "2026-04-03T10:00:00+00:00", "html": "<section class=\"bg-[var(--surface)] p-[80px_40px] relative overflow-hidden\"><div class=\"absolute [inset:0] [background:radial-gradient(ellipse_80%_50%_at_50%_0%,color-mix(in_srgb,var(--brand)_8%,transparent),transparent)] [pointer-events:none]\"></div><div class=\"max-w-[680px] mx-auto text-center relative\"><div class=\"text-[4rem] text-[var(--brand)] opacity-20 leading-[1] font-serif mb-[8px]\">&ldquo;</div><blockquote class=\"text-[1.4rem] font-medium text-[var(--text)] leading-[1.6] [font-style:italic] mb-[24px]\">La simplicite est la sophistication supreme. Nous creons des outils qui disparaissent pour laisser place a votre creativite.</blockquote><div class=\"flex items-center justify-center gap-[12px]\"><div class=\"w-[40px] h-[40px] rounded-full bg-[color-mix(in_srgb,var(--brand)_15%,var(--bg))] flex items-center justify-center text-[var(--brand)] text-[14px] font-bold\">JD</div><div class=\"text-left\"><p class=\"text-[13px] font-bold text-[var(--text)]\">Jean Dupont</p><p class=\"text-[11px] text-[var(--muted)]\">CEO, Entreprise</p></div></div></div></section>"}
+{
+  "type": "prefait-content-quote-highlight",
+  "template": "html",
+  "kind": "static",
+  "id": "quote-highlight",
+  "label": "Citation Highlight",
+  "category": "content",
+  "icon": "fa-file-lines",
+  "description": "Grande citation mise en avant",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"bg-[var(--surface)] p-[80px_40px] relative overflow-hidden\"><div class=\"absolute [inset:0] [background:radial-gradient(ellipse_80%_50%_at_50%_0%,color-mix(in_srgb,var(--brand)_8%,transparent),transparent)] [pointer-events:none]\"></div><div class=\"max-w-[680px] mx-auto text-center relative\"><div class=\"text-[4rem] text-[var(--brand)] opacity-20 leading-[1] font-serif mb-[8px]\">&ldquo;</div><blockquote class=\"text-[1.4rem] font-medium text-[var(--text)] leading-[1.6] [font-style:italic] mb-[24px]\">La simplicite est la sophistication supreme. Nous creons des outils qui disparaissent pour laisser place a votre creativite.</blockquote><div class=\"flex items-center justify-center gap-[12px]\"><div class=\"w-[40px] h-[40px] rounded-full bg-[color-mix(in_srgb,var(--brand)_15%,var(--bg))] flex items-center justify-center text-[var(--brand)] text-[14px] font-bold\">JD</div><div class=\"text-left\"><p class=\"text-[13px] font-bold text-[var(--text)]\">Jean Dupont</p><p class=\"text-[11px] text-[var(--muted)]\">CEO, Entreprise</p></div></div></div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"bg-[var(--surface)] p-[80px_40px] relative overflow-hidden\"><div class=\"absolute [inset:0] [background:radial-gradient(ellipse_80%_50%_at_50%_0%,color-mix(in_srgb,var(--brand)_8%,transparent),transparent)] [pointer-events:none]\"></div><div class=\"max-w-[680px] mx-auto text-center relative\"><div class=\"text-[4rem] text-[var(--brand)] opacity-20 leading-[1] font-serif mb-[8px]\">&ldquo;</div><blockquote class=\"text-[1.4rem] font-medium text-[var(--text)] leading-[1.6] [font-style:italic] mb-[24px]\">La simplicite est la sophistication supreme. Nous creons des outils qui disparaissent pour laisser place a votre creativite.</blockquote><div class=\"flex items-center justify-center gap-[12px]\"><div class=\"w-[40px] h-[40px] rounded-full bg-[color-mix(in_srgb,var(--brand)_15%,var(--bg))] flex items-center justify-center text-[var(--brand)] text-[14px] font-bold\">JD</div><div class=\"text-left\"><p class=\"text-[13px] font-bold text-[var(--text)]\">Jean Dupont</p><p class=\"text-[11px] text-[var(--muted)]\">CEO, Entreprise</p></div></div></div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "pre-fait",
+    "id": "quote-highlight",
+    "slug": "content--quote-highlight",
+    "height": 220,
+    "created_at": "2026-04-03T10:00:00+00:00",
+    "updated_at": "2026-04-03T10:00:00+00:00"
+  }
+}

@@ -1,1 +1,30 @@
-{"type": "pre-fait", "category": "newsletter", "id": "dark-newsletter", "label": "Dark Newsletter", "description": "Capture d'email / abonnement", "schema_version": 1, "name": "newsletter / Dark Newsletter", "slug": "newsletter--dark-newsletter", "height": 220, "created_at": "2026-03-05T08:37:36+00:00", "updated_at": "2026-03-05T08:37:36+00:00", "html": "<section class=\"bg-[var(--bg)] p-[64px_40px]\"><div class=\"flex flex-col items-center gap-[16px] border border-[color-mix(in_srgb,var(--brand)_15%,var(--line))] rounded-[20px] p-[48px] text-center max-w-[560px] m-[0_auto] [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_8%,var(--surface)),var(--surface))]\"><h2 class=\"text-[1.8rem] font-black text-[var(--text)] tracking-[-.02em] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.65] max-w-[380px]\">{{subtitle}}</p><div class=\"flex gap-[10px] flex-wrap w-[100%]\"><input class=\"min-w-[200px] bg-[var(--bg)] border-[1.5px] border-[var(--line)] rounded-[10px] p-[12px_16px] text-[13px] text-[var(--text)] [flex:1]\" placeholder=\"votre@email.fr\" type=\"email\"><a class=\"bg-[var(--brand)] text-[#fff] p-[12px_24px] rounded-[10px] font-bold text-[13px] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_30%,transparent)] [flex-shrink:0]\">{{cta.label}}</a></div></div></section>"}
+{
+  "type": "prefait-newsletter-dark-newsletter",
+  "template": "html",
+  "kind": "static",
+  "id": "dark-newsletter",
+  "label": "Dark Newsletter",
+  "category": "newsletter",
+  "icon": "fa-paper-plane",
+  "description": "Capture d'email / abonnement",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"bg-[var(--bg)] p-[64px_40px]\"><div class=\"flex flex-col items-center gap-[16px] border border-[color-mix(in_srgb,var(--brand)_15%,var(--line))] rounded-[20px] p-[48px] text-center max-w-[560px] m-[0_auto] [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_8%,var(--surface)),var(--surface))]\"><h2 class=\"text-[1.8rem] font-black text-[var(--text)] tracking-[-.02em] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.65] max-w-[380px]\">{{subtitle}}</p><div class=\"flex gap-[10px] flex-wrap w-[100%]\"><input class=\"min-w-[200px] bg-[var(--bg)] border-[1.5px] border-[var(--line)] rounded-[10px] p-[12px_16px] text-[13px] text-[var(--text)] [flex:1]\" placeholder=\"votre@email.fr\" type=\"email\"><a class=\"bg-[var(--brand)] text-[#fff] p-[12px_24px] rounded-[10px] font-bold text-[13px] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_30%,transparent)] [flex-shrink:0]\">{{cta.label}}</a></div></div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"bg-[var(--bg)] p-[64px_40px]\"><div class=\"flex flex-col items-center gap-[16px] border border-[color-mix(in_srgb,var(--brand)_15%,var(--line))] rounded-[20px] p-[48px] text-center max-w-[560px] m-[0_auto] [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_8%,var(--surface)),var(--surface))]\"><h2 class=\"text-[1.8rem] font-black text-[var(--text)] tracking-[-.02em] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.65] max-w-[380px]\">{{subtitle}}</p><div class=\"flex gap-[10px] flex-wrap w-[100%]\"><input class=\"min-w-[200px] bg-[var(--bg)] border-[1.5px] border-[var(--line)] rounded-[10px] p-[12px_16px] text-[13px] text-[var(--text)] [flex:1]\" placeholder=\"votre@email.fr\" type=\"email\"><a class=\"bg-[var(--brand)] text-[#fff] p-[12px_24px] rounded-[10px] font-bold text-[13px] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_30%,transparent)] [flex-shrink:0]\">{{cta.label}}</a></div></div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "pre-fait",
+    "id": "dark-newsletter",
+    "slug": "newsletter--dark-newsletter",
+    "height": 220,
+    "created_at": "2026-03-05T08:37:36+00:00",
+    "updated_at": "2026-03-05T08:37:36+00:00"
+  }
+}

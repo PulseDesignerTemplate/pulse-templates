@@ -1,1 +1,26 @@
-{"type":"classique","category":"classic","subcategory":"boutons","id":"btn-groupe","label":"Groupe de boutons","icon":"◫","html":"<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"flex flex-wrap gap-[12px]\"><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none] shadow-[0_4px_20px_rgba(249,115,22,.28)]\" href=\"#\">Principal →</a><a class=\"inline-flex items-center gap-[8px] border border-[var(--line)] text-[var(--text)] p-[13px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none]\" href=\"#\">Secondaire</a></div></section>"}
+{
+  "type": "classique-boutons-btn-groupe",
+  "template": "html",
+  "kind": "static",
+  "id": "btn-groupe",
+  "label": "Groupe de boutons",
+  "category": "classic",
+  "subcategory": "boutons",
+  "icon": "fa-object-group",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"flex flex-wrap gap-[12px]\"><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none] shadow-[0_4px_20px_rgba(249,115,22,.28)]\" href=\"#\">Principal →</a><a class=\"inline-flex items-center gap-[8px] border border-[var(--line)] text-[var(--text)] p-[13px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none]\" href=\"#\">Secondaire</a></div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"flex flex-wrap gap-[12px]\"><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none] shadow-[0_4px_20px_rgba(249,115,22,.28)]\" href=\"#\">Principal →</a><a class=\"inline-flex items-center gap-[8px] border border-[var(--line)] text-[var(--text)] p-[13px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none]\" href=\"#\">Secondaire</a></div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "btn-groupe"
+  }
+}

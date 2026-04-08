@@ -1,1 +1,26 @@
-{"type":"classique","category":"classic","subcategory":"titres","id":"titre-centre","label":"Titre centré","icon":"≡","html":"<section class=\"p-[60px_40px] bg-[var(--bg)] text-center\"><h2 class=\"text-[2.2rem] font-extrabold text-[var(--text)] leading-[1.15] tracking-[-.02em] mb-[12px]\">Titre centré</h2><p class=\"text-[15px] text-[var(--muted)] leading-[1.7] max-w-[520px] mx-auto\">Description centrée pour introduire une section importante de votre page.</p></section>"}
+{
+  "type": "classique-titres-titre-centre",
+  "template": "html",
+  "kind": "static",
+  "id": "titre-centre",
+  "label": "Titre centré",
+  "category": "classic",
+  "subcategory": "titres",
+  "icon": "fa-align-center",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[60px_40px] bg-[var(--bg)] text-center\"><h2 class=\"text-[2.2rem] font-extrabold text-[var(--text)] leading-[1.15] tracking-[-.02em] mb-[12px]\">Titre centré</h2><p class=\"text-[15px] text-[var(--muted)] leading-[1.7] max-w-[520px] mx-auto\">Description centrée pour introduire une section importante de votre page.</p></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[60px_40px] bg-[var(--bg)] text-center\"><h2 class=\"text-[2.2rem] font-extrabold text-[var(--text)] leading-[1.15] tracking-[-.02em] mb-[12px]\">Titre centré</h2><p class=\"text-[15px] text-[var(--muted)] leading-[1.7] max-w-[520px] mx-auto\">Description centrée pour introduire une section importante de votre page.</p></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "titre-centre"
+  }
+}

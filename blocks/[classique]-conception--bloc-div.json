@@ -1,1 +1,26 @@
-{"type":"classique","category":"classic","subcategory":"conception","id":"bloc-div","label":"Conteneur div","icon":"<>","html":"<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[32px] max-w-[800px]\"><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">Conteneur vide. Glissez des éléments à l'intérieur pour structurer votre page.</p></div></section>"}
+{
+  "type": "classique-conception-bloc-div",
+  "template": "html",
+  "kind": "static",
+  "id": "bloc-div",
+  "label": "Conteneur div",
+  "category": "classic",
+  "subcategory": "conception",
+  "icon": "fa-square-dashed",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[32px] max-w-[800px]\"><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">Conteneur vide. Glissez des éléments à l'intérieur pour structurer votre page.</p></div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[32px] max-w-[800px]\"><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">Conteneur vide. Glissez des éléments à l'intérieur pour structurer votre page.</p></div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "bloc-div"
+  }
+}

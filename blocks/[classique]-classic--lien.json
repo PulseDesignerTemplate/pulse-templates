@@ -1,1 +1,26 @@
-{"type": "classique", "category": "classic", "id": "lien", "label": "Lien", "icon": "↗", "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"text-[var(--brand)] font-semibold text-[14px] pb-[2px] [text-decoration:none] [border-bottom:1.5px_solid_color-mix(in_srgb,var(--brand)_40%,transparent)]\" href=\"#\">Voir plus →</a></section>", "subcategory": "boutons"}
+{
+  "type": "classique-boutons-lien",
+  "template": "html",
+  "kind": "static",
+  "id": "lien",
+  "label": "Lien",
+  "category": "classic",
+  "subcategory": "boutons",
+  "icon": "fa-link",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"text-[var(--brand)] font-semibold text-[14px] pb-[2px] [text-decoration:none] [border-bottom:1.5px_solid_color-mix(in_srgb,var(--brand)_40%,transparent)]\" href=\"#\">Voir plus →</a></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"text-[var(--brand)] font-semibold text-[14px] pb-[2px] [text-decoration:none] [border-bottom:1.5px_solid_color-mix(in_srgb,var(--brand)_40%,transparent)]\" href=\"#\">Voir plus →</a></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "lien"
+  }
+}

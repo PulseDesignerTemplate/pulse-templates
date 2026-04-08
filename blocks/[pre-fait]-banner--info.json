@@ -1,1 +1,30 @@
-{"type":"pre-fait","category":"banner","id":"info","label":"Info","description":"Bandeau d'annonce / alerte","schema_version":1,"name":"banner / Info","slug":"banner--info","height":70,"created_at":"2026-03-05T08:37:36+00:00","updated_at":"2026-03-05T08:37:36+00:00","html":"<section id=\"gv-banner-1\" data-gv-block=\"1\" data-gv-block-type=\"banner\" data-gv-variant=\"1\" data-gv-block-id=\"gv-banner-1\"><div class=\"flex items-center justify-between gap-[12px] flex-wrap bg-[color-mix(in_srgb,var(--brand)_10%,var(--surface))] p-[10px_24px] [border-bottom:1px_solid_color-mix(in_srgb,var(--brand)_25%,transparent)]\"><div class=\"flex items-center gap-[8px]\"><span class=\"w-[6px] h-[6px] rounded-[999px] bg-[var(--brand)] [flex-shrink:0]\"></span><span class=\"text-[13px] text-[var(--text)] font-medium\">{{tagline}}</span></div><div class=\"flex items-center gap-[12px]\"><a class=\"flex items-center gap-[4px] text-[12px] font-bold text-[var(--brand)]\">{{cta.label}} &#8594;</a><span class=\"text-[16px] text-[var(--muted)] cursor-pointer\">&times;</span></div></div></section>"}
+{
+  "type": "prefait-banner-info",
+  "template": "html",
+  "kind": "static",
+  "id": "info",
+  "label": "Info",
+  "category": "banner",
+  "icon": "fa-rectangle-ad",
+  "description": "Bandeau d'annonce / alerte",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section id=\"gv-banner-1\" data-gv-block=\"1\" data-gv-block-type=\"banner\" data-gv-variant=\"1\" data-gv-block-id=\"gv-banner-1\"><div class=\"flex items-center justify-between gap-[12px] flex-wrap bg-[color-mix(in_srgb,var(--brand)_10%,var(--surface))] p-[10px_24px] [border-bottom:1px_solid_color-mix(in_srgb,var(--brand)_25%,transparent)]\"><div class=\"flex items-center gap-[8px]\"><span class=\"w-[6px] h-[6px] rounded-[999px] bg-[var(--brand)] [flex-shrink:0]\"></span><span class=\"text-[13px] text-[var(--text)] font-medium\">{{tagline}}</span></div><div class=\"flex items-center gap-[12px]\"><a class=\"flex items-center gap-[4px] text-[12px] font-bold text-[var(--brand)]\">{{cta.label}} &#8594;</a><span class=\"text-[16px] text-[var(--muted)] cursor-pointer\">&times;</span></div></div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section id=\"gv-banner-1\" data-gv-block=\"1\" data-gv-block-type=\"banner\" data-gv-variant=\"1\" data-gv-block-id=\"gv-banner-1\"><div class=\"flex items-center justify-between gap-[12px] flex-wrap bg-[color-mix(in_srgb,var(--brand)_10%,var(--surface))] p-[10px_24px] [border-bottom:1px_solid_color-mix(in_srgb,var(--brand)_25%,transparent)]\"><div class=\"flex items-center gap-[8px]\"><span class=\"w-[6px] h-[6px] rounded-[999px] bg-[var(--brand)] [flex-shrink:0]\"></span><span class=\"text-[13px] text-[var(--text)] font-medium\">{{tagline}}</span></div><div class=\"flex items-center gap-[12px]\"><a class=\"flex items-center gap-[4px] text-[12px] font-bold text-[var(--brand)]\">{{cta.label}} &#8594;</a><span class=\"text-[16px] text-[var(--muted)] cursor-pointer\">&times;</span></div></div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "pre-fait",
+    "id": "info",
+    "slug": "banner--info",
+    "height": 70,
+    "created_at": "2026-03-05T08:37:36+00:00",
+    "updated_at": "2026-03-05T08:37:36+00:00"
+  }
+}

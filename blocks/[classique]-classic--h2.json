@@ -1,1 +1,26 @@
-{"type": "classique", "category": "classic", "id": "h2", "label": "Titre H2", "icon": "H2", "html": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><h2 class=\"text-[2rem] font-extrabold text-[var(--text)] leading-[1.15] tracking-[-.02em]\">Titre de section</h2></section>", "subcategory": "titres"}
+{
+  "type": "classique-titres-h2",
+  "template": "html",
+  "kind": "static",
+  "id": "h2",
+  "label": "Titre H2",
+  "category": "classic",
+  "subcategory": "titres",
+  "icon": "fa-heading",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><h2 class=\"text-[2rem] font-extrabold text-[var(--text)] leading-[1.15] tracking-[-.02em]\">Titre de section</h2></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><h2 class=\"text-[2rem] font-extrabold text-[var(--text)] leading-[1.15] tracking-[-.02em]\">Titre de section</h2></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "h2"
+  }
+}

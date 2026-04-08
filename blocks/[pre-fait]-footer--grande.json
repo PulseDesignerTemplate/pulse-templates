@@ -1,1 +1,30 @@
-{"type":"pre-fait","category":"footer","id":"grande","label":"Grande","description":"Bas de page","schema_version":1,"name":"footer / Grande","slug":"footer--grande","height":220,"created_at":"2026-03-05T08:37:36+00:00","updated_at":"2026-03-05T08:37:36+00:00","html":"<section id=\"gv-footer-5\" data-gv-block=\"1\" data-gv-block-type=\"footer\" data-gv-variant=\"5\" data-gv-block-id=\"gv-footer-5\"><footer class=\"bg-[var(--surface)] p-[72px_40px_40px] [border-top:1px_solid_var(--line)]\"><div class=\"max-w-[1000px] m-[0_auto]\"><div class=\"text-center mb-[48px]\"><div class=\"text-[2rem] font-black text-[var(--text)] mb-[10px]\">{{brand.name}}</div><p class=\"text-[var(--muted)] text-[13.5px] max-w-[460px] m-[0_auto_20px] leading-[1.65]\">{{subtitle}}</p><a class=\"bg-[var(--brand)] text-[#fff] p-[12px_32px] rounded-[10px] font-bold text-[14px] inline-block\">{{cta.label}}</a></div><div class=\"flex justify-center gap-[32px] flex-wrap mb-[36px]\"> {{#navLinks}}<a class=\"text-[var(--muted)] text-[13px]\" href=\"{{href}}\">{{label}}</a>{{/navLinks}} </div><div class=\"flex justify-between items-center flex-wrap gap-[12px] pt-[28px] [border-top:1px_solid_var(--line)]\"><span class=\"text-[12px] text-[var(--muted)]\">&copy; {{year}} {{company}}</span><div class=\"flex gap-[8px]\"> {{#socials}}<a class=\"flex items-center justify-center text-[var(--muted)] text-[13px] w-[30px] h-[30px] border border-[var(--line)] rounded-[8px]\" href=\"{{href}}\">{{icon}}</a>{{/socials}} </div></div></div></footer></section>"}
+{
+  "type": "prefait-footer-grande",
+  "template": "html",
+  "kind": "static",
+  "id": "grande",
+  "label": "Grande",
+  "category": "footer",
+  "icon": "fa-minus",
+  "description": "Bas de page",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section id=\"gv-footer-5\" data-gv-block=\"1\" data-gv-block-type=\"footer\" data-gv-variant=\"5\" data-gv-block-id=\"gv-footer-5\"><footer class=\"bg-[var(--surface)] p-[72px_40px_40px] [border-top:1px_solid_var(--line)]\"><div class=\"max-w-[1000px] m-[0_auto]\"><div class=\"text-center mb-[48px]\"><div class=\"text-[2rem] font-black text-[var(--text)] mb-[10px]\">{{brand.name}}</div><p class=\"text-[var(--muted)] text-[13.5px] max-w-[460px] m-[0_auto_20px] leading-[1.65]\">{{subtitle}}</p><a class=\"bg-[var(--brand)] text-[#fff] p-[12px_32px] rounded-[10px] font-bold text-[14px] inline-block\">{{cta.label}}</a></div><div class=\"flex justify-center gap-[32px] flex-wrap mb-[36px]\"> {{#navLinks}}<a class=\"text-[var(--muted)] text-[13px]\" href=\"{{href}}\">{{label}}</a>{{/navLinks}} </div><div class=\"flex justify-between items-center flex-wrap gap-[12px] pt-[28px] [border-top:1px_solid_var(--line)]\"><span class=\"text-[12px] text-[var(--muted)]\">&copy; {{year}} {{company}}</span><div class=\"flex gap-[8px]\"> {{#socials}}<a class=\"flex items-center justify-center text-[var(--muted)] text-[13px] w-[30px] h-[30px] border border-[var(--line)] rounded-[8px]\" href=\"{{href}}\">{{icon}}</a>{{/socials}} </div></div></div></footer></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section id=\"gv-footer-5\" data-gv-block=\"1\" data-gv-block-type=\"footer\" data-gv-variant=\"5\" data-gv-block-id=\"gv-footer-5\"><footer class=\"bg-[var(--surface)] p-[72px_40px_40px] [border-top:1px_solid_var(--line)]\"><div class=\"max-w-[1000px] m-[0_auto]\"><div class=\"text-center mb-[48px]\"><div class=\"text-[2rem] font-black text-[var(--text)] mb-[10px]\">{{brand.name}}</div><p class=\"text-[var(--muted)] text-[13.5px] max-w-[460px] m-[0_auto_20px] leading-[1.65]\">{{subtitle}}</p><a class=\"bg-[var(--brand)] text-[#fff] p-[12px_32px] rounded-[10px] font-bold text-[14px] inline-block\">{{cta.label}}</a></div><div class=\"flex justify-center gap-[32px] flex-wrap mb-[36px]\"> {{#navLinks}}<a class=\"text-[var(--muted)] text-[13px]\" href=\"{{href}}\">{{label}}</a>{{/navLinks}} </div><div class=\"flex justify-between items-center flex-wrap gap-[12px] pt-[28px] [border-top:1px_solid_var(--line)]\"><span class=\"text-[12px] text-[var(--muted)]\">&copy; {{year}} {{company}}</span><div class=\"flex gap-[8px]\"> {{#socials}}<a class=\"flex items-center justify-center text-[var(--muted)] text-[13px] w-[30px] h-[30px] border border-[var(--line)] rounded-[8px]\" href=\"{{href}}\">{{icon}}</a>{{/socials}} </div></div></div></footer></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "pre-fait",
+    "id": "grande",
+    "slug": "footer--grande",
+    "height": 220,
+    "created_at": "2026-03-05T08:37:36+00:00",
+    "updated_at": "2026-03-05T08:37:36+00:00"
+  }
+}

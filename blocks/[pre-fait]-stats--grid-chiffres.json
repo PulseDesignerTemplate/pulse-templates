@@ -1,1 +1,30 @@
-{"type": "pre-fait", "category": "stats", "id": "grid-chiffres", "label": "Grid Chiffres", "description": "Chiffres clés", "schema_version": 1, "name": "stats / Grid Chiffres", "slug": "stats--grid-chiffres", "height": 200, "created_at": "2026-03-05T08:37:36+00:00", "updated_at": "2026-03-05T08:37:36+00:00", "html": "<section class=\"bg-[var(--bg)] p-[64px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[16px]\"> {{#stats}}<div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[28px] text-center\" data-d=\"1\"><div class=\"text-[3rem] font-black text-[var(--brand)] tracking-[-.03em] leading-[1] mb-[8px]\">{{number}}</div><div class=\"text-[13px] text-[var(--text)] font-semibold mb-[4px]\">{{label}}</div><div class=\"text-[11px] text-[var(--brand)] font-bold bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] inline-block p-[2px_10px] rounded-[999px]\">&#8593; +12%</div></div>{{/stats}} </div></section>"}
+{
+  "type": "prefait-stats-grid-chiffres",
+  "template": "html",
+  "kind": "static",
+  "id": "grid-chiffres",
+  "label": "Grid Chiffres",
+  "category": "stats",
+  "icon": "fa-chart-bar",
+  "description": "Chiffres clés",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"bg-[var(--bg)] p-[64px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[16px]\"> {{#stats}}<div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[28px] text-center\" data-d=\"1\"><div class=\"text-[3rem] font-black text-[var(--brand)] tracking-[-.03em] leading-[1] mb-[8px]\">{{number}}</div><div class=\"text-[13px] text-[var(--text)] font-semibold mb-[4px]\">{{label}}</div><div class=\"text-[11px] text-[var(--brand)] font-bold bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] inline-block p-[2px_10px] rounded-[999px]\">&#8593; +12%</div></div>{{/stats}} </div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"bg-[var(--bg)] p-[64px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[16px]\"> {{#stats}}<div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[28px] text-center\" data-d=\"1\"><div class=\"text-[3rem] font-black text-[var(--brand)] tracking-[-.03em] leading-[1] mb-[8px]\">{{number}}</div><div class=\"text-[13px] text-[var(--text)] font-semibold mb-[4px]\">{{label}}</div><div class=\"text-[11px] text-[var(--brand)] font-bold bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] inline-block p-[2px_10px] rounded-[999px]\">&#8593; +12%</div></div>{{/stats}} </div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "pre-fait",
+    "id": "grid-chiffres",
+    "slug": "stats--grid-chiffres",
+    "height": 200,
+    "created_at": "2026-03-05T08:37:36+00:00",
+    "updated_at": "2026-03-05T08:37:36+00:00"
+  }
+}

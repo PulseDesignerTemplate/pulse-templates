@@ -1,1 +1,30 @@
-{"type": "pre-fait", "category": "stats", "id": "avec-icones", "label": "Avec Icones", "description": "Chiffres clés", "schema_version": 1, "name": "stats / Avec Icones", "slug": "stats--avec-icones", "height": 200, "created_at": "2026-03-05T08:37:36+00:00", "updated_at": "2026-03-05T08:37:36+00:00", "html": "<section class=\"bg-[var(--bg)] p-[64px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[16px]\"> {{#stats}}<div class=\"flex flex-col items-center gap-[12px] bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[28px] text-center\"><div class=\"flex items-center justify-center w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] text-[22px]\">{{icon}}</div><div class=\"text-[2.6rem] font-black text-[var(--text)] tracking-[-.03em] leading-[1]\">{{number}}</div><div class=\"text-[13px] text-[var(--muted)] font-medium\">{{label}}</div><div class=\"text-[11px] font-bold text-[var(--brand)]\">&#8593; +12%</div></div>{{/stats}} </div></section>"}
+{
+  "type": "prefait-stats-avec-icones",
+  "template": "html",
+  "kind": "static",
+  "id": "avec-icones",
+  "label": "Avec Icones",
+  "category": "stats",
+  "icon": "fa-chart-bar",
+  "description": "Chiffres clés",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"bg-[var(--bg)] p-[64px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[16px]\"> {{#stats}}<div class=\"flex flex-col items-center gap-[12px] bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[28px] text-center\"><div class=\"flex items-center justify-center w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] text-[22px]\">{{icon}}</div><div class=\"text-[2.6rem] font-black text-[var(--text)] tracking-[-.03em] leading-[1]\">{{number}}</div><div class=\"text-[13px] text-[var(--muted)] font-medium\">{{label}}</div><div class=\"text-[11px] font-bold text-[var(--brand)]\">&#8593; +12%</div></div>{{/stats}} </div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"bg-[var(--bg)] p-[64px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[16px]\"> {{#stats}}<div class=\"flex flex-col items-center gap-[12px] bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[28px] text-center\"><div class=\"flex items-center justify-center w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] text-[22px]\">{{icon}}</div><div class=\"text-[2.6rem] font-black text-[var(--text)] tracking-[-.03em] leading-[1]\">{{number}}</div><div class=\"text-[13px] text-[var(--muted)] font-medium\">{{label}}</div><div class=\"text-[11px] font-bold text-[var(--brand)]\">&#8593; +12%</div></div>{{/stats}} </div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "pre-fait",
+    "id": "avec-icones",
+    "slug": "stats--avec-icones",
+    "height": 200,
+    "created_at": "2026-03-05T08:37:36+00:00",
+    "updated_at": "2026-03-05T08:37:36+00:00"
+  }
+}

@@ -1,1 +1,30 @@
-{"type": "pre-fait", "category": "timeline", "id": "horizontale", "label": "Horizontale", "description": "Étapes chronologiques / processus", "schema_version": 1, "name": "timeline / Horizontale", "slug": "timeline--horizontale", "height": 300, "created_at": "2026-03-05T08:37:36+00:00", "updated_at": "2026-03-05T08:37:36+00:00", "html": "<section class=\"bg-[var(--surface)] p-[80px_40px] overflow-hidden\"><div class=\"text-center mb-[52px]\"><span class=\"inline-flex items-center gap-[8px] text-[11px] font-bold text-[var(--brand)] tracking-[.14em] uppercase bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] p-[4px_14px] rounded-[999px] mb-[14px]\">{{kicker}}</span><h2 class=\"text-[2.2rem] font-black text-[var(--text)] tracking-[-.025em] mb-[12px] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[480px] m-[0_auto] leading-[1.7]\">{{subtitle}}</p></div><div class=\"flex gap-[0] relative\"><div class=\"absolute top-[28px] left-[32px] right-[32px] h-[2px] z-[0] [background:linear-gradient(90deg,var(--brand),color-mix(in_srgb,var(--brand)_30%,var(--line)))]\"></div> {{#timeline}}<div class=\"p-[0_16px] relative z-[1] text-center [flex:1]\" data-d=\"1\"><div class=\"flex items-center justify-center w-[56px] h-[56px] rounded-[999px] bg-[var(--bg)] border-[2px] border-[var(--brand)] text-[13px] font-black text-[var(--brand)] m-[0_auto_20px] shadow-[0_0_24px_color-mix(in_srgb,var(--brand)_20%,transparent)]\">{{year}}</div><h3 class=\"text-[13px] font-bold text-[var(--text)] mb-[6px]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[12px] leading-[1.55]\">{{desc}}</p></div>{{/timeline}} </div></section>"}
+{
+  "type": "prefait-timeline-horizontale",
+  "template": "html",
+  "kind": "static",
+  "id": "horizontale",
+  "label": "Horizontale",
+  "category": "timeline",
+  "icon": "fa-timeline",
+  "description": "Étapes chronologiques / processus",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"bg-[var(--surface)] p-[80px_40px] overflow-hidden\"><div class=\"text-center mb-[52px]\"><span class=\"inline-flex items-center gap-[8px] text-[11px] font-bold text-[var(--brand)] tracking-[.14em] uppercase bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] p-[4px_14px] rounded-[999px] mb-[14px]\">{{kicker}}</span><h2 class=\"text-[2.2rem] font-black text-[var(--text)] tracking-[-.025em] mb-[12px] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[480px] m-[0_auto] leading-[1.7]\">{{subtitle}}</p></div><div class=\"flex gap-[0] relative\"><div class=\"absolute top-[28px] left-[32px] right-[32px] h-[2px] z-[0] [background:linear-gradient(90deg,var(--brand),color-mix(in_srgb,var(--brand)_30%,var(--line)))]\"></div> {{#timeline}}<div class=\"p-[0_16px] relative z-[1] text-center [flex:1]\" data-d=\"1\"><div class=\"flex items-center justify-center w-[56px] h-[56px] rounded-[999px] bg-[var(--bg)] border-[2px] border-[var(--brand)] text-[13px] font-black text-[var(--brand)] m-[0_auto_20px] shadow-[0_0_24px_color-mix(in_srgb,var(--brand)_20%,transparent)]\">{{year}}</div><h3 class=\"text-[13px] font-bold text-[var(--text)] mb-[6px]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[12px] leading-[1.55]\">{{desc}}</p></div>{{/timeline}} </div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"bg-[var(--surface)] p-[80px_40px] overflow-hidden\"><div class=\"text-center mb-[52px]\"><span class=\"inline-flex items-center gap-[8px] text-[11px] font-bold text-[var(--brand)] tracking-[.14em] uppercase bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] p-[4px_14px] rounded-[999px] mb-[14px]\">{{kicker}}</span><h2 class=\"text-[2.2rem] font-black text-[var(--text)] tracking-[-.025em] mb-[12px] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[480px] m-[0_auto] leading-[1.7]\">{{subtitle}}</p></div><div class=\"flex gap-[0] relative\"><div class=\"absolute top-[28px] left-[32px] right-[32px] h-[2px] z-[0] [background:linear-gradient(90deg,var(--brand),color-mix(in_srgb,var(--brand)_30%,var(--line)))]\"></div> {{#timeline}}<div class=\"p-[0_16px] relative z-[1] text-center [flex:1]\" data-d=\"1\"><div class=\"flex items-center justify-center w-[56px] h-[56px] rounded-[999px] bg-[var(--bg)] border-[2px] border-[var(--brand)] text-[13px] font-black text-[var(--brand)] m-[0_auto_20px] shadow-[0_0_24px_color-mix(in_srgb,var(--brand)_20%,transparent)]\">{{year}}</div><h3 class=\"text-[13px] font-bold text-[var(--text)] mb-[6px]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[12px] leading-[1.55]\">{{desc}}</p></div>{{/timeline}} </div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "pre-fait",
+    "id": "horizontale",
+    "slug": "timeline--horizontale",
+    "height": 300,
+    "created_at": "2026-03-05T08:37:36+00:00",
+    "updated_at": "2026-03-05T08:37:36+00:00"
+  }
+}

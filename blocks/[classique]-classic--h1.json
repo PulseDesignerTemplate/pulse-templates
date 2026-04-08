@@ -1,1 +1,26 @@
-{"type": "classique", "category": "classic", "id": "h1", "label": "Titre H1", "icon": "H1", "html": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><h1 class=\"text-[2.8rem] font-black text-[var(--text)] leading-[1.1] tracking-[-.03em]\">Votre titre principal</h1></section>", "subcategory": "titres"}
+{
+  "type": "classique-titres-h1",
+  "template": "html",
+  "kind": "static",
+  "id": "h1",
+  "label": "Titre H1",
+  "category": "classic",
+  "subcategory": "titres",
+  "icon": "fa-heading",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><h1 class=\"text-[2.8rem] font-black text-[var(--text)] leading-[1.1] tracking-[-.03em]\">Votre titre principal</h1></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><h1 class=\"text-[2.8rem] font-black text-[var(--text)] leading-[1.1] tracking-[-.03em]\">Votre titre principal</h1></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "h1"
+  }
+}

@@ -1,1 +1,26 @@
-{"type":"classique","category":"classic","subcategory":"interactif","id":"tableau","label":"Tableau","icon":"⊞","html":"<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"overflow-x-auto max-w-[720px]\"><table class=\"w-full border-collapse text-[13px]\"><thead><tr class=\"border-b-[2px] border-[var(--line)]\"><th class=\"text-left p-[12px_16px] font-bold text-[var(--text)]\">Nom</th><th class=\"text-left p-[12px_16px] font-bold text-[var(--text)]\">Rôle</th><th class=\"text-left p-[12px_16px] font-bold text-[var(--text)]\">Statut</th></tr></thead><tbody><tr class=\"border-b border-[var(--line)]\"><td class=\"p-[12px_16px] text-[var(--text)]\">Alice Martin</td><td class=\"p-[12px_16px] text-[var(--muted)]\">Développeur</td><td class=\"p-[12px_16px]\"><span class=\"bg-[#dcfce7] text-[#166534] px-[8px] py-[2px] rounded-full text-[11px] font-semibold\">Actif</span></td></tr><tr class=\"border-b border-[var(--line)]\"><td class=\"p-[12px_16px] text-[var(--text)]\">Bob Dupont</td><td class=\"p-[12px_16px] text-[var(--muted)]\">Designer</td><td class=\"p-[12px_16px]\"><span class=\"bg-[#fef9c3] text-[#854d0e] px-[8px] py-[2px] rounded-full text-[11px] font-semibold\">En pause</span></td></tr><tr><td class=\"p-[12px_16px] text-[var(--text)]\">Clara Leroy</td><td class=\"p-[12px_16px] text-[var(--muted)]\">Marketing</td><td class=\"p-[12px_16px]\"><span class=\"bg-[#dcfce7] text-[#166534] px-[8px] py-[2px] rounded-full text-[11px] font-semibold\">Actif</span></td></tr></tbody></table></div></section>"}
+{
+  "type": "classique-interactif-tableau",
+  "template": "html",
+  "kind": "static",
+  "id": "tableau",
+  "label": "Tableau",
+  "category": "classic",
+  "subcategory": "interactif",
+  "icon": "fa-table",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"overflow-x-auto max-w-[720px]\"><table class=\"w-full border-collapse text-[13px]\"><thead><tr class=\"border-b-[2px] border-[var(--line)]\"><th class=\"text-left p-[12px_16px] font-bold text-[var(--text)]\">Nom</th><th class=\"text-left p-[12px_16px] font-bold text-[var(--text)]\">Rôle</th><th class=\"text-left p-[12px_16px] font-bold text-[var(--text)]\">Statut</th></tr></thead><tbody><tr class=\"border-b border-[var(--line)]\"><td class=\"p-[12px_16px] text-[var(--text)]\">Alice Martin</td><td class=\"p-[12px_16px] text-[var(--muted)]\">Développeur</td><td class=\"p-[12px_16px]\"><span class=\"bg-[#dcfce7] text-[#166534] px-[8px] py-[2px] rounded-full text-[11px] font-semibold\">Actif</span></td></tr><tr class=\"border-b border-[var(--line)]\"><td class=\"p-[12px_16px] text-[var(--text)]\">Bob Dupont</td><td class=\"p-[12px_16px] text-[var(--muted)]\">Designer</td><td class=\"p-[12px_16px]\"><span class=\"bg-[#fef9c3] text-[#854d0e] px-[8px] py-[2px] rounded-full text-[11px] font-semibold\">En pause</span></td></tr><tr><td class=\"p-[12px_16px] text-[var(--text)]\">Clara Leroy</td><td class=\"p-[12px_16px] text-[var(--muted)]\">Marketing</td><td class=\"p-[12px_16px]\"><span class=\"bg-[#dcfce7] text-[#166534] px-[8px] py-[2px] rounded-full text-[11px] font-semibold\">Actif</span></td></tr></tbody></table></div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"overflow-x-auto max-w-[720px]\"><table class=\"w-full border-collapse text-[13px]\"><thead><tr class=\"border-b-[2px] border-[var(--line)]\"><th class=\"text-left p-[12px_16px] font-bold text-[var(--text)]\">Nom</th><th class=\"text-left p-[12px_16px] font-bold text-[var(--text)]\">Rôle</th><th class=\"text-left p-[12px_16px] font-bold text-[var(--text)]\">Statut</th></tr></thead><tbody><tr class=\"border-b border-[var(--line)]\"><td class=\"p-[12px_16px] text-[var(--text)]\">Alice Martin</td><td class=\"p-[12px_16px] text-[var(--muted)]\">Développeur</td><td class=\"p-[12px_16px]\"><span class=\"bg-[#dcfce7] text-[#166534] px-[8px] py-[2px] rounded-full text-[11px] font-semibold\">Actif</span></td></tr><tr class=\"border-b border-[var(--line)]\"><td class=\"p-[12px_16px] text-[var(--text)]\">Bob Dupont</td><td class=\"p-[12px_16px] text-[var(--muted)]\">Designer</td><td class=\"p-[12px_16px]\"><span class=\"bg-[#fef9c3] text-[#854d0e] px-[8px] py-[2px] rounded-full text-[11px] font-semibold\">En pause</span></td></tr><tr><td class=\"p-[12px_16px] text-[var(--text)]\">Clara Leroy</td><td class=\"p-[12px_16px] text-[var(--muted)]\">Marketing</td><td class=\"p-[12px_16px]\"><span class=\"bg-[#dcfce7] text-[#166534] px-[8px] py-[2px] rounded-full text-[11px] font-semibold\">Actif</span></td></tr></tbody></table></div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "tableau"
+  }
+}

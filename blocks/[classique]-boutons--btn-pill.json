@@ -1,1 +1,26 @@
-{"type":"classique","category":"classic","subcategory":"boutons","id":"btn-pill","label":"Bouton pill","icon":"◎","html":"<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[10px_24px] rounded-[999px] font-semibold text-[13px] [text-decoration:none] shadow-[0_2px_12px_rgba(0,0,0,.12)]\" href=\"#\">Démarrer maintenant</a></section>"}
+{
+  "type": "classique-boutons-btn-pill",
+  "template": "html",
+  "kind": "static",
+  "id": "btn-pill",
+  "label": "Bouton pill",
+  "category": "classic",
+  "subcategory": "boutons",
+  "icon": "fa-capsules",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[10px_24px] rounded-[999px] font-semibold text-[13px] [text-decoration:none] shadow-[0_2px_12px_rgba(0,0,0,.12)]\" href=\"#\">Démarrer maintenant</a></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[10px_24px] rounded-[999px] font-semibold text-[13px] [text-decoration:none] shadow-[0_2px_12px_rgba(0,0,0,.12)]\" href=\"#\">Démarrer maintenant</a></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "btn-pill"
+  }
+}

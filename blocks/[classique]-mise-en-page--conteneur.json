@@ -1,1 +1,26 @@
-{"type":"classique","category":"classic","subcategory":"mise-en-page","id":"conteneur","label":"Conteneur","icon":"▢","html":"<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[20px] p-[36px] max-w-[720px]\"><h3 class=\"text-[18px] font-extrabold text-[var(--text)] mb-[12px]\">Contenu encadré</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">Un conteneur avec bordure et fond pour mettre en avant un bloc de contenu important.</p></div></section>"}
+{
+  "type": "classique-mise-en-page-conteneur",
+  "template": "html",
+  "kind": "static",
+  "id": "conteneur",
+  "label": "Conteneur",
+  "category": "classic",
+  "subcategory": "mise-en-page",
+  "icon": "fa-vector-square",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[20px] p-[36px] max-w-[720px]\"><h3 class=\"text-[18px] font-extrabold text-[var(--text)] mb-[12px]\">Contenu encadré</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">Un conteneur avec bordure et fond pour mettre en avant un bloc de contenu important.</p></div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[20px] p-[36px] max-w-[720px]\"><h3 class=\"text-[18px] font-extrabold text-[var(--text)] mb-[12px]\">Contenu encadré</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">Un conteneur avec bordure et fond pour mettre en avant un bloc de contenu important.</p></div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "conteneur"
+  }
+}

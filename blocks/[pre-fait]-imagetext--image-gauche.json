@@ -1,1 +1,30 @@
-{"type": "pre-fait", "category": "imagetext", "id": "image-gauche", "label": "Image Gauche", "description": "Image + texte sur deux colonnes", "schema_version": 1, "name": "imagetext / Image Gauche", "slug": "imagetext--image-gauche", "height": 260, "created_at": "2026-03-05T08:37:36+00:00", "updated_at": "2026-03-05T08:37:36+00:00", "html": "<section class=\"grid grid-cols-1 md:grid-cols-2 grid-cols-2 gap-[56px] items-center bg-[var(--bg)] p-[72px_48px]\"><figure class=\"m-[0] border border-[var(--line)] rounded-[20px] h-[260px] overflow-hidden bg-[var(--surface)]\"><img class=\"w-[100%] h-[100%] object-cover block\" src=\"{{image}}\" alt=\"{{title}}\"></figure><div class=\"flex flex-col gap-[16px]\"><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.02em] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] leading-[1.72]\">{{subtitle}}</p><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[12px_28px] rounded-[10px] font-bold text-[13px] w-[fit-content]\">{{cta.label}} &#8594;</a></div></section>"}
+{
+  "type": "prefait-imagetext-image-gauche",
+  "template": "html",
+  "kind": "static",
+  "id": "image-gauche",
+  "label": "Image Gauche",
+  "category": "imagetext",
+  "icon": "fa-image",
+  "description": "Image + texte sur deux colonnes",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"grid grid-cols-1 md:grid-cols-2 grid-cols-2 gap-[56px] items-center bg-[var(--bg)] p-[72px_48px]\"><figure class=\"m-[0] border border-[var(--line)] rounded-[20px] h-[260px] overflow-hidden bg-[var(--surface)]\"><img class=\"w-[100%] h-[100%] object-cover block\" src=\"{{image}}\" alt=\"{{title}}\"></figure><div class=\"flex flex-col gap-[16px]\"><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.02em] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] leading-[1.72]\">{{subtitle}}</p><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[12px_28px] rounded-[10px] font-bold text-[13px] w-[fit-content]\">{{cta.label}} &#8594;</a></div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"grid grid-cols-1 md:grid-cols-2 grid-cols-2 gap-[56px] items-center bg-[var(--bg)] p-[72px_48px]\"><figure class=\"m-[0] border border-[var(--line)] rounded-[20px] h-[260px] overflow-hidden bg-[var(--surface)]\"><img class=\"w-[100%] h-[100%] object-cover block\" src=\"{{image}}\" alt=\"{{title}}\"></figure><div class=\"flex flex-col gap-[16px]\"><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.02em] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] leading-[1.72]\">{{subtitle}}</p><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[12px_28px] rounded-[10px] font-bold text-[13px] w-[fit-content]\">{{cta.label}} &#8594;</a></div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "pre-fait",
+    "id": "image-gauche",
+    "slug": "imagetext--image-gauche",
+    "height": 260,
+    "created_at": "2026-03-05T08:37:36+00:00",
+    "updated_at": "2026-03-05T08:37:36+00:00"
+  }
+}

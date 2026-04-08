@@ -1,1 +1,26 @@
-{"type":"classique","category":"classic","subcategory":"texte","id":"paragraphe","label":"Paragraphe","icon":"¶","html":"<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[15px] leading-[1.8] text-[var(--muted)] max-w-[680px]\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p></section>"}
+{
+  "type": "classique-texte-paragraphe",
+  "template": "html",
+  "kind": "static",
+  "id": "paragraphe",
+  "label": "Paragraphe",
+  "category": "classic",
+  "subcategory": "texte",
+  "icon": "fa-paragraph",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[15px] leading-[1.8] text-[var(--muted)] max-w-[680px]\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[15px] leading-[1.8] text-[var(--muted)] max-w-[680px]\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "paragraphe"
+  }
+}

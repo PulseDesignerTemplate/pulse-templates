@@ -1,1 +1,26 @@
-{"type": "classique", "category": "classic", "id": "image", "label": "Image", "icon": "~", "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><img class=\"w-[100%] h-[auto] rounded-[16px] block border border-[var(--line)]\" src=\"https://picsum.photos/1200/500?random=42\" alt=\"Image\"></section>", "subcategory": "media"}
+{
+  "type": "classique-media-image",
+  "template": "html",
+  "kind": "static",
+  "id": "image",
+  "label": "Image",
+  "category": "classic",
+  "subcategory": "media",
+  "icon": "fa-image",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><img class=\"w-[100%] h-[auto] rounded-[16px] block border border-[var(--line)]\" src=\"https://picsum.photos/1200/500?random=42\" alt=\"Image\"></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><img class=\"w-[100%] h-[auto] rounded-[16px] block border border-[var(--line)]\" src=\"https://picsum.photos/1200/500?random=42\" alt=\"Image\"></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "image"
+  }
+}

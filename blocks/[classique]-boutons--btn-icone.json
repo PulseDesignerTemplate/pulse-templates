@@ -1,1 +1,26 @@
-{"type": "classique", "category": "classic", "subcategory": "boutons", "id": "btn-icone", "label": "Bouton + icône", "icon": "▶", "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[10px] bg-[var(--brand)] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none] shadow-[0_4px_20px_rgba(249,115,22,.28)]\" href=\"#\"><span>></span><span>Voir la démo</span></a></section>"}
+{
+  "type": "classique-boutons-btn-icone",
+  "template": "html",
+  "kind": "static",
+  "id": "btn-icone",
+  "label": "Bouton + icône",
+  "category": "classic",
+  "subcategory": "boutons",
+  "icon": "fa-play-circle",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[10px] bg-[var(--brand)] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none] shadow-[0_4px_20px_rgba(249,115,22,.28)]\" href=\"#\"><span>></span><span>Voir la démo</span></a></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[10px] bg-[var(--brand)] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none] shadow-[0_4px_20px_rgba(249,115,22,.28)]\" href=\"#\"><span>></span><span>Voir la démo</span></a></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "btn-icone"
+  }
+}

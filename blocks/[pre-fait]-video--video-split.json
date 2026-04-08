@@ -1,1 +1,30 @@
-{"type": "pre-fait", "category": "video", "id": "video-split", "label": "Video Split", "description": "Embed vidéo avec contexte", "schema_version": 1, "name": "video / Video Split", "slug": "video--video-split", "height": 280, "created_at": "2026-03-05T08:37:36+00:00", "updated_at": "2026-03-05T08:37:36+00:00", "html": "<section class=\"grid grid-cols-1 md:grid-cols-2 grid-cols-2 gap-[48px] items-center bg-[var(--surface)] p-[72px_48px]\"><div class=\"flex flex-col gap-[16px]\"><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.02em] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] leading-[1.72]\">{{subtitle}}</p><a class=\"inline-flex items-center gap-[10px] text-[13px] font-bold text-[var(--brand)]\"><div class=\"flex items-center justify-center w-[40px] h-[40px] rounded-[999px] border-[2px] border-[var(--brand)]\"><div class=\"w-[0] h-[0] ml-[2px] [border-top:7px_solid_transparent] [border-bottom:7px_solid_transparent] [border-left:11px_solid_var(--brand)]\"></div></div> Regarder la d&eacute;mo </a></div><div class=\"flex items-center justify-center bg-[var(--bg)] border border-[var(--line)] rounded-[18px] relative overflow-hidden [aspect-ratio:16/9]\"><div class=\"flex items-center justify-center w-[56px] h-[56px] rounded-[999px] bg-[var(--brand)] shadow-[0_0_32px_color-mix(in_srgb,var(--brand)_35%,transparent)]\"><div class=\"w-[0] h-[0] ml-[3px] [border-top:10px_solid_transparent] [border-bottom:10px_solid_transparent] [border-left:16px_solid_#fff]\"></div></div></div></section>"}
+{
+  "type": "prefait-video-video-split",
+  "template": "html",
+  "kind": "static",
+  "id": "video-split",
+  "label": "Video Split",
+  "category": "video",
+  "icon": "fa-circle-play",
+  "description": "Embed vidéo avec contexte",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"grid grid-cols-1 md:grid-cols-2 grid-cols-2 gap-[48px] items-center bg-[var(--surface)] p-[72px_48px]\"><div class=\"flex flex-col gap-[16px]\"><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.02em] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] leading-[1.72]\">{{subtitle}}</p><a class=\"inline-flex items-center gap-[10px] text-[13px] font-bold text-[var(--brand)]\"><div class=\"flex items-center justify-center w-[40px] h-[40px] rounded-[999px] border-[2px] border-[var(--brand)]\"><div class=\"w-[0] h-[0] ml-[2px] [border-top:7px_solid_transparent] [border-bottom:7px_solid_transparent] [border-left:11px_solid_var(--brand)]\"></div></div> Regarder la d&eacute;mo </a></div><div class=\"flex items-center justify-center bg-[var(--bg)] border border-[var(--line)] rounded-[18px] relative overflow-hidden [aspect-ratio:16/9]\"><div class=\"flex items-center justify-center w-[56px] h-[56px] rounded-[999px] bg-[var(--brand)] shadow-[0_0_32px_color-mix(in_srgb,var(--brand)_35%,transparent)]\"><div class=\"w-[0] h-[0] ml-[3px] [border-top:10px_solid_transparent] [border-bottom:10px_solid_transparent] [border-left:16px_solid_#fff]\"></div></div></div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"grid grid-cols-1 md:grid-cols-2 grid-cols-2 gap-[48px] items-center bg-[var(--surface)] p-[72px_48px]\"><div class=\"flex flex-col gap-[16px]\"><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.02em] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] leading-[1.72]\">{{subtitle}}</p><a class=\"inline-flex items-center gap-[10px] text-[13px] font-bold text-[var(--brand)]\"><div class=\"flex items-center justify-center w-[40px] h-[40px] rounded-[999px] border-[2px] border-[var(--brand)]\"><div class=\"w-[0] h-[0] ml-[2px] [border-top:7px_solid_transparent] [border-bottom:7px_solid_transparent] [border-left:11px_solid_var(--brand)]\"></div></div> Regarder la d&eacute;mo </a></div><div class=\"flex items-center justify-center bg-[var(--bg)] border border-[var(--line)] rounded-[18px] relative overflow-hidden [aspect-ratio:16/9]\"><div class=\"flex items-center justify-center w-[56px] h-[56px] rounded-[999px] bg-[var(--brand)] shadow-[0_0_32px_color-mix(in_srgb,var(--brand)_35%,transparent)]\"><div class=\"w-[0] h-[0] ml-[3px] [border-top:10px_solid_transparent] [border-bottom:10px_solid_transparent] [border-left:16px_solid_#fff]\"></div></div></div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "pre-fait",
+    "id": "video-split",
+    "slug": "video--video-split",
+    "height": 280,
+    "created_at": "2026-03-05T08:37:36+00:00",
+    "updated_at": "2026-03-05T08:37:36+00:00"
+  }
+}

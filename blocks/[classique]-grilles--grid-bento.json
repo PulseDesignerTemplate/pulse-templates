@@ -1,1 +1,26 @@
-{"type": "classique", "category": "classic", "subcategory": "grilles", "id": "grid-bento", "label": "Grille bento", "icon": "⊟", "html": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"grid grid-cols-3 grid-rows-2 gap-[16px] h-[400px]\"><div class=\"col-span-2 row-span-1 bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[28px] flex flex-col justify-end\"><h3 class=\"text-[18px] font-extrabold text-[var(--text)] mb-[6px]\">Bloc principal</h3><p class=\"text-[13px] text-[var(--muted)]\">Zone large mise en avant</p></div><div class=\"row-span-2 bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[24px] flex flex-col justify-center items-center text-center\"><div class=\"text-[28px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[4px]\">Feature</h4><p class=\"text-[12px] text-[var(--muted)]\">Description</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[20px] flex items-center justify-center\"><span class=\"text-[var(--brand)] font-bold text-[14px]\">+99%</span></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[20px] flex items-center justify-center\"><span class=\"text-[var(--brand)] font-bold text-[14px]\">24/7</span></div></div></section>"}
+{
+  "type": "classique-grilles-grid-bento",
+  "template": "html",
+  "kind": "static",
+  "id": "grid-bento",
+  "label": "Grille bento",
+  "category": "classic",
+  "subcategory": "grilles",
+  "icon": "fa-grip",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"grid grid-cols-3 grid-rows-2 gap-[16px] h-[400px]\"><div class=\"col-span-2 row-span-1 bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[28px] flex flex-col justify-end\"><h3 class=\"text-[18px] font-extrabold text-[var(--text)] mb-[6px]\">Bloc principal</h3><p class=\"text-[13px] text-[var(--muted)]\">Zone large mise en avant</p></div><div class=\"row-span-2 bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[24px] flex flex-col justify-center items-center text-center\"><div class=\"text-[28px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[4px]\">Feature</h4><p class=\"text-[12px] text-[var(--muted)]\">Description</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[20px] flex items-center justify-center\"><span class=\"text-[var(--brand)] font-bold text-[14px]\">+99%</span></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[20px] flex items-center justify-center\"><span class=\"text-[var(--brand)] font-bold text-[14px]\">24/7</span></div></div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"grid grid-cols-3 grid-rows-2 gap-[16px] h-[400px]\"><div class=\"col-span-2 row-span-1 bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[28px] flex flex-col justify-end\"><h3 class=\"text-[18px] font-extrabold text-[var(--text)] mb-[6px]\">Bloc principal</h3><p class=\"text-[13px] text-[var(--muted)]\">Zone large mise en avant</p></div><div class=\"row-span-2 bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[24px] flex flex-col justify-center items-center text-center\"><div class=\"text-[28px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[4px]\">Feature</h4><p class=\"text-[12px] text-[var(--muted)]\">Description</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[20px] flex items-center justify-center\"><span class=\"text-[var(--brand)] font-bold text-[14px]\">+99%</span></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[20px] flex items-center justify-center\"><span class=\"text-[var(--brand)] font-bold text-[14px]\">24/7</span></div></div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "grid-bento"
+  }
+}

@@ -1,1 +1,30 @@
-{"type": "pre-fait", "category": "cards", "id": "hover-border", "label": "Hover Border", "description": "Grille services / catégories", "schema_version": 1, "name": "cards / Hover Border", "slug": "cards--hover-border", "height": 300, "created_at": "2026-03-05T08:37:36+00:00", "updated_at": "2026-03-05T08:37:36+00:00", "html": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[16px]\">{{#items}}<div class=\"card-hov bg-[var(--surface)] border-[1.5px] border-[var(--line)] rounded-[18px] p-[28px] cursor-pointer\" data-d=\"1\"><div class=\"flex justify-between items-start mb-[18px]\"><div class=\"flex items-center justify-center w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[22px]\">{{icon}}</div><span class=\"text-[10px] font-bold bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[var(--brand)] p-[4px_12px] rounded-[999px]\">{{badge}}</span></div><h3 class=\"text-[14px] font-extrabold text-[var(--text)] mb-[8px]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[13px] leading-[1.65]\">{{desc}}</p></div>{{/items}}</div></section>"}
+{
+  "type": "prefait-cards-hover-border",
+  "template": "html",
+  "kind": "static",
+  "id": "hover-border",
+  "label": "Hover Border",
+  "category": "cards",
+  "icon": "fa-id-card",
+  "description": "Grille services / catégories",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[16px]\">{{#items}}<div class=\"card-hov bg-[var(--surface)] border-[1.5px] border-[var(--line)] rounded-[18px] p-[28px] cursor-pointer\" data-d=\"1\"><div class=\"flex justify-between items-start mb-[18px]\"><div class=\"flex items-center justify-center w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[22px]\">{{icon}}</div><span class=\"text-[10px] font-bold bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[var(--brand)] p-[4px_12px] rounded-[999px]\">{{badge}}</span></div><h3 class=\"text-[14px] font-extrabold text-[var(--text)] mb-[8px]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[13px] leading-[1.65]\">{{desc}}</p></div>{{/items}}</div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[16px]\">{{#items}}<div class=\"card-hov bg-[var(--surface)] border-[1.5px] border-[var(--line)] rounded-[18px] p-[28px] cursor-pointer\" data-d=\"1\"><div class=\"flex justify-between items-start mb-[18px]\"><div class=\"flex items-center justify-center w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[22px]\">{{icon}}</div><span class=\"text-[10px] font-bold bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[var(--brand)] p-[4px_12px] rounded-[999px]\">{{badge}}</span></div><h3 class=\"text-[14px] font-extrabold text-[var(--text)] mb-[8px]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[13px] leading-[1.65]\">{{desc}}</p></div>{{/items}}</div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "pre-fait",
+    "id": "hover-border",
+    "slug": "cards--hover-border",
+    "height": 300,
+    "created_at": "2026-03-05T08:37:36+00:00",
+    "updated_at": "2026-03-05T08:37:36+00:00"
+  }
+}

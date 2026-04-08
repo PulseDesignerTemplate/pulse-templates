@@ -1,1 +1,26 @@
-{"type":"classique","category":"classic","subcategory":"titres","id":"sous-titre","label":"Sous-titre","icon":"Aa","html":"<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[1.1rem] font-medium text-[var(--muted)] leading-[1.6] max-w-[600px]\">Un sous-titre descriptif pour accompagner vos titres principaux et guider la lecture.</p></section>"}
+{
+  "type": "classique-titres-sous-titre",
+  "template": "html",
+  "kind": "static",
+  "id": "sous-titre",
+  "label": "Sous-titre",
+  "category": "classic",
+  "subcategory": "titres",
+  "icon": "fa-font",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[1.1rem] font-medium text-[var(--muted)] leading-[1.6] max-w-[600px]\">Un sous-titre descriptif pour accompagner vos titres principaux et guider la lecture.</p></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[1.1rem] font-medium text-[var(--muted)] leading-[1.6] max-w-[600px]\">Un sous-titre descriptif pour accompagner vos titres principaux et guider la lecture.</p></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "sous-titre"
+  }
+}

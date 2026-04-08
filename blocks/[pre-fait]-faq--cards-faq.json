@@ -1,1 +1,30 @@
-{"type": "pre-fait", "category": "faq", "id": "cards-faq", "label": "Cards FAQ", "description": "Questions / réponses", "schema_version": 1, "name": "faq / Cards FAQ", "slug": "faq--cards-faq", "height": 320, "created_at": "2026-03-05T08:37:36+00:00", "updated_at": "2026-03-05T08:37:36+00:00", "html": "<section class=\"bg-[var(--bg)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[14px]\"> {{#faqs}}<div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[24px] relative overflow-hidden\"><div class=\"absolute top-[16px] right-[16px] text-[32px] text-[var(--brand)] opacity-[.08] font-black [font-family:serif]\">?</div><h3 class=\"text-[13.5px] font-bold text-[var(--text)] mb-[10px] pr-[24px]\">{{q}}</h3><p class=\"text-[12.5px] text-[var(--muted)] leading-[1.65]\">{{a}}</p></div>{{/faqs}} </div></section>"}
+{
+  "type": "prefait-faq-cards-faq",
+  "template": "html",
+  "kind": "static",
+  "id": "cards-faq",
+  "label": "Cards FAQ",
+  "category": "faq",
+  "icon": "fa-circle-question",
+  "description": "Questions / réponses",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"bg-[var(--bg)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[14px]\"> {{#faqs}}<div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[24px] relative overflow-hidden\"><div class=\"absolute top-[16px] right-[16px] text-[32px] text-[var(--brand)] opacity-[.08] font-black [font-family:serif]\">?</div><h3 class=\"text-[13.5px] font-bold text-[var(--text)] mb-[10px] pr-[24px]\">{{q}}</h3><p class=\"text-[12.5px] text-[var(--muted)] leading-[1.65]\">{{a}}</p></div>{{/faqs}} </div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"bg-[var(--bg)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[14px]\"> {{#faqs}}<div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[24px] relative overflow-hidden\"><div class=\"absolute top-[16px] right-[16px] text-[32px] text-[var(--brand)] opacity-[.08] font-black [font-family:serif]\">?</div><h3 class=\"text-[13.5px] font-bold text-[var(--text)] mb-[10px] pr-[24px]\">{{q}}</h3><p class=\"text-[12.5px] text-[var(--muted)] leading-[1.65]\">{{a}}</p></div>{{/faqs}} </div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "pre-fait",
+    "id": "cards-faq",
+    "slug": "faq--cards-faq",
+    "height": 320,
+    "created_at": "2026-03-05T08:37:36+00:00",
+    "updated_at": "2026-03-05T08:37:36+00:00"
+  }
+}

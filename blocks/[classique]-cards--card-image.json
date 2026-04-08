@@ -1,1 +1,26 @@
-{"type": "classique", "category": "classic", "subcategory": "cards", "id": "card-image", "label": "Card image", "icon": "~", "html": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] overflow-hidden max-w-[360px]\"><img class=\"w-full h-[200px] object-cover\" src=\"https://picsum.photos/400/200?random=10\" alt=\"Illustration\"><div class=\"p-[24px]\"><h3 class=\"text-[16px] font-extrabold text-[var(--text)] mb-[8px]\">Titre de la card</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.65]\">Description avec image en couverture pour illustrer votre contenu.</p></div></div></section>"}
+{
+  "type": "classique-cards-card-image",
+  "template": "html",
+  "kind": "static",
+  "id": "card-image",
+  "label": "Card image",
+  "category": "classic",
+  "subcategory": "cards",
+  "icon": "fa-image",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] overflow-hidden max-w-[360px]\"><img class=\"w-full h-[200px] object-cover\" src=\"https://picsum.photos/400/200?random=10\" alt=\"Illustration\"><div class=\"p-[24px]\"><h3 class=\"text-[16px] font-extrabold text-[var(--text)] mb-[8px]\">Titre de la card</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.65]\">Description avec image en couverture pour illustrer votre contenu.</p></div></div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] overflow-hidden max-w-[360px]\"><img class=\"w-full h-[200px] object-cover\" src=\"https://picsum.photos/400/200?random=10\" alt=\"Illustration\"><div class=\"p-[24px]\"><h3 class=\"text-[16px] font-extrabold text-[var(--text)] mb-[8px]\">Titre de la card</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.65]\">Description avec image en couverture pour illustrer votre contenu.</p></div></div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "card-image"
+  }
+}

@@ -1,1 +1,30 @@
-{"type": "pre-fait", "category": "logos", "id": "avec-separation", "label": "Avec Separation", "description": "Bandeau logos clients / partenaires", "schema_version": 1, "name": "logos / Avec Separation", "slug": "logos--avec-separation", "height": 130, "created_at": "2026-03-05T08:37:36+00:00", "updated_at": "2026-03-05T08:37:36+00:00", "html": "<section class=\"bg-[var(--bg)] p-[24px_40px]\"><div class=\"flex items-center flex-wrap gap-[0]\"><span class=\"text-[10px] text-[var(--muted)] font-bold uppercase tracking-[.1em] mr-[24px] [white-space:nowrap] [flex-shrink:0]\">Partenaires</span><div class=\"h-[1px] bg-[var(--line)] min-w-[20px] mr-[24px] [flex:1]\"></div><div class=\"flex gap-[28px] items-center flex-wrap\">{{#logos}}<span class=\"text-[13px] font-bold text-[var(--text)] opacity-[.4] tracking-[-.01em]\">{{logo}}</span>{{/logos}}</div></div></section>"}
+{
+  "type": "prefait-logos-avec-separation",
+  "template": "html",
+  "kind": "static",
+  "id": "avec-separation",
+  "label": "Avec Separation",
+  "category": "logos",
+  "icon": "fa-handshake",
+  "description": "Bandeau logos clients / partenaires",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"bg-[var(--bg)] p-[24px_40px]\"><div class=\"flex items-center flex-wrap gap-[0]\"><span class=\"text-[10px] text-[var(--muted)] font-bold uppercase tracking-[.1em] mr-[24px] [white-space:nowrap] [flex-shrink:0]\">Partenaires</span><div class=\"h-[1px] bg-[var(--line)] min-w-[20px] mr-[24px] [flex:1]\"></div><div class=\"flex gap-[28px] items-center flex-wrap\">{{#logos}}<span class=\"text-[13px] font-bold text-[var(--text)] opacity-[.4] tracking-[-.01em]\">{{logo}}</span>{{/logos}}</div></div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"bg-[var(--bg)] p-[24px_40px]\"><div class=\"flex items-center flex-wrap gap-[0]\"><span class=\"text-[10px] text-[var(--muted)] font-bold uppercase tracking-[.1em] mr-[24px] [white-space:nowrap] [flex-shrink:0]\">Partenaires</span><div class=\"h-[1px] bg-[var(--line)] min-w-[20px] mr-[24px] [flex:1]\"></div><div class=\"flex gap-[28px] items-center flex-wrap\">{{#logos}}<span class=\"text-[13px] font-bold text-[var(--text)] opacity-[.4] tracking-[-.01em]\">{{logo}}</span>{{/logos}}</div></div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "pre-fait",
+    "id": "avec-separation",
+    "slug": "logos--avec-separation",
+    "height": 130,
+    "created_at": "2026-03-05T08:37:36+00:00",
+    "updated_at": "2026-03-05T08:37:36+00:00"
+  }
+}

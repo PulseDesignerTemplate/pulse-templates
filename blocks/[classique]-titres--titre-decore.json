@@ -1,1 +1,26 @@
-{"type": "classique", "category": "classic", "subcategory": "titres", "id": "titre-decore", "label": "Titre décoré", "icon": "✦", "html": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"flex flex-col gap-[12px]\"><span class=\"inline-flex items-center gap-[6px] text-[var(--brand)] text-[12px] font-bold uppercase tracking-[.1em]\">* Section</span><h2 class=\"text-[2rem] font-extrabold text-[var(--text)] leading-[1.15] tracking-[-.02em]\">Titre avec label décoratif</h2><div class=\"w-[48px] h-[3px] bg-[var(--brand)] rounded-full\"></div></div></section>"}
+{
+  "type": "classique-titres-titre-decore",
+  "template": "html",
+  "kind": "static",
+  "id": "titre-decore",
+  "label": "Titre décoré",
+  "category": "classic",
+  "subcategory": "titres",
+  "icon": "fa-wand-magic-sparkles",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"flex flex-col gap-[12px]\"><span class=\"inline-flex items-center gap-[6px] text-[var(--brand)] text-[12px] font-bold uppercase tracking-[.1em]\">* Section</span><h2 class=\"text-[2rem] font-extrabold text-[var(--text)] leading-[1.15] tracking-[-.02em]\">Titre avec label décoratif</h2><div class=\"w-[48px] h-[3px] bg-[var(--brand)] rounded-full\"></div></div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"flex flex-col gap-[12px]\"><span class=\"inline-flex items-center gap-[6px] text-[var(--brand)] text-[12px] font-bold uppercase tracking-[.1em]\">* Section</span><h2 class=\"text-[2rem] font-extrabold text-[var(--text)] leading-[1.15] tracking-[-.02em]\">Titre avec label décoratif</h2><div class=\"w-[48px] h-[3px] bg-[var(--brand)] rounded-full\"></div></div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "titre-decore"
+  }
+}

@@ -1,1 +1,30 @@
-{"type": "pre-fait", "category": "timeline", "id": "verticale", "label": "Verticale", "description": "Étapes chronologiques / processus", "schema_version": 1, "name": "timeline / Verticale", "slug": "timeline--verticale", "height": 300, "created_at": "2026-03-05T08:37:36+00:00", "updated_at": "2026-03-05T08:37:36+00:00", "html": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"inline-flex items-center gap-[8px] text-[11px] font-bold text-[var(--brand)] tracking-[.14em] uppercase bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] p-[4px_14px] rounded-[999px] mb-[14px]\">{{kicker}}</span><h2 class=\"text-[2.2rem] font-black text-[var(--text)] tracking-[-.025em] mb-[12px] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[480px] m-[0_auto] leading-[1.7]\">{{subtitle}}</p></div><div class=\"max-w-[640px] m-[0_auto] relative\"><div class=\"absolute left-[24px] top-[8px] bottom-[8px] w-[2px] [background:linear-gradient(180deg,var(--brand),color-mix(in_srgb,var(--brand)_20%,transparent))]\"></div><div class=\"flex flex-col gap-[28px]\"> {{#timeline}}<div class=\"flex gap-[28px] items-start\" data-d=\"1\"><div class=\"flex items-center justify-center w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] border-[2px] border-[var(--brand)] text-[13px] font-black text-[var(--brand)] z-[1] shadow-[0_0_0_4px_var(--bg)] [flex-shrink:0]\">{{year}}</div><div class=\"p-[20px_24px] bg-[var(--surface)] border border-[var(--line)] rounded-[16px] mt-[8px] [flex:1]\"><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[6px]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[13px] leading-[1.65]\">{{desc}}</p></div></div>{{/timeline}} </div></div></section>"}
+{
+  "type": "prefait-timeline-verticale",
+  "template": "html",
+  "kind": "static",
+  "id": "verticale",
+  "label": "Verticale",
+  "category": "timeline",
+  "icon": "fa-timeline",
+  "description": "Étapes chronologiques / processus",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"inline-flex items-center gap-[8px] text-[11px] font-bold text-[var(--brand)] tracking-[.14em] uppercase bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] p-[4px_14px] rounded-[999px] mb-[14px]\">{{kicker}}</span><h2 class=\"text-[2.2rem] font-black text-[var(--text)] tracking-[-.025em] mb-[12px] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[480px] m-[0_auto] leading-[1.7]\">{{subtitle}}</p></div><div class=\"max-w-[640px] m-[0_auto] relative\"><div class=\"absolute left-[24px] top-[8px] bottom-[8px] w-[2px] [background:linear-gradient(180deg,var(--brand),color-mix(in_srgb,var(--brand)_20%,transparent))]\"></div><div class=\"flex flex-col gap-[28px]\"> {{#timeline}}<div class=\"flex gap-[28px] items-start\" data-d=\"1\"><div class=\"flex items-center justify-center w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] border-[2px] border-[var(--brand)] text-[13px] font-black text-[var(--brand)] z-[1] shadow-[0_0_0_4px_var(--bg)] [flex-shrink:0]\">{{year}}</div><div class=\"p-[20px_24px] bg-[var(--surface)] border border-[var(--line)] rounded-[16px] mt-[8px] [flex:1]\"><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[6px]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[13px] leading-[1.65]\">{{desc}}</p></div></div>{{/timeline}} </div></div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"inline-flex items-center gap-[8px] text-[11px] font-bold text-[var(--brand)] tracking-[.14em] uppercase bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] p-[4px_14px] rounded-[999px] mb-[14px]\">{{kicker}}</span><h2 class=\"text-[2.2rem] font-black text-[var(--text)] tracking-[-.025em] mb-[12px] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[480px] m-[0_auto] leading-[1.7]\">{{subtitle}}</p></div><div class=\"max-w-[640px] m-[0_auto] relative\"><div class=\"absolute left-[24px] top-[8px] bottom-[8px] w-[2px] [background:linear-gradient(180deg,var(--brand),color-mix(in_srgb,var(--brand)_20%,transparent))]\"></div><div class=\"flex flex-col gap-[28px]\"> {{#timeline}}<div class=\"flex gap-[28px] items-start\" data-d=\"1\"><div class=\"flex items-center justify-center w-[48px] h-[48px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] border-[2px] border-[var(--brand)] text-[13px] font-black text-[var(--brand)] z-[1] shadow-[0_0_0_4px_var(--bg)] [flex-shrink:0]\">{{year}}</div><div class=\"p-[20px_24px] bg-[var(--surface)] border border-[var(--line)] rounded-[16px] mt-[8px] [flex:1]\"><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[6px]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[13px] leading-[1.65]\">{{desc}}</p></div></div>{{/timeline}} </div></div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "pre-fait",
+    "id": "verticale",
+    "slug": "timeline--verticale",
+    "height": 300,
+    "created_at": "2026-03-05T08:37:36+00:00",
+    "updated_at": "2026-03-05T08:37:36+00:00"
+  }
+}

@@ -1,1 +1,30 @@
-{"type":"pre-fait","category":"navbar","id":"double-rangee","label":"Double rangee","description":"Barre de navigation","schema_version":1,"name":"navbar / Double rangee","slug":"navbar--double-rangee","height":115,"created_at":"2026-03-05T08:37:36+00:00","updated_at":"2026-03-05T08:37:36+00:00","html":"<section id=\"gv-navbar-7\" data-gv-block=\"1\" data-gv-block-type=\"navbar\" data-gv-variant=\"7\" data-gv-block-id=\"gv-navbar-7\"><header class=\"bg-[var(--bg)]\"><div class=\"flex justify-between items-center bg-[var(--surface)] p-[7px_40px] [border-bottom:1px_solid_var(--line)]\"><span class=\"text-[11px] text-[var(--muted)] font-medium\">{{tagline}}</span><div class=\"flex gap-[20px] text-[11px] text-[var(--muted)]\"><span class=\"flex items-center gap-[5px]\">&#9993; {{email}}</span><span class=\"flex items-center gap-[5px]\">&#9990; {{phone}}</span></div></div><nav class=\"flex items-center justify-between gap-[12px] p-[0_40px] h-[58px] [border-bottom:1px_solid_var(--line)]\"><a class=\"flex items-center gap-[9px] [flex-shrink:0]\" href=\"#\"><div class=\"flex items-center justify-center w-[30px] h-[30px] rounded-[9px] bg-[var(--brand)] font-black text-[14px] text-[#fff]\">G</div><b class=\"text-[15px] text-[var(--text)]\">{{brand.name}}</b></a><div class=\"flex gap-[20px] text-[13px] max-[768px]:hidden\"> {{#navLinks}}<a class=\"text-[var(--muted)] text-[13px] font-medium [transition:color_.15s]\" href=\"{{href}}\">{{label}}</a>{{/navLinks}} </div><a class=\"bg-[var(--brand)] text-[#fff] p-[8px_18px] rounded-[8px] text-[13px] font-bold transition-opacity duration-[200ms] whitespace-nowrap hover:opacity-[.85]\" href=\"#\">{{cta.label}}</a></nav></header></section>"}
+{
+  "type": "prefait-navbar-double-rangee",
+  "template": "html",
+  "kind": "static",
+  "id": "double-rangee",
+  "label": "Double rangee",
+  "category": "navbar",
+  "icon": "fa-bars",
+  "description": "Barre de navigation",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section id=\"gv-navbar-7\" data-gv-block=\"1\" data-gv-block-type=\"navbar\" data-gv-variant=\"7\" data-gv-block-id=\"gv-navbar-7\"><header class=\"bg-[var(--bg)]\"><div class=\"flex justify-between items-center bg-[var(--surface)] p-[7px_40px] [border-bottom:1px_solid_var(--line)]\"><span class=\"text-[11px] text-[var(--muted)] font-medium\">{{tagline}}</span><div class=\"flex gap-[20px] text-[11px] text-[var(--muted)]\"><span class=\"flex items-center gap-[5px]\">&#9993; {{email}}</span><span class=\"flex items-center gap-[5px]\">&#9990; {{phone}}</span></div></div><nav class=\"flex items-center justify-between gap-[12px] p-[0_40px] h-[58px] [border-bottom:1px_solid_var(--line)]\"><a class=\"flex items-center gap-[9px] [flex-shrink:0]\" href=\"#\"><div class=\"flex items-center justify-center w-[30px] h-[30px] rounded-[9px] bg-[var(--brand)] font-black text-[14px] text-[#fff]\">G</div><b class=\"text-[15px] text-[var(--text)]\">{{brand.name}}</b></a><div class=\"flex gap-[20px] text-[13px] max-[768px]:hidden\"> {{#navLinks}}<a class=\"text-[var(--muted)] text-[13px] font-medium [transition:color_.15s]\" href=\"{{href}}\">{{label}}</a>{{/navLinks}} </div><a class=\"bg-[var(--brand)] text-[#fff] p-[8px_18px] rounded-[8px] text-[13px] font-bold transition-opacity duration-[200ms] whitespace-nowrap hover:opacity-[.85]\" href=\"#\">{{cta.label}}</a></nav></header></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section id=\"gv-navbar-7\" data-gv-block=\"1\" data-gv-block-type=\"navbar\" data-gv-variant=\"7\" data-gv-block-id=\"gv-navbar-7\"><header class=\"bg-[var(--bg)]\"><div class=\"flex justify-between items-center bg-[var(--surface)] p-[7px_40px] [border-bottom:1px_solid_var(--line)]\"><span class=\"text-[11px] text-[var(--muted)] font-medium\">{{tagline}}</span><div class=\"flex gap-[20px] text-[11px] text-[var(--muted)]\"><span class=\"flex items-center gap-[5px]\">&#9993; {{email}}</span><span class=\"flex items-center gap-[5px]\">&#9990; {{phone}}</span></div></div><nav class=\"flex items-center justify-between gap-[12px] p-[0_40px] h-[58px] [border-bottom:1px_solid_var(--line)]\"><a class=\"flex items-center gap-[9px] [flex-shrink:0]\" href=\"#\"><div class=\"flex items-center justify-center w-[30px] h-[30px] rounded-[9px] bg-[var(--brand)] font-black text-[14px] text-[#fff]\">G</div><b class=\"text-[15px] text-[var(--text)]\">{{brand.name}}</b></a><div class=\"flex gap-[20px] text-[13px] max-[768px]:hidden\"> {{#navLinks}}<a class=\"text-[var(--muted)] text-[13px] font-medium [transition:color_.15s]\" href=\"{{href}}\">{{label}}</a>{{/navLinks}} </div><a class=\"bg-[var(--brand)] text-[#fff] p-[8px_18px] rounded-[8px] text-[13px] font-bold transition-opacity duration-[200ms] whitespace-nowrap hover:opacity-[.85]\" href=\"#\">{{cta.label}}</a></nav></header></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "pre-fait",
+    "id": "double-rangee",
+    "slug": "navbar--double-rangee",
+    "height": 115,
+    "created_at": "2026-03-05T08:37:36+00:00",
+    "updated_at": "2026-03-05T08:37:36+00:00"
+  }
+}

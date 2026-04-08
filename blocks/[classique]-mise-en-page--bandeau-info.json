@@ -1,1 +1,26 @@
-{"type": "classique", "category": "classic", "subcategory": "mise-en-page", "id": "bandeau-info", "label": "Bandeau info", "icon": "ℹ", "html": "<section class=\"bg-[var(--brand)] p-[14px_40px]\"><div class=\"flex items-center justify-center gap-[10px] text-[#fff]\"><span class=\"text-[14px]\">></span><p class=\"text-[13px] font-semibold\">Information importante — Offre spéciale valable jusqu'au 31 décembre</p><a class=\"text-[12px] font-bold underline ml-[8px] text-[#fff]\" href=\"#\">En savoir plus</a></div></section>"}
+{
+  "type": "classique-mise-en-page-bandeau-info",
+  "template": "html",
+  "kind": "static",
+  "id": "bandeau-info",
+  "label": "Bandeau info",
+  "category": "classic",
+  "subcategory": "mise-en-page",
+  "icon": "fa-info-circle",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"bg-[var(--brand)] p-[14px_40px]\"><div class=\"flex items-center justify-center gap-[10px] text-[#fff]\"><span class=\"text-[14px]\">></span><p class=\"text-[13px] font-semibold\">Information importante — Offre spéciale valable jusqu'au 31 décembre</p><a class=\"text-[12px] font-bold underline ml-[8px] text-[#fff]\" href=\"#\">En savoir plus</a></div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"bg-[var(--brand)] p-[14px_40px]\"><div class=\"flex items-center justify-center gap-[10px] text-[#fff]\"><span class=\"text-[14px]\">></span><p class=\"text-[13px] font-semibold\">Information importante — Offre spéciale valable jusqu'au 31 décembre</p><a class=\"text-[12px] font-bold underline ml-[8px] text-[#fff]\" href=\"#\">En savoir plus</a></div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "bandeau-info"
+  }
+}

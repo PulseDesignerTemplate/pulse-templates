@@ -1,1 +1,30 @@
-{"type": "pre-fait", "category": "productGrid", "id": "produits-dark", "label": "Produits Dark", "description": "Grille produits avec prix et bouton", "schema_version": 1, "name": "productGrid / Produits Dark", "slug": "productGrid--produits-dark", "height": 340, "created_at": "2026-03-05T08:37:36+00:00", "updated_at": "2026-03-05T08:37:36+00:00", "html": "<section class=\"bg-[var(--surface)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[14px]\"> {{#items}}<article class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[16px] overflow-hidden\"><img class=\"w-[100%] object-cover block [aspect-ratio:4/3]\" src=\"{{image}}\" alt=\"{{title}}\"><div class=\"p-[12px]\"><h3 class=\"text-[1rem] text-[var(--text)] font-extrabold\">{{title}}</h3><p class=\"text-[12px] text-[var(--muted)] mt-[6px]\">{{desc}}</p><div class=\"mt-[10px] text-[14px] text-[var(--brand)] font-extrabold\">{{price}}</div></div></article>{{/items}} </div></section>"}
+{
+  "type": "prefait-productGrid-produits-dark",
+  "template": "html",
+  "kind": "static",
+  "id": "produits-dark",
+  "label": "Produits Dark",
+  "category": "productGrid",
+  "icon": "fa-store",
+  "description": "Grille produits avec prix et bouton",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"bg-[var(--surface)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[14px]\"> {{#items}}<article class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[16px] overflow-hidden\"><img class=\"w-[100%] object-cover block [aspect-ratio:4/3]\" src=\"{{image}}\" alt=\"{{title}}\"><div class=\"p-[12px]\"><h3 class=\"text-[1rem] text-[var(--text)] font-extrabold\">{{title}}</h3><p class=\"text-[12px] text-[var(--muted)] mt-[6px]\">{{desc}}</p><div class=\"mt-[10px] text-[14px] text-[var(--brand)] font-extrabold\">{{price}}</div></div></article>{{/items}} </div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"bg-[var(--surface)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[14px]\"> {{#items}}<article class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[16px] overflow-hidden\"><img class=\"w-[100%] object-cover block [aspect-ratio:4/3]\" src=\"{{image}}\" alt=\"{{title}}\"><div class=\"p-[12px]\"><h3 class=\"text-[1rem] text-[var(--text)] font-extrabold\">{{title}}</h3><p class=\"text-[12px] text-[var(--muted)] mt-[6px]\">{{desc}}</p><div class=\"mt-[10px] text-[14px] text-[var(--brand)] font-extrabold\">{{price}}</div></div></article>{{/items}} </div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "pre-fait",
+    "id": "produits-dark",
+    "slug": "productGrid--produits-dark",
+    "height": 340,
+    "created_at": "2026-03-05T08:37:36+00:00",
+    "updated_at": "2026-03-05T08:37:36+00:00"
+  }
+}

@@ -1,1 +1,30 @@
-{"type":"pre-fait","category":"navbar","id":"glass","label":"Glass","description":"Barre de navigation","schema_version":1,"name":"navbar / Glass","slug":"navbar--glass","height":115,"created_at":"2026-03-05T08:37:36+00:00","updated_at":"2026-03-05T08:37:36+00:00","html":"<section id=\"gv-navbar-2\" data-gv-block=\"1\" data-gv-block-type=\"navbar\" data-gv-variant=\"2\" data-gv-block-id=\"gv-navbar-2\"><div class=\"bg-[var(--bg)] p-[14px_24px]\"><nav class=\"flex items-center justify-between gap-[12px] bg-[rgba(255,255,255,.055)] border border-[var(--line)] rounded-[18px] p-[0_20px] h-[54px] shadow-[0_4px_24px_rgba(0,0,0,.12)] [backdrop-filter:blur(20px)] [-webkit-backdrop-filter:blur(20px)]\"><a class=\"flex items-center gap-[9px] [flex-shrink:0]\" href=\"#\"><div class=\"flex items-center justify-center w-[30px] h-[30px] rounded-[9px] bg-[var(--brand)] text-[13px] font-black text-[#fff]\">G</div><b class=\"text-[14px] text-[var(--text)]\">{{brand.name}}</b></a><div class=\"flex gap-[20px] text-[13px] max-[768px]:hidden\"> {{#navLinks}}<a class=\"text-[var(--muted)] text-[13px] font-medium [transition:color_.15s]\" href=\"{{href}}\">{{label}}</a>{{/navLinks}} </div><div class=\"flex items-center gap-[8px]\"><a class=\"bg-[var(--brand)] text-[#fff] p-[8px_18px] rounded-[8px] text-[13px] font-bold transition-opacity duration-[200ms] whitespace-nowrap hover:opacity-[.85] text-[12px] p-[7px_16px]\" href=\"#\">{{cta.label}}</a><div class=\"hidden flex-col gap-[4px] cursor-pointer p-[6px] max-[768px]:flex\"><span></span><span></span><span></span></div></div></nav></div></section>"}
+{
+  "type": "prefait-navbar-glass",
+  "template": "html",
+  "kind": "static",
+  "id": "glass",
+  "label": "Glass",
+  "category": "navbar",
+  "icon": "fa-bars",
+  "description": "Barre de navigation",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section id=\"gv-navbar-2\" data-gv-block=\"1\" data-gv-block-type=\"navbar\" data-gv-variant=\"2\" data-gv-block-id=\"gv-navbar-2\"><div class=\"bg-[var(--bg)] p-[14px_24px]\"><nav class=\"flex items-center justify-between gap-[12px] bg-[rgba(255,255,255,.055)] border border-[var(--line)] rounded-[18px] p-[0_20px] h-[54px] shadow-[0_4px_24px_rgba(0,0,0,.12)] [backdrop-filter:blur(20px)] [-webkit-backdrop-filter:blur(20px)]\"><a class=\"flex items-center gap-[9px] [flex-shrink:0]\" href=\"#\"><div class=\"flex items-center justify-center w-[30px] h-[30px] rounded-[9px] bg-[var(--brand)] text-[13px] font-black text-[#fff]\">G</div><b class=\"text-[14px] text-[var(--text)]\">{{brand.name}}</b></a><div class=\"flex gap-[20px] text-[13px] max-[768px]:hidden\"> {{#navLinks}}<a class=\"text-[var(--muted)] text-[13px] font-medium [transition:color_.15s]\" href=\"{{href}}\">{{label}}</a>{{/navLinks}} </div><div class=\"flex items-center gap-[8px]\"><a class=\"bg-[var(--brand)] text-[#fff] p-[8px_18px] rounded-[8px] text-[13px] font-bold transition-opacity duration-[200ms] whitespace-nowrap hover:opacity-[.85] text-[12px] p-[7px_16px]\" href=\"#\">{{cta.label}}</a><div class=\"hidden flex-col gap-[4px] cursor-pointer p-[6px] max-[768px]:flex\"><span></span><span></span><span></span></div></div></nav></div></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section id=\"gv-navbar-2\" data-gv-block=\"1\" data-gv-block-type=\"navbar\" data-gv-variant=\"2\" data-gv-block-id=\"gv-navbar-2\"><div class=\"bg-[var(--bg)] p-[14px_24px]\"><nav class=\"flex items-center justify-between gap-[12px] bg-[rgba(255,255,255,.055)] border border-[var(--line)] rounded-[18px] p-[0_20px] h-[54px] shadow-[0_4px_24px_rgba(0,0,0,.12)] [backdrop-filter:blur(20px)] [-webkit-backdrop-filter:blur(20px)]\"><a class=\"flex items-center gap-[9px] [flex-shrink:0]\" href=\"#\"><div class=\"flex items-center justify-center w-[30px] h-[30px] rounded-[9px] bg-[var(--brand)] text-[13px] font-black text-[#fff]\">G</div><b class=\"text-[14px] text-[var(--text)]\">{{brand.name}}</b></a><div class=\"flex gap-[20px] text-[13px] max-[768px]:hidden\"> {{#navLinks}}<a class=\"text-[var(--muted)] text-[13px] font-medium [transition:color_.15s]\" href=\"{{href}}\">{{label}}</a>{{/navLinks}} </div><div class=\"flex items-center gap-[8px]\"><a class=\"bg-[var(--brand)] text-[#fff] p-[8px_18px] rounded-[8px] text-[13px] font-bold transition-opacity duration-[200ms] whitespace-nowrap hover:opacity-[.85] text-[12px] p-[7px_16px]\" href=\"#\">{{cta.label}}</a><div class=\"hidden flex-col gap-[4px] cursor-pointer p-[6px] max-[768px]:flex\"><span></span><span></span><span></span></div></div></nav></div></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "pre-fait",
+    "id": "glass",
+    "slug": "navbar--glass",
+    "height": 115,
+    "created_at": "2026-03-05T08:37:36+00:00",
+    "updated_at": "2026-03-05T08:37:36+00:00"
+  }
+}

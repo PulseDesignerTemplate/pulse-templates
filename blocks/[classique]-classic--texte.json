@@ -1,1 +1,26 @@
-{"type": "classique", "category": "classic", "id": "texte", "label": "Texte", "icon": "¶", "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[15px] leading-[1.75] text-[var(--muted)] max-w-[640px]\">Votre texte ici. Modifiez ce contenu pour présenter votre message de façon claire et engageante.</p></section>", "subcategory": "texte"}
+{
+  "type": "classique-texte-texte",
+  "template": "html",
+  "kind": "static",
+  "id": "texte",
+  "label": "Texte",
+  "category": "classic",
+  "subcategory": "texte",
+  "icon": "fa-align-left",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[15px] leading-[1.75] text-[var(--muted)] max-w-[640px]\">Votre texte ici. Modifiez ce contenu pour présenter votre message de façon claire et engageante.</p></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[15px] leading-[1.75] text-[var(--muted)] max-w-[640px]\">Votre texte ici. Modifiez ce contenu pour présenter votre message de façon claire et engageante.</p></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "texte"
+  }
+}

@@ -1,1 +1,26 @@
-{"type": "classique", "category": "classic", "id": "h3", "label": "Sous-titre", "icon": "H3", "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><h3 class=\"text-[1.3rem] font-bold text-[var(--text)] leading-[1.3]\">Sous-titre de section</h3></section>", "subcategory": "titres"}
+{
+  "type": "classique-titres-h3",
+  "template": "html",
+  "kind": "static",
+  "id": "h3",
+  "label": "Sous-titre",
+  "category": "classic",
+  "subcategory": "titres",
+  "icon": "fa-heading",
+  "schema": {
+    "html": {
+      "type": "string",
+      "label": "HTML",
+      "multiline": true,
+      "default": "<section class=\"p-[40px] bg-[var(--bg)]\"><h3 class=\"text-[1.3rem] font-bold text-[var(--text)] leading-[1.3]\">Sous-titre de section</h3></section>"
+    }
+  },
+  "defaults": {
+    "html": "<section class=\"p-[40px] bg-[var(--bg)]\"><h3 class=\"text-[1.3rem] font-bold text-[var(--text)] leading-[1.3]\">Sous-titre de section</h3></section>"
+  },
+  "astroTemplate": "Html.astro",
+  "legacy": {
+    "originalType": "classique",
+    "id": "h3"
+  }
+}
