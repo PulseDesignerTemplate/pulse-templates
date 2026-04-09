@@ -17,12 +17,12 @@
     "logo": {
       "type": "string",
       "label": "Logo",
-      "default": "logo"
+      "default": "Logo"
     }
   },
   "defaults": {
     "text": "Votre texte ici.",
-    "logo": "logo",
+    "logo": "Logo",
     "htmlTemplate": "<section class=\"bg-[var(--surface)] p-[28px_40px] [border-top:1px_solid_var(--line)] [border-bottom:1px_solid_var(--line)]\"><div class=\"text-center mb-[16px]\"><span class=\"text-[10px] text-[var(--muted)] tracking-[.14em] uppercase font-semibold\">{{text}}</span></div><div class=\"flex justify-center items-center gap-[36px] flex-wrap\">{{#logos}}<span class=\"text-[13px] font-extrabold text-[var(--text)] opacity-[.45] tracking-[-.02em] [white-space:nowrap]\">{{logo}}</span>{{/logos}}</div></section>"
   },
   "astroTemplate": "Html.astro",

@@ -2,15 +2,50 @@
   "id": "contact",
   "label": "Contact",
   "icon": "fa-envelope",
-  "description": "Formulaire de contact",
-  "sections": [
+  "description": "Page Contact avec en-tête, formulaire, coordonnées, carte et FAQ",
+  "blocks": [
     {
-      "label": "En-tête",
-      "html": "<section class=\"bg-[var(--surface)] p-[48px_40px] [border-bottom:1px_solid_var(--line)]\"><div><div class=\"text-[11px] text-[var(--brand)] font-bold tracking-[.12em] uppercase mb-[10px]\">{{kicker}}</div><h1 class=\"text-[2.4rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[10px]\">{{title}}</h1><p class=\"text-[var(--muted)] text-[14px] leading-[1.7] max-w-[560px]\">{{subtitle}}</p></div></section>"
+      "type": "prefait-pageheader-centre-gradient",
+      "props": {
+        "kicker": "Contact",
+        "title": "Parlons de votre projet",
+        "subtitle": "Une question, un projet ou simplement envie d'échanger ? Nous sommes là pour vous."
+      }
     },
     {
-      "label": "Contact",
-      "html": "<section class=\"bg-[var(--surface)] p-[72px_40px] text-center\"><div class=\"max-w-[560px] m-[0_auto]\"><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] mb-[12px] tracking-[-.02em]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.7] mb-[32px]\">{{subtitle}}</p><div class=\"flex flex-col gap-[12px]\"><input class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[13px_16px] text-[13px] text-[var(--text)]\" placeholder=\"Nom complet\" type=\"text\"><input class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[13px_16px] text-[13px] text-[var(--text)]\" placeholder=\"Email\" type=\"email\"><textarea class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[13px_16px] text-[13px] text-[var(--text)] h-[90px] [resize:none]\" placeholder=\"Message\"></textarea><a class=\"bg-[var(--brand)] text-[#fff] p-[13px] rounded-[10px] font-bold text-[14px] text-center block\">{{cta.label}}</a></div></div></section>"
+      "type": "prefait-contact-formulaire-split",
+      "props": {
+        "kicker": "Écrivez-nous",
+        "title": "Envoyez-nous un message",
+        "subtitle": "Nous vous répondons sous 24h ouvrées."
+      }
+    },
+    {
+      "type": "prefait-contact-coordonnees",
+      "props": {
+        "kicker": "Nos coordonnées",
+        "title": "Comment nous joindre",
+        "subtitle": "Plusieurs canaux à votre disposition.",
+        "email": "contact@exemple.fr",
+        "phone": "+33 1 23 45 67 89",
+        "address": "10 rue de la République, 75001 Paris"
+      }
+    },
+    {
+      "type": "prefait-map-carte-info",
+      "props": {
+        "kicker": "Nous trouver",
+        "title": "Notre adresse",
+        "subtitle": "Au cœur de Paris, accessible en métro et en RER."
+      }
+    },
+    {
+      "type": "prefait-faq-2-colonnes",
+      "props": {
+        "kicker": "FAQ",
+        "title": "Questions fréquentes",
+        "subtitle": "Les réponses aux questions les plus posées."
+      }
     }
   ]
 }

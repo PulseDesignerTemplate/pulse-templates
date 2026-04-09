@@ -1,24 +1,60 @@
 {
   "id": "services",
   "label": "Services",
-  "icon": "fa-briefcase",
-  "description": "Offres, tarifs, FAQ",
-  "sections": [
+  "icon": "fa-bolt",
+  "description": "Page Services avec en-tête, prestations, processus, tarifs, témoignages et CTA",
+  "blocks": [
     {
-      "label": "En-tête",
-      "html": "<section class=\"bg-[var(--surface)] p-[48px_40px] [border-bottom:1px_solid_var(--line)]\"><div><div class=\"text-[11px] text-[var(--brand)] font-bold tracking-[.12em] uppercase mb-[10px]\">{{kicker}}</div><h1 class=\"text-[2.4rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[10px]\">{{title}}</h1><p class=\"text-[var(--muted)] text-[14px] leading-[1.7] max-w-[560px]\">{{subtitle}}</p></div></section>"
+      "type": "prefait-pageheader-centre-gradient",
+      "props": {
+        "kicker": "Nos services",
+        "title": "Une expertise complète à votre service",
+        "subtitle": "Des prestations sur-mesure pour répondre à tous vos besoins, du conseil à la mise en œuvre."
+      }
     },
     {
-      "label": "Nos services",
-      "html": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"inline-flex items-center gap-[8px] text-[11px] font-bold text-[var(--brand)] tracking-[.14em] uppercase bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] p-[4px_14px] rounded-[999px] mb-[14px]\">{{kicker}}</span><h2 class=\"text-[2.4rem] font-black text-[var(--text)] tracking-[-.025em] mb-[12px] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14.5px] max-w-[500px] m-[0_auto] leading-[1.7]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[20px]\"> {{#items}}<div class=\"transition-[transform,border-color] duration-[220ms] ease-[cubic-bezier(.4,0,.2,1)] hover:translate-y-[-3px] hover:border-[var(--brand)] bg-[var(--surface)] border border-[var(--line)] rounded-[20px] p-[32px] relative overflow-hidden\" data-d=\"1\"><div class=\"absolute top-[0] left-[0] right-[0] h-[2px] [background:linear-gradient(90deg,var(--brand),color-mix(in_srgb,var(--brand)_20%,transparent))]\"></div><div class=\"absolute top-[-40px] right-[-40px] w-[120px] h-[120px] rounded-[999px] bg-[var(--brand)] opacity-[.04] filter-[blur(30px)]\"></div><div class=\"flex items-center justify-center w-[52px] h-[52px] rounded-[16px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] border border-[color-mix(in_srgb,var(--brand)_22%,transparent)] text-[24px] mb-[20px]\">{{icon}}</div><h3 class=\"text-[15px] font-bold text-[var(--text)] mb-[10px] tracking-[-.01em]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.7]\">{{desc}}</p></div>{{/items}} </div></section>"
+      "type": "prefait-features-bento-grid",
+      "props": {
+        "kicker": "Nos prestations",
+        "title": "Tout ce que nous proposons",
+        "subtitle": "Une offre structurée autour de vos enjeux."
+      }
     },
     {
-      "label": "Tarifs",
-      "html": "<section class=\"bg-[var(--bg)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[16px] items-stretch\"> {{#plans}}<div class=\"flex flex-col gap-[16px] bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px]\"><div><div class=\"text-[13px] font-bold text-[var(--text)] mb-[4px]\">{{name}}</div></div><div class=\"flex items-baseline gap-[4px]\"><span class=\"text-[2.4rem] font-black text-[var(--brand)]\">{{price}}&euro;</span><span class=\"text-[12px] text-[var(--muted)]\">{{period}}</span></div><div class=\"flex flex-col gap-[8px] [flex:1]\"><ul class=\"pf flex flex-col gap-[2px] p-[0] m-[0] [list-style:none]\">{{features_list}}</ul></div><a class=\"bg-[var(--brand)] text-[#fff] p-[11px_24px] rounded-[10px] font-bold text-[13px] text-center block\">{{cta}}</a></div>{{/plans}} </div></section>"
+      "type": "prefait-process-3-etapes",
+      "props": {
+        "kicker": "Notre méthode",
+        "title": "Comment nous travaillons",
+        "subtitle": "Un process clair et éprouvé pour des résultats au rendez-vous."
+      }
     },
     {
-      "label": "FAQ",
-      "html": "<section class=\"bg-[var(--bg)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"flex flex-col gap-[8px] max-w-[680px] m-[0_auto]\"> {{#faqs}}<div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[12px] overflow-hidden\" data-d=\"1\"><div class=\"flex justify-between items-center gap-[12px] p-[18px_20px] cursor-pointer\"><span class=\"text-[14px] font-bold text-[var(--text)]\">{{q}}</span><span class=\"text-[var(--brand)] text-[18px] font-light [flex-shrink:0]\">+</span></div><div class=\"p-[0_20px_18px] pt-[14px] [border-top:1px_solid_var(--line)]\"><p class=\"text-[13px] text-[var(--muted)] leading-[1.7]\">{{a}}</p></div></div>{{/faqs}} </div></section>"
+      "type": "prefait-pricing-3-colonnes",
+      "props": {
+        "kicker": "Tarifs",
+        "title": "Des formules pour chaque besoin",
+        "subtitle": "Sans engagement, sans surprise. Vous payez ce que vous utilisez."
+      }
+    },
+    {
+      "type": "prefait-testimonials-citation-large",
+      "props": {
+        "kicker": "Témoignage",
+        "title": "Ils nous font confiance",
+        "subtitle": "Un retour client qui résume bien ce que nous apportons."
+      }
+    },
+    {
+      "type": "prefait-cta-split-cta",
+      "props": {
+        "kicker": "Démarrons",
+        "title": "Prêt à passer à l'action ?",
+        "subtitle": "Discutons de votre projet sans engagement.",
+        "cta_label": "Demander un devis",
+        "cta_href": "#",
+        "cta_secondary_label": "En savoir plus",
+        "cta_secondary_href": "#"
+      }
     }
   ]
 }

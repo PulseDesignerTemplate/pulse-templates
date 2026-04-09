@@ -16,12 +16,12 @@
     "email": {
       "type": "string",
       "label": "Email",
-      "default": "email"
+      "default": "contact@monsite.fr"
     },
     "phone": {
       "type": "string",
-      "label": "Phone",
-      "default": "phone"
+      "label": "Téléphone",
+      "default": "+33 1 23 45 67 89"
     },
     "href": {
       "type": "string",
@@ -46,8 +46,8 @@
   },
   "defaults": {
     "tagline": "Votre slogan accrocheur ici",
-    "email": "email",
-    "phone": "phone",
+    "email": "contact@monsite.fr",
+    "phone": "+33 1 23 45 67 89",
     "href": "href",
     "label": "Libellé",
     "cta_label": "Commencer",

@@ -2,15 +2,41 @@
   "id": "blog",
   "label": "Blog",
   "icon": "fa-newspaper",
-  "description": "Liste articles",
-  "sections": [
+  "description": "Page Blog avec en-tête, article mis en avant, grille d'articles et newsletter",
+  "blocks": [
     {
-      "label": "En-tête",
-      "html": "<section class=\"bg-[var(--surface)] p-[48px_40px] [border-bottom:1px_solid_var(--line)]\"><div><div class=\"text-[11px] text-[var(--brand)] font-bold tracking-[.12em] uppercase mb-[10px]\">{{kicker}}</div><h1 class=\"text-[2.4rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[10px]\">{{title}}</h1><p class=\"text-[var(--muted)] text-[14px] leading-[1.7] max-w-[560px]\">{{subtitle}}</p></div></section>"
+      "type": "prefait-pageheader-centre-gradient",
+      "props": {
+        "kicker": "Le blog",
+        "title": "Idées, conseils et coulisses",
+        "subtitle": "Toutes nos ressources pour vous aider à avancer plus vite et plus loin."
+      }
     },
     {
-      "label": "Articles",
-      "html": "<section class=\"bg-[var(--bg)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[14px]\"> {{#blog}}<article class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] overflow-hidden\"><img class=\"w-[100%] object-cover block [aspect-ratio:16/10]\" src=\"{{image}}\" alt=\"{{title}}\"><div class=\"p-[12px]\"><div class=\"text-[11px] text-[var(--brand)] font-bold\">{{cat}}</div><h3 class=\"text-[1rem] text-[var(--text)] font-extrabold mt-[6px]\">{{title}}</h3><p class=\"text-[11px] text-[var(--muted)] mt-[6px]\">{{date}} · {{read}}</p></div></article>{{/blog}} </div></section>"
+      "type": "prefait-blog-featured-article",
+      "props": {
+        "kicker": "À la une",
+        "title": "Notre dernier article",
+        "subtitle": "L'essentiel à retenir cette semaine."
+      }
+    },
+    {
+      "type": "prefait-blog-grid-articles",
+      "props": {
+        "kicker": "Tous les articles",
+        "title": "Les derniers contenus",
+        "subtitle": "Lectures recommandées pour aller plus loin."
+      }
+    },
+    {
+      "type": "prefait-newsletter-split-newsletter",
+      "props": {
+        "kicker": "Newsletter",
+        "title": "Recevez nos meilleurs articles",
+        "subtitle": "Une fois par mois, sans spam, désinscription en un clic.",
+        "cta_label": "S'abonner",
+        "placeholder": "votre@email.com"
+      }
     }
   ]
 }

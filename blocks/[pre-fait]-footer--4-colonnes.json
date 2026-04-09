@@ -32,12 +32,12 @@
     "email": {
       "type": "string",
       "label": "Email",
-      "default": "email"
+      "default": "contact@monsite.fr"
     },
     "phone": {
       "type": "string",
-      "label": "Phone",
-      "default": "phone"
+      "label": "Téléphone",
+      "default": "+33 1 23 45 67 89"
     },
     "year": {
       "type": "string",
@@ -46,8 +46,8 @@
     },
     "company": {
       "type": "string",
-      "label": "Company",
-      "default": "company"
+      "label": "Nom de l’entreprise",
+      "default": "Monsite SAS"
     },
     "link_label": {
       "type": "string",
@@ -70,10 +70,10 @@
     "href": "href",
     "icon": "★",
     "label": "Libellé",
-    "email": "email",
-    "phone": "phone",
+    "email": "contact@monsite.fr",
+    "phone": "+33 1 23 45 67 89",
     "year": "year",
-    "company": "company",
+    "company": "Monsite SAS",
     "link_label": "En savoir plus",
     "link_label_2": "link_label_2",
     "brand_name": "brand_name",
