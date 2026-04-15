@@ -58,13 +58,13 @@
         }
     },
     "defaults": {
-        "text": "Votre texte ici.",
-        "text_2": "text_2",
-        "text_3": "text_3",
+        "text": "Texte",
+        "text_2": "Texte",
+        "text_3": "Texte",
         "paragraph": "Texte de paragraphe.",
-        "text_4": "text_4",
+        "text_4": "Texte",
         "paragraph_2": "Texte de paragraphe.",
-        "text_5": "text_5",
+        "text_5": "Texte",
         "paragraph_3": "Texte de paragraphe.",
         "htmlTemplate": "<section class=\"bg-[var(--surface)] border-y border-[var(--line)] p-[28px_40px]\"><div class=\"flex items-center justify-between max-w-[800px] mx-auto\"><div class=\"flex items-center gap-[8px]\"><span class=\"text-[1.6rem] font-black text-[var(--brand)]\">{{text}}</span><div class=\"flex gap-[2px] text-[#f59e0b] text-[12px]\">&#9733;&#9733;&#9733;&#9733;&#9733;</div><span class=\"text-[12px] text-[var(--muted)]\">{{text_2}}</span></div><span class=\"inline-flex w-[1px] h-[28px] bg-[var(--line)]\"></span><div class=\"text-center\"><span class=\"text-[1.6rem] font-black text-[var(--text)]\">{{text_3}}</span><p class=\"text-[11px] text-[var(--muted)] font-medium\">{{paragraph}}</p></div><span class=\"inline-flex w-[1px] h-[28px] bg-[var(--line)]\"></span><div class=\"text-center\"><span class=\"text-[1.6rem] font-black text-[var(--text)]\">{{text_4}}</span><p class=\"text-[11px] text-[var(--muted)] font-medium\">{{paragraph_2}}</p></div><span class=\"inline-flex w-[1px] h-[28px] bg-[var(--line)]\"></span><div class=\"text-center\"><span class=\"text-[1.6rem] font-black text-[var(--text)]\">{{text_5}}</span><p class=\"text-[11px] text-[var(--muted)] font-medium\">{{paragraph_3}}</p></div></div></section>"
     },

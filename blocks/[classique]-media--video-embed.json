@@ -26,7 +26,7 @@
         }
     },
     "defaults": {
-        "text": "Votre texte ici.",
+        "text": "Texte",
         "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
         "image_alt": "Illustration",
         "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"relative w-full max-w-[720px] rounded-[16px] overflow-hidden border border-[var(--line)] aspect-video bg-[#000]\"><div class=\"absolute inset-0 flex items-center justify-center\"><span class=\"inline-flex w-[64px] h-[64px] rounded-full bg-[var(--brand)] flex items-center justify-center shadow-[0_4px_20px_rgba(0,0,0,.3)] cursor-pointer\"><span class=\"text-[#fff] text-[20px] ml-[3px]\">{{text}}</span></span></div><img class=\"w-full h-full object-cover opacity-60\" src=\"{{image}}\" alt=\"{{image_alt}}\"></div></section>"

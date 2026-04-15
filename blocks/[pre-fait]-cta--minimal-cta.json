@@ -1,44 +1,44 @@
 {
-  "type": "prefait-cta-minimal-cta",
-  "template": "html",
-  "kind": "static",
-  "id": "minimal-cta",
-  "label": "Minimal CTA",
-  "category": "cta",
-  "icon": "fa-bullhorn",
-  "description": "Bloc appel à l'action standalone",
-  "schema": {
-    "title": {
-      "type": "string",
-      "label": "Titre principal",
-      "multiline": true,
-      "default": "Titre principal"
-    },
-    "subtitle": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "Sous-titre descriptif pour accompagner votre message."
-    },
-    "cta_label": {
-      "type": "string",
-      "label": "Bouton — texte",
-      "default": "Commencer"
-    }
-  },
-  "defaults": {
-    "title": "Titre principal",
-    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
-    "cta_label": "Commencer",
-    "htmlTemplate": "<section class=\"flex justify-between items-center flex-wrap gap-[24px] bg-[var(--surface)] p-[48px_40px] [border-top:1px_solid_var(--line)]\"><div><h2 class=\"text-[1.6rem] font-black text-[var(--text)] tracking-[-.02em] mb-[6px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px]\" data-d=\"1\">{{subtitle}}</p></div><div class=\"flex gap-[10px] flex-wrap [flex-shrink:0]\" data-d=\"2\"><a class=\"bg-[var(--brand)] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px] [white-space:nowrap]\">{{cta_label}} &#8594;</a></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "pre-fait",
+    "type": "prefait-cta-minimal-cta",
+    "template": "html",
+    "kind": "static",
     "id": "minimal-cta",
-    "slug": "cta--minimal-cta",
-    "height": 200,
-    "created_at": "2026-03-05T08:37:36+00:00",
-    "updated_at": "2026-03-05T08:37:36+00:00"
-  }
+    "label": "Minimal CTA",
+    "category": "cta",
+    "icon": "fa-bullhorn",
+    "description": "Bloc appel à l'action standalone",
+    "schema": {
+        "title": {
+            "type": "string",
+            "label": "Titre principal",
+            "multiline": true,
+            "default": "Titre principal"
+        },
+        "subtitle": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "Sous-titre descriptif pour accompagner votre message."
+        },
+        "cta_label": {
+            "type": "string",
+            "label": "Bouton — texte",
+            "default": "Commencer"
+        }
+    },
+    "defaults": {
+        "title": "Titre",
+        "subtitle": "Sous-titre",
+        "cta_label": "Commencer",
+        "htmlTemplate": "<section class=\"flex justify-between items-center flex-wrap gap-[24px] bg-[var(--surface)] p-[48px_40px] [border-top:1px_solid_var(--line)]\"><div><h2 class=\"text-[1.6rem] font-black text-[var(--text)] tracking-[-.02em] mb-[6px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px]\" data-d=\"1\">{{subtitle}}</p></div><div class=\"flex gap-[10px] flex-wrap [flex-shrink:0]\" data-d=\"2\"><a class=\"bg-[var(--brand)] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px] [white-space:nowrap]\">{{cta_label}} &#8594;</a></div></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "pre-fait",
+        "id": "minimal-cta",
+        "slug": "cta--minimal-cta",
+        "height": 200,
+        "created_at": "2026-03-05T08:37:36+00:00",
+        "updated_at": "2026-03-05T08:37:36+00:00"
+    }
 }

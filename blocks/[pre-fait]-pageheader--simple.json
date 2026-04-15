@@ -1,44 +1,44 @@
 {
-  "type": "prefait-pageheader-simple",
-  "template": "html",
-  "kind": "static",
-  "id": "simple",
-  "label": "Simple",
-  "category": "pageheader",
-  "icon": "fa-heading",
-  "description": "Bannière titre pour pages intérieures",
-  "schema": {
-    "title": {
-      "type": "string",
-      "label": "Titre principal",
-      "multiline": true,
-      "default": "Titre principal"
-    },
-    "subtitle": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "Sous-titre descriptif pour accompagner votre message."
-    },
-    "kicker": {
-      "type": "string",
-      "label": "Sur-titre (badge)",
-      "default": "Nouveau"
-    }
-  },
-  "defaults": {
-    "title": "Titre principal",
-    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
-    "kicker": "Nouveau",
-    "htmlTemplate": "<section class=\"bg-[var(--surface)] p-[48px_40px] [border-bottom:1px_solid_var(--line)]\"><div><div class=\"text-[11px] text-[var(--brand)] font-bold tracking-[.12em] uppercase mb-[10px]\">{{kicker}}</div><h1 class=\"text-[2.4rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[10px]\">{{title}}</h1><p class=\"text-[var(--muted)] text-[14px] leading-[1.7] max-w-[560px]\">{{subtitle}}</p></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "pre-fait",
+    "type": "prefait-pageheader-simple",
+    "template": "html",
+    "kind": "static",
     "id": "simple",
-    "slug": "pageheader--simple",
-    "height": 200,
-    "created_at": "2026-03-05T08:37:36+00:00",
-    "updated_at": "2026-03-05T08:37:36+00:00"
-  }
+    "label": "Simple",
+    "category": "pageheader",
+    "icon": "fa-heading",
+    "description": "Bannière titre pour pages intérieures",
+    "schema": {
+        "title": {
+            "type": "string",
+            "label": "Titre principal",
+            "multiline": true,
+            "default": "Titre principal"
+        },
+        "subtitle": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "Sous-titre descriptif pour accompagner votre message."
+        },
+        "kicker": {
+            "type": "string",
+            "label": "Sur-titre (badge)",
+            "default": "Nouveau"
+        }
+    },
+    "defaults": {
+        "title": "Titre",
+        "subtitle": "Sous-titre",
+        "kicker": "Nouveau",
+        "htmlTemplate": "<section class=\"bg-[var(--surface)] p-[48px_40px] [border-bottom:1px_solid_var(--line)]\"><div><div class=\"text-[11px] text-[var(--brand)] font-bold tracking-[.12em] uppercase mb-[10px]\">{{kicker}}</div><h1 class=\"text-[2.4rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[10px]\">{{title}}</h1><p class=\"text-[var(--muted)] text-[14px] leading-[1.7] max-w-[560px]\">{{subtitle}}</p></div></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "pre-fait",
+        "id": "simple",
+        "slug": "pageheader--simple",
+        "height": 200,
+        "created_at": "2026-03-05T08:37:36+00:00",
+        "updated_at": "2026-03-05T08:37:36+00:00"
+    }
 }

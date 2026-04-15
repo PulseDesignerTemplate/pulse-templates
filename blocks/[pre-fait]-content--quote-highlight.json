@@ -28,7 +28,7 @@
         }
     },
     "defaults": {
-        "quote": "Un produit exceptionnel.",
+        "quote": "Citation",
         "paragraph": "Texte de paragraphe.",
         "paragraph_2": "Texte de paragraphe.",
         "htmlTemplate": "<section class=\"bg-[var(--surface)] p-[80px_40px] relative overflow-hidden\"><div class=\"absolute [inset:0] [background:radial-gradient(ellipse_80%_50%_at_50%_0%,color-mix(in_srgb,var(--brand)_8%,transparent),transparent)] [pointer-events:none]\"></div><div class=\"max-w-[680px] mx-auto text-center relative\"><div class=\"text-[4rem] text-[var(--brand)] opacity-20 leading-[1] font-serif mb-[8px]\">&ldquo;</div><blockquote class=\"text-[1.4rem] font-medium text-[var(--text)] leading-[1.6] [font-style:italic] mb-[24px]\">{{quote}}</blockquote><div class=\"flex items-center justify-center gap-[12px]\"><span class=\"inline-flex w-[40px] h-[40px] rounded-full bg-[color-mix(in_srgb,var(--brand)_15%,var(--bg))] flex items-center justify-center text-[var(--brand)] text-[14px] font-bold\">JD</span><div class=\"text-left\"><p class=\"text-[13px] font-bold text-[var(--text)]\">{{paragraph}}</p><p class=\"text-[11px] text-[var(--muted)]\">{{paragraph_2}}</p></div></div></div></section>"

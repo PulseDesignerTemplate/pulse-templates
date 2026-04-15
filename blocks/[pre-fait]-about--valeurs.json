@@ -70,11 +70,11 @@
         }
     },
     "defaults": {
-        "text": "Votre texte ici.",
-        "title_2": "Titre secondaire",
-        "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+        "text": "Texte",
+        "title_2": "Titre",
+        "subtitle": "Sous-titre",
         "paragraph": "Texte de paragraphe.",
-        "subtitle_2": "Sous-titre 2",
+        "subtitle_2": "Sous-titre",
         "paragraph_2": "Texte de paragraphe.",
         "subtitle_3": "Sous-titre",
         "paragraph_3": "Texte de paragraphe.",

@@ -1,43 +1,43 @@
 {
-  "type": "prefait-banner-alerte",
-  "template": "html",
-  "kind": "static",
-  "id": "alerte",
-  "label": "Alerte",
-  "category": "banner",
-  "icon": "fa-triangle-exclamation",
-  "description": "Bandeau d'annonce / alerte",
-  "schema": {
-    "text": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "Votre texte ici."
-    },
-    "tagline": {
-      "type": "string",
-      "label": "Slogan",
-      "default": "Votre slogan accrocheur ici"
-    },
-    "link_label": {
-      "type": "string",
-      "label": "Lien — texte",
-      "default": "En savoir plus"
-    }
-  },
-  "defaults": {
-    "text": "Votre texte ici.",
-    "tagline": "Votre slogan accrocheur ici",
-    "link_label": "En savoir plus",
-    "htmlTemplate": "<section id=\"gv-banner-2\" data-gv-block=\"1\" data-gv-block-type=\"banner\" data-gv-variant=\"2\" data-gv-block-id=\"gv-banner-2\"><div class=\"flex items-center gap-[10px] flex-wrap bg-[color-mix(in_srgb,#ef4444_10%,var(--surface))] p-[10px_24px] [border-bottom:1px_solid_color-mix(in_srgb,#ef4444_25%,transparent)]\"><span class=\"text-[14px]\">{{text}}</span><span class=\"text-[13px] text-[var(--text)] font-medium [flex:1]\">{{tagline}}</span><a class=\"text-[12px] font-bold text-[#ef4444]\">{{link_label}}</a></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "pre-fait",
+    "type": "prefait-banner-alerte",
+    "template": "html",
+    "kind": "static",
     "id": "alerte",
-    "slug": "banner--alerte",
-    "height": 70,
-    "created_at": "2026-03-05T08:37:36+00:00",
-    "updated_at": "2026-03-05T08:37:36+00:00"
-  }
+    "label": "Alerte",
+    "category": "banner",
+    "icon": "fa-triangle-exclamation",
+    "description": "Bandeau d'annonce / alerte",
+    "schema": {
+        "text": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "Votre texte ici."
+        },
+        "tagline": {
+            "type": "string",
+            "label": "Slogan",
+            "default": "Votre slogan accrocheur ici"
+        },
+        "link_label": {
+            "type": "string",
+            "label": "Lien — texte",
+            "default": "En savoir plus"
+        }
+    },
+    "defaults": {
+        "text": "Texte",
+        "tagline": "Votre slogan accrocheur ici",
+        "link_label": "En savoir plus",
+        "htmlTemplate": "<section id=\"gv-banner-2\" data-gv-block=\"1\" data-gv-block-type=\"banner\" data-gv-variant=\"2\" data-gv-block-id=\"gv-banner-2\"><div class=\"flex items-center gap-[10px] flex-wrap bg-[color-mix(in_srgb,#ef4444_10%,var(--surface))] p-[10px_24px] [border-bottom:1px_solid_color-mix(in_srgb,#ef4444_25%,transparent)]\"><span class=\"text-[14px]\">{{text}}</span><span class=\"text-[13px] text-[var(--text)] font-medium [flex:1]\">{{tagline}}</span><a class=\"text-[12px] font-bold text-[#ef4444]\">{{link_label}}</a></div></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "pre-fait",
+        "id": "alerte",
+        "slug": "banner--alerte",
+        "height": 70,
+        "created_at": "2026-03-05T08:37:36+00:00",
+        "updated_at": "2026-03-05T08:37:36+00:00"
+    }
 }

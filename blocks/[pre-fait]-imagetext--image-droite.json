@@ -1,63 +1,63 @@
 {
-  "type": "prefait-imagetext-image-droite",
-  "template": "html",
-  "kind": "static",
-  "id": "image-droite",
-  "label": "Image Droite",
-  "category": "imagetext",
-  "icon": "fa-image",
-  "description": "Image + texte sur deux colonnes",
-  "schema": {
-    "kicker": {
-      "type": "string",
-      "label": "Sur-titre (badge)",
-      "default": "Nouveau"
-    },
-    "title": {
-      "type": "string",
-      "label": "Titre principal",
-      "multiline": true,
-      "default": "Titre principal"
-    },
-    "subtitle": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "Sous-titre descriptif pour accompagner votre message."
-    },
-    "text": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "Votre texte ici."
-    },
-    "cta_label": {
-      "type": "string",
-      "label": "Bouton — texte",
-      "default": "Commencer"
-    },
-    "image": {
-      "type": "string",
-      "label": "Image — URL",
-      "default": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop"
-    }
-  },
-  "defaults": {
-    "kicker": "Nouveau",
-    "title": "Titre principal",
-    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
-    "text": "Votre texte ici.",
-    "cta_label": "Commencer",
-    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
-    "htmlTemplate": "<section class=\"grid grid-cols-1 md:grid-cols-2 grid-cols-2 gap-[56px] items-center bg-[var(--surface)] p-[72px_48px]\"><div class=\"flex flex-col gap-[16px]\"><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.02em] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] leading-[1.72] mb-[4px]\">{{subtitle}}</p><div class=\"flex flex-col gap-[8px]\"> {{#items}}<div class=\"flex items-center gap-[8px] text-[13px] text-[var(--muted)]\"><span class=\"text-[var(--brand)] font-bold\">{{text}}</span>{{title}}</div>{{/items}} </div><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[12px_28px] rounded-[10px] font-bold text-[13px] w-[fit-content] mt-[4px]\">{{cta_label}}</a></div><figure class=\"m-[0] border border-[var(--line)] rounded-[20px] h-[260px] overflow-hidden bg-[var(--bg)]\"><img class=\"w-[100%] h-[100%] object-cover block\" src=\"{{image}}\" alt=\"{{title}}\"></figure></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "pre-fait",
+    "type": "prefait-imagetext-image-droite",
+    "template": "html",
+    "kind": "static",
     "id": "image-droite",
-    "slug": "imagetext--image-droite",
-    "height": 260,
-    "created_at": "2026-03-05T08:37:36+00:00",
-    "updated_at": "2026-03-05T08:37:36+00:00"
-  }
+    "label": "Image Droite",
+    "category": "imagetext",
+    "icon": "fa-image",
+    "description": "Image + texte sur deux colonnes",
+    "schema": {
+        "kicker": {
+            "type": "string",
+            "label": "Sur-titre (badge)",
+            "default": "Nouveau"
+        },
+        "title": {
+            "type": "string",
+            "label": "Titre principal",
+            "multiline": true,
+            "default": "Titre principal"
+        },
+        "subtitle": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "Sous-titre descriptif pour accompagner votre message."
+        },
+        "text": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "Votre texte ici."
+        },
+        "cta_label": {
+            "type": "string",
+            "label": "Bouton — texte",
+            "default": "Commencer"
+        },
+        "image": {
+            "type": "string",
+            "label": "Image — URL",
+            "default": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop"
+        }
+    },
+    "defaults": {
+        "kicker": "Nouveau",
+        "title": "Titre",
+        "subtitle": "Sous-titre",
+        "text": "Texte",
+        "cta_label": "Commencer",
+        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
+        "htmlTemplate": "<section class=\"grid grid-cols-1 md:grid-cols-2 grid-cols-2 gap-[56px] items-center bg-[var(--surface)] p-[72px_48px]\"><div class=\"flex flex-col gap-[16px]\"><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.02em] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] leading-[1.72] mb-[4px]\">{{subtitle}}</p><div class=\"flex flex-col gap-[8px]\"> {{#items}}<div class=\"flex items-center gap-[8px] text-[13px] text-[var(--muted)]\"><span class=\"text-[var(--brand)] font-bold\">{{text}}</span>{{title}}</div>{{/items}} </div><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[12px_28px] rounded-[10px] font-bold text-[13px] w-[fit-content] mt-[4px]\">{{cta_label}}</a></div><figure class=\"m-[0] border border-[var(--line)] rounded-[20px] h-[260px] overflow-hidden bg-[var(--bg)]\"><img class=\"w-[100%] h-[100%] object-cover block\" src=\"{{image}}\" alt=\"{{title}}\"></figure></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "pre-fait",
+        "id": "image-droite",
+        "slug": "imagetext--image-droite",
+        "height": 260,
+        "created_at": "2026-03-05T08:37:36+00:00",
+        "updated_at": "2026-03-05T08:37:36+00:00"
+    }
 }

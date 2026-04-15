@@ -1,48 +1,48 @@
 {
-  "type": "classique-mise-en-page-tags",
-  "template": "html",
-  "kind": "static",
-  "id": "tags",
-  "label": "Tags / Labels",
-  "category": "classic",
-  "subcategory": "mise-en-page",
-  "icon": "fa-tags",
-  "schema": {
-    "text": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "Votre texte ici."
+    "type": "classique-mise-en-page-tags",
+    "template": "html",
+    "kind": "static",
+    "id": "tags",
+    "label": "Tags / Labels",
+    "category": "classic",
+    "subcategory": "mise-en-page",
+    "icon": "fa-tags",
+    "schema": {
+        "text": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "Votre texte ici."
+        },
+        "text_2": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_2"
+        },
+        "text_3": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_3"
+        },
+        "text_4": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_4"
+        }
     },
-    "text_2": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_2"
+    "defaults": {
+        "text": "Texte",
+        "text_2": "Texte",
+        "text_3": "Texte",
+        "text_4": "Texte",
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"flex flex-wrap gap-[8px]\"><span class=\"bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[var(--brand)] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text}}</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text_2}}</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text_3}}</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text_4}}</span></div></section>"
     },
-    "text_3": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_3"
-    },
-    "text_4": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_4"
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "tags"
     }
-  },
-  "defaults": {
-    "text": "Votre texte ici.",
-    "text_2": "text_2",
-    "text_3": "text_3",
-    "text_4": "text_4",
-    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"flex flex-wrap gap-[8px]\"><span class=\"bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[var(--brand)] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text}}</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text_2}}</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text_3}}</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text_4}}</span></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "tags"
-  }
 }

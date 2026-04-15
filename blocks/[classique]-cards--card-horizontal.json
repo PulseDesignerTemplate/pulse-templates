@@ -1,46 +1,46 @@
 {
-  "type": "classique-cards-card-horizontal",
-  "template": "html",
-  "kind": "static",
-  "id": "card-horizontal",
-  "label": "Card horizontale",
-  "category": "classic",
-  "subcategory": "cards",
-  "icon": "fa-grip-lines",
-  "schema": {
-    "image": {
-      "type": "string",
-      "label": "Image — URL",
-      "default": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop"
+    "type": "classique-cards-card-horizontal",
+    "template": "html",
+    "kind": "static",
+    "id": "card-horizontal",
+    "label": "Card horizontale",
+    "category": "classic",
+    "subcategory": "cards",
+    "icon": "fa-grip-lines",
+    "schema": {
+        "image": {
+            "type": "string",
+            "label": "Image — URL",
+            "default": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop"
+        },
+        "image_alt": {
+            "type": "string",
+            "label": "Image — texte alt",
+            "default": "Illustration"
+        },
+        "subtitle": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "Sous-titre descriptif pour accompagner votre message."
+        },
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        }
     },
-    "image_alt": {
-      "type": "string",
-      "label": "Image — texte alt",
-      "default": "Illustration"
+    "defaults": {
+        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
+        "image_alt": "Illustration",
+        "subtitle": "Sous-titre",
+        "paragraph": "Texte de paragraphe.",
+        "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"flex bg-[var(--surface)] border border-[var(--line)] rounded-[18px] overflow-hidden max-w-[560px]\"><img class=\"w-[180px] object-cover flex-shrink-0\" src=\"{{image}}\" alt=\"{{image_alt}}\"><div class=\"p-[24px] flex flex-col justify-center\"><h3 class=\"text-[16px] font-extrabold text-[var(--text)] mb-[8px]\">{{subtitle}}</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.65]\">{{paragraph}}</p></div></div></section>"
     },
-    "subtitle": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "Sous-titre descriptif pour accompagner votre message."
-    },
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "card-horizontal"
     }
-  },
-  "defaults": {
-    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
-    "image_alt": "Illustration",
-    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
-    "paragraph": "Texte de paragraphe.",
-    "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"flex bg-[var(--surface)] border border-[var(--line)] rounded-[18px] overflow-hidden max-w-[560px]\"><img class=\"w-[180px] object-cover flex-shrink-0\" src=\"{{image}}\" alt=\"{{image_alt}}\"><div class=\"p-[24px] flex flex-col justify-center\"><h3 class=\"text-[16px] font-extrabold text-[var(--text)] mb-[8px]\">{{subtitle}}</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.65]\">{{paragraph}}</p></div></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "card-horizontal"
-  }
 }

@@ -46,7 +46,7 @@
         }
     },
     "defaults": {
-        "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+        "subtitle": "Sous-titre",
         "href": "href",
         "label": "Libellé",
         "icon": "★",

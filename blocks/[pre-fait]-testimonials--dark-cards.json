@@ -54,9 +54,9 @@
     },
     "defaults": {
         "kicker": "Nouveau",
-        "title": "Titre principal",
-        "subtitle": "Sous-titre descriptif pour accompagner votre message.",
-        "text": "Votre texte ici.",
+        "title": "Titre",
+        "subtitle": "Sous-titre",
+        "text": "Texte",
         "stars": "★★★★★",
         "avatar": "JD",
         "name": "Nom",

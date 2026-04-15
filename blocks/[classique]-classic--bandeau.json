@@ -1,40 +1,40 @@
 {
-  "type": "classique-mise-en-page-bandeau",
-  "template": "html",
-  "kind": "static",
-  "id": "bandeau",
-  "label": "Bandeau",
-  "category": "classic",
-  "subcategory": "mise-en-page",
-  "icon": "fa-rectangle-ad",
-  "schema": {
-    "text": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "Votre texte ici."
+    "type": "classique-mise-en-page-bandeau",
+    "template": "html",
+    "kind": "static",
+    "id": "bandeau",
+    "label": "Bandeau",
+    "category": "classic",
+    "subcategory": "mise-en-page",
+    "icon": "fa-rectangle-ad",
+    "schema": {
+        "text": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "Votre texte ici."
+        },
+        "text_2": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_2"
+        },
+        "link_label": {
+            "type": "string",
+            "label": "Lien — texte",
+            "default": "En savoir plus"
+        }
     },
-    "text_2": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_2"
+    "defaults": {
+        "text": "Texte",
+        "text_2": "Texte",
+        "link_label": "En savoir plus",
+        "htmlTemplate": "<section class=\"p-[14px_40px] bg-[color-mix(in_srgb,var(--brand)_12%,var(--bg))] [border-top:1px_solid_color-mix(in_srgb,var(--brand)_30%,transparent)] [border-bottom:1px_solid_color-mix(in_srgb,var(--brand)_30%,transparent)]\"><div class=\"flex items-center justify-center gap-[12px] text-[14px] text-[var(--text)]\"><span class=\"bg-[var(--brand)] text-[#fff] p-[3px_10px] rounded-[999px] text-[11px] font-bold\">{{text}}</span><span>{{text_2}}<a class=\"text-[var(--brand)] font-bold [text-decoration:none]\" href=\"#\">{{link_label}}</a></span></div></section>"
     },
-    "link_label": {
-      "type": "string",
-      "label": "Lien — texte",
-      "default": "En savoir plus"
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "bandeau"
     }
-  },
-  "defaults": {
-    "text": "Votre texte ici.",
-    "text_2": "text_2",
-    "link_label": "En savoir plus",
-    "htmlTemplate": "<section class=\"p-[14px_40px] bg-[color-mix(in_srgb,var(--brand)_12%,var(--bg))] [border-top:1px_solid_color-mix(in_srgb,var(--brand)_30%,transparent)] [border-bottom:1px_solid_color-mix(in_srgb,var(--brand)_30%,transparent)]\"><div class=\"flex items-center justify-center gap-[12px] text-[14px] text-[var(--text)]\"><span class=\"bg-[var(--brand)] text-[#fff] p-[3px_10px] rounded-[999px] text-[11px] font-bold\">{{text}}</span><span>{{text_2}}<a class=\"text-[var(--brand)] font-bold [text-decoration:none]\" href=\"#\">{{link_label}}</a></span></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "bandeau"
-  }
 }

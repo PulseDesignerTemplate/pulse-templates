@@ -22,7 +22,7 @@
         }
     },
     "defaults": {
-        "text": "Votre texte ici.",
+        "text": "Texte",
         "paragraph": "Texte de paragraphe.",
         "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[#dcfce7] border border-[#86efac] rounded-[12px] p-[16px_20px] max-w-[560px]\"><div class=\"flex items-center gap-[10px]\"><span class=\"inline-flex w-[20px] h-[20px] rounded-full bg-[#16a34a] flex items-center justify-center flex-shrink-0\"><span class=\"text-[#fff] text-[11px] font-bold\">{{text}}</span></span><p class=\"text-[14px] text-[#166534] font-medium\">{{paragraph}}</p></div></div></section>"
     },

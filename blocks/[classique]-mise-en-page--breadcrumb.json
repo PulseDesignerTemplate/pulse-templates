@@ -1,53 +1,53 @@
 {
-  "type": "classique-mise-en-page-breadcrumb",
-  "template": "html",
-  "kind": "static",
-  "id": "breadcrumb",
-  "label": "Fil d'Ariane",
-  "category": "classic",
-  "subcategory": "mise-en-page",
-  "icon": "fa-angle-right",
-  "schema": {
-    "link_label": {
-      "type": "string",
-      "label": "Lien — texte",
-      "default": "En savoir plus"
+    "type": "classique-mise-en-page-breadcrumb",
+    "template": "html",
+    "kind": "static",
+    "id": "breadcrumb",
+    "label": "Fil d'Ariane",
+    "category": "classic",
+    "subcategory": "mise-en-page",
+    "icon": "fa-angle-right",
+    "schema": {
+        "link_label": {
+            "type": "string",
+            "label": "Lien — texte",
+            "default": "En savoir plus"
+        },
+        "text": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "Votre texte ici."
+        },
+        "link_label_2": {
+            "type": "string",
+            "label": "Lien — texte",
+            "default": "link_label_2"
+        },
+        "text_2": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_2"
+        },
+        "text_3": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_3"
+        }
     },
-    "text": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "Votre texte ici."
+    "defaults": {
+        "link_label": "En savoir plus",
+        "text": "Texte",
+        "link_label_2": "link_label_2",
+        "text_2": "Texte",
+        "text_3": "Texte",
+        "htmlTemplate": "<section class=\"p-[20px_40px] bg-[var(--bg)]\"><nav class=\"flex items-center gap-[8px] text-[13px]\"><a class=\"text-[var(--muted)] [text-decoration:none] hover:text-[var(--brand)]\" href=\"#\">{{link_label}}</a><span class=\"text-[var(--muted)] opacity-40\">{{text}}</span><a class=\"text-[var(--muted)] [text-decoration:none] hover:text-[var(--brand)]\" href=\"#\">{{link_label_2}}</a><span class=\"text-[var(--muted)] opacity-40\">{{text_2}}</span><span class=\"text-[var(--text)] font-semibold\">{{text_3}}</span></nav></section>"
     },
-    "link_label_2": {
-      "type": "string",
-      "label": "Lien — texte",
-      "default": "link_label_2"
-    },
-    "text_2": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_2"
-    },
-    "text_3": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_3"
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "breadcrumb"
     }
-  },
-  "defaults": {
-    "link_label": "En savoir plus",
-    "text": "Votre texte ici.",
-    "link_label_2": "link_label_2",
-    "text_2": "text_2",
-    "text_3": "text_3",
-    "htmlTemplate": "<section class=\"p-[20px_40px] bg-[var(--bg)]\"><nav class=\"flex items-center gap-[8px] text-[13px]\"><a class=\"text-[var(--muted)] [text-decoration:none] hover:text-[var(--brand)]\" href=\"#\">{{link_label}}</a><span class=\"text-[var(--muted)] opacity-40\">{{text}}</span><a class=\"text-[var(--muted)] [text-decoration:none] hover:text-[var(--brand)]\" href=\"#\">{{link_label_2}}</a><span class=\"text-[var(--muted)] opacity-40\">{{text_2}}</span><span class=\"text-[var(--text)] font-semibold\">{{text_3}}</span></nav></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "breadcrumb"
-  }
 }

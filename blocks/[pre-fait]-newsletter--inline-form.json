@@ -1,57 +1,57 @@
 {
-  "type": "prefait-newsletter-inline-form",
-  "template": "html",
-  "kind": "static",
-  "id": "inline-form",
-  "label": "Inline Form",
-  "category": "newsletter",
-  "icon": "fa-paper-plane",
-  "description": "Capture d'email / abonnement",
-  "schema": {
-    "kicker": {
-      "type": "string",
-      "label": "Sur-titre (badge)",
-      "default": "Nouveau"
-    },
-    "title": {
-      "type": "string",
-      "label": "Titre principal",
-      "multiline": true,
-      "default": "Titre principal"
-    },
-    "subtitle": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "Sous-titre descriptif pour accompagner votre message."
-    },
-    "cta_label": {
-      "type": "string",
-      "label": "Bouton — texte",
-      "default": "Commencer"
-    },
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
-    }
-  },
-  "defaults": {
-    "kicker": "Nouveau",
-    "title": "Titre principal",
-    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
-    "cta_label": "Commencer",
-    "paragraph": "Texte de paragraphe.",
-    "htmlTemplate": "<section class=\"flex flex-col items-center gap-[16px] bg-[var(--surface)] p-[64px_40px] text-center relative overflow-hidden\"><div class=\"absolute [inset:0] [background:radial-gradient(ellipse_60%_60%_at_50%_50%,color-mix(in_srgb,var(--brand)_6%,transparent),transparent)]\"></div><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold\">{{kicker}}</span><h2 class=\"text-[1.8rem] font-black text-[var(--text)] max-w-[460px] tracking-[-.02em] leading-[1.1]\" data-d=\"1\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[380px] leading-[1.65]\" data-d=\"2\">{{subtitle}}</p><div class=\"flex gap-[10px] flex-wrap justify-center max-w-[440px] w-[100%] mt-[4px]\" data-d=\"3\"><input class=\"min-w-[200px] bg-[var(--bg)] border-[1.5px] border-[var(--line)] rounded-[10px] p-[12px_16px] text-[13px] text-[var(--text)] [flex:1]\" placeholder=\"votre@email.fr\" type=\"email\"><a class=\"bg-[var(--brand)] text-[#fff] p-[12px_24px] rounded-[10px] font-bold text-[13px] [flex-shrink:0] [white-space:nowrap]\">{{cta_label}}</a></div><p class=\"text-[11.5px] text-[var(--muted)]\" data-d=\"4\">{{paragraph}}</p></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "pre-fait",
+    "type": "prefait-newsletter-inline-form",
+    "template": "html",
+    "kind": "static",
     "id": "inline-form",
-    "slug": "newsletter--inline-form",
-    "height": 220,
-    "created_at": "2026-03-05T08:37:36+00:00",
-    "updated_at": "2026-03-05T08:37:36+00:00"
-  }
+    "label": "Inline Form",
+    "category": "newsletter",
+    "icon": "fa-paper-plane",
+    "description": "Capture d'email / abonnement",
+    "schema": {
+        "kicker": {
+            "type": "string",
+            "label": "Sur-titre (badge)",
+            "default": "Nouveau"
+        },
+        "title": {
+            "type": "string",
+            "label": "Titre principal",
+            "multiline": true,
+            "default": "Titre principal"
+        },
+        "subtitle": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "Sous-titre descriptif pour accompagner votre message."
+        },
+        "cta_label": {
+            "type": "string",
+            "label": "Bouton — texte",
+            "default": "Commencer"
+        },
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        }
+    },
+    "defaults": {
+        "kicker": "Nouveau",
+        "title": "Titre",
+        "subtitle": "Sous-titre",
+        "cta_label": "Commencer",
+        "paragraph": "Texte de paragraphe.",
+        "htmlTemplate": "<section class=\"flex flex-col items-center gap-[16px] bg-[var(--surface)] p-[64px_40px] text-center relative overflow-hidden\"><div class=\"absolute [inset:0] [background:radial-gradient(ellipse_60%_60%_at_50%_50%,color-mix(in_srgb,var(--brand)_6%,transparent),transparent)]\"></div><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold\">{{kicker}}</span><h2 class=\"text-[1.8rem] font-black text-[var(--text)] max-w-[460px] tracking-[-.02em] leading-[1.1]\" data-d=\"1\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[380px] leading-[1.65]\" data-d=\"2\">{{subtitle}}</p><div class=\"flex gap-[10px] flex-wrap justify-center max-w-[440px] w-[100%] mt-[4px]\" data-d=\"3\"><input class=\"min-w-[200px] bg-[var(--bg)] border-[1.5px] border-[var(--line)] rounded-[10px] p-[12px_16px] text-[13px] text-[var(--text)] [flex:1]\" placeholder=\"votre@email.fr\" type=\"email\"><a class=\"bg-[var(--brand)] text-[#fff] p-[12px_24px] rounded-[10px] font-bold text-[13px] [flex-shrink:0] [white-space:nowrap]\">{{cta_label}}</a></div><p class=\"text-[11.5px] text-[var(--muted)]\" data-d=\"4\">{{paragraph}}</p></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "pre-fait",
+        "id": "inline-form",
+        "slug": "newsletter--inline-form",
+        "height": 220,
+        "created_at": "2026-03-05T08:37:36+00:00",
+        "updated_at": "2026-03-05T08:37:36+00:00"
+    }
 }

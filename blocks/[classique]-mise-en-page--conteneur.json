@@ -1,34 +1,34 @@
 {
-  "type": "classique-mise-en-page-conteneur",
-  "template": "html",
-  "kind": "static",
-  "id": "conteneur",
-  "label": "Conteneur",
-  "category": "classic",
-  "subcategory": "mise-en-page",
-  "icon": "fa-vector-square",
-  "schema": {
-    "subtitle": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "Sous-titre descriptif pour accompagner votre message."
+    "type": "classique-mise-en-page-conteneur",
+    "template": "html",
+    "kind": "static",
+    "id": "conteneur",
+    "label": "Conteneur",
+    "category": "classic",
+    "subcategory": "mise-en-page",
+    "icon": "fa-vector-square",
+    "schema": {
+        "subtitle": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "Sous-titre descriptif pour accompagner votre message."
+        },
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        }
     },
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
+    "defaults": {
+        "subtitle": "Sous-titre",
+        "paragraph": "Texte de paragraphe.",
+        "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[20px] p-[36px] max-w-[720px]\"><h3 class=\"text-[18px] font-extrabold text-[var(--text)] mb-[12px]\">{{subtitle}}</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">{{paragraph}}</p></div></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "conteneur"
     }
-  },
-  "defaults": {
-    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
-    "paragraph": "Texte de paragraphe.",
-    "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[20px] p-[36px] max-w-[720px]\"><h3 class=\"text-[18px] font-extrabold text-[var(--text)] mb-[12px]\">{{subtitle}}</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">{{paragraph}}</p></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "conteneur"
-  }
 }

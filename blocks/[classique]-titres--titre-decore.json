@@ -22,8 +22,8 @@
         }
     },
     "defaults": {
-        "text": "Votre texte ici.",
-        "title_2": "Titre secondaire",
+        "text": "Texte",
+        "title_2": "Titre",
         "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"flex flex-col gap-[12px]\"><span class=\"inline-flex items-center gap-[6px] text-[var(--brand)] text-[12px] font-bold uppercase tracking-[.1em]\">{{text}}</span><h2 class=\"text-[2rem] font-extrabold text-[var(--text)] leading-[1.15] tracking-[-.02em]\">{{title_2}}</h2><span class=\"inline-flex w-[48px] h-[3px] bg-[var(--brand)] rounded-full\"></span></div></section>"
     },
     "astroTemplate": "Html.astro",

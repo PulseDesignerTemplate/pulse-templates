@@ -1,41 +1,41 @@
 {
-  "type": "classique-texte-liste-numerotee",
-  "template": "html",
-  "kind": "static",
-  "id": "liste-numerotee",
-  "label": "Liste numérotée",
-  "category": "classic",
-  "subcategory": "texte",
-  "icon": "fa-list-ol",
-  "schema": {
-    "text": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "Votre texte ici."
+    "type": "classique-texte-liste-numerotee",
+    "template": "html",
+    "kind": "static",
+    "id": "liste-numerotee",
+    "label": "Liste numérotée",
+    "category": "classic",
+    "subcategory": "texte",
+    "icon": "fa-list-ol",
+    "schema": {
+        "text": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "Votre texte ici."
+        },
+        "text_2": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_2"
+        },
+        "text_3": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_3"
+        }
     },
-    "text_2": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_2"
+    "defaults": {
+        "text": "Texte",
+        "text_2": "Texte",
+        "text_3": "Texte",
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><ol class=\"flex flex-col gap-[10px] text-[14px] text-[var(--muted)] leading-[1.7] max-w-[560px] list-none p-0 m-0 [counter-reset:item]\"><li class=\"flex items-start gap-[12px] [counter-increment:item]\"><span class=\"flex items-center justify-center w-[24px] h-[24px] rounded-full bg-[var(--brand)] text-[#fff] text-[11px] font-bold flex-shrink-0 mt-[1px] before:content-[counter(item)]\"></span><span>{{text}}</span></li><li class=\"flex items-start gap-[12px] [counter-increment:item]\"><span class=\"flex items-center justify-center w-[24px] h-[24px] rounded-full bg-[var(--brand)] text-[#fff] text-[11px] font-bold flex-shrink-0 mt-[1px] before:content-[counter(item)]\"></span><span>{{text_2}}</span></li><li class=\"flex items-start gap-[12px] [counter-increment:item]\"><span class=\"flex items-center justify-center w-[24px] h-[24px] rounded-full bg-[var(--brand)] text-[#fff] text-[11px] font-bold flex-shrink-0 mt-[1px] before:content-[counter(item)]\"></span><span>{{text_3}}</span></li></ol></section>"
     },
-    "text_3": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_3"
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "liste-numerotee"
     }
-  },
-  "defaults": {
-    "text": "Votre texte ici.",
-    "text_2": "text_2",
-    "text_3": "text_3",
-    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><ol class=\"flex flex-col gap-[10px] text-[14px] text-[var(--muted)] leading-[1.7] max-w-[560px] list-none p-0 m-0 [counter-reset:item]\"><li class=\"flex items-start gap-[12px] [counter-increment:item]\"><span class=\"flex items-center justify-center w-[24px] h-[24px] rounded-full bg-[var(--brand)] text-[#fff] text-[11px] font-bold flex-shrink-0 mt-[1px] before:content-[counter(item)]\"></span><span>{{text}}</span></li><li class=\"flex items-start gap-[12px] [counter-increment:item]\"><span class=\"flex items-center justify-center w-[24px] h-[24px] rounded-full bg-[var(--brand)] text-[#fff] text-[11px] font-bold flex-shrink-0 mt-[1px] before:content-[counter(item)]\"></span><span>{{text_2}}</span></li><li class=\"flex items-start gap-[12px] [counter-increment:item]\"><span class=\"flex items-center justify-center w-[24px] h-[24px] rounded-full bg-[var(--brand)] text-[#fff] text-[11px] font-bold flex-shrink-0 mt-[1px] before:content-[counter(item)]\"></span><span>{{text_3}}</span></li></ol></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "liste-numerotee"
-  }
 }

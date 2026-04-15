@@ -43,8 +43,8 @@
     },
     "defaults": {
         "kicker": "Nouveau",
-        "title": "Titre principal",
-        "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+        "title": "Titre",
+        "subtitle": "Sous-titre",
         "icon": "★",
         "number": "150+",
         "label": "Libellé",

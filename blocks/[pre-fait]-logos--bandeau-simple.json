@@ -1,37 +1,37 @@
 {
-  "type": "prefait-logos-bandeau-simple",
-  "template": "html",
-  "kind": "static",
-  "id": "bandeau-simple",
-  "label": "Bandeau Simple",
-  "category": "logos",
-  "icon": "fa-handshake",
-  "description": "Bandeau logos clients / partenaires",
-  "schema": {
-    "text": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "Votre texte ici."
-    },
-    "logo": {
-      "type": "string",
-      "label": "Logo",
-      "default": "Logo"
-    }
-  },
-  "defaults": {
-    "text": "Votre texte ici.",
-    "logo": "Logo",
-    "htmlTemplate": "<section class=\"bg-[var(--surface)] p-[28px_40px] [border-top:1px_solid_var(--line)] [border-bottom:1px_solid_var(--line)]\"><div class=\"text-center mb-[16px]\"><span class=\"text-[10px] text-[var(--muted)] tracking-[.14em] uppercase font-semibold\">{{text}}</span></div><div class=\"flex justify-center items-center gap-[36px] flex-wrap\">{{#logos}}<span class=\"text-[13px] font-extrabold text-[var(--text)] opacity-[.45] tracking-[-.02em] [white-space:nowrap]\">{{logo}}</span>{{/logos}}</div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "pre-fait",
+    "type": "prefait-logos-bandeau-simple",
+    "template": "html",
+    "kind": "static",
     "id": "bandeau-simple",
-    "slug": "logos--bandeau-simple",
-    "height": 130,
-    "created_at": "2026-03-05T08:37:36+00:00",
-    "updated_at": "2026-03-05T08:37:36+00:00"
-  }
+    "label": "Bandeau Simple",
+    "category": "logos",
+    "icon": "fa-handshake",
+    "description": "Bandeau logos clients / partenaires",
+    "schema": {
+        "text": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "Votre texte ici."
+        },
+        "logo": {
+            "type": "string",
+            "label": "Logo",
+            "default": "Logo"
+        }
+    },
+    "defaults": {
+        "text": "Texte",
+        "logo": "Logo",
+        "htmlTemplate": "<section class=\"bg-[var(--surface)] p-[28px_40px] [border-top:1px_solid_var(--line)] [border-bottom:1px_solid_var(--line)]\"><div class=\"text-center mb-[16px]\"><span class=\"text-[10px] text-[var(--muted)] tracking-[.14em] uppercase font-semibold\">{{text}}</span></div><div class=\"flex justify-center items-center gap-[36px] flex-wrap\">{{#logos}}<span class=\"text-[13px] font-extrabold text-[var(--text)] opacity-[.45] tracking-[-.02em] [white-space:nowrap]\">{{logo}}</span>{{/logos}}</div></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "pre-fait",
+        "id": "bandeau-simple",
+        "slug": "logos--bandeau-simple",
+        "height": 130,
+        "created_at": "2026-03-05T08:37:36+00:00",
+        "updated_at": "2026-03-05T08:37:36+00:00"
+    }
 }

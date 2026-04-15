@@ -1,27 +1,27 @@
 {
-  "type": "classique-titres-h1",
-  "template": "html",
-  "kind": "static",
-  "id": "h1",
-  "label": "Titre H1",
-  "category": "classic",
-  "subcategory": "titres",
-  "icon": "fa-heading",
-  "schema": {
-    "title": {
-      "type": "string",
-      "label": "Titre principal",
-      "multiline": true,
-      "default": "Titre principal"
+    "type": "classique-titres-h1",
+    "template": "html",
+    "kind": "static",
+    "id": "h1",
+    "label": "Titre H1",
+    "category": "classic",
+    "subcategory": "titres",
+    "icon": "fa-heading",
+    "schema": {
+        "title": {
+            "type": "string",
+            "label": "Titre principal",
+            "multiline": true,
+            "default": "Titre principal"
+        }
+    },
+    "defaults": {
+        "title": "Titre",
+        "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><h1 class=\"text-[2.8rem] font-black text-[var(--text)] leading-[1.1] tracking-[-.03em]\">{{title}}</h1></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "h1"
     }
-  },
-  "defaults": {
-    "title": "Titre principal",
-    "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><h1 class=\"text-[2.8rem] font-black text-[var(--text)] leading-[1.1] tracking-[-.03em]\">{{title}}</h1></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "h1"
-  }
 }

@@ -1,68 +1,68 @@
 {
-  "type": "prefait-blog-grid-articles",
-  "template": "html",
-  "kind": "static",
-  "id": "grid-articles",
-  "label": "Grid Articles",
-  "category": "blog",
-  "icon": "fa-newspaper",
-  "description": "Grille d'articles de blog",
-  "schema": {
-    "kicker": {
-      "type": "string",
-      "label": "Sur-titre (badge)",
-      "default": "Nouveau"
-    },
-    "title": {
-      "type": "string",
-      "label": "Titre principal",
-      "multiline": true,
-      "default": "Titre principal"
-    },
-    "subtitle": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "Sous-titre descriptif pour accompagner votre message."
-    },
-    "image": {
-      "type": "string",
-      "label": "Image — URL",
-      "default": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop"
-    },
-    "date": {
-      "type": "string",
-      "label": "Date",
-      "default": "3 avril 2026"
-    },
-    "read": {
-      "type": "string",
-      "label": "Read",
-      "default": "read"
-    },
-    "cat": {
-      "type": "string",
-      "label": "Cat",
-      "default": "cat"
-    }
-  },
-  "defaults": {
-    "kicker": "Nouveau",
-    "title": "Titre principal",
-    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
-    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
-    "date": "3 avril 2026",
-    "read": "read",
-    "cat": "cat",
-    "htmlTemplate": "<section class=\"bg-[var(--bg)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[14px]\"> {{#blog}}<article class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] overflow-hidden\"><img class=\"w-[100%] object-cover block [aspect-ratio:16/10]\" src=\"{{image}}\" alt=\"{{title}}\"><div class=\"p-[12px]\"><div class=\"text-[11px] text-[var(--brand)] font-bold\">{{cat}}</div><h3 class=\"text-[1rem] text-[var(--text)] font-extrabold mt-[6px]\">{{title}}</h3><p class=\"text-[11px] text-[var(--muted)] mt-[6px]\">{{date}} · {{read}}</p></div></article>{{/blog}} </div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "pre-fait",
+    "type": "prefait-blog-grid-articles",
+    "template": "html",
+    "kind": "static",
     "id": "grid-articles",
-    "slug": "blog--grid-articles",
-    "height": 320,
-    "created_at": "2026-03-05T08:37:36+00:00",
-    "updated_at": "2026-03-05T08:37:36+00:00"
-  }
+    "label": "Grid Articles",
+    "category": "blog",
+    "icon": "fa-newspaper",
+    "description": "Grille d'articles de blog",
+    "schema": {
+        "kicker": {
+            "type": "string",
+            "label": "Sur-titre (badge)",
+            "default": "Nouveau"
+        },
+        "title": {
+            "type": "string",
+            "label": "Titre principal",
+            "multiline": true,
+            "default": "Titre principal"
+        },
+        "subtitle": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "Sous-titre descriptif pour accompagner votre message."
+        },
+        "image": {
+            "type": "string",
+            "label": "Image — URL",
+            "default": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop"
+        },
+        "date": {
+            "type": "string",
+            "label": "Date",
+            "default": "3 avril 2026"
+        },
+        "read": {
+            "type": "string",
+            "label": "Read",
+            "default": "read"
+        },
+        "cat": {
+            "type": "string",
+            "label": "Cat",
+            "default": "cat"
+        }
+    },
+    "defaults": {
+        "kicker": "Nouveau",
+        "title": "Titre",
+        "subtitle": "Sous-titre",
+        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
+        "date": "Date",
+        "read": "read",
+        "cat": "cat",
+        "htmlTemplate": "<section class=\"bg-[var(--bg)] p-[72px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[14px]\"> {{#blog}}<article class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] overflow-hidden\"><img class=\"w-[100%] object-cover block [aspect-ratio:16/10]\" src=\"{{image}}\" alt=\"{{title}}\"><div class=\"p-[12px]\"><div class=\"text-[11px] text-[var(--brand)] font-bold\">{{cat}}</div><h3 class=\"text-[1rem] text-[var(--text)] font-extrabold mt-[6px]\">{{title}}</h3><p class=\"text-[11px] text-[var(--muted)] mt-[6px]\">{{date}} · {{read}}</p></div></article>{{/blog}} </div></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "pre-fait",
+        "id": "grid-articles",
+        "slug": "blog--grid-articles",
+        "height": 320,
+        "created_at": "2026-03-05T08:37:36+00:00",
+        "updated_at": "2026-03-05T08:37:36+00:00"
+    }
 }

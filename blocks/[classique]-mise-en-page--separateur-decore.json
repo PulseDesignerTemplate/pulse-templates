@@ -1,27 +1,27 @@
 {
-  "type": "classique-mise-en-page-separateur-decore",
-  "template": "html",
-  "kind": "static",
-  "id": "separateur-decore",
-  "label": "Séparateur décoré",
-  "category": "classic",
-  "subcategory": "mise-en-page",
-  "icon": "fa-diamond",
-  "schema": {
-    "text": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "Votre texte ici."
+    "type": "classique-mise-en-page-separateur-decore",
+    "template": "html",
+    "kind": "static",
+    "id": "separateur-decore",
+    "label": "Séparateur décoré",
+    "category": "classic",
+    "subcategory": "mise-en-page",
+    "icon": "fa-diamond",
+    "schema": {
+        "text": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "Votre texte ici."
+        }
+    },
+    "defaults": {
+        "text": "Texte",
+        "htmlTemplate": "<section class=\"p-[32px_40px] bg-[var(--bg)]\"><div class=\"flex items-center gap-[16px] max-w-[400px] mx-auto\"><div class=\"flex-1 h-[1px] bg-[var(--line)]\"></div><span class=\"text-[var(--brand)] text-[14px]\">{{text}}</span><div class=\"flex-1 h-[1px] bg-[var(--line)]\"></div></div></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "separateur-decore"
     }
-  },
-  "defaults": {
-    "text": "Votre texte ici.",
-    "htmlTemplate": "<section class=\"p-[32px_40px] bg-[var(--bg)]\"><div class=\"flex items-center gap-[16px] max-w-[400px] mx-auto\"><div class=\"flex-1 h-[1px] bg-[var(--line)]\"></div><span class=\"text-[var(--brand)] text-[14px]\">{{text}}</span><div class=\"flex-1 h-[1px] bg-[var(--line)]\"></div></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "separateur-decore"
-  }
 }

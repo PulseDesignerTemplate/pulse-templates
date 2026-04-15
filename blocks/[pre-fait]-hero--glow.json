@@ -37,8 +37,8 @@
         }
     },
     "defaults": {
-        "title": "Titre principal",
-        "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+        "title": "Titre",
+        "subtitle": "Sous-titre",
         "cta_label": "Commencer",
         "link_label": "En savoir plus",
         "kicker": "Nouveau",

@@ -1,62 +1,62 @@
 {
-  "type": "classique-interactif-progress-bar",
-  "template": "html",
-  "kind": "static",
-  "id": "progress-bar",
-  "label": "Barre de progression",
-  "category": "classic",
-  "subcategory": "interactif",
-  "icon": "fa-bars-progress",
-  "schema": {
-    "text": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "Votre texte ici."
+    "type": "classique-interactif-progress-bar",
+    "template": "html",
+    "kind": "static",
+    "id": "progress-bar",
+    "label": "Barre de progression",
+    "category": "classic",
+    "subcategory": "interactif",
+    "icon": "fa-bars-progress",
+    "schema": {
+        "text": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "Votre texte ici."
+        },
+        "text_2": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_2"
+        },
+        "text_3": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_3"
+        },
+        "text_4": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_4"
+        },
+        "text_5": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_5"
+        },
+        "text_6": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_6"
+        }
     },
-    "text_2": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_2"
+    "defaults": {
+        "text": "Texte",
+        "text_2": "Texte",
+        "text_3": "Texte",
+        "text_4": "Texte",
+        "text_5": "Texte",
+        "text_6": "Texte",
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"max-w-[480px] flex flex-col gap-[16px]\"><div><div class=\"flex justify-between mb-[6px]\"><span class=\"text-[13px] font-semibold text-[var(--text)]\">{{text}}</span><span class=\"text-[12px] text-[var(--muted)]\">{{text_2}}</span></div><div class=\"h-[8px] bg-[var(--surface)] rounded-full overflow-hidden border border-[var(--line)]\"><div class=\"h-full bg-[var(--brand)] rounded-full\" style=\"width:85%\"></div></div></div><div><div class=\"flex justify-between mb-[6px]\"><span class=\"text-[13px] font-semibold text-[var(--text)]\">{{text_3}}</span><span class=\"text-[12px] text-[var(--muted)]\">{{text_4}}</span></div><div class=\"h-[8px] bg-[var(--surface)] rounded-full overflow-hidden border border-[var(--line)]\"><div class=\"h-full bg-[var(--brand)] rounded-full\" style=\"width:62%\"></div></div></div><div><div class=\"flex justify-between mb-[6px]\"><span class=\"text-[13px] font-semibold text-[var(--text)]\">{{text_5}}</span><span class=\"text-[12px] text-[var(--muted)]\">{{text_6}}</span></div><div class=\"h-[8px] bg-[var(--surface)] rounded-full overflow-hidden border border-[var(--line)]\"><div class=\"h-full bg-[var(--brand)] rounded-full\" style=\"width:94%\"></div></div></div></div></section>"
     },
-    "text_3": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_3"
-    },
-    "text_4": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_4"
-    },
-    "text_5": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_5"
-    },
-    "text_6": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_6"
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "progress-bar"
     }
-  },
-  "defaults": {
-    "text": "Votre texte ici.",
-    "text_2": "text_2",
-    "text_3": "text_3",
-    "text_4": "text_4",
-    "text_5": "text_5",
-    "text_6": "text_6",
-    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"max-w-[480px] flex flex-col gap-[16px]\"><div><div class=\"flex justify-between mb-[6px]\"><span class=\"text-[13px] font-semibold text-[var(--text)]\">{{text}}</span><span class=\"text-[12px] text-[var(--muted)]\">{{text_2}}</span></div><div class=\"h-[8px] bg-[var(--surface)] rounded-full overflow-hidden border border-[var(--line)]\"><div class=\"h-full bg-[var(--brand)] rounded-full\" style=\"width:85%\"></div></div></div><div><div class=\"flex justify-between mb-[6px]\"><span class=\"text-[13px] font-semibold text-[var(--text)]\">{{text_3}}</span><span class=\"text-[12px] text-[var(--muted)]\">{{text_4}}</span></div><div class=\"h-[8px] bg-[var(--surface)] rounded-full overflow-hidden border border-[var(--line)]\"><div class=\"h-full bg-[var(--brand)] rounded-full\" style=\"width:62%\"></div></div></div><div><div class=\"flex justify-between mb-[6px]\"><span class=\"text-[13px] font-semibold text-[var(--text)]\">{{text_5}}</span><span class=\"text-[12px] text-[var(--muted)]\">{{text_6}}</span></div><div class=\"h-[8px] bg-[var(--surface)] rounded-full overflow-hidden border border-[var(--line)]\"><div class=\"h-full bg-[var(--brand)] rounded-full\" style=\"width:94%\"></div></div></div></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "progress-bar"
-  }
 }
