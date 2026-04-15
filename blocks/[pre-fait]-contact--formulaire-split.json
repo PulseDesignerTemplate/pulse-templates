@@ -1,62 +1,62 @@
 {
-  "type": "prefait-contact-formulaire-split",
-  "template": "html",
-  "kind": "static",
-  "id": "formulaire-split",
-  "label": "Formulaire Split",
-  "category": "contact",
-  "icon": "fa-envelope",
-  "description": "Coordonnées + formulaire",
-  "schema": {
-    "kicker": {
-      "type": "string",
-      "label": "Sur-titre (badge)",
-      "default": "Nouveau"
-    },
-    "title": {
-      "type": "string",
-      "label": "Titre principal",
-      "multiline": true,
-      "default": "Titre principal"
-    },
-    "subtitle": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "Sous-titre descriptif pour accompagner votre message."
-    },
-    "email": {
-      "type": "string",
-      "label": "Email",
-      "default": "contact@monsite.fr"
-    },
-    "phone": {
-      "type": "string",
-      "label": "Téléphone",
-      "default": "+33 1 23 45 67 89"
-    },
-    "link_label": {
-      "type": "string",
-      "label": "Lien — texte",
-      "default": "En savoir plus"
-    }
-  },
-  "defaults": {
-    "kicker": "Nouveau",
-    "title": "Titre principal",
-    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
-    "email": "contact@monsite.fr",
-    "phone": "+33 1 23 45 67 89",
-    "link_label": "En savoir plus",
-    "htmlTemplate": "<section class=\"grid grid-cols-1 md:grid-cols-2 grid-cols-[1fr_1.2fr] gap-[64px] items-start bg-[var(--bg)] p-[72px_48px]\"><div><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] mb-[14px] tracking-[-.02em]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.7] mb-[28px]\">{{subtitle}}</p><div class=\"flex flex-col gap-[14px]\"><div class=\"flex items-center gap-[10px]\"><div class=\"flex items-center justify-center w-[36px] h-[36px] rounded-[10px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] text-[16px] [flex-shrink:0]\">&#9993;</div><span class=\"text-[13.5px] text-[var(--text)]\">{{email}}</span></div><div class=\"flex items-center gap-[10px]\"><div class=\"flex items-center justify-center w-[36px] h-[36px] rounded-[10px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] text-[16px] [flex-shrink:0]\">&#9990;</div><span class=\"text-[13.5px] text-[var(--text)]\">{{phone}}</span></div></div></div><div class=\"flex flex-col gap-[14px] bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[32px]\"><input class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[12px_16px] text-[13px] text-[var(--text)] w-[100%]\" placeholder=\"Votre nom\" type=\"text\"><input class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[12px_16px] text-[13px] text-[var(--text)] w-[100%]\" placeholder=\"Votre email\" type=\"email\"><textarea class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[12px_16px] text-[13px] text-[var(--text)] w-[100%] h-[100px] [resize:vertical]\" placeholder=\"Votre message\"></textarea><a class=\"bg-[var(--brand)] text-[#fff] p-[13px_24px] rounded-[10px] font-bold text-[14px] text-center block\">{{link_label}}</a></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "pre-fait",
+    "type": "prefait-contact-formulaire-split",
+    "template": "html",
+    "kind": "static",
     "id": "formulaire-split",
-    "slug": "contact--formulaire-split",
-    "height": 320,
-    "created_at": "2026-03-05T08:37:36+00:00",
-    "updated_at": "2026-03-05T08:37:36+00:00"
-  }
+    "label": "Formulaire Split",
+    "category": "contact",
+    "icon": "fa-envelope",
+    "description": "Coordonnées + formulaire",
+    "schema": {
+        "kicker": {
+            "type": "string",
+            "label": "Sur-titre (badge)",
+            "default": "Nouveau"
+        },
+        "title": {
+            "type": "string",
+            "label": "Titre principal",
+            "multiline": true,
+            "default": "Titre principal"
+        },
+        "subtitle": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "Sous-titre descriptif pour accompagner votre message."
+        },
+        "email": {
+            "type": "string",
+            "label": "Email",
+            "default": "contact@monsite.fr"
+        },
+        "phone": {
+            "type": "string",
+            "label": "Téléphone",
+            "default": "+33 1 23 45 67 89"
+        },
+        "link_label": {
+            "type": "string",
+            "label": "Lien — texte",
+            "default": "En savoir plus"
+        }
+    },
+    "defaults": {
+        "kicker": "Nouveau",
+        "title": "Titre principal",
+        "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+        "email": "contact@monsite.fr",
+        "phone": "+33 1 23 45 67 89",
+        "link_label": "En savoir plus",
+        "htmlTemplate": "<section class=\"grid grid-cols-1 md:grid-cols-2 grid-cols-[1fr_1.2fr] gap-[64px] items-start bg-[var(--bg)] p-[72px_48px]\"><div><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] mb-[14px] tracking-[-.02em]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.7] mb-[28px]\">{{subtitle}}</p><div class=\"flex flex-col gap-[14px]\"><div class=\"flex items-center gap-[10px]\"><span class=\"inline-flex flex items-center justify-center w-[36px] h-[36px] rounded-[10px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] text-[16px] [flex-shrink:0]\">&#9993;</span><span class=\"text-[13.5px] text-[var(--text)]\">{{email}}</span></div><div class=\"flex items-center gap-[10px]\"><span class=\"inline-flex flex items-center justify-center w-[36px] h-[36px] rounded-[10px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] text-[16px] [flex-shrink:0]\">&#9990;</span><span class=\"text-[13.5px] text-[var(--text)]\">{{phone}}</span></div></div></div><div class=\"flex flex-col gap-[14px] bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[32px]\"><input class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[12px_16px] text-[13px] text-[var(--text)] w-[100%]\" placeholder=\"Votre nom\" type=\"text\"><input class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[12px_16px] text-[13px] text-[var(--text)] w-[100%]\" placeholder=\"Votre email\" type=\"email\"><textarea class=\"bg-[var(--bg)] border border-[var(--line)] rounded-[10px] p-[12px_16px] text-[13px] text-[var(--text)] w-[100%] h-[100px] [resize:vertical]\" placeholder=\"Votre message\"></textarea><a class=\"bg-[var(--brand)] text-[#fff] p-[13px_24px] rounded-[10px] font-bold text-[14px] text-center block\">{{link_label}}</a></div></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "pre-fait",
+        "id": "formulaire-split",
+        "slug": "contact--formulaire-split",
+        "height": 320,
+        "created_at": "2026-03-05T08:37:36+00:00",
+        "updated_at": "2026-03-05T08:37:36+00:00"
+    }
 }

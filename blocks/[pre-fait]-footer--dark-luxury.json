@@ -1,91 +1,91 @@
 {
-  "type": "prefait-footer-dark-luxury",
-  "template": "html",
-  "kind": "static",
-  "id": "dark-luxury",
-  "label": "Dark Luxury",
-  "category": "footer",
-  "icon": "fa-minus",
-  "description": "Bas de page",
-  "schema": {
-    "subtitle": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "Sous-titre descriptif pour accompagner votre message."
-    },
-    "href": {
-      "type": "string",
-      "label": "Href",
-      "default": "href"
-    },
-    "icon": {
-      "type": "string",
-      "label": "Icône",
-      "default": "★"
-    },
-    "label": {
-      "type": "string",
-      "label": "Libellé",
-      "default": "Libellé"
-    },
-    "email": {
-      "type": "string",
-      "label": "Email",
-      "default": "contact@monsite.fr"
-    },
-    "phone": {
-      "type": "string",
-      "label": "Téléphone",
-      "default": "+33 1 23 45 67 89"
-    },
-    "address": {
-      "type": "string",
-      "label": "Adresse",
-      "default": "12 rue de Paris, 75001 Paris"
-    },
-    "year": {
-      "type": "string",
-      "label": "Year",
-      "default": "year"
-    },
-    "company": {
-      "type": "string",
-      "label": "Nom de l’entreprise",
-      "default": "Monsite SAS"
-    },
-    "tagline": {
-      "type": "string",
-      "label": "Slogan",
-      "default": "Votre slogan accrocheur ici"
-    },
-    "brand_name": {
-      "type": "string",
-      "label": "Brand name",
-      "default": "brand_name"
-    }
-  },
-  "defaults": {
-    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
-    "href": "href",
-    "icon": "★",
-    "label": "Libellé",
-    "email": "contact@monsite.fr",
-    "phone": "+33 1 23 45 67 89",
-    "address": "12 rue de Paris, 75001 Paris",
-    "year": "year",
-    "company": "Monsite SAS",
-    "tagline": "Votre slogan accrocheur ici",
-    "brand_name": "brand_name",
-    "htmlTemplate": "<section id=\"gv-footer-4\" data-gv-block=\"1\" data-gv-block-type=\"footer\" data-gv-variant=\"4\" data-gv-block-id=\"gv-footer-4\"><footer class=\"bg-[var(--surface)] p-[60px_40px_32px] [border-top:1px_solid_var(--line)]\"><div class=\"grid grid-cols-[2fr_1fr_1fr] gap-[48px] mb-[48px]\"><div><div class=\"flex items-center gap-[9px] mb-[16px]\"><div class=\"flex items-center justify-center w-[32px] h-[32px] rounded-[10px] bg-[var(--brand)] font-black text-[15px] text-[#fff]\">G</div><b class=\"text-[15px] text-[var(--text)]\">{{brand_name}}</b></div><p class=\"text-[var(--muted)] text-[13px] leading-[1.7] max-w-[280px] mb-[20px]\">{{subtitle}}</p><div class=\"flex gap-[8px]\"> {{#socials}}<a class=\"flex items-center justify-center w-[36px] h-[36px] rounded-[10px] bg-[var(--bg)] border border-[var(--line)] text-[14px] text-[var(--muted)] [transition:border-color_.2s]\" href=\"{{href}}\">{{icon}}</a>{{/socials}} </div></div><div><div class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.12em] uppercase mb-[16px]\">Navigation</div><div class=\"flex flex-col gap-[10px]\"> {{#navLinks}}<a class=\"flex items-center gap-[6px] text-[var(--muted)] text-[13px]\" href=\"{{href}}\">&#8594; {{label}}</a>{{/navLinks}} </div></div><div><div class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.12em] uppercase mb-[16px]\">Contact</div><div class=\"flex flex-col gap-[10px]\"><a class=\"text-[var(--muted)] text-[13px]\" href=\"#\">{{email}}</a><span class=\"text-[var(--muted)] text-[13px]\">{{phone}}</span><span class=\"text-[var(--muted)] text-[12px]\">{{address}}</span></div></div></div><div class=\"flex justify-between items-center pt-[24px] [border-top:1px_solid_var(--line)]\"><span class=\"text-[12px] text-[var(--muted)]\">&copy; {{year}} {{company}} &mdash; Tous droits r&eacute;serv&eacute;s</span><span class=\"text-[12px] text-[var(--muted)]\">{{tagline}}</span></div></footer></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "pre-fait",
+    "type": "prefait-footer-dark-luxury",
+    "template": "html",
+    "kind": "static",
     "id": "dark-luxury",
-    "slug": "footer--dark-luxury",
-    "height": 220,
-    "created_at": "2026-03-05T08:37:36+00:00",
-    "updated_at": "2026-03-05T08:37:36+00:00"
-  }
+    "label": "Dark Luxury",
+    "category": "footer",
+    "icon": "fa-minus",
+    "description": "Bas de page",
+    "schema": {
+        "subtitle": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "Sous-titre descriptif pour accompagner votre message."
+        },
+        "href": {
+            "type": "string",
+            "label": "Href",
+            "default": "href"
+        },
+        "icon": {
+            "type": "string",
+            "label": "Icône",
+            "default": "★"
+        },
+        "label": {
+            "type": "string",
+            "label": "Libellé",
+            "default": "Libellé"
+        },
+        "email": {
+            "type": "string",
+            "label": "Email",
+            "default": "contact@monsite.fr"
+        },
+        "phone": {
+            "type": "string",
+            "label": "Téléphone",
+            "default": "+33 1 23 45 67 89"
+        },
+        "address": {
+            "type": "string",
+            "label": "Adresse",
+            "default": "12 rue de Paris, 75001 Paris"
+        },
+        "year": {
+            "type": "string",
+            "label": "Year",
+            "default": "year"
+        },
+        "company": {
+            "type": "string",
+            "label": "Nom de l’entreprise",
+            "default": "Monsite SAS"
+        },
+        "tagline": {
+            "type": "string",
+            "label": "Slogan",
+            "default": "Votre slogan accrocheur ici"
+        },
+        "brand_name": {
+            "type": "string",
+            "label": "Brand name",
+            "default": "brand_name"
+        }
+    },
+    "defaults": {
+        "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+        "href": "href",
+        "icon": "★",
+        "label": "Libellé",
+        "email": "contact@monsite.fr",
+        "phone": "+33 1 23 45 67 89",
+        "address": "12 rue de Paris, 75001 Paris",
+        "year": "year",
+        "company": "Monsite SAS",
+        "tagline": "Votre slogan accrocheur ici",
+        "brand_name": "brand_name",
+        "htmlTemplate": "<section id=\"gv-footer-4\" data-gv-block=\"1\" data-gv-block-type=\"footer\" data-gv-variant=\"4\" data-gv-block-id=\"gv-footer-4\"><footer class=\"bg-[var(--surface)] p-[60px_40px_32px] [border-top:1px_solid_var(--line)]\"><div class=\"grid grid-cols-[2fr_1fr_1fr] gap-[48px] mb-[48px]\"><div><div class=\"flex items-center gap-[9px] mb-[16px]\"><span class=\"inline-flex flex items-center justify-center w-[32px] h-[32px] rounded-[10px] bg-[var(--brand)] font-black text-[15px] text-[#fff]\">G</span><b class=\"text-[15px] text-[var(--text)]\">{{brand_name}}</b></div><p class=\"text-[var(--muted)] text-[13px] leading-[1.7] max-w-[280px] mb-[20px]\">{{subtitle}}</p><div class=\"flex gap-[8px]\"> {{#socials}}<a class=\"flex items-center justify-center w-[36px] h-[36px] rounded-[10px] bg-[var(--bg)] border border-[var(--line)] text-[14px] text-[var(--muted)] [transition:border-color_.2s]\" href=\"{{href}}\">{{icon}}</a>{{/socials}} </div></div><div><div class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.12em] uppercase mb-[16px]\">Navigation</div><div class=\"flex flex-col gap-[10px]\"> {{#navLinks}}<a class=\"flex items-center gap-[6px] text-[var(--muted)] text-[13px]\" href=\"{{href}}\">&#8594; {{label}}</a>{{/navLinks}} </div></div><div><div class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.12em] uppercase mb-[16px]\">Contact</div><div class=\"flex flex-col gap-[10px]\"><a class=\"text-[var(--muted)] text-[13px]\" href=\"#\">{{email}}</a><span class=\"text-[var(--muted)] text-[13px]\">{{phone}}</span><span class=\"text-[var(--muted)] text-[12px]\">{{address}}</span></div></div></div><div class=\"flex justify-between items-center pt-[24px] [border-top:1px_solid_var(--line)]\"><span class=\"text-[12px] text-[var(--muted)]\">&copy; {{year}} {{company}} &mdash; Tous droits r&eacute;serv&eacute;s</span><span class=\"text-[12px] text-[var(--muted)]\">{{tagline}}</span></div></footer></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "pre-fait",
+        "id": "dark-luxury",
+        "slug": "footer--dark-luxury",
+        "height": 220,
+        "created_at": "2026-03-05T08:37:36+00:00",
+        "updated_at": "2026-03-05T08:37:36+00:00"
+    }
 }

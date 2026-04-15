@@ -1,55 +1,55 @@
 {
-  "type": "classique-texte-checklist",
-  "template": "html",
-  "kind": "static",
-  "id": "checklist",
-  "label": "Checklist",
-  "category": "classic",
-  "subcategory": "texte",
-  "icon": "fa-square-check",
-  "schema": {
-    "text": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "Votre texte ici."
+    "type": "classique-texte-checklist",
+    "template": "html",
+    "kind": "static",
+    "id": "checklist",
+    "label": "Checklist",
+    "category": "classic",
+    "subcategory": "texte",
+    "icon": "fa-square-check",
+    "schema": {
+        "text": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "Votre texte ici."
+        },
+        "text_2": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_2"
+        },
+        "text_3": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_3"
+        },
+        "text_4": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_4"
+        },
+        "text_5": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_5"
+        }
     },
-    "text_2": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_2"
+    "defaults": {
+        "text": "Votre texte ici.",
+        "text_2": "text_2",
+        "text_3": "text_3",
+        "text_4": "text_4",
+        "text_5": "text_5",
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><ul class=\"flex flex-col gap-[12px] max-w-[480px] list-none p-0 m-0\"><li class=\"flex items-center gap-[12px] text-[14px]\"><span class=\"inline-flex w-[22px] h-[22px] rounded-[6px] bg-[var(--brand)] flex items-center justify-center flex-shrink-0\"><span class=\"text-[#fff] text-[11px] font-bold\">{{text}}</span></span><span class=\"text-[var(--text)]\">{{text_2}}</span></li><li class=\"flex items-center gap-[12px] text-[14px]\"><span class=\"inline-flex w-[22px] h-[22px] rounded-[6px] bg-[var(--brand)] flex items-center justify-center flex-shrink-0\"><span class=\"text-[#fff] text-[11px] font-bold\">{{text_3}}</span></span><span class=\"text-[var(--text)]\">{{text_4}}</span></li><li class=\"flex items-center gap-[12px] text-[14px]\"><span class=\"inline-flex w-[22px] h-[22px] rounded-[6px] border-[2px] border-[var(--line)] flex items-center justify-center flex-shrink-0\"></span><span class=\"text-[var(--muted)]\">{{text_5}}</span></li></ul></section>"
     },
-    "text_3": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_3"
-    },
-    "text_4": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_4"
-    },
-    "text_5": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_5"
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "checklist"
     }
-  },
-  "defaults": {
-    "text": "Votre texte ici.",
-    "text_2": "text_2",
-    "text_3": "text_3",
-    "text_4": "text_4",
-    "text_5": "text_5",
-    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><ul class=\"flex flex-col gap-[12px] max-w-[480px] list-none p-0 m-0\"><li class=\"flex items-center gap-[12px] text-[14px]\"><div class=\"w-[22px] h-[22px] rounded-[6px] bg-[var(--brand)] flex items-center justify-center flex-shrink-0\"><span class=\"text-[#fff] text-[11px] font-bold\">{{text}}</span></div><span class=\"text-[var(--text)]\">{{text_2}}</span></li><li class=\"flex items-center gap-[12px] text-[14px]\"><div class=\"w-[22px] h-[22px] rounded-[6px] bg-[var(--brand)] flex items-center justify-center flex-shrink-0\"><span class=\"text-[#fff] text-[11px] font-bold\">{{text_3}}</span></div><span class=\"text-[var(--text)]\">{{text_4}}</span></li><li class=\"flex items-center gap-[12px] text-[14px]\"><div class=\"w-[22px] h-[22px] rounded-[6px] border-[2px] border-[var(--line)] flex items-center justify-center flex-shrink-0\"></div><span class=\"text-[var(--muted)]\">{{text_5}}</span></li></ul></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "checklist"
-  }
 }

@@ -1,41 +1,41 @@
 {
-  "type": "classique-media-icone-grande",
-  "template": "html",
-  "kind": "static",
-  "id": "icone-grande",
-  "label": "Icône grande",
-  "category": "classic",
-  "subcategory": "media",
-  "icon": "fa-star",
-  "schema": {
-    "text": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "Votre texte ici."
+    "type": "classique-media-icone-grande",
+    "template": "html",
+    "kind": "static",
+    "id": "icone-grande",
+    "label": "Icône grande",
+    "category": "classic",
+    "subcategory": "media",
+    "icon": "fa-star",
+    "schema": {
+        "text": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "Votre texte ici."
+        },
+        "subtitle": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "Sous-titre descriptif pour accompagner votre message."
+        },
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        }
     },
-    "subtitle": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "Sous-titre descriptif pour accompagner votre message."
+    "defaults": {
+        "text": "Votre texte ici.",
+        "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+        "paragraph": "Texte de paragraphe.",
+        "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)] text-center\"><span class=\"inline-flex w-[80px] h-[80px] rounded-[20px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px]\"><span class=\"text-[var(--brand)] text-[36px]\">{{text}}</span></span><h3 class=\"text-[18px] font-extrabold text-[var(--text)] mb-[8px]\">{{subtitle}}</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.6] max-w-[400px] mx-auto\">{{paragraph}}</p></section>"
     },
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "icone-grande"
     }
-  },
-  "defaults": {
-    "text": "Votre texte ici.",
-    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
-    "paragraph": "Texte de paragraphe.",
-    "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)] text-center\"><div class=\"w-[80px] h-[80px] rounded-[20px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mx-auto mb-[16px]\"><span class=\"text-[var(--brand)] text-[36px]\">{{text}}</span></div><h3 class=\"text-[18px] font-extrabold text-[var(--text)] mb-[8px]\">{{subtitle}}</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.6] max-w-[400px] mx-auto\">{{paragraph}}</p></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "icone-grande"
-  }
 }

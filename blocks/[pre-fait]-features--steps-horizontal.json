@@ -1,57 +1,57 @@
 {
-  "type": "prefait-features-steps-horizontal",
-  "template": "html",
-  "kind": "static",
-  "id": "steps-horizontal",
-  "label": "Steps Horizontal",
-  "category": "features",
-  "icon": "fa-list-check",
-  "description": "3–6 points forts",
-  "schema": {
-    "kicker": {
-      "type": "string",
-      "label": "Sur-titre (badge)",
-      "default": "Nouveau"
-    },
-    "title": {
-      "type": "string",
-      "label": "Titre principal",
-      "multiline": true,
-      "default": "Titre principal"
-    },
-    "subtitle": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "Sous-titre descriptif pour accompagner votre message."
-    },
-    "desc": {
-      "type": "string",
-      "label": "Description",
-      "multiline": true,
-      "default": "Description courte et engageante."
-    },
-    "icon": {
-      "type": "string",
-      "label": "Icône",
-      "default": "★"
-    }
-  },
-  "defaults": {
-    "kicker": "Nouveau",
-    "title": "Titre principal",
-    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
-    "desc": "Description courte et engageante.",
-    "icon": "★",
-    "htmlTemplate": "<section class=\"bg-[var(--bg)] p-[80px_40px] overflow-hidden\"><div class=\"text-center mb-[52px]\"><span class=\"inline-flex items-center gap-[8px] text-[11px] font-bold text-[var(--brand)] tracking-[.14em] uppercase bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] p-[4px_14px] rounded-[999px] mb-[14px]\">{{kicker}}</span><h2 class=\"text-[2.4rem] font-black text-[var(--text)] tracking-[-.025em] mb-[12px] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14.5px] max-w-[500px] m-[0_auto] leading-[1.7]\">{{subtitle}}</p></div><div class=\"flex gap-[0] relative\"><div class=\"absolute top-[24px] left-[32px] right-[32px] h-[1px] z-[0] [background:linear-gradient(90deg,var(--brand),color-mix(in_srgb,var(--brand)_30%,var(--line)))]\"></div> {{#items}}<div class=\"p-[0_20px] relative z-[1] [flex:1]\" data-d=\"1\"><div class=\"flex items-center justify-center w-[48px] h-[48px] rounded-[999px] bg-[var(--surface)] border-[2px] border-[var(--brand)] text-[18px] mb-[22px] shadow-[0_0_24px_color-mix(in_srgb,var(--brand)_22%,transparent)]\">{{icon}}</div><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[6px]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[12.5px] leading-[1.6]\">{{desc}}</p></div>{{/items}} </div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "pre-fait",
+    "type": "prefait-features-steps-horizontal",
+    "template": "html",
+    "kind": "static",
     "id": "steps-horizontal",
-    "slug": "features--steps-horizontal",
-    "height": 290,
-    "created_at": "2026-03-05T08:37:36+00:00",
-    "updated_at": "2026-03-05T08:37:36+00:00"
-  }
+    "label": "Steps Horizontal",
+    "category": "features",
+    "icon": "fa-list-check",
+    "description": "3–6 points forts",
+    "schema": {
+        "kicker": {
+            "type": "string",
+            "label": "Sur-titre (badge)",
+            "default": "Nouveau"
+        },
+        "title": {
+            "type": "string",
+            "label": "Titre principal",
+            "multiline": true,
+            "default": "Titre principal"
+        },
+        "subtitle": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "Sous-titre descriptif pour accompagner votre message."
+        },
+        "desc": {
+            "type": "string",
+            "label": "Description",
+            "multiline": true,
+            "default": "Description courte et engageante."
+        },
+        "icon": {
+            "type": "string",
+            "label": "Icône",
+            "default": "★"
+        }
+    },
+    "defaults": {
+        "kicker": "Nouveau",
+        "title": "Titre principal",
+        "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+        "desc": "Description courte et engageante.",
+        "icon": "★",
+        "htmlTemplate": "<section class=\"bg-[var(--bg)] p-[80px_40px] overflow-hidden\"><div class=\"text-center mb-[52px]\"><span class=\"inline-flex items-center gap-[8px] text-[11px] font-bold text-[var(--brand)] tracking-[.14em] uppercase bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] p-[4px_14px] rounded-[999px] mb-[14px]\">{{kicker}}</span><h2 class=\"text-[2.4rem] font-black text-[var(--text)] tracking-[-.025em] mb-[12px] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14.5px] max-w-[500px] m-[0_auto] leading-[1.7]\">{{subtitle}}</p></div><div class=\"flex gap-[0] relative\"><div class=\"absolute top-[24px] left-[32px] right-[32px] h-[1px] z-[0] [background:linear-gradient(90deg,var(--brand),color-mix(in_srgb,var(--brand)_30%,var(--line)))]\"></div> {{#items}}<div class=\"p-[0_20px] relative z-[1] [flex:1]\" data-d=\"1\"><span class=\"inline-flex flex items-center justify-center w-[48px] h-[48px] rounded-[999px] bg-[var(--surface)] border-[2px] border-[var(--brand)] text-[18px] mb-[22px] shadow-[0_0_24px_color-mix(in_srgb,var(--brand)_22%,transparent)]\">{{icon}}</span><h3 class=\"text-[14px] font-bold text-[var(--text)] mb-[6px]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[12.5px] leading-[1.6]\">{{desc}}</p></div>{{/items}} </div></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "pre-fait",
+        "id": "steps-horizontal",
+        "slug": "features--steps-horizontal",
+        "height": 290,
+        "created_at": "2026-03-05T08:37:36+00:00",
+        "updated_at": "2026-03-05T08:37:36+00:00"
+    }
 }

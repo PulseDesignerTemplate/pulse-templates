@@ -1,57 +1,57 @@
 {
-  "type": "prefait-awards-certifications",
-  "template": "html",
-  "kind": "static",
-  "id": "certifications",
-  "label": "Certifications",
-  "category": "awards",
-  "icon": "fa-trophy",
-  "description": "Badges, prix et certifications",
-  "schema": {
-    "kicker": {
-      "type": "string",
-      "label": "Sur-titre (badge)",
-      "default": "Nouveau"
-    },
-    "title": {
-      "type": "string",
-      "label": "Titre principal",
-      "multiline": true,
-      "default": "Titre principal"
-    },
-    "subtitle": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "Sous-titre descriptif pour accompagner votre message."
-    },
-    "icon": {
-      "type": "string",
-      "label": "Icône",
-      "default": "★"
-    },
-    "desc": {
-      "type": "string",
-      "label": "Description",
-      "multiline": true,
-      "default": "Description courte et engageante."
-    }
-  },
-  "defaults": {
-    "kicker": "Nouveau",
-    "title": "Titre principal",
-    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
-    "icon": "★",
-    "desc": "Description courte et engageante.",
-    "htmlTemplate": "<section class=\"bg-[var(--bg)] p-[64px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[16px]\"> {{#items}}<div class=\"flex gap-[16px] items-center bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[24px]\"><div class=\"flex items-center justify-center w-[52px] h-[52px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] text-[24px] [flex-shrink:0]\">{{icon}}</div><div><div class=\"text-[13px] font-bold text-[var(--text)] mb-[4px]\">{{title}}</div><div class=\"text-[11.5px] text-[var(--muted)] leading-[1.4]\">{{desc}}</div></div></div>{{/items}} </div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "pre-fait",
+    "type": "prefait-awards-certifications",
+    "template": "html",
+    "kind": "static",
     "id": "certifications",
-    "slug": "awards--certifications",
-    "height": 200,
-    "created_at": "2026-03-05T08:37:36+00:00",
-    "updated_at": "2026-03-05T08:37:36+00:00"
-  }
+    "label": "Certifications",
+    "category": "awards",
+    "icon": "fa-trophy",
+    "description": "Badges, prix et certifications",
+    "schema": {
+        "kicker": {
+            "type": "string",
+            "label": "Sur-titre (badge)",
+            "default": "Nouveau"
+        },
+        "title": {
+            "type": "string",
+            "label": "Titre principal",
+            "multiline": true,
+            "default": "Titre principal"
+        },
+        "subtitle": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "Sous-titre descriptif pour accompagner votre message."
+        },
+        "icon": {
+            "type": "string",
+            "label": "Icône",
+            "default": "★"
+        },
+        "desc": {
+            "type": "string",
+            "label": "Description",
+            "multiline": true,
+            "default": "Description courte et engageante."
+        }
+    },
+    "defaults": {
+        "kicker": "Nouveau",
+        "title": "Titre principal",
+        "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+        "icon": "★",
+        "desc": "Description courte et engageante.",
+        "htmlTemplate": "<section class=\"bg-[var(--bg)] p-[64px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[12px]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] m-[0_auto] leading-[1.72]\">{{subtitle}}</p></div><div class=\"grid grid-cols-3 gap-[16px]\"> {{#items}}<div class=\"flex gap-[16px] items-center bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[24px]\"><span class=\"inline-flex flex items-center justify-center w-[52px] h-[52px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] text-[24px] [flex-shrink:0]\">{{icon}}</span><div><div class=\"text-[13px] font-bold text-[var(--text)] mb-[4px]\">{{title}}</div><div class=\"text-[11.5px] text-[var(--muted)] leading-[1.4]\">{{desc}}</div></div></div>{{/items}} </div></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "pre-fait",
+        "id": "certifications",
+        "slug": "awards--certifications",
+        "height": 200,
+        "created_at": "2026-03-05T08:37:36+00:00",
+        "updated_at": "2026-03-05T08:37:36+00:00"
+    }
 }

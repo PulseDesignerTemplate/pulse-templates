@@ -1,41 +1,41 @@
 {
-  "type": "classique-cards-card-icon",
-  "template": "html",
-  "kind": "static",
-  "id": "card-icon",
-  "label": "Card icône",
-  "category": "classic",
-  "subcategory": "cards",
-  "icon": "fa-diamond",
-  "schema": {
-    "text": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "Votre texte ici."
+    "type": "classique-cards-card-icon",
+    "template": "html",
+    "kind": "static",
+    "id": "card-icon",
+    "label": "Card icône",
+    "category": "classic",
+    "subcategory": "cards",
+    "icon": "fa-diamond",
+    "schema": {
+        "text": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "Votre texte ici."
+        },
+        "subtitle": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "Sous-titre descriptif pour accompagner votre message."
+        },
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        }
     },
-    "subtitle": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "Sous-titre descriptif pour accompagner votre message."
+    "defaults": {
+        "text": "Votre texte ici.",
+        "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+        "paragraph": "Texte de paragraphe.",
+        "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] max-w-[360px]\"><span class=\"inline-flex w-[48px] h-[48px] rounded-[12px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mb-[16px]\"><span class=\"text-[var(--brand)] text-[20px]\">{{text}}</span></span><h3 class=\"text-[16px] font-extrabold text-[var(--text)] mb-[8px]\">{{subtitle}}</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.65]\">{{paragraph}}</p></div></section>"
     },
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "card-icon"
     }
-  },
-  "defaults": {
-    "text": "Votre texte ici.",
-    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
-    "paragraph": "Texte de paragraphe.",
-    "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] max-w-[360px]\"><div class=\"w-[48px] h-[48px] rounded-[12px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] flex items-center justify-center mb-[16px]\"><span class=\"text-[var(--brand)] text-[20px]\">{{text}}</span></div><h3 class=\"text-[16px] font-extrabold text-[var(--text)] mb-[8px]\">{{subtitle}}</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.65]\">{{paragraph}}</p></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "card-icon"
-  }
 }

@@ -1,41 +1,41 @@
 {
-  "type": "classique-interactif-steps",
-  "template": "html",
-  "kind": "static",
-  "id": "steps",
-  "label": "Étapes",
-  "category": "classic",
-  "subcategory": "interactif",
-  "icon": "fa-shoe-prints",
-  "schema": {
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
+    "type": "classique-interactif-steps",
+    "template": "html",
+    "kind": "static",
+    "id": "steps",
+    "label": "Étapes",
+    "category": "classic",
+    "subcategory": "interactif",
+    "icon": "fa-shoe-prints",
+    "schema": {
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        },
+        "paragraph_2": {
+            "type": "string",
+            "label": "Paragraphe 2",
+            "multiline": true,
+            "default": "paragraph_2"
+        },
+        "paragraph_3": {
+            "type": "string",
+            "label": "Paragraphe 3",
+            "multiline": true,
+            "default": "paragraph_3"
+        }
     },
-    "paragraph_2": {
-      "type": "string",
-      "label": "Paragraphe 2",
-      "multiline": true,
-      "default": "paragraph_2"
+    "defaults": {
+        "paragraph": "Texte de paragraphe.",
+        "paragraph_2": "paragraph_2",
+        "paragraph_3": "paragraph_3",
+        "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"flex items-start gap-[4px] max-w-[640px]\"><div class=\"flex flex-col items-center flex-1\"><span class=\"inline-flex w-[36px] h-[36px] rounded-full bg-[var(--brand)] text-[#fff] flex items-center justify-center text-[14px] font-bold\">1</span><p class=\"text-[12px] font-semibold text-[var(--text)] mt-[10px] text-center\">{{paragraph}}</p></div><div class=\"flex-1 h-[2px] bg-[var(--line)] mt-[18px]\"></div><div class=\"flex flex-col items-center flex-1\"><span class=\"inline-flex w-[36px] h-[36px] rounded-full bg-[var(--surface)] border-[2px] border-[var(--brand)] text-[var(--brand)] flex items-center justify-center text-[14px] font-bold\">2</span><p class=\"text-[12px] font-semibold text-[var(--text)] mt-[10px] text-center\">{{paragraph_2}}</p></div><div class=\"flex-1 h-[2px] bg-[var(--line)] mt-[18px]\"></div><div class=\"flex flex-col items-center flex-1\"><span class=\"inline-flex w-[36px] h-[36px] rounded-full bg-[var(--surface)] border border-[var(--line)] text-[var(--muted)] flex items-center justify-center text-[14px] font-bold\">3</span><p class=\"text-[12px] font-semibold text-[var(--muted)] mt-[10px] text-center\">{{paragraph_3}}</p></div></div></section>"
     },
-    "paragraph_3": {
-      "type": "string",
-      "label": "Paragraphe 3",
-      "multiline": true,
-      "default": "paragraph_3"
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "steps"
     }
-  },
-  "defaults": {
-    "paragraph": "Texte de paragraphe.",
-    "paragraph_2": "paragraph_2",
-    "paragraph_3": "paragraph_3",
-    "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"flex items-start gap-[4px] max-w-[640px]\"><div class=\"flex flex-col items-center flex-1\"><div class=\"w-[36px] h-[36px] rounded-full bg-[var(--brand)] text-[#fff] flex items-center justify-center text-[14px] font-bold\">1</div><p class=\"text-[12px] font-semibold text-[var(--text)] mt-[10px] text-center\">{{paragraph}}</p></div><div class=\"flex-1 h-[2px] bg-[var(--line)] mt-[18px]\"></div><div class=\"flex flex-col items-center flex-1\"><div class=\"w-[36px] h-[36px] rounded-full bg-[var(--surface)] border-[2px] border-[var(--brand)] text-[var(--brand)] flex items-center justify-center text-[14px] font-bold\">2</div><p class=\"text-[12px] font-semibold text-[var(--text)] mt-[10px] text-center\">{{paragraph_2}}</p></div><div class=\"flex-1 h-[2px] bg-[var(--line)] mt-[18px]\"></div><div class=\"flex flex-col items-center flex-1\"><div class=\"w-[36px] h-[36px] rounded-full bg-[var(--surface)] border border-[var(--line)] text-[var(--muted)] flex items-center justify-center text-[14px] font-bold\">3</div><p class=\"text-[12px] font-semibold text-[var(--muted)] mt-[10px] text-center\">{{paragraph_3}}</p></div></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "steps"
-  }
 }

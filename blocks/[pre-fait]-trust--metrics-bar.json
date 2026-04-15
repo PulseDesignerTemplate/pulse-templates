@@ -1,80 +1,80 @@
 {
-  "type": "prefait-trust-metrics-bar",
-  "template": "html",
-  "kind": "static",
-  "id": "metrics-bar",
-  "label": "Metrics Bar",
-  "category": "trust",
-  "icon": "fa-shield-halved",
-  "description": "Barre de métriques de confiance",
-  "schema": {
-    "text": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "Votre texte ici."
-    },
-    "text_2": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_2"
-    },
-    "text_3": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_3"
-    },
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
-    },
-    "text_4": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_4"
-    },
-    "paragraph_2": {
-      "type": "string",
-      "label": "Paragraphe 2",
-      "multiline": true,
-      "default": "paragraph_2"
-    },
-    "text_5": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "text_5"
-    },
-    "paragraph_3": {
-      "type": "string",
-      "label": "Paragraphe 3",
-      "multiline": true,
-      "default": "paragraph_3"
-    }
-  },
-  "defaults": {
-    "text": "Votre texte ici.",
-    "text_2": "text_2",
-    "text_3": "text_3",
-    "paragraph": "Texte de paragraphe.",
-    "text_4": "text_4",
-    "paragraph_2": "paragraph_2",
-    "text_5": "text_5",
-    "paragraph_3": "paragraph_3",
-    "htmlTemplate": "<section class=\"bg-[var(--surface)] border-y border-[var(--line)] p-[28px_40px]\"><div class=\"flex items-center justify-between max-w-[800px] mx-auto\"><div class=\"flex items-center gap-[8px]\"><span class=\"text-[1.6rem] font-black text-[var(--brand)]\">{{text}}</span><div class=\"flex gap-[2px] text-[#f59e0b] text-[12px]\">&#9733;&#9733;&#9733;&#9733;&#9733;</div><span class=\"text-[12px] text-[var(--muted)]\">{{text_2}}</span></div><div class=\"w-[1px] h-[28px] bg-[var(--line)]\"></div><div class=\"text-center\"><span class=\"text-[1.6rem] font-black text-[var(--text)]\">{{text_3}}</span><p class=\"text-[11px] text-[var(--muted)] font-medium\">{{paragraph}}</p></div><div class=\"w-[1px] h-[28px] bg-[var(--line)]\"></div><div class=\"text-center\"><span class=\"text-[1.6rem] font-black text-[var(--text)]\">{{text_4}}</span><p class=\"text-[11px] text-[var(--muted)] font-medium\">{{paragraph_2}}</p></div><div class=\"w-[1px] h-[28px] bg-[var(--line)]\"></div><div class=\"text-center\"><span class=\"text-[1.6rem] font-black text-[var(--text)]\">{{text_5}}</span><p class=\"text-[11px] text-[var(--muted)] font-medium\">{{paragraph_3}}</p></div></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "pre-fait",
+    "type": "prefait-trust-metrics-bar",
+    "template": "html",
+    "kind": "static",
     "id": "metrics-bar",
-    "slug": "trust--metrics-bar",
-    "height": 100,
-    "created_at": "2026-04-03T10:00:00+00:00",
-    "updated_at": "2026-04-03T10:00:00+00:00"
-  }
+    "label": "Metrics Bar",
+    "category": "trust",
+    "icon": "fa-shield-halved",
+    "description": "Barre de métriques de confiance",
+    "schema": {
+        "text": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "Votre texte ici."
+        },
+        "text_2": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_2"
+        },
+        "text_3": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_3"
+        },
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        },
+        "text_4": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_4"
+        },
+        "paragraph_2": {
+            "type": "string",
+            "label": "Paragraphe 2",
+            "multiline": true,
+            "default": "paragraph_2"
+        },
+        "text_5": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "text_5"
+        },
+        "paragraph_3": {
+            "type": "string",
+            "label": "Paragraphe 3",
+            "multiline": true,
+            "default": "paragraph_3"
+        }
+    },
+    "defaults": {
+        "text": "Votre texte ici.",
+        "text_2": "text_2",
+        "text_3": "text_3",
+        "paragraph": "Texte de paragraphe.",
+        "text_4": "text_4",
+        "paragraph_2": "paragraph_2",
+        "text_5": "text_5",
+        "paragraph_3": "paragraph_3",
+        "htmlTemplate": "<section class=\"bg-[var(--surface)] border-y border-[var(--line)] p-[28px_40px]\"><div class=\"flex items-center justify-between max-w-[800px] mx-auto\"><div class=\"flex items-center gap-[8px]\"><span class=\"text-[1.6rem] font-black text-[var(--brand)]\">{{text}}</span><div class=\"flex gap-[2px] text-[#f59e0b] text-[12px]\">&#9733;&#9733;&#9733;&#9733;&#9733;</div><span class=\"text-[12px] text-[var(--muted)]\">{{text_2}}</span></div><span class=\"inline-flex w-[1px] h-[28px] bg-[var(--line)]\"></span><div class=\"text-center\"><span class=\"text-[1.6rem] font-black text-[var(--text)]\">{{text_3}}</span><p class=\"text-[11px] text-[var(--muted)] font-medium\">{{paragraph}}</p></div><span class=\"inline-flex w-[1px] h-[28px] bg-[var(--line)]\"></span><div class=\"text-center\"><span class=\"text-[1.6rem] font-black text-[var(--text)]\">{{text_4}}</span><p class=\"text-[11px] text-[var(--muted)] font-medium\">{{paragraph_2}}</p></div><span class=\"inline-flex w-[1px] h-[28px] bg-[var(--line)]\"></span><div class=\"text-center\"><span class=\"text-[1.6rem] font-black text-[var(--text)]\">{{text_5}}</span><p class=\"text-[11px] text-[var(--muted)] font-medium\">{{paragraph_3}}</p></div></div></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "pre-fait",
+        "id": "metrics-bar",
+        "slug": "trust--metrics-bar",
+        "height": 100,
+        "created_at": "2026-04-03T10:00:00+00:00",
+        "updated_at": "2026-04-03T10:00:00+00:00"
+    }
 }

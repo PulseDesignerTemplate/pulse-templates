@@ -1,80 +1,80 @@
 {
-  "type": "prefait-process-timeline-icons",
-  "template": "html",
-  "kind": "static",
-  "id": "timeline-icons",
-  "label": "Timeline Icônes",
-  "category": "process",
-  "icon": "fa-arrows-spin",
-  "description": "Processus vertical avec icônes",
-  "schema": {
-    "text": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "Votre texte ici."
-    },
-    "title_2": {
-      "type": "string",
-      "label": "Titre secondaire",
-      "multiline": true,
-      "default": "Titre secondaire"
-    },
-    "subtitle": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "Sous-titre descriptif pour accompagner votre message."
-    },
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
-    },
-    "subtitle_2": {
-      "type": "string",
-      "label": "Sous-titre 2",
-      "multiline": true,
-      "default": "Sous-titre 2"
-    },
-    "paragraph_2": {
-      "type": "string",
-      "label": "Paragraphe 2",
-      "multiline": true,
-      "default": "paragraph_2"
-    },
-    "subtitle_3": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "subtitle_3"
-    },
-    "paragraph_3": {
-      "type": "string",
-      "label": "Paragraphe 3",
-      "multiline": true,
-      "default": "paragraph_3"
-    }
-  },
-  "defaults": {
-    "text": "Votre texte ici.",
-    "title_2": "Titre secondaire",
-    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
-    "paragraph": "Texte de paragraphe.",
-    "subtitle_2": "Sous-titre 2",
-    "paragraph_2": "paragraph_2",
-    "subtitle_3": "subtitle_3",
-    "paragraph_3": "paragraph_3",
-    "htmlTemplate": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{text}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1]\">{{title_2}}</h2></div><div class=\"flex flex-col gap-[0] max-w-[560px] mx-auto\"><div class=\"flex gap-[24px] pb-[40px] relative\"><div class=\"flex flex-col items-center\"><div class=\"w-[44px] h-[44px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] flex items-center justify-center text-[var(--brand)] text-[16px] font-bold flex-shrink-0\">01</div><div class=\"w-[2px] flex-1 bg-[var(--line)] mt-[8px]\"></div></div><div class=\"pt-[8px]\"><h3 class=\"text-[15px] font-bold text-[var(--text)] mb-[6px]\">{{subtitle}}</h3><p class=\"text-[13px] text-[var(--muted)] leading-[1.7]\">{{paragraph}}</p></div></div><div class=\"flex gap-[24px] pb-[40px] relative\"><div class=\"flex flex-col items-center\"><div class=\"w-[44px] h-[44px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] flex items-center justify-center text-[var(--brand)] text-[16px] font-bold flex-shrink-0\">02</div><div class=\"w-[2px] flex-1 bg-[var(--line)] mt-[8px]\"></div></div><div class=\"pt-[8px]\"><h3 class=\"text-[15px] font-bold text-[var(--text)] mb-[6px]\">{{subtitle_2}}</h3><p class=\"text-[13px] text-[var(--muted)] leading-[1.7]\">{{paragraph_2}}</p></div></div><div class=\"flex gap-[24px]\"><div class=\"flex flex-col items-center\"><div class=\"w-[44px] h-[44px] rounded-[14px] bg-[var(--brand)] flex items-center justify-center text-[#fff] text-[16px] font-bold flex-shrink-0\">03</div></div><div class=\"pt-[8px]\"><h3 class=\"text-[15px] font-bold text-[var(--text)] mb-[6px]\">{{subtitle_3}}</h3><p class=\"text-[13px] text-[var(--muted)] leading-[1.7]\">{{paragraph_3}}</p></div></div></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "pre-fait",
+    "type": "prefait-process-timeline-icons",
+    "template": "html",
+    "kind": "static",
     "id": "timeline-icons",
-    "slug": "process--timeline-icons",
-    "height": 380,
-    "created_at": "2026-04-03T10:00:00+00:00",
-    "updated_at": "2026-04-03T10:00:00+00:00"
-  }
+    "label": "Timeline Icônes",
+    "category": "process",
+    "icon": "fa-arrows-spin",
+    "description": "Processus vertical avec icônes",
+    "schema": {
+        "text": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "Votre texte ici."
+        },
+        "title_2": {
+            "type": "string",
+            "label": "Titre secondaire",
+            "multiline": true,
+            "default": "Titre secondaire"
+        },
+        "subtitle": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "Sous-titre descriptif pour accompagner votre message."
+        },
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        },
+        "subtitle_2": {
+            "type": "string",
+            "label": "Sous-titre 2",
+            "multiline": true,
+            "default": "Sous-titre 2"
+        },
+        "paragraph_2": {
+            "type": "string",
+            "label": "Paragraphe 2",
+            "multiline": true,
+            "default": "paragraph_2"
+        },
+        "subtitle_3": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "subtitle_3"
+        },
+        "paragraph_3": {
+            "type": "string",
+            "label": "Paragraphe 3",
+            "multiline": true,
+            "default": "paragraph_3"
+        }
+    },
+    "defaults": {
+        "text": "Votre texte ici.",
+        "title_2": "Titre secondaire",
+        "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+        "paragraph": "Texte de paragraphe.",
+        "subtitle_2": "Sous-titre 2",
+        "paragraph_2": "paragraph_2",
+        "subtitle_3": "subtitle_3",
+        "paragraph_3": "paragraph_3",
+        "htmlTemplate": "<section class=\"bg-[var(--bg)] p-[80px_40px]\"><div class=\"text-center mb-[52px]\"><span class=\"text-[11px] font-bold text-[var(--brand)] tracking-[.13em] uppercase block mb-[12px]\">{{text}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1]\">{{title_2}}</h2></div><div class=\"flex flex-col gap-[0] max-w-[560px] mx-auto\"><div class=\"flex gap-[24px] pb-[40px] relative\"><div class=\"flex flex-col items-center\"><span class=\"inline-flex w-[44px] h-[44px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] flex items-center justify-center text-[var(--brand)] text-[16px] font-bold flex-shrink-0\">01</span><div class=\"w-[2px] flex-1 bg-[var(--line)] mt-[8px]\"></div></div><div class=\"pt-[8px]\"><h3 class=\"text-[15px] font-bold text-[var(--text)] mb-[6px]\">{{subtitle}}</h3><p class=\"text-[13px] text-[var(--muted)] leading-[1.7]\">{{paragraph}}</p></div></div><div class=\"flex gap-[24px] pb-[40px] relative\"><div class=\"flex flex-col items-center\"><span class=\"inline-flex w-[44px] h-[44px] rounded-[14px] bg-[color-mix(in_srgb,var(--brand)_12%,transparent)] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] flex items-center justify-center text-[var(--brand)] text-[16px] font-bold flex-shrink-0\">02</span><div class=\"w-[2px] flex-1 bg-[var(--line)] mt-[8px]\"></div></div><div class=\"pt-[8px]\"><h3 class=\"text-[15px] font-bold text-[var(--text)] mb-[6px]\">{{subtitle_2}}</h3><p class=\"text-[13px] text-[var(--muted)] leading-[1.7]\">{{paragraph_2}}</p></div></div><div class=\"flex gap-[24px]\"><div class=\"flex flex-col items-center\"><span class=\"inline-flex w-[44px] h-[44px] rounded-[14px] bg-[var(--brand)] flex items-center justify-center text-[#fff] text-[16px] font-bold flex-shrink-0\">03</span></div><div class=\"pt-[8px]\"><h3 class=\"text-[15px] font-bold text-[var(--text)] mb-[6px]\">{{subtitle_3}}</h3><p class=\"text-[13px] text-[var(--muted)] leading-[1.7]\">{{paragraph_3}}</p></div></div></div></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "pre-fait",
+        "id": "timeline-icons",
+        "slug": "process--timeline-icons",
+        "height": 380,
+        "created_at": "2026-04-03T10:00:00+00:00",
+        "updated_at": "2026-04-03T10:00:00+00:00"
+    }
 }

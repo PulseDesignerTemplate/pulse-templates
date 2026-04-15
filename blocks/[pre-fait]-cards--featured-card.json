@@ -1,63 +1,63 @@
 {
-  "type": "prefait-cards-featured-card",
-  "template": "html",
-  "kind": "static",
-  "id": "featured-card",
-  "label": "Featured Card",
-  "category": "cards",
-  "icon": "fa-id-card",
-  "description": "Grille services / catégories",
-  "schema": {
-    "kicker": {
-      "type": "string",
-      "label": "Sur-titre (badge)",
-      "default": "Nouveau"
-    },
-    "title": {
-      "type": "string",
-      "label": "Titre principal",
-      "multiline": true,
-      "default": "Titre principal"
-    },
-    "subtitle": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "Sous-titre descriptif pour accompagner votre message."
-    },
-    "cta_label": {
-      "type": "string",
-      "label": "Bouton — texte",
-      "default": "Commencer"
-    },
-    "desc": {
-      "type": "string",
-      "label": "Description",
-      "multiline": true,
-      "default": "Description courte et engageante."
-    },
-    "icon": {
-      "type": "string",
-      "label": "Icône",
-      "default": "★"
-    }
-  },
-  "defaults": {
-    "kicker": "Nouveau",
-    "title": "Titre principal",
-    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
-    "cta_label": "Commencer",
-    "desc": "Description courte et engageante.",
-    "icon": "★",
-    "htmlTemplate": "<section class=\"bg-[var(--surface)] p-[80px_40px]\"><div class=\"grid grid-cols-[1.6fr_1fr] gap-[20px]\"><div class=\"transition-[transform,border-color] duration-[220ms] ease-[cubic-bezier(.4,0,.2,1)] hover:translate-y-[-3px] hover:border-[var(--brand)] flex flex-col gap-[18px] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] rounded-[22px] p-[44px] relative overflow-hidden [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_12%,var(--bg)),var(--bg))]\"><div class=\"absolute top-[-40px] right-[-40px] w-[180px] h-[180px] rounded-[999px] bg-[var(--brand)] opacity-[.06] filter-[blur(40px)]\"></div><span class=\"text-[11px] font-bold text-[var(--brand)] uppercase tracking-[.12em] bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] p-[4px_14px] rounded-[999px] inline-block relative\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] relative\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] leading-[1.72] relative\">{{subtitle}}</p><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[12px_28px] rounded-[10px] font-bold text-[13px] w-[fit-content] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_30%,transparent)] relative\">{{cta_label}} &#8594;</a></div><div class=\"flex flex-col gap-[12px]\">{{#items}}<div class=\"transition-[transform,border-color] duration-[220ms] ease-[cubic-bezier(.4,0,.2,1)] hover:translate-y-[-3px] hover:border-[var(--brand)] flex gap-[14px] items-start bg-[var(--bg)] border border-[var(--line)] rounded-[16px] p-[20px]\" data-d=\"1\"><div class=\"flex items-center justify-center w-[40px] h-[40px] rounded-[12px] bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[20px] [flex-shrink:0]\">{{icon}}</div><div><h3 class=\"text-[13px] font-bold text-[var(--text)] mb-[4px]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[11.5px] leading-[1.55]\">{{desc}}</p></div></div>{{/items}}</div></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "pre-fait",
+    "type": "prefait-cards-featured-card",
+    "template": "html",
+    "kind": "static",
     "id": "featured-card",
-    "slug": "cards--featured-card",
-    "height": 300,
-    "created_at": "2026-03-05T08:37:36+00:00",
-    "updated_at": "2026-03-05T08:37:36+00:00"
-  }
+    "label": "Featured Card",
+    "category": "cards",
+    "icon": "fa-id-card",
+    "description": "Grille services / catégories",
+    "schema": {
+        "kicker": {
+            "type": "string",
+            "label": "Sur-titre (badge)",
+            "default": "Nouveau"
+        },
+        "title": {
+            "type": "string",
+            "label": "Titre principal",
+            "multiline": true,
+            "default": "Titre principal"
+        },
+        "subtitle": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "Sous-titre descriptif pour accompagner votre message."
+        },
+        "cta_label": {
+            "type": "string",
+            "label": "Bouton — texte",
+            "default": "Commencer"
+        },
+        "desc": {
+            "type": "string",
+            "label": "Description",
+            "multiline": true,
+            "default": "Description courte et engageante."
+        },
+        "icon": {
+            "type": "string",
+            "label": "Icône",
+            "default": "★"
+        }
+    },
+    "defaults": {
+        "kicker": "Nouveau",
+        "title": "Titre principal",
+        "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+        "cta_label": "Commencer",
+        "desc": "Description courte et engageante.",
+        "icon": "★",
+        "htmlTemplate": "<section class=\"bg-[var(--surface)] p-[80px_40px]\"><div class=\"grid grid-cols-[1.6fr_1fr] gap-[20px]\"><div class=\"transition-[transform,border-color] duration-[220ms] ease-[cubic-bezier(.4,0,.2,1)] hover:translate-y-[-3px] hover:border-[var(--brand)] flex flex-col gap-[18px] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] rounded-[22px] p-[44px] relative overflow-hidden [background:linear-gradient(135deg,color-mix(in_srgb,var(--brand)_12%,var(--bg)),var(--bg))]\"><span class=\"inline-flex absolute top-[-40px] right-[-40px] w-[180px] h-[180px] rounded-[999px] bg-[var(--brand)] opacity-[.06] filter-[blur(40px)]\"></span><span class=\"text-[11px] font-bold text-[var(--brand)] uppercase tracking-[.12em] bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] p-[4px_14px] rounded-[999px] inline-block relative\">{{kicker}}</span><h2 class=\"text-[2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] relative\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] leading-[1.72] relative\">{{subtitle}}</p><a class=\"inline-flex items-center gap-[8px] bg-[var(--brand)] text-[#fff] p-[12px_28px] rounded-[10px] font-bold text-[13px] w-[fit-content] shadow-[0_4px_20px_color-mix(in_srgb,var(--brand)_30%,transparent)] relative\">{{cta_label}} &#8594;</a></div><div class=\"flex flex-col gap-[12px]\">{{#items}}<div class=\"transition-[transform,border-color] duration-[220ms] ease-[cubic-bezier(.4,0,.2,1)] hover:translate-y-[-3px] hover:border-[var(--brand)] flex gap-[14px] items-start bg-[var(--bg)] border border-[var(--line)] rounded-[16px] p-[20px]\" data-d=\"1\"><span class=\"inline-flex flex items-center justify-center w-[40px] h-[40px] rounded-[12px] bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[20px] [flex-shrink:0]\">{{icon}}</span><div><h3 class=\"text-[13px] font-bold text-[var(--text)] mb-[4px]\">{{title}}</h3><p class=\"text-[var(--muted)] text-[11.5px] leading-[1.55]\">{{desc}}</p></div></div>{{/items}}</div></div></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "pre-fait",
+        "id": "featured-card",
+        "slug": "cards--featured-card",
+        "height": 300,
+        "created_at": "2026-03-05T08:37:36+00:00",
+        "updated_at": "2026-03-05T08:37:36+00:00"
+    }
 }
