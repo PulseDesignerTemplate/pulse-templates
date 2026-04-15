@@ -1,27 +1,27 @@
 {
-  "type": "classique-titres-h5",
-  "template": "html",
-  "kind": "static",
-  "id": "h5",
-  "label": "Titre H5",
-  "category": "classic",
-  "subcategory": "titres",
-  "icon": "fa-heading",
-  "schema": {
-    "subtitle_3": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "subtitle_3"
+    "type": "classique-titres-h5",
+    "template": "html",
+    "kind": "static",
+    "id": "h5",
+    "label": "Titre H5",
+    "category": "classic",
+    "subcategory": "titres",
+    "icon": "fa-heading",
+    "schema": {
+        "subtitle_3": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "subtitle_3"
+        }
+    },
+    "defaults": {
+        "subtitle_3": "Sous-titre",
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><h5 class=\"text-[1.05rem] font-bold text-[var(--text)] leading-[1.4] uppercase tracking-[.04em]\">{{subtitle_3}}</h5></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "h5"
     }
-  },
-  "defaults": {
-    "subtitle_3": "subtitle_3",
-    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><h5 class=\"text-[1.05rem] font-bold text-[var(--text)] leading-[1.4] uppercase tracking-[.04em]\">{{subtitle_3}}</h5></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "h5"
-  }
 }

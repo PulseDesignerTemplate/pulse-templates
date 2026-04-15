@@ -1,41 +1,41 @@
 {
-  "type": "classique-mise-en-page-alerte",
-  "template": "html",
-  "kind": "static",
-  "id": "alerte",
-  "label": "Alerte",
-  "category": "classic",
-  "subcategory": "mise-en-page",
-  "icon": "fa-triangle-exclamation",
-  "schema": {
-    "text": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "Votre texte ici."
+    "type": "classique-mise-en-page-alerte",
+    "template": "html",
+    "kind": "static",
+    "id": "alerte",
+    "label": "Alerte",
+    "category": "classic",
+    "subcategory": "mise-en-page",
+    "icon": "fa-triangle-exclamation",
+    "schema": {
+        "text": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "Votre texte ici."
+        },
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        },
+        "paragraph_2": {
+            "type": "string",
+            "label": "Paragraphe 2",
+            "multiline": true,
+            "default": "paragraph_2"
+        }
     },
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
+    "defaults": {
+        "text": "Votre texte ici.",
+        "paragraph": "Texte de paragraphe.",
+        "paragraph_2": "Texte de paragraphe.",
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[#fef3cd] border border-[#ffc107] rounded-[12px] p-[18px_20px] max-w-[600px]\"><div class=\"flex items-start gap-[10px]\"><span class=\"text-[18px]\">{{text}}</span><div><p class=\"text-[14px] font-semibold text-[#856404] mb-[2px]\">{{paragraph}}</p><p class=\"text-[13px] text-[#856404] leading-[1.6] opacity-80\">{{paragraph_2}}</p></div></div></div></section>"
     },
-    "paragraph_2": {
-      "type": "string",
-      "label": "Paragraphe 2",
-      "multiline": true,
-      "default": "paragraph_2"
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "alerte"
     }
-  },
-  "defaults": {
-    "text": "Votre texte ici.",
-    "paragraph": "Texte de paragraphe.",
-    "paragraph_2": "paragraph_2",
-    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[#fef3cd] border border-[#ffc107] rounded-[12px] p-[18px_20px] max-w-[600px]\"><div class=\"flex items-start gap-[10px]\"><span class=\"text-[18px]\">{{text}}</span><div><p class=\"text-[14px] font-semibold text-[#856404] mb-[2px]\">{{paragraph}}</p><p class=\"text-[13px] text-[#856404] leading-[1.6] opacity-80\">{{paragraph_2}}</p></div></div></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "alerte"
-  }
 }

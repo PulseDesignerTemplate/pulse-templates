@@ -1,41 +1,41 @@
 {
-  "type": "classique-colonnes-cols-2-1",
-  "template": "html",
-  "kind": "static",
-  "id": "cols-2-1",
-  "label": "Colonnes 2/3 + 1/3",
-  "category": "classic",
-  "subcategory": "colonnes",
-  "icon": "fa-table-columns",
-  "schema": {
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
+    "type": "classique-colonnes-cols-2-1",
+    "template": "html",
+    "kind": "static",
+    "id": "cols-2-1",
+    "label": "Colonnes 2/3 + 1/3",
+    "category": "classic",
+    "subcategory": "colonnes",
+    "icon": "fa-table-columns",
+    "schema": {
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        },
+        "subtitle": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "Sous-titre descriptif pour accompagner votre message."
+        },
+        "paragraph_2": {
+            "type": "string",
+            "label": "Paragraphe 2",
+            "multiline": true,
+            "default": "paragraph_2"
+        }
     },
-    "subtitle": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "Sous-titre descriptif pour accompagner votre message."
+    "defaults": {
+        "paragraph": "Texte de paragraphe.",
+        "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+        "paragraph_2": "Texte de paragraphe.",
+        "htmlTemplate": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"grid grid-cols-[2fr_1fr] gap-[32px] items-start\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[28px]\"><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">{{paragraph}}</p></div><div><h3 class=\"text-[1.1rem] font-extrabold text-[var(--text)] leading-[1.3] mb-[8px]\">{{subtitle}}</h3><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">{{paragraph_2}}</p></div></div></section>"
     },
-    "paragraph_2": {
-      "type": "string",
-      "label": "Paragraphe 2",
-      "multiline": true,
-      "default": "paragraph_2"
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "cols-2-1"
     }
-  },
-  "defaults": {
-    "paragraph": "Texte de paragraphe.",
-    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
-    "paragraph_2": "paragraph_2",
-    "htmlTemplate": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"grid grid-cols-[2fr_1fr] gap-[32px] items-start\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[28px]\"><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">{{paragraph}}</p></div><div><h3 class=\"text-[1.1rem] font-extrabold text-[var(--text)] leading-[1.3] mb-[8px]\">{{subtitle}}</h3><p class=\"text-[13px] text-[var(--muted)] leading-[1.6]\">{{paragraph_2}}</p></div></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "cols-2-1"
-  }
 }

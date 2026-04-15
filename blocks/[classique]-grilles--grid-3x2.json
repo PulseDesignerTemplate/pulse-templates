@@ -1,104 +1,104 @@
 {
-  "type": "classique-grilles-grid-3x2",
-  "template": "html",
-  "kind": "static",
-  "id": "grid-3x2",
-  "label": "Grille 3×2",
-  "category": "classic",
-  "subcategory": "grilles",
-  "icon": "fa-border-all",
-  "schema": {
-    "subtitle_2": {
-      "type": "string",
-      "label": "Sous-titre 2",
-      "multiline": true,
-      "default": "Sous-titre 2"
+    "type": "classique-grilles-grid-3x2",
+    "template": "html",
+    "kind": "static",
+    "id": "grid-3x2",
+    "label": "Grille 3×2",
+    "category": "classic",
+    "subcategory": "grilles",
+    "icon": "fa-border-all",
+    "schema": {
+        "subtitle_2": {
+            "type": "string",
+            "label": "Sous-titre 2",
+            "multiline": true,
+            "default": "Sous-titre 2"
+        },
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        },
+        "subtitle_2_2": {
+            "type": "string",
+            "label": "Sous-titre 2",
+            "multiline": true,
+            "default": "subtitle_2_2"
+        },
+        "paragraph_2": {
+            "type": "string",
+            "label": "Paragraphe 2",
+            "multiline": true,
+            "default": "paragraph_2"
+        },
+        "subtitle_2_3": {
+            "type": "string",
+            "label": "Sous-titre 2",
+            "multiline": true,
+            "default": "subtitle_2_3"
+        },
+        "paragraph_3": {
+            "type": "string",
+            "label": "Paragraphe 3",
+            "multiline": true,
+            "default": "paragraph_3"
+        },
+        "subtitle_2_4": {
+            "type": "string",
+            "label": "Sous-titre 2",
+            "multiline": true,
+            "default": "subtitle_2_4"
+        },
+        "paragraph_4": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "paragraph_4"
+        },
+        "subtitle_2_5": {
+            "type": "string",
+            "label": "Sous-titre 2",
+            "multiline": true,
+            "default": "subtitle_2_5"
+        },
+        "paragraph_5": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "paragraph_5"
+        },
+        "subtitle_2_6": {
+            "type": "string",
+            "label": "Sous-titre 2",
+            "multiline": true,
+            "default": "subtitle_2_6"
+        },
+        "paragraph_6": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "paragraph_6"
+        }
     },
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
+    "defaults": {
+        "subtitle_2": "Sous-titre 2",
+        "paragraph": "Texte de paragraphe.",
+        "subtitle_2_2": "subtitle_2_2",
+        "paragraph_2": "Texte de paragraphe.",
+        "subtitle_2_3": "subtitle_2_3",
+        "paragraph_3": "Texte de paragraphe.",
+        "subtitle_2_4": "subtitle_2_4",
+        "paragraph_4": "Texte de paragraphe.",
+        "subtitle_2_5": "subtitle_2_5",
+        "paragraph_5": "Texte de paragraphe.",
+        "subtitle_2_6": "subtitle_2_6",
+        "paragraph_6": "Texte de paragraphe.",
+        "htmlTemplate": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"grid grid-cols-3 gap-[20px]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[20px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[4px]\">{{subtitle_2}}</h4><p class=\"text-[12px] text-[var(--muted)]\">{{paragraph}}</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[20px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[4px]\">{{subtitle_2_2}}</h4><p class=\"text-[12px] text-[var(--muted)]\">{{paragraph_2}}</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[20px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[4px]\">{{subtitle_2_3}}</h4><p class=\"text-[12px] text-[var(--muted)]\">{{paragraph_3}}</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[20px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[4px]\">{{subtitle_2_4}}</h4><p class=\"text-[12px] text-[var(--muted)]\">{{paragraph_4}}</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[20px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[4px]\">{{subtitle_2_5}}</h4><p class=\"text-[12px] text-[var(--muted)]\">{{paragraph_5}}</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[20px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[4px]\">{{subtitle_2_6}}</h4><p class=\"text-[12px] text-[var(--muted)]\">{{paragraph_6}}</p></div></div></section>"
     },
-    "subtitle_2_2": {
-      "type": "string",
-      "label": "Sous-titre 2",
-      "multiline": true,
-      "default": "subtitle_2_2"
-    },
-    "paragraph_2": {
-      "type": "string",
-      "label": "Paragraphe 2",
-      "multiline": true,
-      "default": "paragraph_2"
-    },
-    "subtitle_2_3": {
-      "type": "string",
-      "label": "Sous-titre 2",
-      "multiline": true,
-      "default": "subtitle_2_3"
-    },
-    "paragraph_3": {
-      "type": "string",
-      "label": "Paragraphe 3",
-      "multiline": true,
-      "default": "paragraph_3"
-    },
-    "subtitle_2_4": {
-      "type": "string",
-      "label": "Sous-titre 2",
-      "multiline": true,
-      "default": "subtitle_2_4"
-    },
-    "paragraph_4": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "paragraph_4"
-    },
-    "subtitle_2_5": {
-      "type": "string",
-      "label": "Sous-titre 2",
-      "multiline": true,
-      "default": "subtitle_2_5"
-    },
-    "paragraph_5": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "paragraph_5"
-    },
-    "subtitle_2_6": {
-      "type": "string",
-      "label": "Sous-titre 2",
-      "multiline": true,
-      "default": "subtitle_2_6"
-    },
-    "paragraph_6": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "paragraph_6"
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "grid-3x2"
     }
-  },
-  "defaults": {
-    "subtitle_2": "Sous-titre 2",
-    "paragraph": "Texte de paragraphe.",
-    "subtitle_2_2": "subtitle_2_2",
-    "paragraph_2": "paragraph_2",
-    "subtitle_2_3": "subtitle_2_3",
-    "paragraph_3": "paragraph_3",
-    "subtitle_2_4": "subtitle_2_4",
-    "paragraph_4": "paragraph_4",
-    "subtitle_2_5": "subtitle_2_5",
-    "paragraph_5": "paragraph_5",
-    "subtitle_2_6": "subtitle_2_6",
-    "paragraph_6": "paragraph_6",
-    "htmlTemplate": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"grid grid-cols-3 gap-[20px]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[20px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[4px]\">{{subtitle_2}}</h4><p class=\"text-[12px] text-[var(--muted)]\">{{paragraph}}</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[20px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[4px]\">{{subtitle_2_2}}</h4><p class=\"text-[12px] text-[var(--muted)]\">{{paragraph_2}}</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[20px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[4px]\">{{subtitle_2_3}}</h4><p class=\"text-[12px] text-[var(--muted)]\">{{paragraph_3}}</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[20px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[4px]\">{{subtitle_2_4}}</h4><p class=\"text-[12px] text-[var(--muted)]\">{{paragraph_4}}</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[20px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[4px]\">{{subtitle_2_5}}</h4><p class=\"text-[12px] text-[var(--muted)]\">{{paragraph_5}}</p></div><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[14px] p-[24px] text-center\"><div class=\"text-[20px] mb-[10px]\">*</div><h4 class=\"text-[14px] font-bold text-[var(--text)] mb-[4px]\">{{subtitle_2_6}}</h4><p class=\"text-[12px] text-[var(--muted)]\">{{paragraph_6}}</p></div></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "grid-3x2"
-  }
 }

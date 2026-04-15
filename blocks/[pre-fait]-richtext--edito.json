@@ -1,64 +1,64 @@
 {
-  "type": "prefait-richtext-edito",
-  "template": "html",
-  "kind": "static",
-  "id": "edito",
-  "label": "Edito",
-  "category": "richtext",
-  "icon": "fa-file-lines",
-  "description": "Bloc texte long formaté",
-  "schema": {
-    "kicker": {
-      "type": "string",
-      "label": "Sur-titre (badge)",
-      "default": "Nouveau"
-    },
-    "title": {
-      "type": "string",
-      "label": "Titre principal",
-      "multiline": true,
-      "default": "Titre principal"
-    },
-    "cta_label": {
-      "type": "string",
-      "label": "Bouton — texte",
-      "default": "Commencer"
-    },
-    "subtitle": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "Sous-titre descriptif pour accompagner votre message."
-    },
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
-    },
-    "paragraph_2": {
-      "type": "string",
-      "label": "Paragraphe 2",
-      "multiline": true,
-      "default": "paragraph_2"
-    }
-  },
-  "defaults": {
-    "kicker": "Nouveau",
-    "title": "Titre principal",
-    "cta_label": "Commencer",
-    "subtitle": "Sous-titre descriptif pour accompagner votre message.",
-    "paragraph": "Texte de paragraphe.",
-    "paragraph_2": "paragraph_2",
-    "htmlTemplate": "<section class=\"bg-[var(--surface)] p-[72px_48px]\"><div class=\"grid grid-cols-[1fr_2.5fr] gap-[56px] max-w-[860px] m-[0_auto]\"><div><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold block mb-[8px]\">{{kicker}}</span><h2 class=\"text-[1.4rem] font-black text-[var(--text)] tracking-[-.015em] mb-[16px] leading-[1.15]\">{{title}}</h2><a class=\"flex items-center gap-[4px] text-[12px] font-bold text-[var(--brand)] mt-[16px]\">{{cta_label}} &#8594;</a></div><div><p class=\"text-[var(--text)] text-[15px] leading-[1.8] mb-[16px] pl-[16px] [font-style:italic] [border-left:3px_solid_var(--brand)]\">&#8220;{{subtitle}}&#8221;</p><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.75] mb-[14px]\">{{paragraph}}</p><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.75]\">{{paragraph_2}}</p></div></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "pre-fait",
+    "type": "prefait-richtext-edito",
+    "template": "html",
+    "kind": "static",
     "id": "edito",
-    "slug": "richtext--edito",
-    "height": 280,
-    "created_at": "2026-03-05T08:37:36+00:00",
-    "updated_at": "2026-03-05T08:37:36+00:00"
-  }
+    "label": "Edito",
+    "category": "richtext",
+    "icon": "fa-file-lines",
+    "description": "Bloc texte long formaté",
+    "schema": {
+        "kicker": {
+            "type": "string",
+            "label": "Sur-titre (badge)",
+            "default": "Nouveau"
+        },
+        "title": {
+            "type": "string",
+            "label": "Titre principal",
+            "multiline": true,
+            "default": "Titre principal"
+        },
+        "cta_label": {
+            "type": "string",
+            "label": "Bouton — texte",
+            "default": "Commencer"
+        },
+        "subtitle": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "Sous-titre descriptif pour accompagner votre message."
+        },
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        },
+        "paragraph_2": {
+            "type": "string",
+            "label": "Paragraphe 2",
+            "multiline": true,
+            "default": "paragraph_2"
+        }
+    },
+    "defaults": {
+        "kicker": "Nouveau",
+        "title": "Titre principal",
+        "cta_label": "Commencer",
+        "subtitle": "Sous-titre descriptif pour accompagner votre message.",
+        "paragraph": "Texte de paragraphe.",
+        "paragraph_2": "Texte de paragraphe.",
+        "htmlTemplate": "<section class=\"bg-[var(--surface)] p-[72px_48px]\"><div class=\"grid grid-cols-[1fr_2.5fr] gap-[56px] max-w-[860px] m-[0_auto]\"><div><span class=\"text-[11px] text-[var(--brand)] tracking-[.12em] uppercase font-bold block mb-[8px]\">{{kicker}}</span><h2 class=\"text-[1.4rem] font-black text-[var(--text)] tracking-[-.015em] mb-[16px] leading-[1.15]\">{{title}}</h2><a class=\"flex items-center gap-[4px] text-[12px] font-bold text-[var(--brand)] mt-[16px]\">{{cta_label}} &#8594;</a></div><div><p class=\"text-[var(--text)] text-[15px] leading-[1.8] mb-[16px] pl-[16px] [font-style:italic] [border-left:3px_solid_var(--brand)]\">&#8220;{{subtitle}}&#8221;</p><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.75] mb-[14px]\">{{paragraph}}</p><p class=\"text-[var(--muted)] text-[13.5px] leading-[1.75]\">{{paragraph_2}}</p></div></div></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "pre-fait",
+        "id": "edito",
+        "slug": "richtext--edito",
+        "height": 280,
+        "created_at": "2026-03-05T08:37:36+00:00",
+        "updated_at": "2026-03-05T08:37:36+00:00"
+    }
 }

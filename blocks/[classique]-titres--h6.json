@@ -1,27 +1,27 @@
 {
-  "type": "classique-titres-h6",
-  "template": "html",
-  "kind": "static",
-  "id": "h6",
-  "label": "Titre H6",
-  "category": "classic",
-  "subcategory": "titres",
-  "icon": "fa-heading",
-  "schema": {
-    "subtitle_4": {
-      "type": "string",
-      "label": "Sous-titre",
-      "multiline": true,
-      "default": "subtitle_4"
+    "type": "classique-titres-h6",
+    "template": "html",
+    "kind": "static",
+    "id": "h6",
+    "label": "Titre H6",
+    "category": "classic",
+    "subcategory": "titres",
+    "icon": "fa-heading",
+    "schema": {
+        "subtitle_4": {
+            "type": "string",
+            "label": "Sous-titre",
+            "multiline": true,
+            "default": "subtitle_4"
+        }
+    },
+    "defaults": {
+        "subtitle_4": "Sous-titre",
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><h6 class=\"text-[0.875rem] font-semibold text-[var(--muted)] leading-[1.4] uppercase tracking-[.08em]\">{{subtitle_4}}</h6></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "h6"
     }
-  },
-  "defaults": {
-    "subtitle_4": "subtitle_4",
-    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><h6 class=\"text-[0.875rem] font-semibold text-[var(--muted)] leading-[1.4] uppercase tracking-[.08em]\">{{subtitle_4}}</h6></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "h6"
-  }
 }

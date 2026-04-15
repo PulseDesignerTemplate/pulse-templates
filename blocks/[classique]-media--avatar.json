@@ -1,46 +1,46 @@
 {
-  "type": "classique-media-avatar",
-  "template": "html",
-  "kind": "static",
-  "id": "avatar",
-  "label": "Avatar",
-  "category": "classic",
-  "subcategory": "media",
-  "icon": "fa-user-circle",
-  "schema": {
-    "image": {
-      "type": "string",
-      "label": "Image — URL",
-      "default": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop"
+    "type": "classique-media-avatar",
+    "template": "html",
+    "kind": "static",
+    "id": "avatar",
+    "label": "Avatar",
+    "category": "classic",
+    "subcategory": "media",
+    "icon": "fa-user-circle",
+    "schema": {
+        "image": {
+            "type": "string",
+            "label": "Image — URL",
+            "default": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop"
+        },
+        "image_alt": {
+            "type": "string",
+            "label": "Image — texte alt",
+            "default": "Illustration"
+        },
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        },
+        "paragraph_2": {
+            "type": "string",
+            "label": "Paragraphe 2",
+            "multiline": true,
+            "default": "paragraph_2"
+        }
     },
-    "image_alt": {
-      "type": "string",
-      "label": "Image — texte alt",
-      "default": "Illustration"
+    "defaults": {
+        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
+        "image_alt": "Illustration",
+        "paragraph": "Texte de paragraphe.",
+        "paragraph_2": "Texte de paragraphe.",
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"flex items-center gap-[14px]\"><img class=\"w-[56px] h-[56px] rounded-full object-cover border-[2px] border-[var(--brand)]\" src=\"{{image}}\" alt=\"{{image_alt}}\"><div><p class=\"text-[14px] font-bold text-[var(--text)]\">{{paragraph}}</p><p class=\"text-[13px] text-[var(--muted)]\">{{paragraph_2}}</p></div></div></section>"
     },
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
-    },
-    "paragraph_2": {
-      "type": "string",
-      "label": "Paragraphe 2",
-      "multiline": true,
-      "default": "paragraph_2"
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "avatar"
     }
-  },
-  "defaults": {
-    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
-    "image_alt": "Illustration",
-    "paragraph": "Texte de paragraphe.",
-    "paragraph_2": "paragraph_2",
-    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"flex items-center gap-[14px]\"><img class=\"w-[56px] h-[56px] rounded-full object-cover border-[2px] border-[var(--brand)]\" src=\"{{image}}\" alt=\"{{image_alt}}\"><div><p class=\"text-[14px] font-bold text-[var(--text)]\">{{paragraph}}</p><p class=\"text-[13px] text-[var(--muted)]\">{{paragraph_2}}</p></div></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "avatar"
-  }
 }

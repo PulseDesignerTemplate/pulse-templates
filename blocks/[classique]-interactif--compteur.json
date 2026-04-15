@@ -1,41 +1,41 @@
 {
-  "type": "classique-interactif-compteur",
-  "template": "html",
-  "kind": "static",
-  "id": "compteur",
-  "label": "Compteur stats",
-  "category": "classic",
-  "subcategory": "interactif",
-  "icon": "fa-hashtag",
-  "schema": {
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
+    "type": "classique-interactif-compteur",
+    "template": "html",
+    "kind": "static",
+    "id": "compteur",
+    "label": "Compteur stats",
+    "category": "classic",
+    "subcategory": "interactif",
+    "icon": "fa-hashtag",
+    "schema": {
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        },
+        "paragraph_2": {
+            "type": "string",
+            "label": "Paragraphe 2",
+            "multiline": true,
+            "default": "paragraph_2"
+        },
+        "paragraph_3": {
+            "type": "string",
+            "label": "Paragraphe 3",
+            "multiline": true,
+            "default": "paragraph_3"
+        }
     },
-    "paragraph_2": {
-      "type": "string",
-      "label": "Paragraphe 2",
-      "multiline": true,
-      "default": "paragraph_2"
+    "defaults": {
+        "paragraph": "Texte de paragraphe.",
+        "paragraph_2": "Texte de paragraphe.",
+        "paragraph_3": "Texte de paragraphe.",
+        "htmlTemplate": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"flex flex-wrap gap-[40px] justify-center\"><div class=\"text-center\"><div class=\"text-[2.5rem] font-black text-[var(--brand)] leading-[1]\">150+</div><p class=\"text-[13px] text-[var(--muted)] mt-[8px] font-medium\">{{paragraph}}</p></div><div class=\"text-center\"><div class=\"text-[2.5rem] font-black text-[var(--brand)] leading-[1]\">12K</div><p class=\"text-[13px] text-[var(--muted)] mt-[8px] font-medium\">{{paragraph_2}}</p></div><div class=\"text-center\"><div class=\"text-[2.5rem] font-black text-[var(--brand)] leading-[1]\">99%</div><p class=\"text-[13px] text-[var(--muted)] mt-[8px] font-medium\">{{paragraph_3}}</p></div></div></section>"
     },
-    "paragraph_3": {
-      "type": "string",
-      "label": "Paragraphe 3",
-      "multiline": true,
-      "default": "paragraph_3"
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "compteur"
     }
-  },
-  "defaults": {
-    "paragraph": "Texte de paragraphe.",
-    "paragraph_2": "paragraph_2",
-    "paragraph_3": "paragraph_3",
-    "htmlTemplate": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"flex flex-wrap gap-[40px] justify-center\"><div class=\"text-center\"><div class=\"text-[2.5rem] font-black text-[var(--brand)] leading-[1]\">150+</div><p class=\"text-[13px] text-[var(--muted)] mt-[8px] font-medium\">{{paragraph}}</p></div><div class=\"text-center\"><div class=\"text-[2.5rem] font-black text-[var(--brand)] leading-[1]\">12K</div><p class=\"text-[13px] text-[var(--muted)] mt-[8px] font-medium\">{{paragraph_2}}</p></div><div class=\"text-center\"><div class=\"text-[2.5rem] font-black text-[var(--brand)] leading-[1]\">99%</div><p class=\"text-[13px] text-[var(--muted)] mt-[8px] font-medium\">{{paragraph_3}}</p></div></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "compteur"
-  }
 }

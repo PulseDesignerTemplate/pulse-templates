@@ -1,41 +1,41 @@
 {
-  "type": "classique-mise-en-page-encadre",
-  "template": "html",
-  "kind": "static",
-  "id": "encadre",
-  "label": "Encadré coloré",
-  "category": "classic",
-  "subcategory": "mise-en-page",
-  "icon": "fa-lightbulb",
-  "schema": {
-    "text": {
-      "type": "string",
-      "label": "Texte",
-      "multiline": true,
-      "default": "Votre texte ici."
+    "type": "classique-mise-en-page-encadre",
+    "template": "html",
+    "kind": "static",
+    "id": "encadre",
+    "label": "Encadré coloré",
+    "category": "classic",
+    "subcategory": "mise-en-page",
+    "icon": "fa-lightbulb",
+    "schema": {
+        "text": {
+            "type": "string",
+            "label": "Texte",
+            "multiline": true,
+            "default": "Votre texte ici."
+        },
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        },
+        "paragraph_2": {
+            "type": "string",
+            "label": "Paragraphe 2",
+            "multiline": true,
+            "default": "paragraph_2"
+        }
     },
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
+    "defaults": {
+        "text": "Votre texte ici.",
+        "paragraph": "Texte de paragraphe.",
+        "paragraph_2": "Texte de paragraphe.",
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[color-mix(in_srgb,var(--brand)_8%,transparent)] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] rounded-[14px] p-[24px] max-w-[600px]\"><div class=\"flex items-start gap-[12px]\"><span class=\"text-[var(--brand)] text-[18px] mt-[2px]\">{{text}}</span><div><p class=\"text-[14px] font-semibold text-[var(--text)] mb-[4px]\">{{paragraph}}</p><p class=\"text-[13px] text-[var(--muted)] leading-[1.65]\">{{paragraph_2}}</p></div></div></div></section>"
     },
-    "paragraph_2": {
-      "type": "string",
-      "label": "Paragraphe 2",
-      "multiline": true,
-      "default": "paragraph_2"
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "encadre"
     }
-  },
-  "defaults": {
-    "text": "Votre texte ici.",
-    "paragraph": "Texte de paragraphe.",
-    "paragraph_2": "paragraph_2",
-    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[color-mix(in_srgb,var(--brand)_8%,transparent)] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] rounded-[14px] p-[24px] max-w-[600px]\"><div class=\"flex items-start gap-[12px]\"><span class=\"text-[var(--brand)] text-[18px] mt-[2px]\">{{text}}</span><div><p class=\"text-[14px] font-semibold text-[var(--text)] mb-[4px]\">{{paragraph}}</p><p class=\"text-[13px] text-[var(--muted)] leading-[1.65]\">{{paragraph_2}}</p></div></div></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "encadre"
-  }
 }
