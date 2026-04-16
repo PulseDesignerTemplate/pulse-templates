@@ -16,7 +16,7 @@
     },
     "defaults": {
         "link_label": "En savoir plus",
-        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[8px] border-[2px] border-[var(--brand)] text-[var(--brand)] p-[12px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none] hover: hover:text-[#fff] transition-colors\" style=\"background-color: color-mix(in srgb, var(--brand) 12%, transparent)\" href=\"#\">{{link_label}}</a></section>"
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[8px] border-[2px] border-[var(--brand)] text-[var(--brand)] p-[12px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none] hover: hover:text-[#fff] transition-colors bg-[#f9731620]\" href=\"#\">{{link_label}}</a></section>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {
