@@ -1,26 +1,26 @@
 {
-  "type": "classique-boutons-lien",
-  "template": "html",
-  "kind": "static",
-  "id": "lien",
-  "label": "Lien",
-  "category": "classic",
-  "subcategory": "boutons",
-  "icon": "fa-link",
-  "schema": {
-    "link_label": {
-      "type": "string",
-      "label": "Lien — texte",
-      "default": "En savoir plus"
+    "type": "classique-boutons-lien",
+    "template": "html",
+    "kind": "static",
+    "id": "lien",
+    "label": "Lien",
+    "category": "classic",
+    "subcategory": "boutons",
+    "icon": "fa-link",
+    "schema": {
+        "link_label": {
+            "type": "string",
+            "label": "Lien — texte",
+            "default": "En savoir plus"
+        }
+    },
+    "defaults": {
+        "link_label": "En savoir plus",
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"text-[var(--brand)] font-semibold text-[14px] pb-[2px] [text-decoration:none] [border-bottom:1.5px_solid_rgba(249,115,22,0.40)]\" href=\"#\">{{link_label}}</a></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "lien"
     }
-  },
-  "defaults": {
-    "link_label": "En savoir plus",
-    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"text-[var(--brand)] font-semibold text-[14px] pb-[2px] [text-decoration:none] [border-bottom:1.5px_solid_color-mix(in_srgb,var(--brand)_40%,transparent)]\" href=\"#\">{{link_label}}</a></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "lien"
-  }
 }

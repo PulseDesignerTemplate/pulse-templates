@@ -38,7 +38,7 @@
         "text_2": "Texte",
         "text_3": "Texte",
         "text_4": "Texte",
-        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"flex flex-wrap gap-[8px]\"><span class=\"bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] text-[var(--brand)] border border-[color-mix(in_srgb,var(--brand)_25%,transparent)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text}}</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text_2}}</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text_3}}</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text_4}}</span></div></section>"
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"flex flex-wrap gap-[8px]\"><span class=\"bg-[var(--brand)]/10 text-[var(--brand)] border border-[var(--brand)]/25 p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text}}</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text_2}}</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text_3}}</span><span class=\"bg-[var(--surface)] text-[var(--text)] border border-[var(--line)] p-[5px_14px] rounded-[999px] text-[12px] font-semibold\">{{text_4}}</span></div></section>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

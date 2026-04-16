@@ -29,7 +29,7 @@
         "text": "Texte",
         "tagline": "Votre slogan accrocheur ici",
         "link_label": "En savoir plus",
-        "htmlTemplate": "<section id=\"gv-banner-2\" data-gv-block=\"1\" data-gv-block-type=\"banner\" data-gv-variant=\"2\" data-gv-block-id=\"gv-banner-2\"><div class=\"flex items-center gap-[10px] flex-wrap bg-[color-mix(in_srgb,#ef4444_10%,var(--surface))] p-[10px_24px] [border-bottom:1px_solid_color-mix(in_srgb,#ef4444_25%,transparent)]\"><span class=\"text-[14px]\">{{text}}</span><span class=\"text-[13px] text-[var(--text)] font-medium [flex:1]\">{{tagline}}</span><a class=\"text-[12px] font-bold text-[#ef4444]\">{{link_label}}</a></div></section>"
+        "htmlTemplate": "<section id=\"gv-banner-2\" data-gv-block=\"1\" data-gv-block-type=\"banner\" data-gv-variant=\"2\" data-gv-block-id=\"gv-banner-2\"><div class=\"flex items-center gap-[10px] flex-wrap bg-[#ef4444] p-[10px_24px] [border-bottom:1px_solid_rgba(239,68,68,0.25)]\"><span class=\"text-[14px]\">{{text}}</span><span class=\"text-[13px] text-[var(--text)] font-medium [flex:1]\">{{tagline}}</span><a class=\"text-[12px] font-bold text-[#ef4444]\">{{link_label}}</a></div></section>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {
