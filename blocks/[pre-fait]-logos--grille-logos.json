@@ -22,7 +22,7 @@
     "defaults": {
         "kicker": "Nouveau",
         "logo": "Logo",
-        "htmlTemplate": "<section class=\"bg-[var(--surface)] p-[40px_40px]\"><div class=\"text-center mb-[20px]\"><span class=\"text-[10px] text-[var(--muted)] font-semibold uppercase tracking-[.12em]\">{{kicker}}</span></div><div class=\"grid grid-cols-3 gap-[1px] bg-[var(--line)] border border-[var(--line)] rounded-[14px] overflow-hidden\">{{#logos}}<div class=\"flex items-center justify-center bg-[var(--surface)] p-[22px]\"><span class=\"text-[14px] font-extrabold text-[var(--text)] opacity-[.4] tracking-[-.01em]\">{{logo}}</span></div>{{/logos}}</div></section>"
+        "htmlTemplate": "<logos class=\"bg-[var(--surface)] p-[40px_40px]\" role=\"region\" aria-label=\"Logos\"><div class=\"text-center mb-[20px]\"><span class=\"text-[10px] text-[var(--muted)] font-semibold uppercase tracking-[.12em]\">{{kicker}}</span></div><div class=\"grid grid-cols-3 gap-[1px] bg-[var(--line)] border border-[var(--line)] rounded-[14px] overflow-hidden\">{{#logos}}<div class=\"flex items-center justify-center bg-[var(--surface)] p-[22px]\"><span class=\"text-[14px] font-extrabold text-[var(--text)] opacity-[.4] tracking-[-.01em]\">{{logo}}</span></div>{{/logos}}</div></logos>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

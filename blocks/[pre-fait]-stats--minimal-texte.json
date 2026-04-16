@@ -16,7 +16,7 @@
         }
     },
     "defaults": {
-        "html": "<section class=\"bg-[var(--surface)] p-[56px_48px] [border-bottom:1px_solid_var(--line)]\"><div class=\"flex justify-between items-center flex-wrap gap-[0]\"> {{#stats}}<div class=\"p-[0_32px] [flex:1] [border-right:1px_solid_var(--line)]\" data-d=\"1\"><div class=\"text-[3rem] font-black text-[var(--text)] tracking-[-.03em]\">{{number}}</div><div class=\"text-[13px] text-[var(--brand)] font-bold m-[4px_0]\">&#8593; +12%</div><div class=\"text-[12px] text-[var(--muted)]\">{{label}}</div></div>{{/stats}} </div></section>"
+        "html": "<chiffres class=\"bg-[var(--surface)] p-[56px_48px] [border-bottom:1px_solid_var(--line)]\" role=\"region\" aria-label=\"Statistiques\"><div class=\"flex justify-between items-center flex-wrap gap-[0]\"> {{#stats}}<div class=\"p-[0_32px] [flex:1] [border-right:1px_solid_var(--line)]\" data-d=\"1\"><div class=\"text-[3rem] font-black text-[var(--text)] tracking-[-.03em]\">{{number}}</div><div class=\"text-[13px] text-[var(--brand)] font-bold m-[4px_0]\">&#8593; +12%</div><div class=\"text-[12px] text-[var(--muted)]\">{{label}}</div></div>{{/stats}} </div></chiffres>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

@@ -23,7 +23,7 @@
     "defaults": {
         "text": "Texte",
         "logo": "Logo",
-        "htmlTemplate": "<section class=\"bg-[var(--bg)] p-[24px_40px]\"><div class=\"flex items-center flex-wrap gap-[0]\"><span class=\"text-[10px] text-[var(--muted)] font-bold uppercase tracking-[.1em] mr-[24px] [white-space:nowrap] [flex-shrink:0]\">{{text}}</span><div class=\"h-[1px] bg-[var(--line)] min-w-[20px] mr-[24px] [flex:1]\"></div><div class=\"flex gap-[28px] items-center flex-wrap\">{{#logos}}<span class=\"text-[13px] font-bold text-[var(--text)] opacity-[.4] tracking-[-.01em]\">{{logo}}</span>{{/logos}}</div></div></section>"
+        "htmlTemplate": "<logos class=\"bg-[var(--bg)] p-[24px_40px]\" role=\"region\" aria-label=\"Logos\"><div class=\"flex items-center flex-wrap gap-[0]\"><span class=\"text-[10px] text-[var(--muted)] font-bold uppercase tracking-[.1em] mr-[24px] [white-space:nowrap] [flex-shrink:0]\">{{text}}</span><div class=\"h-[1px] bg-[var(--line)] min-w-[20px] mr-[24px] [flex:1]\"></div><div class=\"flex gap-[28px] items-center flex-wrap\">{{#logos}}<span class=\"text-[13px] font-bold text-[var(--text)] opacity-[.4] tracking-[-.01em]\">{{logo}}</span>{{/logos}}</div></div></logos>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

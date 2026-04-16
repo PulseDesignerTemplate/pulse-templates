@@ -28,7 +28,7 @@
         "tagline": "Votre slogan accrocheur ici",
         "kicker": "Nouveau",
         "cta_label": "Commencer",
-        "htmlTemplate": "<section id=\"gv-banner-3\" data-gv-block=\"1\" data-gv-block-type=\"banner\" data-gv-variant=\"3\" data-gv-block-id=\"gv-banner-3\"><div class=\"flex items-center justify-center gap-[8px] flex-wrap bg-[var(--brand)] p-[10px_24px]\"><span class=\"text-[13px] text-[#fff] font-semibold\">&#10023; {{tagline}} &mdash; {{kicker}} &#10023;</span><a class=\"text-[12px] font-bold text-[#fff] border border-[rgba(255,255,255,.4)] p-[3px_12px] rounded-[999px]\">{{cta_label}}</a></div></section>"
+        "htmlTemplate": "<banniere id=\"gv-banner-3\" data-gv-block=\"1\" data-gv-block-type=\"banner\" data-gv-variant=\"3\" data-gv-block-id=\"gv-banner-3\" role=\"region\" aria-label=\"Banniere\"><div class=\"flex items-center justify-center gap-[8px] flex-wrap bg-[var(--brand)] p-[10px_24px]\"><span class=\"text-[13px] text-[#fff] font-semibold\">&#10023; {{tagline}} &mdash; {{kicker}} &#10023;</span><a class=\"text-[12px] font-bold text-[#fff] border border-[rgba(255,255,255,.4)] p-[3px_12px] rounded-[999px]\">{{cta_label}}</a></div></banniere>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

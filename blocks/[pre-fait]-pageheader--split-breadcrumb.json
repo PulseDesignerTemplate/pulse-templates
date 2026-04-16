@@ -49,7 +49,7 @@
         "title": "Titre",
         "subtitle": "Sous-titre",
         "cta_label": "Commencer",
-        "htmlTemplate": "<section class=\"bg-[var(--bg)] p-[40px_48px] [border-bottom:1px_solid_var(--line)]\"><div class=\"flex items-center gap-[6px] text-[12px] text-[var(--muted)] mb-[16px]\"><a class=\"text-[var(--muted)]\" href=\"#\">{{link_label}}</a><span>{{text}}</span><span class=\"text-[var(--brand)]\">{{kicker}}</span></div><div class=\"flex justify-between items-end flex-wrap gap-[20px]\"><div><h1 class=\"text-[2.2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[8px]\">{{title}}</h1><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] leading-[1.65]\">{{subtitle}}</p></div><a class=\"bg-[var(--brand)] text-[#fff] p-[11px_24px] rounded-[10px] font-bold text-[13px] [flex-shrink:0] [white-space:nowrap]\">{{cta_label}}</a></div></section>"
+        "htmlTemplate": "<entete class=\"bg-[var(--bg)] p-[40px_48px] [border-bottom:1px_solid_var(--line)]\" role=\"region\" aria-label=\"En-tete\"><div class=\"flex items-center gap-[6px] text-[12px] text-[var(--muted)] mb-[16px]\"><a class=\"text-[var(--muted)]\" href=\"#\">{{link_label}}</a><span>{{text}}</span><span class=\"text-[var(--brand)]\">{{kicker}}</span></div><div class=\"flex justify-between items-end flex-wrap gap-[20px]\"><div><h1 class=\"text-[2.2rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.1] mb-[8px]\">{{title}}</h1><p class=\"text-[var(--muted)] text-[14px] max-w-[500px] leading-[1.65]\">{{subtitle}}</p></div><a class=\"bg-[var(--brand)] text-[#fff] p-[11px_24px] rounded-[10px] font-bold text-[13px] [flex-shrink:0] [white-space:nowrap]\">{{cta_label}}</a></div></entete>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {
