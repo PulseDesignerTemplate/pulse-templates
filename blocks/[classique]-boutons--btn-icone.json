@@ -24,7 +24,7 @@
     "defaults": {
         "text": "Texte",
         "text_2": "Texte",
-        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[10px] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none] shadow-[0_4px_20px_rgba(249,115,22,.28)] bg-brand/12\" href=\"#\"><span>{{text}}</span><span>{{text_2}}</span></a></section>"
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[10px] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none] shadow-[0_4px_20px_rgba(249,115,22,.28)] bg-[var(--brand-12)]\" href=\"#\"><span>{{text}}</span><span>{{text_2}}</span></a></section>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {
