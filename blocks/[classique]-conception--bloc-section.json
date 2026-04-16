@@ -24,7 +24,7 @@
     "defaults": {
         "title_2": "Titre",
         "paragraph": "Texte de paragraphe.",
-        "htmlTemplate": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"max-w-[1200px] mx-auto\"><h2 class=\"text-[1.8rem] font-extrabold text-[var(--text)] leading-[1.2] mb-[12px]\">{{title_2}}</h2><p class=\"text-[14px] text-[var(--muted)] leading-[1.7] max-w-[600px]\">{{paragraph}}</p></div></section>"
+        "htmlTemplate": "<bloc class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"max-w-[1200px] mx-auto\"><h2 class=\"text-[1.8rem] font-extrabold text-[var(--text)] leading-[1.2] mb-[12px]\">{{title_2}}</h2><p class=\"text-[14px] text-[var(--muted)] leading-[1.7] max-w-[600px]\">{{paragraph}}</p></div></bloc>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

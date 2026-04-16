@@ -24,7 +24,7 @@
     "defaults": {
         "paragraph": "Texte de paragraphe.",
         "paragraph_2": "Texte de paragraphe.",
-        "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[28px_32px] max-w-[600px] relative\"><div class=\"text-[2.5rem] text-[var(--brand)] opacity-30 leading-[1] absolute top-[12px] left-[20px] font-serif\">&ldquo;</div><p class=\"text-[15px] text-[var(--text)] leading-[1.7] pl-[8px] [font-style:italic]\">{{paragraph}}</p><p class=\"text-[13px] text-[var(--muted)] font-semibold mt-[12px] pl-[8px]\">{{paragraph_2}}</p></div></section>"
+        "htmlTemplate": "<bloc class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[28px_32px] max-w-[600px] relative\"><div class=\"text-[2.5rem] text-[var(--brand)] opacity-30 leading-[1] absolute top-[12px] left-[20px] font-serif\">&ldquo;</div><p class=\"text-[15px] text-[var(--text)] leading-[1.7] pl-[8px] [font-style:italic]\">{{paragraph}}</p><p class=\"text-[13px] text-[var(--muted)] font-semibold mt-[12px] pl-[8px]\">{{paragraph_2}}</p></div></bloc>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

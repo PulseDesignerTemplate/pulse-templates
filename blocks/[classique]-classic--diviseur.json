@@ -16,7 +16,7 @@
         }
     },
     "defaults": {
-        "html": "<section class=\"p-[24px_40px] bg-[var(--bg)]\"><hr class=\"m-[0] [border:none] [border-top:1px_solid_var(--line)]\"></section>"
+        "html": "<bloc class=\"p-[24px_40px] bg-[var(--bg)]\"><hr class=\"m-[0] [border:none] [border-top:1px_solid_var(--line)]\"></bloc>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

@@ -24,7 +24,7 @@
     "defaults": {
         "subtitle": "Sous-titre",
         "paragraph": "Texte de paragraphe.",
-        "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[20px] p-[36px] max-w-[720px]\"><h3 class=\"text-[18px] font-extrabold text-[var(--text)] mb-[12px]\">{{subtitle}}</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">{{paragraph}}</p></div></section>"
+        "htmlTemplate": "<bloc class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[20px] p-[36px] max-w-[720px]\"><h3 class=\"text-[18px] font-extrabold text-[var(--text)] mb-[12px]\">{{subtitle}}</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">{{paragraph}}</p></div></bloc>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

@@ -22,7 +22,7 @@
     "defaults": {
         "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
         "image_alt": "Illustration",
-        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><img class=\"w-[100%] h-[auto] rounded-[16px] block border border-[var(--line)]\" src=\"{{image}}\" alt=\"{{image_alt}}\"></section>"
+        "htmlTemplate": "<bloc class=\"p-[40px] bg-[var(--bg)]\"><img class=\"w-[100%] h-[auto] rounded-[16px] block border border-[var(--line)]\" src=\"{{image}}\" alt=\"{{image_alt}}\"></bloc>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

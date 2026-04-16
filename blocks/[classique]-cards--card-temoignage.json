@@ -78,7 +78,7 @@
         "image_alt": "Illustration",
         "paragraph_2": "Texte de paragraphe.",
         "paragraph_3": "Texte de paragraphe.",
-        "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] max-w-[400px]\"><div class=\"flex gap-[4px] mb-[14px] text-[var(--brand)]\"><span>{{text}}</span><span>{{text_2}}</span><span>{{text_3}}</span><span>{{text_4}}</span><span>{{text_5}}</span></div><p class=\"text-[14px] text-[var(--muted)] leading-[1.7] mb-[18px] [font-style:italic]\">{{paragraph}}</p><div class=\"flex items-center gap-[12px]\"><img class=\"w-[36px] h-[36px] rounded-full object-cover\" src=\"{{image}}\" alt=\"{{image_alt}}\"><div><p class=\"text-[13px] font-bold text-[var(--text)]\">{{paragraph_2}}</p><p class=\"text-[12px] text-[var(--muted)]\">{{paragraph_3}}</p></div></div></div></section>"
+        "htmlTemplate": "<bloc class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] p-[28px] max-w-[400px]\"><div class=\"flex gap-[4px] mb-[14px] text-[var(--brand)]\"><span>{{text}}</span><span>{{text_2}}</span><span>{{text_3}}</span><span>{{text_4}}</span><span>{{text_5}}</span></div><p class=\"text-[14px] text-[var(--muted)] leading-[1.7] mb-[18px] [font-style:italic]\">{{paragraph}}</p><div class=\"flex items-center gap-[12px]\"><img class=\"w-[36px] h-[36px] rounded-full object-cover\" src=\"{{image}}\" alt=\"{{image_alt}}\"><div><p class=\"text-[13px] font-bold text-[var(--text)]\">{{paragraph_2}}</p><p class=\"text-[12px] text-[var(--muted)]\">{{paragraph_3}}</p></div></div></div></bloc>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

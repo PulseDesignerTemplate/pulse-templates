@@ -30,7 +30,7 @@
         "text": "Texte",
         "paragraph": "Texte de paragraphe.",
         "link_label": "En savoir plus",
-        "htmlTemplate": "<section class=\"bg-[var(--brand)] p-[14px_40px]\"><div class=\"flex items-center justify-center gap-[10px] text-[#fff]\"><span class=\"text-[14px]\">{{text}}</span><p class=\"text-[13px] font-semibold\">{{paragraph}}</p><a class=\"text-[12px] font-bold underline ml-[8px] text-[#fff]\" href=\"#\">{{link_label}}</a></div></section>"
+        "htmlTemplate": "<bloc class=\"bg-[var(--brand)] p-[14px_40px]\"><div class=\"flex items-center justify-center gap-[10px] text-[#fff]\"><span class=\"text-[14px]\">{{text}}</span><p class=\"text-[13px] font-semibold\">{{paragraph}}</p><a class=\"text-[12px] font-bold underline ml-[8px] text-[#fff]\" href=\"#\">{{link_label}}</a></div></bloc>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

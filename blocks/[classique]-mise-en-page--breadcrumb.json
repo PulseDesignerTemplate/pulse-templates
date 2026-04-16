@@ -43,7 +43,7 @@
         "link_label_2": "link_label_2",
         "text_2": "Texte",
         "text_3": "Texte",
-        "htmlTemplate": "<section class=\"p-[20px_40px] bg-[var(--bg)]\"><nav class=\"flex items-center gap-[8px] text-[13px]\"><a class=\"text-[var(--muted)] [text-decoration:none] hover:text-[var(--brand)]\" href=\"#\">{{link_label}}</a><span class=\"text-[var(--muted)] opacity-40\">{{text}}</span><a class=\"text-[var(--muted)] [text-decoration:none] hover:text-[var(--brand)]\" href=\"#\">{{link_label_2}}</a><span class=\"text-[var(--muted)] opacity-40\">{{text_2}}</span><span class=\"text-[var(--text)] font-semibold\">{{text_3}}</span></nav></section>"
+        "htmlTemplate": "<bloc class=\"p-[20px_40px] bg-[var(--bg)]\"><nav class=\"flex items-center gap-[8px] text-[13px]\"><a class=\"text-[var(--muted)] [text-decoration:none] hover:text-[var(--brand)]\" href=\"#\">{{link_label}}</a><span class=\"text-[var(--muted)] opacity-40\">{{text}}</span><a class=\"text-[var(--muted)] [text-decoration:none] hover:text-[var(--brand)]\" href=\"#\">{{link_label_2}}</a><span class=\"text-[var(--muted)] opacity-40\">{{text_2}}</span><span class=\"text-[var(--text)] font-semibold\">{{text_3}}</span></nav></bloc>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

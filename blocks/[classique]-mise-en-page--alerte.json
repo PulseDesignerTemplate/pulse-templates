@@ -31,7 +31,7 @@
         "text": "Texte",
         "paragraph": "Texte de paragraphe.",
         "paragraph_2": "Texte de paragraphe.",
-        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[#fef3cd] border border-[#ffc107] rounded-[12px] p-[18px_20px] max-w-[600px]\"><div class=\"flex items-start gap-[10px]\"><span class=\"text-[18px]\">{{text}}</span><div><p class=\"text-[14px] font-semibold text-[#856404] mb-[2px]\">{{paragraph}}</p><p class=\"text-[13px] text-[#856404] leading-[1.6] opacity-80\">{{paragraph_2}}</p></div></div></div></section>"
+        "htmlTemplate": "<bloc class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[#fef3cd] border border-[#ffc107] rounded-[12px] p-[18px_20px] max-w-[600px]\"><div class=\"flex items-start gap-[10px]\"><span class=\"text-[18px]\">{{text}}</span><div><p class=\"text-[14px] font-semibold text-[#856404] mb-[2px]\">{{paragraph}}</p><p class=\"text-[13px] text-[#856404] leading-[1.6] opacity-80\">{{paragraph_2}}</p></div></div></div></bloc>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

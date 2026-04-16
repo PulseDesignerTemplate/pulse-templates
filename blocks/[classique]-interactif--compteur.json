@@ -31,7 +31,7 @@
         "paragraph": "Texte de paragraphe.",
         "paragraph_2": "Texte de paragraphe.",
         "paragraph_3": "Texte de paragraphe.",
-        "htmlTemplate": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"flex flex-wrap gap-[40px] justify-center\"><div class=\"text-center\"><div class=\"text-[2.5rem] font-black text-[var(--brand)] leading-[1]\">150+</div><p class=\"text-[13px] text-[var(--muted)] mt-[8px] font-medium\">{{paragraph}}</p></div><div class=\"text-center\"><div class=\"text-[2.5rem] font-black text-[var(--brand)] leading-[1]\">12K</div><p class=\"text-[13px] text-[var(--muted)] mt-[8px] font-medium\">{{paragraph_2}}</p></div><div class=\"text-center\"><div class=\"text-[2.5rem] font-black text-[var(--brand)] leading-[1]\">99%</div><p class=\"text-[13px] text-[var(--muted)] mt-[8px] font-medium\">{{paragraph_3}}</p></div></div></section>"
+        "htmlTemplate": "<bloc class=\"p-[60px_40px] bg-[var(--bg)]\"><div class=\"flex flex-wrap gap-[40px] justify-center\"><div class=\"text-center\"><div class=\"text-[2.5rem] font-black text-[var(--brand)] leading-[1]\">150+</div><p class=\"text-[13px] text-[var(--muted)] mt-[8px] font-medium\">{{paragraph}}</p></div><div class=\"text-center\"><div class=\"text-[2.5rem] font-black text-[var(--brand)] leading-[1]\">12K</div><p class=\"text-[13px] text-[var(--muted)] mt-[8px] font-medium\">{{paragraph_2}}</p></div><div class=\"text-center\"><div class=\"text-[2.5rem] font-black text-[var(--brand)] leading-[1]\">99%</div><p class=\"text-[13px] text-[var(--muted)] mt-[8px] font-medium\">{{paragraph_3}}</p></div></div></bloc>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

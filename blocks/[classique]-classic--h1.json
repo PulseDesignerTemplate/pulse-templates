@@ -17,7 +17,7 @@
     },
     "defaults": {
         "title": "Titre",
-        "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><h1 class=\"text-[2.8rem] font-black text-[var(--text)] leading-[1.1] tracking-[-.03em]\">{{title}}</h1></section>"
+        "htmlTemplate": "<bloc class=\"p-[48px_40px] bg-[var(--bg)]\"><h1 class=\"text-[2.8rem] font-black text-[var(--text)] leading-[1.1] tracking-[-.03em]\">{{title}}</h1></bloc>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

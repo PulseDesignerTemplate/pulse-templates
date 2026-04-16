@@ -36,7 +36,7 @@
         "image_alt": "Illustration",
         "paragraph": "Texte de paragraphe.",
         "paragraph_2": "Texte de paragraphe.",
-        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"flex items-center gap-[14px]\"><img class=\"w-[56px] h-[56px] rounded-full object-cover border-[2px] border-[var(--brand)]\" src=\"{{image}}\" alt=\"{{image_alt}}\"><div><p class=\"text-[14px] font-bold text-[var(--text)]\">{{paragraph}}</p><p class=\"text-[13px] text-[var(--muted)]\">{{paragraph_2}}</p></div></div></section>"
+        "htmlTemplate": "<bloc class=\"p-[40px] bg-[var(--bg)]\"><div class=\"flex items-center gap-[14px]\"><img class=\"w-[56px] h-[56px] rounded-full object-cover border-[2px] border-[var(--brand)]\" src=\"{{image}}\" alt=\"{{image_alt}}\"><div><p class=\"text-[14px] font-bold text-[var(--text)]\">{{paragraph}}</p><p class=\"text-[13px] text-[var(--muted)]\">{{paragraph_2}}</p></div></div></bloc>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

@@ -36,7 +36,7 @@
         "image_alt": "Illustration",
         "subtitle": "Sous-titre",
         "paragraph": "Texte de paragraphe.",
-        "htmlTemplate": "<section class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] overflow-hidden max-w-[360px]\"><img class=\"w-full h-[200px] object-cover\" src=\"{{image}}\" alt=\"{{image_alt}}\"><div class=\"p-[24px]\"><h3 class=\"text-[16px] font-extrabold text-[var(--text)] mb-[8px]\">{{subtitle}}</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.65]\">{{paragraph}}</p></div></div></section>"
+        "htmlTemplate": "<bloc class=\"p-[48px_40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[18px] overflow-hidden max-w-[360px]\"><img class=\"w-full h-[200px] object-cover\" src=\"{{image}}\" alt=\"{{image_alt}}\"><div class=\"p-[24px]\"><h3 class=\"text-[16px] font-extrabold text-[var(--text)] mb-[8px]\">{{subtitle}}</h3><p class=\"text-[14px] text-[var(--muted)] leading-[1.65]\">{{paragraph}}</p></div></div></bloc>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

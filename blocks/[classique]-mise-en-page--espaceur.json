@@ -16,7 +16,7 @@
         }
     },
     "defaults": {
-        "html": "<section class=\"bg-[var(--bg)]\"><div class=\"h-[60px]\"></div></section>"
+        "html": "<bloc class=\"bg-[var(--bg)]\"><div class=\"h-[60px]\"></div></bloc>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

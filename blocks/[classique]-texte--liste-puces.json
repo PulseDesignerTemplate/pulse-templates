@@ -52,7 +52,7 @@
         "text_4": "Texte",
         "text_5": "Texte",
         "text_6": "Texte",
-        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><ul class=\"flex flex-col gap-[10px] text-[14px] text-[var(--muted)] leading-[1.7] max-w-[560px] list-none p-0 m-0\"><li class=\"flex items-start gap-[10px]\"><span class=\"text-[var(--brand)] mt-[6px] text-[8px]\">{{text}}</span><span>{{text_2}}</span></li><li class=\"flex items-start gap-[10px]\"><span class=\"text-[var(--brand)] mt-[6px] text-[8px]\">{{text_3}}</span><span>{{text_4}}</span></li><li class=\"flex items-start gap-[10px]\"><span class=\"text-[var(--brand)] mt-[6px] text-[8px]\">{{text_5}}</span><span>{{text_6}}</span></li></ul></section>"
+        "htmlTemplate": "<bloc class=\"p-[40px] bg-[var(--bg)]\"><ul class=\"flex flex-col gap-[10px] text-[14px] text-[var(--muted)] leading-[1.7] max-w-[560px] list-none p-0 m-0\"><li class=\"flex items-start gap-[10px]\"><span class=\"text-[var(--brand)] mt-[6px] text-[8px]\">{{text}}</span><span>{{text_2}}</span></li><li class=\"flex items-start gap-[10px]\"><span class=\"text-[var(--brand)] mt-[6px] text-[8px]\">{{text_3}}</span><span>{{text_4}}</span></li><li class=\"flex items-start gap-[10px]\"><span class=\"text-[var(--brand)] mt-[6px] text-[8px]\">{{text_5}}</span><span>{{text_6}}</span></li></ul></bloc>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

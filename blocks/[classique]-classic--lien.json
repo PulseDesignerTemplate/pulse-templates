@@ -16,7 +16,7 @@
     },
     "defaults": {
         "link_label": "En savoir plus",
-        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"text-[var(--brand)] font-semibold text-[14px] pb-[2px] [text-decoration:none] [border-bottom:1.5px_solid_rgba(249,115,22,0.40)]\" href=\"#\">{{link_label}}</a></section>"
+        "htmlTemplate": "<bloc class=\"p-[40px] bg-[var(--bg)]\"><a class=\"text-[var(--brand)] font-semibold text-[14px] pb-[2px] [text-decoration:none] [border-bottom:1.5px_solid_rgba(249,115,22,0.40)]\" href=\"#\">{{link_label}}</a></bloc>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

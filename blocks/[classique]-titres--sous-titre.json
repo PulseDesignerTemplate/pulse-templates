@@ -17,7 +17,7 @@
     },
     "defaults": {
         "paragraph": "Texte de paragraphe.",
-        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[1.1rem] font-medium text-[var(--muted)] leading-[1.6] max-w-[600px]\">{{paragraph}}</p></section>"
+        "htmlTemplate": "<bloc class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[1.1rem] font-medium text-[var(--muted)] leading-[1.6] max-w-[600px]\">{{paragraph}}</p></bloc>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

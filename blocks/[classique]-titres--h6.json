@@ -17,7 +17,7 @@
     },
     "defaults": {
         "subtitle_4": "Sous-titre",
-        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><h6 class=\"text-[0.875rem] font-semibold text-[var(--muted)] leading-[1.4] uppercase tracking-[.08em]\">{{subtitle_4}}</h6></section>"
+        "htmlTemplate": "<bloc class=\"p-[40px] bg-[var(--bg)]\"><h6 class=\"text-[0.875rem] font-semibold text-[var(--muted)] leading-[1.4] uppercase tracking-[.08em]\">{{subtitle_4}}</h6></bloc>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {
