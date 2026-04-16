@@ -31,7 +31,7 @@
         "text": "Texte",
         "paragraph": "Texte de paragraphe.",
         "paragraph_2": "Texte de paragraphe.",
-        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[var(--brand)]/8 border border-[var(--brand)]/25 rounded-[14px] p-[24px] max-w-[600px]\"><div class=\"flex items-start gap-[12px]\"><span class=\"text-[var(--brand)] text-[18px] mt-[2px]\">{{text}}</span><div><p class=\"text-[14px] font-semibold text-[var(--text)] mb-[4px]\">{{paragraph}}</p><p class=\"text-[13px] text-[var(--muted)] leading-[1.65]\">{{paragraph_2}}</p></div></div></div></section>"
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[var(--brand)] border border-[var(--brand)] rounded-[14px] p-[24px] max-w-[600px]\"><div class=\"flex items-start gap-[12px]\"><span class=\"text-[var(--brand)] text-[18px] mt-[2px]\">{{text}}</span><div><p class=\"text-[14px] font-semibold text-[var(--text)] mb-[4px]\">{{paragraph}}</p><p class=\"text-[13px] text-[var(--muted)] leading-[1.65]\">{{paragraph_2}}</p></div></div></div></section>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

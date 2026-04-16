@@ -1,32 +1,32 @@
 {
-  "type": "classique-media-image",
-  "template": "html",
-  "kind": "static",
-  "id": "image",
-  "label": "Image",
-  "category": "classic",
-  "subcategory": "media",
-  "icon": "fa-image",
-  "schema": {
-    "image": {
-      "type": "string",
-      "label": "Image — URL",
-      "default": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop"
+    "type": "classique-media-image",
+    "template": "html",
+    "kind": "static",
+    "id": "image",
+    "label": "Image",
+    "category": "classic",
+    "subcategory": "media",
+    "icon": "fa-image",
+    "schema": {
+        "image": {
+            "type": "string",
+            "label": "Image — URL",
+            "default": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop"
+        },
+        "image_alt": {
+            "type": "string",
+            "label": "Image — texte alt",
+            "default": "Illustration"
+        }
     },
-    "image_alt": {
-      "type": "string",
-      "label": "Image — texte alt",
-      "default": "Illustration"
+    "defaults": {
+        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
+        "image_alt": "Illustration",
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><img class=\"w-[100%] h-[auto] rounded-[16px] block border border-[var(--line)]\" src=\"{{image}}\" alt=\"{{image_alt}}\"></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "image"
     }
-  },
-  "defaults": {
-    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
-    "image_alt": "Illustration",
-    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><img class=\"w-[100%] h-[auto] rounded-[16px] block border border-[var(--line)]\" src=\"{{image}}\" alt=\"{{image_alt}}\"></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "image"
-  }
 }

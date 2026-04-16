@@ -1,27 +1,27 @@
 {
-  "type": "classique-texte-paragraphe",
-  "template": "html",
-  "kind": "static",
-  "id": "paragraphe",
-  "label": "Paragraphe",
-  "category": "classic",
-  "subcategory": "texte",
-  "icon": "fa-paragraph",
-  "schema": {
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
+    "type": "classique-texte-paragraphe",
+    "template": "html",
+    "kind": "static",
+    "id": "paragraphe",
+    "label": "Paragraphe",
+    "category": "classic",
+    "subcategory": "texte",
+    "icon": "fa-paragraph",
+    "schema": {
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        }
+    },
+    "defaults": {
+        "paragraph": "Texte de paragraphe.",
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[15px] leading-[1.8] text-[var(--muted)] max-w-[680px]\">{{paragraph}}</p></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "paragraphe"
     }
-  },
-  "defaults": {
-    "paragraph": "Texte de paragraphe.",
-    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[15px] leading-[1.8] text-[var(--muted)] max-w-[680px]\">{{paragraph}}</p></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "paragraphe"
-  }
 }

@@ -1,26 +1,26 @@
 {
-  "type": "classique-boutons-btn-vide",
-  "template": "html",
-  "kind": "static",
-  "id": "btn-vide",
-  "label": "Btn vide",
-  "category": "classic",
-  "subcategory": "boutons",
-  "icon": "fa-circle-play",
-  "schema": {
-    "link_label": {
-      "type": "string",
-      "label": "Lien — texte",
-      "default": "En savoir plus"
+    "type": "classique-boutons-btn-vide",
+    "template": "html",
+    "kind": "static",
+    "id": "btn-vide",
+    "label": "Btn vide",
+    "category": "classic",
+    "subcategory": "boutons",
+    "icon": "fa-circle-play",
+    "schema": {
+        "link_label": {
+            "type": "string",
+            "label": "Lien — texte",
+            "default": "En savoir plus"
+        }
+    },
+    "defaults": {
+        "link_label": "En savoir plus",
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[8px] border-[1.5px] border-[var(--line)] text-[var(--text)] p-[13px_30px] rounded-[10px] font-semibold text-[14px] [text-decoration:none]\" href=\"#\">{{link_label}}</a></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "btn-vide"
     }
-  },
-  "defaults": {
-    "link_label": "En savoir plus",
-    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><a class=\"inline-flex items-center gap-[8px] border-[1.5px] border-[var(--line)] text-[var(--text)] p-[13px_30px] rounded-[10px] font-semibold text-[14px] [text-decoration:none]\" href=\"#\">{{link_label}}</a></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "btn-vide"
-  }
 }

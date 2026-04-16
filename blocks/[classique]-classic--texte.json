@@ -1,27 +1,27 @@
 {
-  "type": "classique-texte-texte",
-  "template": "html",
-  "kind": "static",
-  "id": "texte",
-  "label": "Texte",
-  "category": "classic",
-  "subcategory": "texte",
-  "icon": "fa-align-left",
-  "schema": {
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
+    "type": "classique-texte-texte",
+    "template": "html",
+    "kind": "static",
+    "id": "texte",
+    "label": "Texte",
+    "category": "classic",
+    "subcategory": "texte",
+    "icon": "fa-align-left",
+    "schema": {
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        }
+    },
+    "defaults": {
+        "paragraph": "Texte de paragraphe.",
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[15px] leading-[1.75] text-[var(--muted)] max-w-[640px]\">{{paragraph}}</p></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "texte"
     }
-  },
-  "defaults": {
-    "paragraph": "Texte de paragraphe.",
-    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[15px] leading-[1.75] text-[var(--muted)] max-w-[640px]\">{{paragraph}}</p></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "texte"
-  }
 }

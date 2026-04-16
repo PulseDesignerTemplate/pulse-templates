@@ -1,27 +1,27 @@
 {
-  "type": "classique-conception-bloc-div",
-  "template": "html",
-  "kind": "static",
-  "id": "bloc-div",
-  "label": "Conteneur div",
-  "category": "classic",
-  "subcategory": "conception",
-  "icon": "fa-square-dashed",
-  "schema": {
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
+    "type": "classique-conception-bloc-div",
+    "template": "html",
+    "kind": "static",
+    "id": "bloc-div",
+    "label": "Conteneur div",
+    "category": "classic",
+    "subcategory": "conception",
+    "icon": "fa-square-dashed",
+    "schema": {
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        }
+    },
+    "defaults": {
+        "paragraph": "Texte de paragraphe.",
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[32px] max-w-[800px]\"><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">{{paragraph}}</p></div></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "bloc-div"
     }
-  },
-  "defaults": {
-    "paragraph": "Texte de paragraphe.",
-    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"bg-[var(--surface)] border border-[var(--line)] rounded-[16px] p-[32px] max-w-[800px]\"><p class=\"text-[14px] text-[var(--muted)] leading-[1.7]\">{{paragraph}}</p></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "bloc-div"
-  }
 }

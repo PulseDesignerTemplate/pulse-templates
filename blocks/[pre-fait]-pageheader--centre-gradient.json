@@ -30,7 +30,7 @@
         "kicker": "Nouveau",
         "title": "Titre",
         "subtitle": "Sous-titre",
-        "htmlTemplate": "<section class=\"p-[64px_40px] text-center relative overflow-hidden [background:linear-gradient(135deg,var(--bg),var(--bg))] [border-bottom:1px_solid_var(--line)]\"><span class=\"inline-flex absolute top-[-60px] left-[50%] w-[400px] h-[400px] rounded-[999px] bg-[var(--brand)] opacity-[.05] filter-[blur(60px)] [transform:translateX(-50%)]\"></span><div><span class=\"text-[11px] text-[var(--brand)] font-bold tracking-[.12em] uppercase block mb-[12px]\">{{kicker}}</span><h1 class=\"text-[2.8rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.06] mb-[12px]\">{{title}}</h1><p class=\"text-[var(--muted)] text-[15px] leading-[1.7] max-w-[500px] m-[0_auto]\">{{subtitle}}</p></div></section>"
+        "htmlTemplate": "<section class=\"p-[64px_40px] text-center relative overflow-hidden [background:linear-gradient(135deg,var(--bg),var(--bg))] [border-bottom:1px_solid_var(--line)]\"><span class=\"inline-flex absolute top-[-60px] left-[50%] w-[400px] h-[400px] rounded-[999px] opacity-[.05] filter-[blur(60px)] [transform:translateX(-50%)]\" style=\"background-color: color-mix(in srgb, var(--brand) 12%, transparent)\"></span><div><span class=\"text-[11px] text-[var(--brand)] font-bold tracking-[.12em] uppercase block mb-[12px]\">{{kicker}}</span><h1 class=\"text-[2.8rem] font-black text-[var(--text)] tracking-[-.025em] leading-[1.06] mb-[12px]\">{{title}}</h1><p class=\"text-[var(--muted)] text-[15px] leading-[1.7] max-w-[500px] m-[0_auto]\">{{subtitle}}</p></div></section>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

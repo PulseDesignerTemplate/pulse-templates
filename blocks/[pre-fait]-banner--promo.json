@@ -1,42 +1,42 @@
 {
-  "type": "prefait-banner-promo",
-  "template": "html",
-  "kind": "static",
-  "id": "promo",
-  "label": "Promo",
-  "category": "banner",
-  "icon": "fa-rectangle-ad",
-  "description": "Bandeau d'annonce / alerte",
-  "schema": {
-    "tagline": {
-      "type": "string",
-      "label": "Slogan",
-      "default": "Votre slogan accrocheur ici"
-    },
-    "kicker": {
-      "type": "string",
-      "label": "Sur-titre (badge)",
-      "default": "Nouveau"
-    },
-    "cta_label": {
-      "type": "string",
-      "label": "Bouton — texte",
-      "default": "Commencer"
-    }
-  },
-  "defaults": {
-    "tagline": "Votre slogan accrocheur ici",
-    "kicker": "Nouveau",
-    "cta_label": "Commencer",
-    "htmlTemplate": "<section id=\"gv-banner-3\" data-gv-block=\"1\" data-gv-block-type=\"banner\" data-gv-variant=\"3\" data-gv-block-id=\"gv-banner-3\"><div class=\"flex items-center justify-center gap-[8px] flex-wrap bg-[var(--brand)] p-[10px_24px]\"><span class=\"text-[13px] text-[#fff] font-semibold\">&#10023; {{tagline}} &mdash; {{kicker}} &#10023;</span><a class=\"text-[12px] font-bold text-[#fff] border border-[rgba(255,255,255,.4)] p-[3px_12px] rounded-[999px]\">{{cta_label}}</a></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "pre-fait",
+    "type": "prefait-banner-promo",
+    "template": "html",
+    "kind": "static",
     "id": "promo",
-    "slug": "banner--promo",
-    "height": 70,
-    "created_at": "2026-03-05T08:37:36+00:00",
-    "updated_at": "2026-03-05T08:37:36+00:00"
-  }
+    "label": "Promo",
+    "category": "banner",
+    "icon": "fa-rectangle-ad",
+    "description": "Bandeau d'annonce / alerte",
+    "schema": {
+        "tagline": {
+            "type": "string",
+            "label": "Slogan",
+            "default": "Votre slogan accrocheur ici"
+        },
+        "kicker": {
+            "type": "string",
+            "label": "Sur-titre (badge)",
+            "default": "Nouveau"
+        },
+        "cta_label": {
+            "type": "string",
+            "label": "Bouton — texte",
+            "default": "Commencer"
+        }
+    },
+    "defaults": {
+        "tagline": "Votre slogan accrocheur ici",
+        "kicker": "Nouveau",
+        "cta_label": "Commencer",
+        "htmlTemplate": "<section id=\"gv-banner-3\" data-gv-block=\"1\" data-gv-block-type=\"banner\" data-gv-variant=\"3\" data-gv-block-id=\"gv-banner-3\"><div class=\"flex items-center justify-center gap-[8px] flex-wrap bg-[var(--brand)] p-[10px_24px]\"><span class=\"text-[13px] text-[#fff] font-semibold\">&#10023; {{tagline}} &mdash; {{kicker}} &#10023;</span><a class=\"text-[12px] font-bold text-[#fff] border border-[rgba(255,255,255,.4)] p-[3px_12px] rounded-[999px]\">{{cta_label}}</a></div></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "pre-fait",
+        "id": "promo",
+        "slug": "banner--promo",
+        "height": 70,
+        "created_at": "2026-03-05T08:37:36+00:00",
+        "updated_at": "2026-03-05T08:37:36+00:00"
+    }
 }

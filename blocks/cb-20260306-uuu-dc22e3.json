@@ -1,1 +1,8 @@
-{"id":"cb-20260306-uuu-dc22e3","category":"communaute","label":"uuu","html":"<section class=\"flex items-center justify-center p-[48px_40px] bg-[var(--bg)] min-h-[120px] border-dashed border-[2px] border-[rgba(249,115,22,.25)] rounded-[12px]\" data-custom-block=\"1\" data-ge-section-key=\"sec-9\" draggable=\"true\"><p class=\"text-[rgba(255,255,255,.3)] text-[13px] [font-style:italic]\" data-ge-id=\"ge-125\">uuu — cliquez pour éditer</p><div class=\"ge-sec-handle ge-ui-control\"><button type=\"button\" class=\"ge-sec-btn\" title=\"Drag &amp; drop\">↕</button><button type=\"button\" class=\"ge-sec-btn\" title=\"Monter le bloc\">↑</button><button type=\"button\" class=\"ge-sec-btn\" title=\"Descendre le bloc\">↓</button><button type=\"button\" class=\"ge-sec-btn del\" title=\"Supprimer le bloc\">🗑</button></div></section>","icon":"","updated_at":"2026-03-06T16:13:09+00:00"}
+{
+    "id": "cb-20260306-uuu-dc22e3",
+    "category": "communaute",
+    "label": "uuu",
+    "html": "<section class=\"flex items-center justify-center p-[48px_40px] bg-[var(--bg)] min-h-[120px] border-dashed border-[2px] border-[rgba(249,115,22,.25)] rounded-[12px]\" data-custom-block=\"1\" data-ge-section-key=\"sec-9\" draggable=\"true\"><p class=\"text-[rgba(255,255,255,.3)] text-[13px] [font-style:italic]\" data-ge-id=\"ge-125\">uuu — cliquez pour éditer</p><div class=\"ge-sec-handle ge-ui-control\"><button type=\"button\" class=\"ge-sec-btn\" title=\"Drag &amp; drop\">↕</button><button type=\"button\" class=\"ge-sec-btn\" title=\"Monter le bloc\">↑</button><button type=\"button\" class=\"ge-sec-btn\" title=\"Descendre le bloc\">↓</button><button type=\"button\" class=\"ge-sec-btn del\" title=\"Supprimer le bloc\">🗑</button></div></section>",
+    "icon": "",
+    "updated_at": "2026-03-06T16:13:09+00:00"
+}

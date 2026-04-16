@@ -1,27 +1,27 @@
 {
-  "type": "classique-titres-sous-titre",
-  "template": "html",
-  "kind": "static",
-  "id": "sous-titre",
-  "label": "Sous-titre",
-  "category": "classic",
-  "subcategory": "titres",
-  "icon": "fa-font",
-  "schema": {
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
+    "type": "classique-titres-sous-titre",
+    "template": "html",
+    "kind": "static",
+    "id": "sous-titre",
+    "label": "Sous-titre",
+    "category": "classic",
+    "subcategory": "titres",
+    "icon": "fa-font",
+    "schema": {
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        }
+    },
+    "defaults": {
+        "paragraph": "Texte de paragraphe.",
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[1.1rem] font-medium text-[var(--muted)] leading-[1.6] max-w-[600px]\">{{paragraph}}</p></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "sous-titre"
     }
-  },
-  "defaults": {
-    "paragraph": "Texte de paragraphe.",
-    "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><p class=\"text-[1.1rem] font-medium text-[var(--muted)] leading-[1.6] max-w-[600px]\">{{paragraph}}</p></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "sous-titre"
-  }
 }

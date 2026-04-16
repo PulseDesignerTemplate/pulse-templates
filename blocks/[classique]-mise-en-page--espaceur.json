@@ -1,26 +1,26 @@
 {
-  "type": "classique-mise-en-page-espaceur",
-  "template": "html",
-  "kind": "static",
-  "id": "espaceur",
-  "label": "Espaceur",
-  "category": "classic",
-  "subcategory": "mise-en-page",
-  "icon": "fa-arrows-up-down",
-  "schema": {
-    "html": {
-      "type": "string",
-      "label": "HTML",
-      "multiline": true,
-      "default": "<section class=\"bg-[var(--bg)]\"><div class=\"h-[60px]\"></div></section>"
+    "type": "classique-mise-en-page-espaceur",
+    "template": "html",
+    "kind": "static",
+    "id": "espaceur",
+    "label": "Espaceur",
+    "category": "classic",
+    "subcategory": "mise-en-page",
+    "icon": "fa-arrows-up-down",
+    "schema": {
+        "html": {
+            "type": "string",
+            "label": "HTML",
+            "multiline": true,
+            "default": "<section class=\"bg-[var(--bg)]\"><div class=\"h-[60px]\"></div></section>"
+        }
+    },
+    "defaults": {
+        "html": "<section class=\"bg-[var(--bg)]\"><div class=\"h-[60px]\"></div></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "espaceur"
     }
-  },
-  "defaults": {
-    "html": "<section class=\"bg-[var(--bg)]\"><div class=\"h-[60px]\"></div></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "espaceur"
-  }
 }

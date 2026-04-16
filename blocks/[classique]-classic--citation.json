@@ -1,27 +1,27 @@
 {
-  "type": "classique-texte-citation",
-  "template": "html",
-  "kind": "static",
-  "id": "citation",
-  "label": "Citation",
-  "category": "classic",
-  "subcategory": "texte",
-  "icon": "fa-quote-left",
-  "schema": {
-    "paragraph": {
-      "type": "string",
-      "label": "Paragraphe",
-      "multiline": true,
-      "default": "Texte de paragraphe."
+    "type": "classique-texte-citation",
+    "template": "html",
+    "kind": "static",
+    "id": "citation",
+    "label": "Citation",
+    "category": "classic",
+    "subcategory": "texte",
+    "icon": "fa-quote-left",
+    "schema": {
+        "paragraph": {
+            "type": "string",
+            "label": "Paragraphe",
+            "multiline": true,
+            "default": "Texte de paragraphe."
+        }
+    },
+    "defaults": {
+        "paragraph": "Texte de paragraphe.",
+        "htmlTemplate": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><blockquote class=\"pl-[24px] max-w-[600px] [border-left:3px_solid_var(--brand)]\"><p class=\"text-[1.25rem] text-[var(--text)] leading-[1.6] mb-[16px] [font-style:italic]\">{{paragraph}}</p><footer class=\"text-[14px] text-[var(--muted)] font-semibold\">— Nom, Titre</footer></blockquote></section>"
+    },
+    "astroTemplate": "Html.astro",
+    "legacy": {
+        "originalType": "classique",
+        "id": "citation"
     }
-  },
-  "defaults": {
-    "paragraph": "Texte de paragraphe.",
-    "htmlTemplate": "<section class=\"p-[60px_40px] bg-[var(--bg)]\"><blockquote class=\"pl-[24px] max-w-[600px] [border-left:3px_solid_var(--brand)]\"><p class=\"text-[1.25rem] text-[var(--text)] leading-[1.6] mb-[16px] [font-style:italic]\">{{paragraph}}</p><footer class=\"text-[14px] text-[var(--muted)] font-semibold\">— Nom, Titre</footer></blockquote></section>"
-  },
-  "astroTemplate": "Html.astro",
-  "legacy": {
-    "originalType": "classique",
-    "id": "citation"
-  }
 }
