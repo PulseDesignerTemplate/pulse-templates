@@ -22,7 +22,7 @@
     "defaults": {
         "link_label": "En savoir plus",
         "link_label_2": "link_label_2",
-        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"flex flex-wrap gap-[12px]\"><a class=\"inline-flex items-center gap-[8px] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none] shadow-[0_4px_20px_rgba(249,115,22,.28)] bg-[#f9731620]\" href=\"#\">{{link_label}}</a><a class=\"inline-flex items-center gap-[8px] border border-[var(--line)] text-[var(--text)] p-[13px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none] bg-[#f9731620]\" href=\"#\">{{link_label_2}}</a></div></section>"
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><div class=\"flex flex-wrap gap-[12px]\"><a class=\"inline-flex items-center gap-[8px] text-[#fff] p-[13px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none] shadow-[0_4px_20px_rgba(249,115,22,.28)] bg-brand/12\" href=\"#\">{{link_label}}</a><a class=\"inline-flex items-center gap-[8px] border border-[var(--line)] text-[var(--text)] p-[13px_28px] rounded-[10px] font-bold text-[14px] [text-decoration:none] bg-brand/12\" href=\"#\">{{link_label_2}}</a></div></section>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {
