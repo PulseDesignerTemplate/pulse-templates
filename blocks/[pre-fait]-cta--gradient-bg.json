@@ -37,7 +37,7 @@
         "subtitle": "Sous-titre",
         "cta_label": "Commencer",
         "paragraph": "Texte de paragraphe.",
-        "htmlTemplate": "<section class=\"flex flex-col items-center gap-[18px] p-[72px_40px] text-center [background:linear-gradient(135deg,var(--bg),var(--bg)_60%,var(--surface))]\"><h2 class=\"text-[2.4rem] font-black text-[var(--text)] max-w-[560px] tracking-[-.025em] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[440px] leading-[1.7]\" data-d=\"1\">{{subtitle}}</p><a class=\"inline-flex items-center gap-[8px] text-[#fff] p-[14px_40px] rounded-[999px] font-bold text-[14px] mt-[8px] bg-[var(--brand12)]\" data-d=\"2\">{{cta_label}} &#8594;</a><p class=\"text-[12px] text-[var(--muted)] opacity-[.7]\" data-d=\"3\">{{paragraph}}</p></section>"
+        "htmlTemplate": "<section class=\"flex flex-col items-center gap-[18px] p-[72px_40px] text-center [background:linear-gradient(135deg,var(--bg),var(--bg)_60%,var(--surface))]\"><h2 class=\"text-[2.4rem] font-black text-[var(--text)] max-w-[560px] tracking-[-.025em] leading-[1.1]\">{{title}}</h2><p class=\"text-[var(--muted)] text-[14px] max-w-[440px] leading-[1.7]\" data-d=\"1\">{{subtitle}}</p><a class=\"inline-flex items-center gap-[8px] text-[#fff] p-[14px_40px] rounded-[999px] font-bold text-[14px] mt-[8px] bg-[color:var(--brand12)]\" data-d=\"2\">{{cta_label}} &#8594;</a><p class=\"text-[12px] text-[var(--muted)] opacity-[.7]\" data-d=\"3\">{{paragraph}}</p></section>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {

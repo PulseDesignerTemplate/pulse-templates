@@ -17,7 +17,7 @@
     },
     "defaults": {
         "text": "Texte",
-        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><span class=\"inline-flex items-center gap-[6px] text-[var(--brand)] border border-[var(--brand)] p-[5px_14px] rounded-[999px] text-[12px] font-bold tracking-[.06em] uppercase bg-[var(--brand12)]\">{{text}}</span></section>"
+        "htmlTemplate": "<section class=\"p-[40px] bg-[var(--bg)]\"><span class=\"inline-flex items-center gap-[6px] text-[var(--brand)] border border-[var(--brand)] p-[5px_14px] rounded-[999px] text-[12px] font-bold tracking-[.06em] uppercase bg-[color:var(--brand12)]\">{{text}}</span></section>"
     },
     "astroTemplate": "Html.astro",
     "legacy": {
